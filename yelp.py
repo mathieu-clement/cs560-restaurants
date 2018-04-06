@@ -14,7 +14,8 @@ class YelpClient:
         params={
             'term': name,
             'location': street + ', San Francisco, ' + zip_code,
-            'sort_by': 'distance'
+            'sort_by': 'distance',
+            'limit': 1
         }
         for key in kwargs:
             params[key] = kwargs[key]
