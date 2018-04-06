@@ -2,7 +2,7 @@
 
 import requests
 
-class Yelp:
+class YelpClient:
 
     def __init__(self):
         self.apiKey = self.get_api_key()
@@ -31,7 +31,7 @@ class Yelp:
 
 
 if __name__ == '__main__':
-    yelp = Yelp()
+    yelp = YelpClient()
 
     from pprint import pprint
 
