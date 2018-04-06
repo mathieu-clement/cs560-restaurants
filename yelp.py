@@ -31,10 +31,10 @@ class YelpClient:
             return key
 
 
-#if __name__ == '__main__':
-#    yelp = YelpClient()
-#
-#    from pprint import pprint
-#
-#    pprint(yelp.search_business("K's kitchen", '757 Monterey Blvd', '94127'))
-#    #pprint(yelp.search_business('Samovar Tea Lounge', '0498 SANCHEZ St', '94114'))
+if __name__ == '__main__':
+    yelp = YelpClient()
+
+    from pprint import pprint
+
+    pprint(yelp.search_business("K's kitchen", '757 Monterey Blvd', '94127'))
+    #pprint(yelp.search_business('Samovar Tea Lounge', '0498 SANCHEZ St', '94114'))

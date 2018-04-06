@@ -19,5 +19,5 @@ class TestYelpClient(unittest.TestCase):
         self.assertTrue('Japanese' in categories)
         self.assertTrue('Sushi Bars' in categories)
 
-#if __name__ == '__main__':
-#    unittest.main()
+if __name__ == '__main__':
+    unittest.main()
