@@ -5,8 +5,8 @@ import requests
 class YelpClient:
 
     def __init__(self):
-        self.apiKey = self.get_api_key()
-        self.headers = {'Authorization': 'Bearer ' + self.apiKey}
+        self.api_key = self.get_api_key()
+        self.headers = {'Authorization': 'Bearer ' + self.api_key}
 
 
     def search_business(self, name, street, zip_code, **kwargs):
@@ -24,8 +24,8 @@ class YelpClient:
 
 
     def get_api_key(self, filename='.API_KEY'):
-        with open(filename, 'r') as keyFile:
-            key=keyFile.read().replace('\n', '')
+        with open(filename, 'r') as key_file:
+            key=key_file.read().replace('\n', '')
             if len(key) != 128:
                 raise Exception('API key should be 128 characters long')
             return key
