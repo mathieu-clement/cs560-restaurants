@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import csv
+import datetime
 
 class Restaurant:
     def __init__(self, rest_id, name, street, zip_code):
@@ -46,18 +47,26 @@ class Inspection:
 
 
 class Violation:
-    def __init__(self, description):
+    def __init__(self, description, risk):
         self.description = description
+        self.risk = risk
         
     def __repr__(self):
-        return self.description
+        return '(%s) %s' % (self.risk, self.description)
 
     def __eq__(self, other):
         return self.description == other.description
 
     def __lt__(self, other):
+        if self.risk == other.risk:
+            return self.description < other.description
+        else:
+            return self.risk_value < other.risk_value
         return self.description < other.description
 
+    @property
+    def risk_value(self):
+        return {'Low Risk': 1, 'Moderate Risk': 2, 'High Risk': 3}.get(self.risk, 0)
 
 class ScoresReader:
 
@@ -143,9 +152,10 @@ class ScoresReader:
 
             for date, insp_rows in dict_inspections.items():
                 score = insp_rows[0]['inspection_score']
-                inspection = Inspection(date, score)
+                python_date = datetime.datetime.strptime(date.split()[0], '%m/%d/%Y').date()
+                inspection = Inspection(python_date, score)
                 for insp_row in insp_rows:
-                    inspection.add_violation(Violation(insp_row['violation']))
+                    inspection.add_violation(Violation(insp_row['violation'], insp_row['risk']))
                 restaurant.add_inspection(inspection)
 
             restaurants.append(restaurant)
