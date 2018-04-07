@@ -45,6 +45,40 @@ class TestScoresReader(unittest.TestCase):
                 lambda ins: ins.date == date, self.kitchen.inspections))[0]
             self.assertEqual(inspection.score, score)
 
+    def test_violations_parsed_and_without_duplicates(self):
+        date = datetime.date(2016, 5, 3)
+        # do not rely on sorting
+        inspection = list(filter(
+            lambda ins: ins.date == date, self.kitchen.inspections))[0]
+        violations = [
+            ('High Risk', 'High risk vermin infestation'),
+            ('Low Risk', 'No thermometers or uncalibrated thermometers'),
+            ('Low Risk', 'Unapproved or unmaintained equipment or utensils'),
+            ('High Risk', 'High risk food holding temperature') # duplicated in dataset
+        ]
+        self.assertEqual(len(inspection.violations), len(violations))
+        for v in violations:
+            # do not rely on ordering
+            matches = list(filter(lambda i: i.description == v[1], inspection.violations))
+            self.assertEqual(len(matches), 1)
+            actual = matches[0]
+            self.assertEqual(actual.risk, v[0])
+
+    def test_violations_sorted_and_eq(self):
+        date = datetime.date(2016, 5, 3)
+        # do not rely on sorting of inspections
+        inspection = list(filter(
+            lambda ins: ins.date == date, self.kitchen.inspections))[0]
+        # High risk should come last, otherwise use alphabetical order
+        violations = [
+            ('Low Risk', 'No thermometers or uncalibrated thermometers'),
+            ('Low Risk', 'Unapproved or unmaintained equipment or utensils'),
+            ('High Risk', 'High risk food holding temperature'), # duplicated in dataset
+            ('High Risk', 'High risk vermin infestation'),
+        ]
+        for i, v in enumerate(violations):
+            self.assertEqual(inspection.violations[i], Violation(v[1], v[0]))
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -34,7 +34,8 @@ class Inspection:
         return sorted(self._violations)
 
     def add_violation(self, violation):
-        self._violations.append(violation)
+        if violation not in self._violations:
+            self._violations.append(violation)
 
     def __repr__(self):
         return 'Inspection(date=%s, score=%s, violations=%s' % (self.date, self.score, self.violations)
@@ -55,7 +56,7 @@ class Violation:
         return '(%s) %s' % (self.risk, self.description)
 
     def __eq__(self, other):
-        return self.description == other.description
+        return self.risk == other.risk and self.description == other.description
 
     def __lt__(self, other):
         if self.risk == other.risk:
