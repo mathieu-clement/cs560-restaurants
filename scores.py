@@ -20,7 +20,7 @@ class Restaurant:
 
     def __repr__(self):
         return 'Restaurant(%s, %s, San Francisco, CA %s, id=%s, inspections=%s' % \
-        (self.name, self.street, self.zip_code, self.id, sorted(self.inspections))
+        (self.name, self.street, self.zip_code, self.id, self.inspections)
 
 
 class Inspection:
