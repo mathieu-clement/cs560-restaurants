@@ -63,6 +63,7 @@ class TestScoresReader(unittest.TestCase):
             self.assertEqual(len(matches), 1)
             actual = matches[0]
             self.assertEqual(actual.risk, v[0])
+            self.assertEqual(actual.description, v[1])
 
     def test_violations_sorted_and_eq(self):
         date = datetime.date(2016, 5, 3)
