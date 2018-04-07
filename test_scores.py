@@ -3,7 +3,6 @@
 import datetime
 import unittest
 
-from yelp import YelpClient
 from scores import *
 
 class TestScoresReader(unittest.TestCase):
@@ -80,6 +79,12 @@ class TestScoresReader(unittest.TestCase):
         for i, v in enumerate(violations):
             self.assertEqual(inspection.violations[i], Violation(v[1], v[0]))
 
+    def test_empty_violations_for_perfect_score(self):
+        akiko = list(filter(lambda r: r.id == '102', self.restaurants))[0]
+        perfect_inspection = list(filter(
+            lambda i: i.date == datetime.date(2015, 6, 9), akiko.inspections))[0]
+        self.assertEqual(perfect_inspection.score, 100)
+        self.assertEqual(len(perfect_inspection.violations), 0)
 
 if __name__ == '__main__':
     unittest.main()

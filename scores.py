@@ -34,8 +34,7 @@ class Inspection:
         return sorted(self._violations)
 
     def add_violation(self, violation):
-        if violation not in self._violations:
-            self._violations.append(violation)
+        self._violations.append(violation)
 
     def __repr__(self):
         return 'Inspection(date=%s, score=%s, violations=%s' % (self.date, self.score, self.violations)
@@ -156,7 +155,10 @@ class ScoresReader:
                 python_date = datetime.datetime.strptime(date.split()[0], '%m/%d/%Y').date()
                 inspection = Inspection(python_date, score)
                 for insp_row in insp_rows:
-                    inspection.add_violation(Violation(insp_row['violation'], insp_row['risk']))
+                    if insp_row['violation'] and insp_row['risk']:
+                        violation = Violation(insp_row['violation'], insp_row['risk'])
+                        if violation not in inspection.violations:
+                            inspection.add_violation(violation)
                 restaurant.add_inspection(inspection)
 
             restaurants.append(restaurant)
