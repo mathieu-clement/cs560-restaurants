@@ -23,7 +23,7 @@ class YelpClient:
                 .json()['businesses'][0]
 
 
-    def get_api_key(self, filename='.API_KEY'):
+    def get_api_key(self, filename='.YELP_API_KEY'):
         with open(filename, 'r') as key_file:
             key=key_file.read().replace('\n', '')
             if len(key) != 128:

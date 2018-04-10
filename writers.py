@@ -6,6 +6,8 @@ from scores import Restaurant, Inspection, Violation
 from yelp import YelpClient
 
 class YelpDataWriter:
+    """After data for restaurants has been fetched from Yelp,
+    this writer will write that data to a JSON file on the disk."""
 
     def __init__(self, filename):
         self.__init__(open(filename, 'w', encoding='utf8'))
