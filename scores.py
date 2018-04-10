@@ -165,6 +165,20 @@ class ScoresReader:
 
         return restaurants
 
+    def get_ids(self, start_id, num):
+        """Read dataset until start_id is found, and then look
+        for num other IDs and return start_id (if found) and those other IDs.
+        start_id must be an integer. IDs will be returned as integers."""
+        
+        rows = self.get_rows()
+        # Sort by restaurant ID
+        all_ids = sorted(
+                    list(
+                        set(
+                            map(lambda k: int(k['id']), 
+                                filter(lambda k: int(k['id']) >= start_id, rows)))))
+        return all_ids[:num]
+
 
 if __name__ == '__main__':
     reader = ScoresReader('restaurant_scores.csv')

@@ -8,7 +8,8 @@ from scores import *
 class TestScoresReader(unittest.TestCase):
 
     def setUp(self):
-        self.restaurants = ScoresReader('restaurant_scores.csv').get_restaurants()
+        self.reader = ScoresReader('restaurant_scores.csv')
+        self.restaurants = self.reader.get_restaurants()
         self.kitchen = list(filter(lambda r: r.id == '10', self.restaurants))[0]
 
     def test_restaurant_data(self):
@@ -85,6 +86,13 @@ class TestScoresReader(unittest.TestCase):
             lambda i: i.date == datetime.date(2015, 6, 9), akiko.inspections))[0]
         self.assertEqual(perfect_inspection.score, 100)
         self.assertEqual(len(perfect_inspection.violations), 0)
+
+    def test_get_ids(self):
+        self.assertEqual(self.reader.get_ids(10, 3), [10, 19, 24])
+        self.assertEqual(self.reader.get_ids(89495, 3), 
+                         [89495, 89515, 89790]) # please note excluded rows
+        self.assertEqual(self.reader.get_ids(89494, 3), 
+                         [89495, 89515, 89790])
 
 if __name__ == '__main__':
     unittest.main()
