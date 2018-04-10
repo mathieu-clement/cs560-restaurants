@@ -94,5 +94,12 @@ class TestScoresReader(unittest.TestCase):
         self.assertEqual(self.reader.get_ids(89494, 3), 
                          [89495, 89515, 89790])
 
+    def test_get_row(self):
+        row = self.reader.get_row('56')
+        self.assertEqual(row['id'], '56')
+        self.assertEqual(row['name'], 'CAFE X + O')
+        self.assertEqual(row['street'], '1799 Church St')
+        self.assertEqual(row['zip_code'], 94131)
+
 if __name__ == '__main__':
     unittest.main()

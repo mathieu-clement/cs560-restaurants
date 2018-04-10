@@ -179,6 +179,10 @@ class ScoresReader:
                                 filter(lambda k: int(k['id']) >= start_id, rows)))))
         return all_ids[:num]
 
+    def get_row(self, business_id):
+        """Returns one/any row with ID = business_id"""
+        return next(filter(lambda k: k['id'] == business_id, self.get_rows()))
+
 
 if __name__ == '__main__':
     reader = ScoresReader('restaurant_scores.csv')
