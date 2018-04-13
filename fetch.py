@@ -16,13 +16,13 @@ class ScoreYelpFetcher:
         results = {}
 
         ids = self.scores_reader.get_ids(start_score_id, num_restaurants)
-        print('Ids', ids)
+        print('Number of restaurants to fetch:', len(ids)) # total is 5407
 
         for business_id in ids:
-            row = self.scores_reader.get_row(business_id)
+            row = self.scores_reader.get_row(str(business_id))
             data = self.yelp_client.search_business(
                     row['name'],
-                    row['address'],
+                    row['street'],
                     row['zip_code'])
             results[business_id] = data
 

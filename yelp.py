@@ -13,7 +13,7 @@ class YelpClient:
         endpoint='https://api.yelp.com/v3/businesses/search'
         params={
             'term': name,
-            'location': street + ', San Francisco, ' + zip_code,
+            'location': street + ', San Francisco, ' + str(zip_code),
             'sort_by': 'distance',
             'limit': 1
         }
