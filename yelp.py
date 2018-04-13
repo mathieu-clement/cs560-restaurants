@@ -22,8 +22,14 @@ class YelpClient:
         response = requests.get(endpoint, params=params, headers=self.headers)
         json = response.json()
         if json['total'] == 0:
-            raise BusinessNotFoundException(name, response)
-        return json['businesses'][0]
+            raise BusinessNotFoundException('No results', name, response)
+
+        result = json['businesses'][0]
+
+        if result['distance'] > 200:
+            raise BusinessNotFoundException('Too far', name, response)
+
+        return result
 
 
     def get_api_key(self, filename='.YELP_API_KEY'):
@@ -35,8 +41,9 @@ class YelpClient:
 
 
 class BusinessNotFoundException(Exception):
-    def __init__(self, name, response):
-        super(BusinessNotFoundException, self).__init__("Could not find business '" + name + "'.")
+    def __init__(self, message, name, response):
+        super(BusinessNotFoundException, self).__init__("Could not find business '" + name + "': " + message)
+        self.message = message
         self.name = name
         self.response = response
 

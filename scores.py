@@ -165,6 +165,13 @@ class ScoresReader:
 
         return restaurants
 
+    def get_restaurants_dict(self):
+        restaurants = self.get_restaurants()
+        d = {}
+        for r in restaurants:
+            d[r.id] = r
+        return d
+
     def get_ids(self, start_id, num):
         """Read dataset until start_id is found, and then look
         for num other IDs and return start_id (if found) and those other IDs.

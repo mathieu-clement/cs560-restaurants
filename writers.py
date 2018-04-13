@@ -9,9 +9,6 @@ class YelpDataWriter:
     """After data for restaurants has been fetched from Yelp,
     this writer will write that data to a JSON file on the disk."""
 
-    def __init__(self, filename):
-        self.__init__(open(filename, 'w', encoding='utf8'))
-
     def __init__(self, file):
         self.file = file
         # key is restaurant ID from health score dataset
@@ -30,4 +27,5 @@ class YelpDataWriter:
         self.businesses[score_id] = json
 
     def __write_file(self):
-        json.dump(self.businesses, self.file) # Beware, can be called only once per fp
+        json.dump(self.businesses, self.file, separators=(',', ':')) # Beware, can be called only once per fp
+        # separators removes whitespaces
