@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import unittest
-from yelp import YelpClient
+from yelp import YelpClient, BusinessNotFoundException
 
 class TestYelpClient(unittest.TestCase):
 
@@ -18,6 +18,10 @@ class TestYelpClient(unittest.TestCase):
         categories = list(map(lambda c: c['title'], data['categories']))
         self.assertTrue('Japanese' in categories)
         self.assertTrue('Sushi Bars' in categories)
+
+    def test_not_found(self):
+        with self.assertRaises(BusinessNotFoundException) as context:
+            YelpClient().search_business('asdfaosdifja', 'asdfasdfj', '94112')
 
 if __name__ == '__main__':
     unittest.main()

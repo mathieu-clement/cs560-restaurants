@@ -19,8 +19,11 @@ class YelpClient:
         }
         for key in kwargs:
             params[key] = kwargs[key]
-        return requests.get(endpoint, params=params, headers=self.headers)\
-                .json()['businesses'][0]
+        response = requests.get(endpoint, params=params, headers=self.headers)
+        json = response.json()
+        if json['total'] == 0:
+            raise BusinessNotFoundException(name, response)
+        return json['businesses'][0]
 
 
     def get_api_key(self, filename='.YELP_API_KEY'):
@@ -29,6 +32,13 @@ class YelpClient:
             if len(key) != 128:
                 raise Exception('API key should be 128 characters long')
             return key
+
+
+class BusinessNotFoundException(Exception):
+    def __init__(self, name, response):
+        super(BusinessNotFoundException, self).__init__("Could not find business '" + name + "'.")
+        self.name = name
+        self.response = response
 
 
 if __name__ == '__main__':
