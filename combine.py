@@ -114,6 +114,8 @@ if __name__ == '__main__':
         yelp_data = json.load(f) 
         combined = combiner.combine(yelp_data)
         pprint(combined)
+        print('Number of entries, total:', len(combined))
+
 
         with YelpDataWriter(open('combined.json', 'w', encoding='utf8') )as writer:
             for business_id, data in combined.items():
