@@ -6,6 +6,12 @@ Mathieu Clément, Byron Han
 
 ## Build
 
+Install the distance Python library from PyPI:
+
+    pip3 install distance
+
+It is used to perform fuzzy matching of strings, e.g. by using the Levenshtein edit distance algorithm.
+
 Get an API KEY from Yelp, and save it to a file named `.YELP_API_KEY`. Then fetch data from Yelp using `fetch.py`, which yields the file `yelp.json`, and combine it with the SF Health Score department database using `combine.py`, which produces `combined.json`.
 
 ## Test
