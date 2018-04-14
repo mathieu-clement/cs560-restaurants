@@ -23,6 +23,7 @@ class ScoreYelpCombiner:
                 'hwy': 'highway',
                 'cl': 'close'
                 }
+        # TODO Same with 1st vs First, 2nd vs Second, etc.
 
     def match(self, yelp, restaurant):
         if yelp['distance'] < 20:
@@ -34,6 +35,8 @@ class ScoreYelpCombiner:
         # Consider "033 Market St" to be the same as "33 Market St"
         if street_r[0] == '0' and len(street_r) > 1:
             street_r = street_r[1:]
+        if street_y[0] == '0' and len(street_y) > 1:
+            street_y = street_y[1:]
 
         # Exact same address
         if street_y == street_r:
@@ -42,7 +45,6 @@ class ScoreYelpCombiner:
         # check address is the same besides abbreviation of the street if applicable
         street_y_splitted = street_y.split()
         if len(street_y_splitted) == 3:
-            
             street_r_splitted = street_r.split()
             if len(street_r_splitted) == 3:
                 street_y_no, street_y_name, street_y_type = street_y_splitted
@@ -52,12 +54,12 @@ class ScoreYelpCombiner:
                     return False
 
                 if street_y_type in self.abbrev:
-                    street_y_type = self.abbrev[street_y_type]
-                if street_r_type in self.abbrev:
-                    street_r_type = self.abbrev[street_r_type]
-
-                if street_y_type == street_r_type:
-                    return True
+                    type_y = self.abbrev[street_y_type]
+                    type_r = street_r_type
+                    if type_r in self.abbrev:
+                        type_r = self.abbrev[type_r]
+                    if type_y == type_r:
+                        return True
                 
         name_y = yelp['name'].lower()
         name_r = restaurant.name.lower()
