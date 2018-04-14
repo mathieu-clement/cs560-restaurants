@@ -26,7 +26,11 @@ class ScoreYelpCombiner:
         # TODO Same with 1st vs First, 2nd vs Second, etc.
 
     def match(self, yelp, restaurant):
-        if yelp['distance'] < 20:
+        name_y = yelp['name'].lower()
+        name_r = restaurant.name.lower()
+
+        # consider new place at the same address
+        if yelp['distance'] < 20 and distance.levenshtein(name_y, name_r) < 10:
             return True
         
         street_y = yelp['location']['address1'].lower().replace('.', '')
@@ -61,8 +65,6 @@ class ScoreYelpCombiner:
                     if type_y == type_r:
                         return True
                 
-        name_y = yelp['name'].lower()
-        name_r = restaurant.name.lower()
         return distance.levenshtein(name_y, name_r) < 5
 
     def combine(self, results):
