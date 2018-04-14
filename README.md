@@ -6,14 +6,14 @@ Mathieu Clément, Byron Han
 
 ## Build
 
+Get an API KEY from Yelp, and save it to a file named `.YELP_API_KEY`. Then fetch data from Yelp using `fetch.py`, which yields the file `yelp.json`, and combine it with the SF Health Score department database using `combine.py`, which produces `combined.json`.
+
 ## Test
 
 To run unit tests, simply launch:
 
     nosetests
 
-Nose will read its settings from `setup.cfg` and show a coverage report as well.
-
-Please note only the `.` package will be included in the report.
+Nose will read its settings from `setup.cfg`.
 
 ## Run
