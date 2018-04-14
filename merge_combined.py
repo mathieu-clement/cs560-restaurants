@@ -12,5 +12,7 @@ with open(sys.argv[1], 'r', encoding='utf8') as f1:
         for id,data in json2.items():
             json1[id] = data
 
+        print("New combined size:", len(json1), 'restaurants')
+
         with open(sys.argv[3], 'w', encoding='utf8') as outfile:
             json.dump(json1, outfile, separators=(',', ':')) 
