@@ -18,14 +18,25 @@
           zoom: 12,
           center: sanfrancisco
         });
+
+        $.getJSON("combined.json", function(dataset) {
+            $.each(dataset, function(business_id, data) {
+                console.log(data);
+            });
+        });
+
         var marker = new google.maps.Marker({
           position: sanfrancisco,
           map: map
         });
       }
     </script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIvScuubyyrqxWj81j6UUsqO_1LoqnH3A&callback=initMap">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIvScuubyyrqxWj81j6UUsqO_1LoqnH3A&callback=initMap">
     </script>
   </body>
 </html>
