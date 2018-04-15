@@ -6,6 +6,18 @@
         height: 400px;
         width: 100%;
        }
+
+       .high-risk-violation {
+           color: red;
+       }
+
+       .moderate-risk-violation {
+           color: orange;
+       }
+
+       .low-risk-violation {
+           color: black;
+       }
     </style>
   </head>
   <body>
@@ -19,19 +31,65 @@
           center: sanfrancisco
         });
 
+        var lastOpenedInfoWindow = new google.maps.InfoWindow();
+
         $.getJSON("combined.json", function(dataset) {
             console.log(dataset[31]);
 
             var markers = [];
             
             $.each(dataset, function(business_id, data) {
+                var contentString = 
+                    '<div id="content">' +
+                        '<h2 id="firstHeading">' + data.name + '</h2>' +
+                        '<div id="bodyContent">' +
+                            '<p>Rating: ' + data.rating + ' (' + data.review_count + ' reviews on Yelp) </p>' +
+                            '<h3>Inspections</h3>' +
+                            '<ul>';
+                $.each(data.inspections, function(i, inspection) {
+
+                     contentString += 
+                        '<li>Score of ' + 
+                        inspection.score + ' on ' + inspection.date + ':' + 
+                            '<ul>';
+
+                     $.each(inspection.violations, function(j, violation) {
+                         var riskClass = "low-risk-violation";
+                         if (violation.risk == "High Risk") 
+                            riskClass = "high-risk-violation";
+                         else if (violation.risk == "Moderate Risk")
+                            riskClass = "moderate-risk-violation";
+
+                         contentString += '<li class="' + riskClass + '">' + 
+                            violation.description + '</li>';
+                     });
+
+                     contentString +=
+                            '</ul>' + 
+                        '</li>';
+                });
+                contentString +=
+                            '</ul>' +
+                        '</div>' +
+                    '</div>';
+
+                var infowindow = new google.maps.InfoWindow({
+                        content: contentString
+                        });
+                
                 var latLng = new google.maps.LatLng(
                         data.coordinates.latitude, 
                         data.coordinates.longitude);
+
                 var marker = new google.maps.Marker({
                         position: latLng,
                         map: map,
                         title: data.name
+                        });
+                marker.addListener('click', function() {
+                        lastOpenedInfoWindow.close();
+                        lastOpenedInfoWindow = infowindow;
+                        infowindow.open(map, marker);
                         });
                 markers.push(marker);
             });
