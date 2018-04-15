@@ -43,7 +43,7 @@
                     '<div id="content">' +
                         '<h2 id="firstHeading">' + data.name + '</h2>' +
                         '<div id="bodyContent">' +
-                            '<p>Rating: ' + data.rating + ' (' + data.review_count + ' reviews on Yelp) </p>' +
+                        '<p>Rating: ' + data.rating + ' (' + data.review_count + ' review' + (data.review_count > 1 ? 's' : '')  + ' on Yelp) </p>' +
                             '<h3>Inspections</h3>' +
                             '<ul>';
                 $.each(data.inspections, function(i, inspection) {
