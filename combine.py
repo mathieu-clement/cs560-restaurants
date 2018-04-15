@@ -36,6 +36,10 @@ class ScoreYelpCombiner:
         street_y = yelp['location']['address1'].lower().replace('.', '')
         street_r = restaurant.street.lower().replace('.', '')
 
+        # Establishments without an address, such as food trucks, are ignored
+        if not street_y or not street_r:
+            return False
+
         # Consider "033 Market St" to be the same as "33 Market St"
         if street_r[0] == '0' and len(street_r) > 1:
             street_r = street_r[1:]
