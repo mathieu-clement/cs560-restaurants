@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>Restaurants</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var sanfrancisco = {lat: 37.773972, lng: -122.431297};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: sanfrancisco
+        });
+        var marker = new google.maps.Marker({
+          position: sanfrancisco,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIvScuubyyrqxWj81j6UUsqO_1LoqnH3A&callback=initMap">
+    </script>
+  </body>
+</html>
