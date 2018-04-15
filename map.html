@@ -21,6 +21,8 @@
 
         $.getJSON("combined.json", function(dataset) {
             console.log(dataset[31]);
+
+            var markers = [];
             
             $.each(dataset, function(business_id, data) {
                 var latLng = new google.maps.LatLng(
@@ -31,12 +33,12 @@
                         map: map,
                         title: data.name
                         });
+                markers.push(marker);
             });
-        });
 
-        var marker = new google.maps.Marker({
-          position: sanfrancisco,
-          map: map
+            var markerCluster = new MarkerClusterer(map, markers, {
+                imagePath: './m'
+                });
         });
       }
     </script>
@@ -44,6 +46,8 @@
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
+    <script src="markerclusterer.js"
+       ></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIvScuubyyrqxWj81j6UUsqO_1LoqnH3A&callback=initMap">
     </script>
