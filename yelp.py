@@ -24,6 +24,9 @@ class YelpClient:
         if json['total'] == 0:
             raise BusinessNotFoundException('No results', name, response)
 
+        if 'businesses' not in json or len(json['businesses']) == 0:
+            raise BusinessNotFoundException('Unexpected response', name, response)
+
         result = json['businesses'][0]
 
         if result['distance'] > 200:
