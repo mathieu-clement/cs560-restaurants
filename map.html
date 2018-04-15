@@ -20,8 +20,17 @@
         });
 
         $.getJSON("combined.json", function(dataset) {
+            console.log(dataset[31]);
+            
             $.each(dataset, function(business_id, data) {
-                console.log(data);
+                var latLng = new google.maps.LatLng(
+                        data.coordinates.latitude, 
+                        data.coordinates.longitude);
+                var marker = new google.maps.Marker({
+                        position: latLng,
+                        map: map,
+                        title: data.name
+                        });
             });
         });
 
