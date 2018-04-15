@@ -46,12 +46,16 @@
                         '<p>Rating: ' + data.rating + ' (' + data.review_count + ' review' + (data.review_count > 1 ? 's' : '')  + ' on Yelp) </p>' +
                             '<h3>Inspections</h3>' +
                             '<ul>';
+                data.inspections.reverse();
                 $.each(data.inspections, function(i, inspection) {
 
                      contentString += 
                         '<li>Score of ' + 
-                        inspection.score + ' on ' + inspection.date + ':' + 
+                        inspection.score + ' on ' + inspection.date + 
+                            (inspection.violations.length > 0 ? ':' : '') + 
                             '<ul>';
+
+                     inspection.violations.reverse();
 
                      $.each(inspection.violations, function(j, violation) {
                          var riskClass = "low-risk-violation";
