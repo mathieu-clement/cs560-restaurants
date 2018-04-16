@@ -33,6 +33,12 @@
     <h3>Restaurants</h3>
     <div id="map"></div>
     <script>
+      function arrayJoin(parts, sep){
+          var separator = sep || ', ';
+          var replace   = new RegExp(separator+'{1,}', 'g');
+          return parts.join(separator).replace(replace, separator);
+      }
+
       function initMap() {
         var sanfrancisco = {lat: 37.773972, lng: -122.431297};
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -52,6 +58,8 @@
                     '<div id="content">' +
                         '<h2 id="firstHeading">' + data.name + '</h2>' +
                         '<div id="bodyContent">' +
+                        '<p>' + arrayJoin(data.location.display_address) + '</p>' +
+                        '<p>' + arrayJoin(data.categories.map(c => c.title)) + '</p>' +
                         '<p>Rating: ' + data.rating + ' (' + data.review_count + ' review' + (data.review_count > 1 ? 's' : '')  + ' on <a href="' + data.url + '">Yelp</a>) </p>' +
                             '<h3>Inspections</h3>' +
                             '<div id="inspectionContent"' + 
