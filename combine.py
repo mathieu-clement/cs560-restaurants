@@ -112,18 +112,22 @@ class ScoreYelpCombiner:
 if __name__ == '__main__':
     import json
     from pprint import pprint
+    import sys
     from writers import YelpDataWriter
+
+    infilename = sys.argv[1] # e.g. yelp1.json
+    outfilename = sys.argv[2] # e.g. combined1.json
 
     combiner = ScoreYelpCombiner('restaurant_scores.csv')
 
-    with open('yelp.json', 'r', encoding='utf8') as f:
+    with open(infilename, 'r', encoding='utf8') as f:
         yelp_data = json.load(f) 
         combined = combiner.combine(yelp_data)
         pprint(combined)
         print('Number of entries, total:', len(combined))
 
 
-        with YelpDataWriter(open('combined.json', 'w', encoding='utf8') )as writer:
+        with YelpDataWriter(open(outfilename, 'w', encoding='utf8') )as writer:
             for business_id, data in combined.items():
                 writer.write(str(business_id), data)
 
