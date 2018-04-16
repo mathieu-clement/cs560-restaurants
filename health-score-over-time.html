@@ -84,6 +84,7 @@
 
             const monthFormat = d3.timeFormat("%b");
             const yearFormat = d3.timeFormat("%Y");
+            const usFormat = d3.timeFormat("%-m/%-d/%y");
             const xAxis = d3.axisBottom(xScale)
                             .ticks(d3.timeMonth, 2)
                             .tickFormat(function(d) {
@@ -186,6 +187,18 @@
                  .attr("opacity", 0)
                  .style("text-anchor", "middle")
                  .text(d => ""+d.score);
+
+                g.append("text")
+                 .attr("class", "label")
+                 .attr("x", d => xScale(d.date))
+                 .attr("y", d => yScale(d.score) - 25)
+                 .attr("dy", ".35em")
+                 .attr("font-size", 10)
+                 .attr("font-weight", "normal")
+                 .attr("fill", "black")
+                 .attr("opacity", 0)
+                 .style("text-anchor", "middle")
+                 .text(d => usFormat(d.date));
     });
 	</script>
 </body>
