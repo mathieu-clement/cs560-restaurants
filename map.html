@@ -217,6 +217,7 @@
         window.map = map;
 
         var lastOpenedInfoWindow = new google.maps.InfoWindow();
+        window.lastOpenedInfoWindow = lastOpenedInfoWindow;
 
         $.getJSON("combined.json", function(dataset) {
             console.log(dataset[31]);
@@ -235,7 +236,8 @@
             var markers = getMarkers(dataset);
 
             var markerClusterer = new MarkerClusterer(map, markers, {
-                imagePath: './m'
+                imagePath: './m',
+                maxZoom: 17
                 });
             window.markerClusterer = markerClusterer;
         });
