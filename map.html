@@ -40,6 +40,7 @@
         <h1 id="loading">Loading...</h1>
         <p>Price range: <select id="price-range"></select></p>
         <p>Category: <select id="cuisine"></select></p>
+        <p>Score range: <select id="min-score"></select> to <select id="max-score"></select></p>
     </div>
     <script>
       function arrayJoin(parts, sep){
@@ -87,8 +88,11 @@
           }
       }
 
-      function addFilter(selectId, dataset, fieldAccessor, flat, arrayAccessor) {
+      function addFilter(selectId, dataset, fieldAccessor, flat, arrayAccessor, comparator) {
           var flat = flat || false;
+          var comparator = comparator || function(filterVal, datasetVal) {
+              return filterVal == datasetVal;
+          };
           var values = findAllUniqueValues(Object.values(dataset), 
                                            fieldAccessor,
                                            flat,
@@ -107,7 +111,7 @@
                          var arr = fieldAccessor(el);
                          for (var i in arr) {
                             var val = arrayAccessor(arr[i]);
-                            if (val == newVal) return true;
+                            if (comparator(newVal. val)) return true;
                          }
                          return false;
                      }
@@ -122,7 +126,7 @@
                  window.markerClusterer.addMarkers(getMarkers(dataset,
                      newVal == 'any' ? function(el) { return true; } :
                      function(el) {
-                         return fieldAccessor(el) == newVal;
+                         return comparator(newVal, fieldAccessor(el));
                      }));
               });
           }
@@ -230,6 +234,16 @@
                               function(el) { return el['categories']; },
                               true,
                               function(item) { return item['title']; });
+                    addFilter('#min-score', dataset, function(el) {
+                              return el['inspections'][0]['score'];
+                              }, false, null, function(filterVal, datasetVal) {
+                                  return datasetVal >= filterVal;
+                              }); 
+                    addFilter('#max-score', dataset, function(el) {
+                              return el['inspections'][0]['score'];
+                              }, false, null, function(filterVal, datasetVal) {
+                                  return datasetVal <= filterVal;
+                              }); 
                     $('#loading').remove();
             });
 
