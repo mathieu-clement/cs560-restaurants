@@ -82,7 +82,17 @@
                              .domain([40, 100])
                              .range([h, 0]);
 
-            const xAxis = d3.axisBottom(xScale);
+            const monthFormat = d3.timeFormat("%b");
+            const yearFormat = d3.timeFormat("%Y");
+            const xAxis = d3.axisBottom(xScale)
+                            .ticks(d3.timeMonth, 2)
+                            .tickFormat(function(d) {
+                                    //return monthFormat(d);
+                                    if (d.getMonth() == 0)
+                                        return yearFormat(d);
+                                    else
+                                        return monthFormat(d);
+                                    });
             const yAxis = d3.axisLeft(yScale);
 
                 // X axis path+ticks
