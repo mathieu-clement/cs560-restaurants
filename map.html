@@ -179,7 +179,6 @@
                             '<h3>Inspections</h3>' +
                             '<div id="inspectionContent"' + 
                             '<ul>';
-                data.inspections.reverse();
                 $.each(data.inspections, function(i, inspection) {
 
                      contentString += 
@@ -187,8 +186,6 @@
                          inspection.score + '</span> on ' + inspection.date + 
                             (inspection.violations.length > 0 ? ':' : '') + 
                             '<ul>';
-
-                     inspection.violations.reverse();
 
                      $.each(inspection.violations, function(j, violation) {
                          var riskClass = "low-risk-violation";
@@ -275,24 +272,24 @@
                               true,
                               function(item) { return item['title']; });
                     addFilter('#min-score', dataset, function(el) {
-                              return el['inspections'][el['inspections'].length-1]['score'];
+                              return el['inspections'][0]['score'];
                               }, false, null, function(filterVal, datasetVal) {
                                   return datasetVal >= parseInt(filterVal);
                               }); 
                     addFilter('#max-score', dataset, function(el) {
-                              return el['inspections'][el['inspections'].length-1]['score'];
+                              return el['inspections'][0]['score'];
                               }, false, null, function(filterVal, datasetVal) {
                                   return datasetVal <= parseInt(filterVal);
                               }); 
                     addFilter('#min-rating', dataset, function(el) {
                               return el.rating;
                               }, false, null, function(filterVal, datasetVal) {
-                                  return datasetVal >= parseInt(filterVal);
+                                  return datasetVal >= parseFloat(filterVal);
                               }); 
                     addFilter('#max-rating', dataset, function(el) {
                               return el.rating;
                               }, false, null, function(filterVal, datasetVal) {
-                                  return datasetVal <= parseInt(filterVal);
+                                  return datasetVal <= parseFloat(filterVal);
                               }); 
                     $('#loading').remove();
             });

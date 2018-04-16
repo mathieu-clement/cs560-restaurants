@@ -43,7 +43,7 @@ class Inspection:
         return self.date == other.date
 
     def __lt__(self, other):
-        return self.date < other.date
+        return other.date < self.date
 
 
 class Violation:
@@ -61,7 +61,7 @@ class Violation:
         if self.risk == other.risk:
             return self.description < other.description
         else:
-            return self.risk_value < other.risk_value
+            return other.risk_value < self.risk_value
         return self.description < other.description
 
     @property
