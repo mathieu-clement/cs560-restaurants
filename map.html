@@ -246,7 +246,16 @@
         var sanfrancisco = {lat: 37.773972, lng: -122.431297};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 12,
-          center: sanfrancisco
+          center: sanfrancisco,
+          styles: [
+              {
+                    featureType: "poi",
+                    elementType: "labels",
+                    stylers: [
+                          { visibility: "off" }
+                    ]
+              }
+          ]
         });
         window.map = map;
 
@@ -293,6 +302,7 @@
       crossorigin="anonymous"></script>
     <script src="markerclusterer.js"
        ></script>
+    <!-- Customize map using https://mapstyle.withgoogle.com/ -->
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIvScuubyyrqxWj81j6UUsqO_1LoqnH3A&callback=initMap">
     </script>
