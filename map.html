@@ -41,6 +41,7 @@
         <p>Price range: <select id="price-range"></select></p>
         <p>Category: <select id="cuisine"></select></p>
         <p>Score range: <select id="min-score"></select> to <select id="max-score"></select></p>
+        <p>Rating range: <select id="min-rating"></select> to <select id="max-rating"></select></p>
     </div>
     <script>
       window.filters = [];
@@ -280,6 +281,16 @@
                               }); 
                     addFilter('#max-score', dataset, function(el) {
                               return el['inspections'][el['inspections'].length-1]['score'];
+                              }, false, null, function(filterVal, datasetVal) {
+                                  return datasetVal <= parseInt(filterVal);
+                              }); 
+                    addFilter('#min-rating', dataset, function(el) {
+                              return el.rating;
+                              }, false, null, function(filterVal, datasetVal) {
+                                  return datasetVal >= parseInt(filterVal);
+                              }); 
+                    addFilter('#max-rating', dataset, function(el) {
+                              return el.rating;
                               }, false, null, function(filterVal, datasetVal) {
                                   return datasetVal <= parseInt(filterVal);
                               }); 
