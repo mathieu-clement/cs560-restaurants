@@ -43,6 +43,9 @@
         <p>Score range: <select id="min-score"></select> to <select id="max-score"></select></p>
     </div>
     <script>
+      window.filters = [];
+      window.filtersById = {};
+
       function arrayJoin(parts, sep){
           var separator = sep || ', ';
           var replace   = new RegExp(separator+'{1,}', 'g');
@@ -88,6 +91,25 @@
           }
       }
 
+      function andFilters(filters) {
+          return function (d) {
+              for (var i in filters) {
+                  var filter = filters[i];
+                  if (!filter(d)) {
+                      return false;
+                  }
+              }
+              return true;
+          };
+      }
+
+      function resetMarkers(dataset, filters) {
+           window.markerClusterer.clearMarkers();
+           window.markerClusterer.addMarkers(getMarkers(dataset, 
+                      andFilters(filters)));
+      }
+
+
       function addFilter(selectId, dataset, fieldAccessor, flat, arrayAccessor, comparator) {
           var flat = flat || false;
           var comparator = comparator || function(filterVal, datasetVal) {
@@ -104,30 +126,38 @@
               $(selectId).change(function() {
                  var newVal = $(selectId).val();
                  console.log("New value for " + selectId, newVal);
-                 window.markerClusterer.clearMarkers();
-                 window.markerClusterer.addMarkers(getMarkers(dataset,
-                     newVal == 'any' ? function(el) { return true; } :
-                     function(el) {
+                 var id = filters.indexOf(filtersById[selectId]);
+                 if (id !== -1) filters.splice(id, 1);
+
+                 var filter2 = function(el) {
                          var arr = fieldAccessor(el);
                          for (var i in arr) {
                             var val = arrayAccessor(arr[i]);
                             if (comparator(newVal. val)) return true;
                          }
                          return false;
-                     }
-                     ));
+                     };
+                 if (newVal != "any") {
+                     filters.push(filter2);
+                 }
+                 filtersById[selectId] = filter2;
+                 resetMarkers(dataset, filters);
                  });
           } else {
               // equals
               $(selectId).change(function() {
                  var newVal = $(selectId).val();
                  console.log("New value for " + selectId, newVal);
-                 window.markerClusterer.clearMarkers();
-                 window.markerClusterer.addMarkers(getMarkers(dataset,
-                     newVal == 'any' ? function(el) { return true; } :
-                     function(el) {
+                 var id = filters.indexOf(filtersById[selectId]);
+                 if (id !== -1) filters.splice(id, 1);
+                 var filter2 = function(el) {
                          return comparator(newVal, fieldAccessor(el));
-                     }));
+                     };
+                 if (newVal != "any") {
+                     filters.push(filter2);
+                 }
+                 filtersById[selectId] = filter2;
+                 resetMarkers(dataset, filters);
               });
           }
       }
@@ -135,6 +165,7 @@
       function getMarkers(dataset, filter) {
             var markers = [];
             var filter = filter || function(el) { return true; };
+            console.log("Filter", filter(dataset[31]));
             
             $.each(dataset, function(business_id, data) {
                 if (!filter(data)) return;
@@ -235,14 +266,14 @@
                               true,
                               function(item) { return item['title']; });
                     addFilter('#min-score', dataset, function(el) {
-                              return el['inspections'][0]['score'];
+                              return el['inspections'][el['inspections'].length-1]['score'];
                               }, false, null, function(filterVal, datasetVal) {
-                                  return datasetVal >= filterVal;
+                                  return datasetVal >= parseInt(filterVal);
                               }); 
                     addFilter('#max-score', dataset, function(el) {
-                              return el['inspections'][0]['score'];
+                              return el['inspections'][el['inspections'].length-1]['score'];
                               }, false, null, function(filterVal, datasetVal) {
-                                  return datasetVal <= filterVal;
+                                  return datasetVal <= parseInt(filterVal);
                               }); 
                     $('#loading').remove();
             });
