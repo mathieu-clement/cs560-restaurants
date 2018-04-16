@@ -18,6 +18,7 @@ class YelpBunkFetcher:
         ids = self.scores_reader.get_ids(start_score_id, num_restaurants)
         num_ids = len(ids)
         print('Number of restaurants to fetch:', num_ids) # total is 5407
+        print('Last ID:', ids[:-1])
         count = 1
 
         for business_id in ids:
