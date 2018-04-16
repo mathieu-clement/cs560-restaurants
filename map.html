@@ -165,7 +165,6 @@
       function getMarkers(dataset, filter) {
             var markers = [];
             var filter = filter || function(el) { return true; };
-            console.log("Filter", filter(dataset[31]));
             
             $.each(dataset, function(business_id, data) {
                 if (!filter(data)) return;
