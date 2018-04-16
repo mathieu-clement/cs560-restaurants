@@ -119,35 +119,63 @@
                 .style("text-anchor", "end")
                 .text("Inspection score");
 
-                /*
-                // Data points
-                svg.append("g")
-                .selectAll(".dot")
-                .data(avgHp)
-                .enter()
-                .append("circle")
-                .attr("r", 3)
-                .attr("cx", d => xScale(d.Year))
-                .attr("cy", d => yScale(d.AvgHorsepower));
-
-                d3.selectAll("circle")
-                .style("fill", "orange")
-                .append("title")
-                .text(d => hpFormatter(d.AvgHorsepower));
-
                 // Lines
                 var line = d3.line()
-                .x(d => xScale(d.Year))
-                .y(d => yScale(d.AvgHorsepower));
+                .x(d => xScale(d.date))
+                .y(d => yScale(d.score));
 
                 svg.append("g")
                 .append("path")
-                .datum(avgHp)
+                .datum(inspections)
                 .attr("fill", "none")
                 .attr("stroke", "orange")
                 .attr("stroke-width", 2)
                 .attr("d", line);
-            */
+                
+                // Data points
+                svg.append("g")
+                .selectAll(".dot")
+                .data(inspections)
+                .enter()
+                .append("circle")
+                .attr("r", 3)
+                .attr("cx", d => xScale(d.date))
+                .attr("cy", d => yScale(d.score));
+
+                var g = svg.append("g")
+                   .selectAll("text")
+                   .data(inspections)
+                   .enter()
+                   .append("g");
+
+                g.append("rect")
+                 .attr("x", d => xScale(d.date) - 15)
+                 .attr("y", d => yScale(d.score) - 15)
+                 .attr("width", 30)
+                 .attr("height", 30)
+                 .attr("opacity", 0)
+                 .on("mouseover", function(d) { 
+                         d3.selectAll(".label")
+                           .filter(e => d == e)
+                           .attr("opacity", 1);
+                         })
+                 .on("mouseout", function(d) { 
+                         d3.selectAll(".label")
+                           .filter(e => d == e)
+                           .attr("opacity", 0);
+                         });
+
+                g.append("text")
+                 .attr("class", "label")
+                 .attr("x", d => xScale(d.date))
+                 .attr("y", d => yScale(d.score) - 10)
+                 .attr("dy", ".35em")
+                 .attr("font-size", 12)
+                 .attr("font-weight", "bold")
+                 .attr("fill", "black")
+                 .attr("opacity", 0)
+                 .style("text-anchor", "middle")
+                 .text(d => ""+d.score);
     });
 	</script>
 </body>
