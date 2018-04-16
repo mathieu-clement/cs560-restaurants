@@ -43,7 +43,7 @@
                     '<div id="content">' +
                         '<h2 id="firstHeading">' + data.name + '</h2>' +
                         '<div id="bodyContent">' +
-                        '<p>Rating: ' + data.rating + ' (' + data.review_count + ' review' + (data.review_count > 1 ? 's' : '')  + ' on Yelp) </p>' +
+                        '<p>Rating: ' + data.rating + ' (' + data.review_count + ' review' + (data.review_count > 1 ? 's' : '')  + ' on <a href="' + data.url + '">Yelp</a>) </p>' +
                             '<h3>Inspections</h3>' +
                             '<ul>';
                 data.inspections.reverse();
