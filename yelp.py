@@ -21,11 +21,12 @@ class YelpClient:
             params[key] = kwargs[key]
         response = requests.get(endpoint, params=params, headers=self.headers)
         json = response.json()
+
+        if 'total' not in json or 'businesses' not in json or len(json['businesses']) == 0:
+            raise BusinessNotFoundException('Unexpected response', name, response)
+
         if json['total'] == 0:
             raise BusinessNotFoundException('No results', name, response)
-
-        if 'businesses' not in json or len(json['businesses']) == 0:
-            raise BusinessNotFoundException('Unexpected response', name, response)
 
         result = json['businesses'][0]
 
