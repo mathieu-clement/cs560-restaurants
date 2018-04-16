@@ -68,7 +68,7 @@ class YelpBunkFetcher:
 if __name__ == '__main__':
     fetcher = YelpBunkFetcher('restaurant_scores.csv')
     from pprint import pprint
-    fetched = fetcher.fetch(64683, 1000)
+    fetched = fetcher.fetch(75408, 1000)
     pprint(fetched)
 
     from writers import YelpDataWriter
