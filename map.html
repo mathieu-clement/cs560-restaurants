@@ -7,6 +7,10 @@
         width: 100%;
        }
 
+       #inspectionContent {
+           max-height: 200px;
+           overflow-y: scroll;
+
        .high-risk-violation {
            color: red;
        }
@@ -45,6 +49,7 @@
                         '<div id="bodyContent">' +
                         '<p>Rating: ' + data.rating + ' (' + data.review_count + ' review' + (data.review_count > 1 ? 's' : '')  + ' on <a href="' + data.url + '">Yelp</a>) </p>' +
                             '<h3>Inspections</h3>' +
+                            '<div id="inspectionContent"' + 
                             '<ul>';
                 data.inspections.reverse();
                 $.each(data.inspections, function(i, inspection) {
@@ -74,6 +79,7 @@
                 });
                 contentString +=
                             '</ul>' +
+                          '</div>' +
                         '</div>' +
                     '</div>';
 
