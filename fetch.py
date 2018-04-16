@@ -68,10 +68,11 @@ class YelpBunkFetcher:
 
 if __name__ == '__main__':
     import sys
-    filename = sys.argv[1]
+    start_id = int(sys.argv[1])
+    filename = sys.argv[2]
     fetcher = YelpBunkFetcher('restaurant_scores.csv')
     from pprint import pprint
-    fetched = fetcher.fetch(0, 1000)
+    fetched = fetcher.fetch(start_id, 1000)
     pprint(fetched)
 
     from writers import YelpDataWriter
