@@ -116,6 +116,13 @@
                         });
                 marker.addListener('click', function() {
                         lastOpenedInfoWindow.close();
+
+                        // Toggle visibility if same marker is clicked
+                        if (infowindow == lastOpenedInfoWindow) {
+                           lastOpenedInfoWindow = new google.maps.InfoWindow(); 
+                           return;
+                        }
+
                         lastOpenedInfoWindow = infowindow;
                         infowindow.open(map, marker);
                         });
