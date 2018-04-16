@@ -10,6 +10,8 @@ Restaurant Health Scores: Originally from Kaggle, but updated version can be fou
 
 [Yelp Developer API](https://www.yelp.com/developers/documentation/v3/business_search)
 
+After updating to a new version of `restaurant_scores.csv`, `combined.json` can be regenerated using a sequence of `fetch.py`, `combine.py`, and optionally `merge_combined.py` and `show_highest_id.py` when downloading data in increments.
+
 ## Build
 
 Install the distance Python library from PyPI:
