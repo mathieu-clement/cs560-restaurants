@@ -36,6 +36,11 @@
   <body>
     <h3>Restaurants</h3>
     <div id="map"></div>
+    <div id="filters">
+        <h1 id="loading">Loading...</h1>
+        <p>Price range: <select id="price-range"></select></p>
+        <p>Category: <select id="cuisine"></select></p>
+    </div>
     <script>
       function arrayJoin(parts, sep){
           var separator = sep || ', ';
@@ -43,21 +48,92 @@
           return parts.join(separator).replace(replace, separator);
       }
 
-      function initMap() {
-        var sanfrancisco = {lat: 37.773972, lng: -122.431297};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 12,
-          center: sanfrancisco
-        });
+      function onlyUnique(value, index, self) { 
+          return self.indexOf(value) === index;
+      }
 
-        var lastOpenedInfoWindow = new google.maps.InfoWindow();
+      function findAllUniqueValues(dataset, fieldAccessor, flat, arrayAccessor) {
+          // If flat, must unwrap all values from fieldAccessor
+          // as it returned an array
+          var values = [];
+          var arrays = dataset
+                      .map(function(el) { return fieldAccessor(el); });
+          if (flat) {
+              for (var i in arrays) {
+                  var arr = arrays[i];
+                  for (var j in arr) {
+                      var val = arr[j];
+                      values.push(arrayAccessor(val));
+                  }
+              }
+          } else {
+              values = arrays;
+          }
+          values = values.filter(onlyUnique);
+          values.sort();
+          return values;
+      }
 
-        $.getJSON("combined.json", function(dataset) {
-            console.log(dataset[31]);
+      function fillValues(selectId, values) {
+          var select = $(selectId);
 
+          select.append('<option value="any">Any</option>');
+
+          for (var i in values) {
+              var value = values[i];
+              if (typeof value == "undefined") continue;
+              select.append('<option value="' + value + '">' + 
+                            value + '</option>');
+          }
+      }
+
+      function addFilter(selectId, dataset, fieldAccessor, flat, arrayAccessor) {
+          var flat = flat || false;
+          var values = findAllUniqueValues(Object.values(dataset), 
+                                           fieldAccessor,
+                                           flat,
+                                           arrayAccessor);
+          fillValues(selectId, values);
+
+          if (flat) {
+              // includes
+              $(selectId).change(function() {
+                 var newVal = $(selectId).val();
+                 console.log("New value for " + selectId, newVal);
+                 window.markerClusterer.clearMarkers();
+                 window.markerClusterer.addMarkers(getMarkers(dataset,
+                     newVal == 'any' ? function(el) { return true; } :
+                     function(el) {
+                         var arr = fieldAccessor(el);
+                         for (var i in arr) {
+                            var val = arrayAccessor(arr[i]);
+                            if (val == newVal) return true;
+                         }
+                         return false;
+                     }
+                     ));
+                 });
+          } else {
+              // equals
+              $(selectId).change(function() {
+                 var newVal = $(selectId).val();
+                 console.log("New value for " + selectId, newVal);
+                 window.markerClusterer.clearMarkers();
+                 window.markerClusterer.addMarkers(getMarkers(dataset,
+                     newVal == 'any' ? function(el) { return true; } :
+                     function(el) {
+                         return fieldAccessor(el) == newVal;
+                     }));
+              });
+          }
+      }
+
+      function getMarkers(dataset, filter) {
             var markers = [];
+            var filter = filter || function(el) { return true; };
             
             $.each(dataset, function(business_id, data) {
+                if (!filter(data)) return;
                 var contentString = 
                     '<div id="content">' +
                         '<h2 id="firstHeading">' + data.name + '</h2>' +
@@ -128,10 +204,40 @@
                         });
                 markers.push(marker);
             });
+            
+            return markers;
+      }
 
-            var markerCluster = new MarkerClusterer(map, markers, {
+      function initMap() {
+        var sanfrancisco = {lat: 37.773972, lng: -122.431297};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: sanfrancisco
+        });
+        window.map = map;
+
+        var lastOpenedInfoWindow = new google.maps.InfoWindow();
+
+        $.getJSON("combined.json", function(dataset) {
+            console.log(dataset[31]);
+            window.dataset = dataset;
+
+            $().ready(function(){
+                    addFilter('#price-range', dataset, function(el) { 
+                              return el['price']; });
+                    addFilter('#cuisine', dataset, 
+                              function(el) { return el['categories']; },
+                              true,
+                              function(item) { return item['title']; });
+                    $('#loading').remove();
+            });
+
+            var markers = getMarkers(dataset);
+
+            var markerClusterer = new MarkerClusterer(map, markers, {
                 imagePath: './m'
                 });
+            window.markerClusterer = markerClusterer;
         });
       }
     </script>
