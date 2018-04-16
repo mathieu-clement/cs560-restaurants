@@ -12,6 +12,10 @@
            overflow-y: scroll;
        }
 
+       #score {
+           font-weight: bold;
+       }
+
        .high-risk-violation {
            color: red;
        }
@@ -56,8 +60,8 @@
                 $.each(data.inspections, function(i, inspection) {
 
                      contentString += 
-                        '<li>Score of ' + 
-                        inspection.score + ' on ' + inspection.date + 
+                         '<li>Score of <span id="score">' + 
+                         inspection.score + '</span> on ' + inspection.date + 
                             (inspection.violations.length > 0 ? ':' : '') + 
                             '<ul>';
 
