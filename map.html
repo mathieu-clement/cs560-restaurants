@@ -111,7 +111,8 @@
                 var marker = new google.maps.Marker({
                         position: latLng,
                         map: map,
-                        title: data.name
+                        title: data.name,
+                        label: ''+ data.inspections[0].score
                         });
                 marker.addListener('click', function() {
                         lastOpenedInfoWindow.close();
