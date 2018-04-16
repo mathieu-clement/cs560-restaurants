@@ -176,7 +176,7 @@
                         '<p>' + arrayJoin(data.location.display_address) + '</p>' +
                         '<p>' + arrayJoin(data.categories.map(c => c.title)) + '</p>' +
                         '<p>Rating: ' + data.rating + ' (' + data.review_count + ' review' + (data.review_count > 1 ? 's' : '')  + ' on <a href="' + data.url + '">Yelp</a>) </p>' +
-                            '<h3>Inspections</h3>' +
+                            '<h3>Inspections <a href="health-score-over-time.html?businessId=' + business_id +'">(graph)</a></h3>' +
                             '<div id="inspectionContent"' + 
                             '<ul>';
                 $.each(data.inspections, function(i, inspection) {
