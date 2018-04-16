@@ -4,6 +4,8 @@ CS360/560 Data Visualization, University of San Francisco, April-May 2018
 
 Mathieu Clément, Byron Han
 
+# [Start here!](map.html)
+
 ## Data sources
 
 Restaurant Health Scores: Originally from Kaggle, but updated version can be found on [DataSF](https://data.sfgov.org/Health-and-Social-Services/Restaurant-Scores-LIVES-Standard/pyih-qa8i)
