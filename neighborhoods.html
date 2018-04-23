@@ -5,9 +5,11 @@
 	<title>Line chart</title>
 	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<style type="text/css">
-	text {
-		font-family: Helvetica;
-	}
+    .label {
+		font-family: Helvetica, sans-serif;
+        font-size: 10px;
+        text-anchor: middle;
+    }
 </style>
 </head>
 <body>
@@ -25,16 +27,13 @@
         var path = d3.geoPath()
                      .projection(projection);
 
-        
+        var formatDecimals = d3.format(".3");
 
 		var svg = d3
 		.select("body")
 		.append("svg")
 		.attr("width", w + 100)
 		.attr("height", h + 100)
-
-		//.append("g")
-		//.attr("transform", "translate(" + 80 + "," + 50 +")"); // margins
         ;
 
         /*
@@ -58,7 +57,29 @@
                 .attr("d", path)
                 .style("fill", "steelblue")
                 ; 
-        });
+
+            d3.json("neighborhood_average_scores.json").then(function(data) {
+                for (var i in json.features) {
+                    var feature = json.features[i];
+                    var nhood = feature.properties['nhood'];
+                    feature.properties.average = data[nhood];
+                }
+
+                svg
+                    .selectAll("text")
+                    .data(json.features)
+                    .enter()
+                    .append("text")
+                    .attr("class", "label")
+                    .attr("x", function(d) { return path.centroid(d)[0]; })
+                    .attr("y", function(d) { return path.centroid(d)[1]; })
+                    .text(function(d) {
+                        return formatDecimals(d.properties.average);
+                    })
+                    ;
+
+            }); // d3.json avg scores
+        }); // d3.json neighborhoods geoson
         
 	</script>
 </body>
