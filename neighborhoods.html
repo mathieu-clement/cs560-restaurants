@@ -9,10 +9,15 @@
 		font-family: Helvetica, sans-serif;
         font-size: 10px;
         text-anchor: middle;
+        pointer-events: none; /* Ignore mouseover over label */
     }
 
     path {
         stroke: black; /* outline */
+    }
+
+    path:hover {
+        fill: pink;
     }
 </style>
 </head>
