@@ -46,4 +46,4 @@ NPM and Python can also be used to start a web server in the working directory.
 
 ## TODO
 
-Legends
+Legends (color for nhood map, missing score for Bayview/Hunters Point)
