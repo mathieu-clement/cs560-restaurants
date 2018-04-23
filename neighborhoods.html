@@ -95,6 +95,8 @@
                     var nhood = feature.properties['nhood'];
                     feature.properties.average = data[nhood];
                 }
+
+                const duration = 400;
             
                 svg
                     .selectAll("path")
@@ -104,18 +106,18 @@
                     .attr("d", path)
                     .attr("fill", d => colorScale(d.properties.average))
                     .on("mouseover", function(d) {
-                        g.transition().duration(500).style("opacity", 1.0);
+                        g.transition().duration(duration).style("opacity", 1.0);
                         nhoodText.text(d.properties.nhood);
                         d3.select(this)
                           .transition()
-                          .duration(500)
+                          .duration(duration)
                           .attr("fill", "pink");
                     })
                     .on("mouseout", function(d) {
-                        g.transition().duration(500).style("opacity", 0.0);
+                        g.transition().duration(duration).style("opacity", 0.0);
                         d3.select(this)
                           .transition()
-                          .duration(500)
+                          .duration(duration)
                           .attr("fill", colorScale(d.properties.average));
                     })
                     ; 
