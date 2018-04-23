@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Line chart</title>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<style type="text/css">
+	text {
+		font-family: Helvetica;
+	}
+</style>
+</head>
+<body>
+	<script type="text/javascript">
+		const w = 400;
+		const h = 300;
+
+        var sanfrancisco = [-122.45, 37.79];
+
+        var projection = d3.geoMercator()
+                           .center(sanfrancisco)
+                           .translate([w/2, h/2])
+                           .scale([130000]);
+
+        var path = d3.geoPath()
+                     .projection(projection);
+
+        
+
+		var svg = d3
+		.select("body")
+		.append("svg")
+		.attr("width", w + 100)
+		.attr("height", h + 100)
+
+		//.append("g")
+		//.attr("transform", "translate(" + 80 + "," + 50 +")"); // margins
+        ;
+
+        /*
+		svg.append("text")
+		.attr("x", w/2)
+		.attr("y", -30)
+		.attr("dy", ".35em")
+		.attr("font-size", 18)
+		.attr("font-weight", "bold")
+		.attr("fill", "black")
+		.style("text-anchor", "middle")
+		.text("Health score over time");
+        */
+
+        d3.json("neighborhoods.json").then(function(json) {
+            svg
+                .selectAll("path")
+                .data(json.features)
+                .enter()
+                .append("path")
+                .attr("d", path)
+                .style("fill", "steelblue")
+                ; 
+        });
+        
+	</script>
+</body>
+</html>
