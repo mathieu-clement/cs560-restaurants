@@ -43,3 +43,7 @@ Nose will read its settings from `setup.cfg`.
     php -S localhost:8000
 
 NPM and Python can also be used to start a web server in the working directory.
+
+## TODO
+
+Legends
