@@ -10,19 +10,23 @@
         font-size: 10px;
         text-anchor: middle;
     }
+
+    path {
+        stroke: black; /* outline */
+    }
 </style>
 </head>
 <body>
 	<script type="text/javascript">
-		const w = 400;
-		const h = 300;
+		const w = 500;
+		const h = 380;
 
-        var sanfrancisco = [-122.45, 37.79];
+        var sanfrancisco = [-122.45, 37.78];
 
         var projection = d3.geoMercator()
                            .center(sanfrancisco)
                            .translate([w/2, h/2])
-                           .scale([130000]);
+                           .scale([160000]);
 
         var path = d3.geoPath()
                      .projection(projection);
@@ -35,6 +39,19 @@
 		.attr("width", w + 100)
 		.attr("height", h + 100)
         ;
+
+        // Our custom scale for scores, according to the SF Health Department
+        var lessThan71 = "rgb(215,25,28)"; // red
+        var lessThan86 = "rgb(253,174,97)"; // orange
+        var lessThan90 = "rgb(255,255,191)"; // pale yellow/cream
+        var moreThan90 = "rgb(166,217,106)"; // light green
+
+        var colorScale = function(score) {
+            if (score < 71) return lessThan71;
+            if (score < 86) return lessThan86;
+            if (score < 90) return lessThan90;
+            return moreThan90;
+        };
 
         /*
 		svg.append("text")
@@ -49,21 +66,21 @@
         */
 
         d3.json("neighborhoods.json").then(function(json) {
-            svg
-                .selectAll("path")
-                .data(json.features)
-                .enter()
-                .append("path")
-                .attr("d", path)
-                .style("fill", "steelblue")
-                ; 
-
             d3.json("neighborhood_average_scores.json").then(function(data) {
                 for (var i in json.features) {
                     var feature = json.features[i];
                     var nhood = feature.properties['nhood'];
                     feature.properties.average = data[nhood];
                 }
+            
+                svg
+                    .selectAll("path")
+                    .data(json.features)
+                    .enter()
+                    .append("path")
+                    .attr("d", path)
+                    .attr("fill", d => colorScale(d.properties.average))
+                    ; 
 
                 svg
                     .selectAll("text")
