@@ -12,12 +12,13 @@
         pointer-events: none; /* Ignore mouseover over label */
     }
 
-    path {
-        stroke: black; /* outline */
+    .neighborhood-name {
+		font-family: Helvetica, sans-serif;
+        font-size: 14px;
     }
 
-    path:hover {
-        fill: pink;
+    path {
+        stroke: black; /* outline */
     }
 </style>
 </head>
@@ -39,11 +40,28 @@
         var formatDecimals = d3.format(".3");
 
 		var svg = d3
-		.select("body")
-		.append("svg")
-		.attr("width", w + 100)
-		.attr("height", h + 100)
-        ;
+            .select("body")
+            .append("svg")
+            .attr("width", w + 100)
+            .attr("height", h + 100)
+            ;
+
+        var g = svg.append("g")
+                   .style("opacity", 0.0);
+
+        var rect = g.append("rect")
+           .attr("x", 20)
+           .attr("y", 10)
+           .attr("width", 300)
+           .attr("height", 30)
+           .attr("fill", "white")
+           .attr("stroke", "black")
+           ;
+
+        var nhoodText = g.append("text")
+            .attr("class", "neighborhood-name")
+            .attr("x", 30)
+            .attr("y", 30);
 
         // Our custom scale for scores, according to the SF Health Department
         var lessThan71 = "rgb(215,25,28)"; // red
@@ -85,6 +103,21 @@
                     .append("path")
                     .attr("d", path)
                     .attr("fill", d => colorScale(d.properties.average))
+                    .on("mouseover", function(d) {
+                        g.transition().duration(500).style("opacity", 1.0);
+                        nhoodText.text(d.properties.nhood);
+                        d3.select(this)
+                          .transition()
+                          .duration(500)
+                          .attr("fill", "pink");
+                    })
+                    .on("mouseout", function(d) {
+                        g.transition().duration(500).style("opacity", 0.0);
+                        d3.select(this)
+                          .transition()
+                          .duration(500)
+                          .attr("fill", colorScale(d.properties.average));
+                    })
                     ; 
 
                 svg
