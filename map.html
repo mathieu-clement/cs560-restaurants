@@ -163,6 +163,21 @@
           }
       }
 
+     var lessThan71 = "pinpoint-red.png";
+     var lessThan86 = "pinpoint-orange.png";
+     var lessThan90 = "pinpoint-cream.png";
+     var lessThan98 = "pinpoint-lightgreen.png";
+     var moreThan98 = "pinpoint-darkgreen.png";
+
+     function getIcon(score) {
+         if (score < 71) return lessThan71;
+         if (score < 86) return lessThan86;
+         if (score < 90) return lessThan90;
+         if (score < 98) return lessThan98;
+         return moreThan98;
+     }
+
+
       function getMarkers(dataset, filter) {
             var markers = [];
             var filter = filter || function(el) { return true; };
@@ -220,6 +235,7 @@
                         position: latLng,
                         map: map,
                         title: data.name,
+                        icon: getIcon(data.inspections[0].score),
                         label: ''+ data.inspections[0].score
                         });
                 marker.addListener('click', function() {
