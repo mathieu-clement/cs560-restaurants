@@ -4,16 +4,22 @@ import csv
 import datetime
 
 class Restaurant:
-    def __init__(self, rest_id, name, street, zip_code):
+    def __init__(self, rest_id, name, street, zip_code, lat, lon):
         self.id = rest_id
         self.name = name
         self.street = street
         self.zip_code = zip_code
+        self.lat = lat
+        self.lon = lon
         self._inspections = []
 
     @property
     def inspections(self):
         return sorted(self._inspections)
+
+    @property
+    def score(self):
+        return self.inspections[0].score # most recent inspection score
 
     def add_inspection(self, inspection):
         self._inspections.append(inspection)
@@ -43,6 +49,7 @@ class Inspection:
         return self.date == other.date
 
     def __lt__(self, other):
+        # most recent first
         return other.date < self.date
 
 
@@ -109,6 +116,8 @@ class ScoresReader:
                     continue
                 try:
                     int(row['business_postal_code'])
+                    float(row['business_latitude'])
+                    float(row['business_longitude'])
                 except ValueError:
                     continue
                 rows.append({
@@ -116,6 +125,8 @@ class ScoresReader:
                     'name': row['business_name'],
                     'street': row['business_address'],
                     'zip_code': int(row['business_postal_code']),
+                    'lat': float(row['business_latitude']),
+                    'lon': float(row['business_longitude']),
                     'inspection_date': row['inspection_date'],
                     'inspection_score': int(row['inspection_score']),
                     'inspection_type': row['inspection_type'],
@@ -142,7 +153,8 @@ class ScoresReader:
             dict_inspections = {} # key is inspection date, value is list 
                                   # of rows for that restaurant and that inspection
             r = rest_rows[0]
-            restaurant = Restaurant(r['id'], r['name'], r['street'], r['zip_code'])
+            restaurant = Restaurant(r['id'], r['name'], r['street'], r['zip_code'],
+                                    r['lat'], r['lon'])
 
             for row in rest_rows:
                 date = row['inspection_date']
