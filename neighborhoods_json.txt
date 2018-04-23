@@ -1,0 +1,1 @@
+Generated using MapShaper from the corresponding shapefiles copied from the original Kaggle dataset, and simplified using default settings, retaining 2.1 %.
