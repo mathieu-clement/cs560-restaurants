@@ -170,11 +170,13 @@
                  .on("mouseover", function(d) { 
                          d3.selectAll(".label")
                            .filter(e => d == e)
+                           .transition()
                            .attr("opacity", 1);
                          })
                  .on("mouseout", function(d) { 
                          d3.selectAll(".label")
                            .filter(e => d == e)
+                           .transition()
                            .attr("opacity", 0);
                          });
 
