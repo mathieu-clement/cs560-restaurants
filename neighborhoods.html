@@ -100,6 +100,7 @@
                     .on("mouseover", function(d) {
                         g.transition().duration(duration).style("opacity", 1.0);
                         nhoodText.text(d.properties.nhood);
+                        // nhoodText.text(d.properties.nhood + " (" + formatDecimals(d.properties.average) + ")");
                         d3.select(this)
                           .transition()
                           .duration(duration)
