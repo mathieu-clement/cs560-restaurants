@@ -80,18 +80,6 @@
             return moreThan90;
         };
 
-        /*
-		svg.append("text")
-		.attr("x", w/2)
-		.attr("y", -30)
-		.attr("dy", ".35em")
-		.attr("font-size", 18)
-		.attr("font-weight", "bold")
-		.attr("fill", "black")
-		.style("text-anchor", "middle")
-		.text("Health score over time");
-        */
-
         d3.json("neighborhoods.json").then(function(json) {
             d3.json("neighborhood_average_scores.json").then(function(data) {
                 for (var i in json.features) {
@@ -127,7 +115,7 @@
                     ; 
 
                 svg
-                    .selectAll("text")
+                    .selectAll(".label")
                     .data(json.features)
                     .enter()
                     .append("text")
@@ -135,7 +123,10 @@
                     .attr("x", function(d) { return path.centroid(d)[0]; })
                     .attr("y", function(d) { return path.centroid(d)[1]; })
                     .text(function(d) {
-                        return formatDecimals(d.properties.average);
+                        var avg = formatDecimals(d.properties.average);
+                        var nhood = d.properties.nhood;
+                        console.log(nhood, avg);
+                        return avg;
                     })
                     ;
 
