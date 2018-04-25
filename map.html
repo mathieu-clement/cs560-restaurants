@@ -118,8 +118,9 @@
 
       function resetMarkers(dataset, filters) {
            window.markerClusterer.clearMarkers();
-           window.markerClusterer.addMarkers(getMarkers(dataset, 
-                      andFilters(filters)));
+           var markers = getMarkers(dataset, andFilters(filters));
+           window.markerClusterer.addMarkers(markers);
+           $('#num-results').html("" + markers.length + " matches.");
       }
 
 
@@ -360,6 +361,7 @@
         <p>Category: <select id="cuisine"></select></p>
         <p>Score range: <select id="min-score"></select> to <select id="max-score"></select></p>
         <p>Rating range: <select id="min-rating"></select> to <select id="max-rating"></select></p>
+        <div id="num-results"></div>
     </div>
   </body>
 </html>
