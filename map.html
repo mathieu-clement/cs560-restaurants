@@ -32,17 +32,16 @@
            color: darkgray;
        }
     </style>
-  </head>
-  <body>
-    <h3>Restaurants</h3>
-    <div id="map"></div>
-    <div id="filters">
-        <h1 id="loading">Loading...</h1>
-        <p>Price range: <select id="price-range"></select></p>
-        <p>Category: <select id="cuisine"></select></p>
-        <p>Score range: <select id="min-score"></select> to <select id="max-score"></select></p>
-        <p>Rating range: <select id="min-rating"></select> to <select id="max-rating"></select></p>
-    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="markerclusterer.js"
+       ></script>
+    <!-- Customize map using https://mapstyle.withgoogle.com/ -->
+    <script 
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIvScuubyyrqxWj81j6UUsqO_1LoqnH3A">
+    </script>
     <script>
       window.filters = [];
       window.filtersById = {};
@@ -163,19 +162,35 @@
           }
       }
 
-     var lessThan71 = "pinpoint-red.png";
-     var lessThan86 = "pinpoint-orange.png";
-     var lessThan90 = "pinpoint-cream.png";
-     var lessThan98 = "pinpoint-lightgreen.png";
-     var moreThan98 = "pinpoint-darkgreen.png";
+    var lessThan71 = "pinpoint-red.png";
+    var lessThan86 = "pinpoint-orange.png";
+    var lessThan90 = "pinpoint-cream.png";
+    var lessThan98 = "pinpoint-lightgreen.png";
+    var moreThan98 = "pinpoint-darkgreen.png";
 
-     function getIcon(score) {
-         if (score < 71) return lessThan71;
-         if (score < 86) return lessThan86;
-         if (score < 90) return lessThan90;
-         if (score < 98) return lessThan98;
-         return moreThan98;
-     }
+    class RestaurantIcon extends google.maps.MarkerImage {
+
+        constructor(score) {
+            super();
+            this.score = score;
+            this.labelOrigin = new google.maps.Point(score == 100 ? 15 : 16, 16);
+            this.url = this.getIconUrl(score);
+        }
+     
+        getIconUrl(score) {
+            if (score < 71) return lessThan71;
+            if (score < 86) return lessThan86;
+            if (score < 90) return lessThan90;
+            if (score < 98) return lessThan98;
+            return moreThan98;
+        }
+
+    }
+
+
+      function getIcon(score) {
+          return new RestaurantIcon(score);
+      }
 
 
       function getMarkers(dataset, filter) {
@@ -319,16 +334,19 @@
             window.markerClusterer = markerClusterer;
         });
       }
+
+    $().ready(function() { initMap(); });
     </script>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"></script>
-    <script src="markerclusterer.js"
-       ></script>
-    <!-- Customize map using https://mapstyle.withgoogle.com/ -->
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIvScuubyyrqxWj81j6UUsqO_1LoqnH3A&callback=initMap">
-    </script>
+  </head>
+  <body>
+    <h3>Restaurants</h3>
+    <div id="map"></div>
+    <div id="filters">
+        <h1 id="loading">Loading...</h1>
+        <p>Price range: <select id="price-range"></select></p>
+        <p>Category: <select id="cuisine"></select></p>
+        <p>Score range: <select id="min-score"></select> to <select id="max-score"></select></p>
+        <p>Rating range: <select id="min-rating"></select> to <select id="max-rating"></select></p>
+    </div>
   </body>
 </html>
