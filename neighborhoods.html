@@ -123,10 +123,7 @@
                     .attr("x", function(d) { return path.centroid(d)[0]; })
                     .attr("y", function(d) { return path.centroid(d)[1]; })
                     .text(function(d) {
-                        var avg = formatDecimals(d.properties.average);
-                        var nhood = d.properties.nhood;
-                        console.log(nhood, avg);
-                        return avg;
+                        return formatDecimals(d.properties.average);
                     })
                     ;
 
