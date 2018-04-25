@@ -38,16 +38,6 @@
 		.append("g")
 		.attr("transform", "translate(" + 80 + "," + 50 +")"); // margins
 
-		svg.append("text")
-		.attr("x", w/2)
-		.attr("y", -30)
-		.attr("dy", ".35em")
-		.attr("font-size", 18)
-		.attr("font-weight", "bold")
-		.attr("fill", "black")
-		.style("text-anchor", "middle")
-		.text("Health score over time");
-
         function getParameterByName(name, url) {
             // https://stackoverflow.com/a/901144/753136
             if (!url) url = window.location.href;
@@ -73,6 +63,17 @@
             }
 
             var dates = inspections.map(insp => insp.date);
+
+            svg.append("text")
+            .attr("x", w/2)
+            .attr("y", -30)
+            .attr("dy", ".35em")
+            .attr("font-size", 18)
+            .attr("font-weight", "bold")
+            .attr("fill", "black")
+            .style("text-anchor", "middle")
+            .text(restaurant.name);
+            window.document.title = restaurant.name;
 
             const xScale = d3.scaleTime()
                            .domain(d3.extent(dates))
