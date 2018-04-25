@@ -31,6 +31,12 @@
        .low-risk-violation {
            color: darkgray;
        }
+
+       .lineChartLink {
+           color: blue;
+           text-decoration: underline;
+           cursor: pointer;
+       }
     </style>
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -45,6 +51,13 @@
     <script>
       window.filters = [];
       window.filtersById = {};
+
+      function showLineChart(businessId) {
+          newwindow = window.open("health-score-over-time.html?businessId=" + businessId,
+                                  "h"+businessId, 'height=420,width=520');
+          if (window.focus) { newwindow.focus(); }
+          return false;
+      }
 
       function arrayJoin(parts, sep){
           var separator = sep || ', ';
@@ -206,7 +219,7 @@
                         '<p>' + arrayJoin(data.location.display_address) + '</p>' +
                         '<p>' + arrayJoin(data.categories.map(c => c.title)) + '</p>' +
                         '<p>Rating: ' + data.rating + ' (' + data.review_count + ' review' + (data.review_count > 1 ? 's' : '')  + ' on <a href="' + data.url + '">Yelp</a>) </p>' +
-                        '<h3>Inspections ' + (data.inspections.length > 1 ? '<a href="health-score-over-time.html?businessId=' + business_id +'">(graph)</a>' : '') + '</h3>' +
+                        '<h3>Inspections ' + (data.inspections.length > 1 ? '<span class="lineChartLink" onclick="showLineChart(' + business_id + ')">(graph)</span>' : '') + '</h3>' +
                             '<div id="inspectionContent"' + 
                             '<ul>';
                 $.each(data.inspections, function(i, inspection) {
