@@ -2,7 +2,6 @@
 
 import json
 
-from scores import Restaurant, Inspection, Violation
 from yelp import YelpClient
 
 class YelpDataWriter:
