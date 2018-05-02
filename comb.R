@@ -21,6 +21,20 @@ minuslogl.gam.score <- function(theta, kappa) {
   return(nLL)
 }
 
+minuslogl.wei.rate <- function(yita, beta) {
+  y <- suppressWarnings(dweibull(chinese.rate, shape = yita, scale = beta))
+  # return -sum ln(y)
+  nLL <- -sum(log(y))
+  return(nLL)
+}
+
+minuslogl.wei.score <- function(yita, beta) {
+  y <- suppressWarnings(dweibull(chinese.score, shape = yita, scale = beta))
+  # return -sum ln(y)
+  nLL <- -sum(log(y))
+  return(nLL)
+}
+
 c <- chinese.score
 n <- length(c)
 kappa.mme <- (n*mean(c)^2) / ((n-1)*var(c))
@@ -29,8 +43,16 @@ fit.gam.score <- mle(minuslogl.gam.score, start = list(theta = theta.mme, kappa 
 summary(fit.gam.score)
 theta.mle <- fit.gam.score@coef[1]
 kappa.mle <- fit.gam.score@coef[2]
+
+
+fit.wei.score <- mle(minuslogl.wei.score, start = list(yita = 1, beta = 1))
+summary(fit.wei.score)
+yita.mle <- fit.wei.score@coef[1]
+beta.mle <- fit.wei.score@coef[2]
 hist(chinese.score,freq=FALSE, main = "chinese" , xlab = "score")
+curve(dweibull(x,shape=yita.mle,scale =beta.mle),from=0,to=100,col="blue",lwd=2,add=TRUE)
 curve(dgamma(x,shape=kappa.mle,scale = theta.mle),from=0,to=100,col="red",lwd=2,add=TRUE)
+legend("topright",legend=c("gamma","weibull"),col=c("red","blue"),lwd=2)
 
 c <- chinese.rate
 n <- length(c)
@@ -40,8 +62,15 @@ fit.gam.rate <- mle(minuslogl.gam.rate, start = list(theta = theta.mme, kappa = 
 summary(fit.gam.score)
 theta.mle <- fit.gam.rate@coef[1]
 kappa.mle <- fit.gam.rate@coef[2]
+
+fit.wei.rate <- mle(minuslogl.wei.rate, start = list(yita = 1, beta = 1))
+summary(fit.wei.rate)
+yita.mle <- fit.wei.rate@coef[1]
+beta.mle <- fit.wei.rate@coef[2]
 hist(chinese.rate,freq=FALSE, main = "chinese" , xlab = "rate")
 curve(dgamma(x,shape=kappa.mle,scale = theta.mle),from=1,to=5,col="red",lwd=2,add=TRUE)
+curve(dweibull(x,shape=yita.mle,scale =beta.mle),from=1,to=5,col="blue",lwd=2,add=TRUE)
+legend("topright",legend=c("gamma","weibull"),col=c("red","blue"),lwd=2)
 
 
 
@@ -305,22 +334,34 @@ boxplot(comb$score ~ comb$title)
 #   return(nLL)
 # }
 
-minuslogl.gam <- function(theta, kappa) {
-  y <- dgamma(chinese.score, shape = kappa, scale = theta)
-  # return -sum ln(y)
-  nLL <- -sum(log(y))
-  return(nLL)
-}
-c <- chinese.score
-n <- length(c)
-kappa.mme <- (n*mean(c)^2) / ((n-1)*var(c))
-theta.mme <- ((n-1)*var(c)) / (n*mean(c))
-fit.gam <- mle(minuslogl.gam, start = list(theta = theta.mme, kappa = kappa.mme))
-summary(fit.gam)
-theta.mle <- fit.gam@coef[1]
-kappa.mle <- fit.gam@coef[2]
-print(theta.mle)
-hist(chinese.score,freq=FALSE, main = "chinese" , xlab = "score")
-curve(dgamma(x,shape=kappa.mle,scale = theta.mle),from=0,to=100,col="red",lwd=2,add=TRUE)
-
-
+# minuslogl.gam <- function(theta, kappa) {
+#   y <- dgamma(chinese.score, shape = kappa, scale = theta)
+#   # return -sum ln(y)
+#   nLL <- -sum(log(y))
+#   return(nLL)
+# }
+# c <- chinese.score
+# n <- length(c)
+# kappa.mme <- (n*mean(c)^2) / ((n-1)*var(c))
+# theta.mme <- ((n-1)*var(c)) / (n*mean(c))
+# fit.gam <- mle(minuslogl.gam, start = list(theta = theta.mme, kappa = kappa.mme))
+# summary(fit.gam)
+# theta.mle <- fit.gam@coef[1]
+# kappa.mle <- fit.gam@coef[2]
+# print(theta.mle)
+# hist(chinese.score,freq=FALSE, main = "chinese" , xlab = "score")
+# curve(dgamma(x,shape=kappa.mle,scale = theta.mle),from=0,to=100,col="red",lwd=2,add=TRUE)
+# 
+# minuslogl.wei <- function(yita, beta) {
+# y <- suppressWarnings(dweibull(sal, shape = yita, scale = beta))
+# # return -sum ln(y)
+# nLL <- -sum(log(y))
+# return(nLL)
+# }
+# 
+# fit.wei <- mle(minuslogl.wei, start = list(yita = 1, beta = 1))
+# summary(fit.wei)
+# yita.mle <- fit.wei@coef[1]
+# beta.mle <- fit.wei@coef[2]
+# curve(dweibull(x,shape=yita.mle,scale =beta.mle),from=0,to=250,col="blue",lwd=2,add=TRUE)
+# legend("topright",legend=c("gamma","weibull"),col=c("red","blue"),lwd=2)
