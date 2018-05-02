@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width">
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <title>scatter</title>
+    <a href='#' 
+        onclick='downloadCSV({ filename: "stock-data.csv" });'>
+        Download CSV</a>
     <style>
       body {
         margin: 0px;
@@ -21,6 +24,8 @@
       var margin = { left: 100, right: 250, top: 20, bottom: 120 };
       var innerWidth = width - margin.left - margin.right;
       var innerHeight = height - margin.top - margin.bottom;
+
+      var colorMap = {"american": ,"chinese":};
       
       var dataset = [];
       d3.json("combined.json", function(error, data) {
@@ -29,7 +34,7 @@
         for (var key in data){
             bool = 0;
             var id = data[key].id;
-            console.log(id);
+            // console.log(id);
             var rating = data[key].rating;
             var score =  data[key].inspections[0].score;
             var tit;
@@ -74,6 +79,12 @@
             dataset.push({id:id, rate:parseFloat(rating), score:parseFloat(score), title:tit});
         }
         console.log(dataset);
+
+        var titleLabels = d3.selectAll("title")
+                        .data(dataset)
+                    .selectAll("text");
+
+        
 
         var xScale = d3.scaleLinear()
                      .range([0,innerWidth])
@@ -128,7 +139,7 @@
       
       var yAxisG = g.append('g');
       
- 		g.selectAll('circle')
+ 		var circles = g.selectAll('circle')
         .data(dataset)
       	.enter().append('svg:circle')
             .attr('cx', function (d) { return xScale(d.score); } )
@@ -148,6 +159,32 @@
                       if(d.title=="thai"){return "darkgreen";}
                       if(d.title=="medi"){return "brown";}
                   });
+      var leg = svg.append("g")
+                    .attr("class","leg");
+
+        // leg.selectAll('rect')
+
+        var keys = Object.keys(map);
+
+        keys.forEach(function(k,i){
+            leg.append('rect')
+            .attr
+            .attr("data",t)
+            .on("mouseover",function(d){
+                var me = select(this);
+                var title = me.attr("data");
+                var circles = g.selectAll('circle')
+                                .filter(function(d){
+                                    return d.title != title;
+                                })
+                                .attr('opacity',0.0);
+            })
+        });
+
+        keys.forEach(function(k,i){
+            leg.append('text')
+            .attr
+        });
 
         xAxisG.attr("class","axis").call(xAxis);
         yAxisG.attr("class","axis").call(yAxis);
@@ -162,7 +199,58 @@
         // });
       });
       
-      
+      function convertArrayOfObjectsToCSV(args) {  
+        var result, ctr, keys, columnDelimiter, lineDelimiter, data
+
+        // data = args.data || null;
+        // if (data == null || !data.length) {
+        //     return null;
+        // }
+
+        columnDelimiter = args.columnDelimiter || ',';
+        lineDelimiter = args.lineDelimiter || '\n';
+
+        keys = Object.keys(dataset[0]);
+        console.log(keys);
+
+        result = '';
+        result += keys.join(columnDelimiter);
+        result += lineDelimiter;
+
+        dataset.forEach(function(item) {
+            ctr = 0;
+            keys.forEach(function(key) {
+                if (ctr > 0) result += columnDelimiter;
+
+                result += item[key];
+                ctr++;
+            });
+            result += lineDelimiter;
+        });
+
+        return result;
+    }
+
+    function downloadCSV(args) {  
+        var data, filename, link;
+        var csv = convertArrayOfObjectsToCSV({
+            data: dataset
+        });
+        if (csv == null) return;
+
+        filename = args.filename || 'export.csv';
+
+        if (!csv.match(/^data:text\/csv/i)) {
+            csv = 'data:text/csv;charset=utf-8,' + csv;
+        }
+        data = encodeURI(csv);
+
+        link = document.createElement('a');
+        link.setAttribute('href', data);
+        link.setAttribute('download', filename);
+        link.click();
+    }
+
     </script>
   </body>
 </html>
