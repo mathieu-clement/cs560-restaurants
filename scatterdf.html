@@ -6,7 +6,7 @@
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <title>scatter</title>
     <a href='#' 
-        onclick='downloadCSV({ filename: "stock-data.csv" });'>
+        onclick='downloadCSV({ filename: "comb.csv" });'>
         Download CSV</a>
     <style>
       body {
@@ -25,7 +25,8 @@
       var innerWidth = width - margin.left - margin.right;
       var innerHeight = height - margin.top - margin.bottom;
 
-      var colorMap = {"american": ,"chinese":};
+//later
+    //   var colorMap = {"american": ,"chinese":};
       
       var dataset = [];
       d3.json("combined.json", function(error, data) {
@@ -37,6 +38,9 @@
             // console.log(id);
             var rating = data[key].rating;
             var score =  data[key].inspections[0].score;
+            var neighborhood =  data[key].neighborhood;
+            var price = data[key].price;
+            var zip = data[key].search.zip_code;
             var tit;
             // var data[key].categories[0].title);
             for (var i in data[key].categories){
@@ -76,7 +80,7 @@
                 }
             }
 
-            dataset.push({id:id, rate:parseFloat(rating), score:parseFloat(score), title:tit});
+            dataset.push({id:id, rate:parseFloat(rating), score:parseFloat(score), title:tit, neighborhood:neighborhood , price:price, zip:zip});
         }
         console.log(dataset);
 
@@ -159,32 +163,34 @@
                       if(d.title=="thai"){return "darkgreen";}
                       if(d.title=="medi"){return "brown";}
                   });
-      var leg = svg.append("g")
-                    .attr("class","leg");
+
+
+        // var leg = svg.append("g")
+        //             .attr("class","leg");
 
         // leg.selectAll('rect')
 
-        var keys = Object.keys(map);
+        // var keys = Object.keys(map);
 
-        keys.forEach(function(k,i){
-            leg.append('rect')
-            .attr
-            .attr("data",t)
-            .on("mouseover",function(d){
-                var me = select(this);
-                var title = me.attr("data");
-                var circles = g.selectAll('circle')
-                                .filter(function(d){
-                                    return d.title != title;
-                                })
-                                .attr('opacity',0.0);
-            })
-        });
+        // keys.forEach(function(k,i){
+        //     leg.append('rect')
+        //     .attr
+        //     .attr("data",t)
+        //     .on("mouseover",function(d){
+        //         var me = select(this);
+        //         var title = me.attr("data");
+        //         var circles = g.selectAll('circle')
+        //                         .filter(function(d){
+        //                             return d.title != title;
+        //                         })
+        //                         .attr('opacity',0.0);
+        //     })
+        // });
 
-        keys.forEach(function(k,i){
-            leg.append('text')
-            .attr
-        });
+        // keys.forEach(function(k,i){
+        //     leg.append('text')
+        //     .attr
+        // });
 
         xAxisG.attr("class","axis").call(xAxis);
         yAxisG.attr("class","axis").call(yAxis);
