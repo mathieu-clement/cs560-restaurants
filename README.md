@@ -6,15 +6,19 @@ Mathieu Clément, Byron Han
 
 # [Start here!](https://tiktaktok.github.io/cs560-restaurants/)
 
+Please note: the source code for this website is in the `gh-pages` Git branch. 
+
 ## Data sources
 
-Restaurant Health Scores: Originally from Kaggle, but updated version can be found on [DataSF](https://data.sfgov.org/Health-and-Social-Services/Restaurant-Scores-LIVES-Standard/pyih-qa8i)
+Restaurant Health Scores: Originally from Kaggle, but an updated version can be found on [DataSF](https://data.sfgov.org/Health-and-Social-Services/Restaurant-Scores-LIVES-Standard/pyih-qa8i)
 
 [Yelp Developer API](https://www.yelp.com/developers/documentation/v3/business_search)
 
 After updating to a new version of `restaurant_scores.csv`, `combined.json` can be regenerated using a sequence of `fetch.py`, `combine.py`, and optionally `merge_combined.py` and `show_highest_id.py` when downloading data in increments.
 
 `neighborhood_average_scores.json` can be generated using `neighborhood_average_scores.py`.
+
+`add_neighborhoods.py` can be used to add a "neighborhood" attribute to each restaurant from `combined.json`.
 
 ## Build
 
