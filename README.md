@@ -4,7 +4,7 @@ CS360/560 Data Visualization, University of San Francisco, April-May 2018
 
 Mathieu Clément, Byron Han
 
-# [Start here!](map.html)
+# [Start here!](https://tiktaktok.github.io/cs560-restaurants/)
 
 ## Data sources
 
