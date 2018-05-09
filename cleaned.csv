@@ -1,0 +1,3226 @@
+id,rate,score,title,neighborhood,price
+sfAIpzEC8ywpy36YhzikmQ,4.5,98,undefined,Russian Hill,$
+hNze7c3mWvEnAXYT_geV9Q,4,85,undefined,Bernal Heights,$
+MXKWFQHoC0SXy9UI-Djn7g,4,94,american,Inner Sunset,$
+KJAFlcgXnGTww96Z0zDFdA,3,87,american,Japantown,undefined
+HhAmBwTYq_MXbOLzypRQjQ,3.5,98,american,Noe Valley,$
+gBRjRvIfA4fIo6pNebTjuA,4,70,medi,Financial District/South Beach,$
+oic-xcRpi-yXG3KZ4go0mg,3.5,94,medi,North Beach,$
+hmGLNK_bVJ5t_NWX3T_fcw,3,96,medi,Sunset/Parkside,$
+XmJvy41_tJLOS8WCAVQB5g,4,88,american,Mission,$
+bJNVd1HqilRD3F9RO3t20g,4,82,american,Potrero Hill,$
+v5zt16ojbtRIU0I7VzqqVA,4,83,italian,Bernal Heights,$$
+qkHlhvv6DrCkvY54ogcPiA,4.5,94,italian,North Beach,$
+O1baF6z-vMnyaULoGFKT6g,3,92,italian,Nob Hill,$
+iIY6k6NnEeUmdmqkn9zJJw,3.5,86,italian,Nob Hill,$$
+mNFQuOA_hhrqmJeHg-AzKA,4,94,french,Nob Hill,$$$
+DeGdhZKXoTnyyFc8GC2BHg,3,96,american,Financial District/South Beach,$$$
+IRD_9JUjR-06zztisuTdAA,4,90,japanese,Financial District/South Beach,$$
+6Ki5PvDCebTkCRkGEXD1qw,3,90,japanese,North Beach,$$
+SOZuFpNqQTD5XprPD5XeVw,4,86,japanese,Financial District/South Beach,$$
+5-B4VF38j-cba9rFtzcmFw,3.5,81,italian,Mission,$
+4opwrzUv_FnwFBTkBFG-zQ,3.5,92,italian,Haight Ashbury,$
+po_SEkDkaDLXkBNY4H6Qaw,3.5,79,italian,Haight Ashbury,$
+mxklgb9anKRXLhHMWN2qcw,4,90,italian,Mission,$$
+IxGgjF0US9_-g13XB1BsKg,3.5,84,italian,Bayview Hunters Point,$$
+ApFJcURXYEmqJHiavMjUUw,2.5,94,italian,Bayview Hunters Point,$
+fZ3sKWbz6REMdadtQ0ZydQ,3,88,italian,Potrero Hill,$$
+IoNI0QWbinqdphW6EnATog,4,92,italian,Bernal Heights,$
+F9XZP_O1niMoRUgkj3AUGA,4,88,american,Financial District/South Beach,$$
+U53_v_AVOdxJBuH1uLQKjg,4,90,american,Chinatown,$$
+rVEilABR3QhuYL1qc5R9gA,3.5,88,chinese,Sunset/Parkside,$
+ydRU8jEKxt0X5PQdP4VdRQ,4,82,chinese,Outer Richmond,$$
+PhRj3okiYEWNLnlCihwOHA,4,86,chinese,Inner Richmond,$
+YH4PSO3BTLvI5PaDGJym6Q,3.5,92,chinese,Outer Mission,$
+GNc57dU-_JHP-GaHMktqiw,3.5,100,latin,Marina,$
+pLZFRsn8HjVzcITHqa8Yfw,3.5,78,latin,Japantown,$$
+Re5RjXCeNHf6yruPvArDdA,3,83,chinese,Marina,$
+RHdu4310HUrJbCCw78dmsQ,3.5,98,chinese,Financial District/South Beach,$
+Pwrgh3jVDJyY_6aLQ_5C-g,4,100,chinese,Marina,$
+TnknJjVTPTOj3yp9-KEFSA,3,92,chinese,Nob Hill,$
+mf8cgiuuHtO8aDQf1QUXWg,4,98,italian,Marina,$$
+fb49tiO6Ax-D3E-mKJrH_w,3.5,83,indian,Tenderloin,$
+j1yOqKczaI4czwycWDcspw,4,98,french,Marina,$$
+j8Ih_-L9adYlmkh1nC-GCA,3,92,japanese,Nob Hill,$$
+Nsi7vy0kCVwlmvn4fgAIOA,4,96,thai,Marina,$$
+f134JY-da1-ciO-jND1wfA,3,86,thai,Pacific Heights,$
+Bsh2ZpvfraCwDXEKuqP9KQ,4,96,american,Tenderloin,$
+z6DlLVZXBmLz4wKWLQBAGA,4,98,american,Marina,$
+I2QjNedfsZe3rKssrSyoIg,3.5,77,american,Tenderloin,$
+f6G4fFuwx_hQOMxvZPmqjw,4,94,japanese,Western Addition,$$
+T1DIDe7MdSdPOpPT_VJzpw,3.5,81,japanese,Pacific Heights,$$
+L3_71hwGHkr38nZ2daksuA,4.5,81,japanese,Western Addition,$
+dl0jLh1yiPIwe2dtknqmKQ,3.5,90,latin,Inner Sunset,$
+#NAME?,4,77,chinese,Portola,$
+TYcPZVwTeLDXL27FTu3nhg,3,84,latin,Bernal Heights,$
+qZR0MwhFxhvWcFYNtvcO6g,3.5,96,latin,Financial District/South Beach,$
+g60n9gcnr7cco5dh-j2RbA,4,76,chinese,Excelsior,$
+pHOX2i9yH9ezdhbxevsF7Q,3.5,88,chinese,South of Market,$$
+_4xgvSsDuGgsyfSOVrneag,3,78,chinese,Financial District/South Beach,$
+Iq0137dlAydEXdKJorWJxw,4,78,american,North Beach,$
+p4noc5fB5D3l54uik05XNA,3.5,94,italian,Chinatown,$$
+xLBkrh4Aie9iPCobGfFzog,4.5,98,italian,Financial District/South Beach,$
+eIp-wW02p_jcrZ2atZGDRA,3.5,87,italian,North Beach,$$
+UjeOgcv831QTChTP04-Uag,4,92,italian,North Beach,$$
+mj025BcDs8nsvOZvb8xvbA,4,88,italian,Chinatown,$
+tzQaJ4-X7wZocpYBKKCRhQ,3.5,87,italian,North Beach,$$$
+oyPIyq3JUzvyzE-csu75Ug,3.5,84,italian,Chinatown,$
+ZiF9L8JML7kwfOi989OaTQ,3.5,94,american,Chinatown,$$
+JBo-D2iAbMWwJqUnkGfTkw,3.5,96,italian,Chinatown,$$
+zWYyO-Y5eO1C8A2kW1ZhVQ,3.5,88,chinese,Chinatown,$$
+DxgBEcbyikLXxBKJY-dJiw,2.5,98,chinese,North Beach,$$$
+U768gBDU8XM3_cr-yJxwvg,4,88,american,Chinatown,$
+kgKMZc97EdDaq77dtTqqNQ,4,87,italian,Chinatown,$$
+uzqUJiCHUqV2c3PnvSsqeQ,4,90,italian,Chinatown,$
+66khyY7kxNKiW6x7anZj9g,4.5,92,italian,Chinatown,$$
+Ws6FGlrk0yxBT7GFpik57g,4,87,italian,North Beach,$$
+iFZuhhzJCfq5qQBOV5LWKw,4,80,american,North Beach,$$
+OpBTLNaGnGcn8DRsLcEfQQ,4,96,american,North Beach,$$
+Ibz2bWXEU2kLjVYBtB4BPg,4,91,italian,North Beach,$
+MWaeG9XhJdFzbcrSrpF6mQ,4,93,italian,North Beach,$$
+ZoZjbOYR-apY8XvommlNUA,4.5,92,italian,North Beach,$$$
+I8q7lH2GAMQmQydZaEU1DA,4,75,chinese,Chinatown,$
+BB0YnEFVeYsHwZ7eTzrjeA,3,92,italian,Financial District/South Beach,$$
+AOCt9skWfZdpYkatiIfU3Q,2.5,90,italian,Excelsior,$
+IXgziwhZ-ClzW6mGLuBpsw,4,86,viet,West of Twin Peaks,$
+B0lqvrhX9BNPMggTFmFj8g,3.5,87,viet,Sunset/Parkside,$$
+CJvPLe-pAMTxg0De3ymAAQ,3.5,88,viet,Sunset/Parkside,$
+Y0PoMMWomp9DpG8cchUdcQ,5,91,viet,Financial District/South Beach,undefined
+rgQdRfTrtK--HIoiVjkmSQ,3.5,75,chinese,Inner Richmond,$
+cYRTXu7jknjwW7w0mEUpmA,3.5,90,chinese,Inner Richmond,$
+pYk2UZ_AUGWO4s8YFepRHQ,4,88,thai,Sunset/Parkside,$$
+9-CeNEsmzKh8zrLNU0Ujbw,4,90,thai,Mission,$
+p8VC6-anSWeT5XLtDO7u4Q,3.5,80,thai,Inner Richmond,$
+bHQzZz8E6PMs5WWXoaVWlQ,4,74,thai,Inner Richmond,$
+cAaJQI_clNuEl5PRmrabGA,4,76,latin,Outer Richmond,$
+cV3nOiQbq0o9plia9OSXVQ,3.5,81,viet,Sunset/Parkside,$
+LLESEaHAcPNreW9TfR4d9A,4,76,viet,Inner Richmond,$$
+8Jos9nqlts6DX6o2zKDAzA,4,98,latin,Mission,$$
+g0Ul4hv8EhjZTwo70Ze5Bg,3.5,100,viet,Financial District/South Beach,$
+#NAME?,3.5,94,latin,Bernal Heights,$
+#NAME?,4,88,chinese,West of Twin Peaks,$$
+uCeCkdHHeaJnU4hGAe2sJQ,3.5,88,latin,Sunset/Parkside,$
+syIHvIqM4ON4FkK_lHcvGA,3.5,85,chinese,Sunset/Parkside,$
+8ed5eduh4zdLGn_y4cCLWA,3.5,89,japanese,Inner Sunset,$
+xusFBl0gw2KBsLFV4Rkjdw,4,86,chinese,Outer Mission,$
+sI1-UxoWaZz3CRS8i_h-jQ,3.5,90,chinese,Oceanview/Merced/Ingleside,$
+jlDakFozhgaiuYdlnqGVvQ,4,88,chinese,Pacific Heights,undefined
+V6JS0EaR0Gq_SSDllaOqKw,4,87,chinese,Western Addition,$
+CS6NaMbTlzD-9yc3DBBrKw,4,90,latin,Pacific Heights,$
+eI0DpD2Xx8hFlk7eAdFCqQ,4,94,latin,Nob Hill,$$
+FTir7qcSlmO3il2rSi0urQ,4,94,latin,Japantown,$
+0PLv5h5eRTG6fuWLpUmf4A,4,89,latin,Marina,$$
+bgoSfVaZFXDthHLbWxyeQw,4,86,latin,Marina,$
+c1uPQc6ylqB4Pj-KYB8cpw,4,92,latin,Marina,$
+euH1rpE4ykW88YgSsrKQqw,3.5,96,latin,Tenderloin,$
+lw38MxB5AReAzXQVRrOfXg,3.5,66,viet,Tenderloin,$
+r-NSN2mrefVCxqkquOWgaA,4.5,87,viet,Tenderloin,$
+zP4uciQqdVGZVf72HttgJA,3,72,chinese,Pacific Heights,$
+QHeiQgLRI1aktqigtx3Muw,3.5,94,italian,West of Twin Peaks,$$
+pvD64-V2OjBUFlFs4BQ9xA,4,98,american,South of Market,$$
+oi-jTQzuKRG_7q3u70LHDg,3.5,92,japanese,Potrero Hill,$$
+BqYpq6v923t4Be5Hwy0zfA,3.5,96,japanese,Mission Bay,undefined
+eG5VcB6XuSp-C1mAggD_Cg,4,86,french,Financial District/South Beach,$$$
+DcYKlWYozXovDDGY1VZk0Q,2.5,96,french,North Beach,$$
+TkI_23ROVAsSDLg6ovzdYw,3.5,94,japanese,Nob Hill,$$
+xij-evVK6YrU5b1_TKAqsw,3.5,98,japanese,North Beach,$$
+Xnm-vHeO_T3C7rfVyRMXig,4,94,japanese,Financial District/South Beach,$
+KJ5SsBC-OmwFT1iCMh-Rsg,4,85,latin,Bernal Heights,$
+NLc5sKgqHcH95qMoCGikJg,4,71,latin,Excelsior,$
+sasR19uB_5lsk5MT3wgQMQ,4,90,latin,Outer Richmond,$$
+2EGucgCJbPhkHjPTnZCzrg,4,85,latin,Excelsior,$
+5q4iWQKGIcFl6KfyWEI7-A,4,85,latin,Excelsior,$
+0Yw-OWhZAU8BI852cx21ug,4,86,chinese,Chinatown,$
+FmGF1B-Rpsjq1f5b56qMwg,4.5,87,chinese,Chinatown,$$
+JJnkXwf96vh1Uu7XZWZZAg,4,98,french,North Beach,$$$
+PTFxtXS47ZVRCdZIrEWvGw,4.5,92,italian,North Beach,$
+sQaHwhP1s9wVOencbEGrkQ,4,83,chinese,Chinatown,$
+YqvoyaNvtoC8N5dA8pD2JA,4,92,italian,Mission,$$$
+7qSq-m4LRu3PAfroD-LKJg,3.5,85,latin,Nob Hill,$
+Fo5Wscbb9rwcLuaO-sc2zQ,4,88,chinese,Chinatown,$
+C0whbbQhUMBv8X-Mmtqrcg,3.5,92,chinese,Chinatown,$$
+BNclpAIcHH8v0zC2w5jdXQ,4,96,chinese,Financial District/South Beach,$
+mk2WW5bA-0WfQP1Uo17_Sg,3.5,87,viet,Financial District/South Beach,$
+AQviX2W0XXJqYtc73KaNxQ,4,94,viet,Castro/Upper Market,$
+UFX2mEq82sF8kpuSUkAZ3g,3.5,91,viet,Financial District/South Beach,$$
+TEvPUNNIRNdiLLKYcKTFVg,4,96,viet,Financial District/South Beach,$
+tHJQH4je6TrwJxotjHtP_g,4,94,viet,Financial District/South Beach,$
+EKjWDdbDE1qCk8HECVxD8A,5,96,viet,Financial District/South Beach,undefined
+O-UenHinrjyX1poNa4Cafw,3.5,98,viet,Mission,$$
+I2B05NZUgigDU24PtTvlwQ,4,92,chinese,Bayview Hunters Point,$
+Nvc1XZVJZhp2CHbh_hTLUw,3.5,94,chinese,Outer Richmond,$
+mzLa9Ye79zLiKxvExCngtw,3,96,chinese,Sunset/Parkside,$
+sBMuIHnFUmtBs86iV4ZNeQ,4,88,chinese,Sunset/Parkside,$
+7SRJWnPVRxwqke3d82qefw,4,96,chinese,Sunset/Parkside,$
+uauHhqLPVP0ug-_qCzzT9Q,3.5,87,thai,Sunset/Parkside,$$
+LFxokisnLXNgVKpM_fJZqA,3.5,67,chinese,Sunset/Parkside,$
+NGPpY1rZSuWZ7Sqdi43mCQ,4,74,chinese,Mission,$
+ZPVCTXm4olsIEk4rWwAIWQ,3.5,85,chinese,Mission,$
+QAfE9I-fVTF_zQtTjILsMQ,4,92,chinese,Mission,$$
+27jQXgyYIFvVSXaiF47YrQ,3.5,84,latin,Mission,$
+Syaydy3OIMsziI1spwAanA,4,85,italian,Mission,$$
+gKaBgL0FS7JBjBAKU69foA,4,87,italian,Mission,$
+a65f7jC8nGBZfmW31EtHbg,4,90,latin,Mission,$
+IHcOOCDt_NOENttBE7lWSg,3,87,thai,Haight Ashbury,$
+ZzlQeq0FH1m8AXoHF3qnpA,3.5,85,italian,Hayes Valley,$$
+HSLPjCmw6r_LrzmrNVScsw,4.5,90,italian,Hayes Valley,undefined
+oY2Jvi31y-7qMctAHR8Wnw,4,92,italian,Hayes Valley,$
+b1zMlSbFOk5MfxJ_HiB4SA,4.5,87,italian,Lone Mountain/USF,$
+eOCVoXsOEnbr9c89RD0UEQ,4,84,italian,Haight Ashbury,$$
+DlLsw9bJMJ-YdnrUp2G7mw,4,81,american,Mission,$$
+uAVg1yq5kb3Ia2Ve5_K5HQ,4.5,87,american,Mission,$
+QjnmVuqVArA7d-syiUCiUw,4,88,american,Mission,$
+F7cpHf8ovSaZhQSTRQAVkw,4,74,italian,Chinatown,$
+7tGDE-dZMXCraDNQYRwKow,2.5,90,italian,Tenderloin,$
+GnReX_ZUNEL39c7AiWhGjA,3.5,89,american,Castro/Upper Market,$$
+LOnMdHbYlpkRy0T2lf28fw,3.5,96,american,Presidio Heights,$
+9MuV8P0WwlWPidYY2eC8Vg,4,69,chinese,Tenderloin,$
+VNwBoUcgy5FbiurWXgtDHg,3,88,chinese,Nob Hill,$
+Cj9Orl6DQnOR75qT-l3jCA,4,77,viet,Russian Hill,$$
+L1CQQFWSP9AbGtcGIyfptg,2.5,94,viet,Lakeshore,undefined
+uZybAaC88oLnqR1FEUamGQ,4,90,viet,Noe Valley,$$
+RW6XYLXNxLHZFQKc4bczlw,3.5,81,viet,Mission,$
+3236WheGABGCs6hdshWnjA,3.5,76,latin,Haight Ashbury,$
+DpZYSh3CLj2A1B5jCVXvfw,4,100,japanese,Lone Mountain/USF,$$
+BLcV0Z4nzKLkCjneKrTclA,4,92,japanese,Inner Richmond,$$$
+w83ZWz4tEBTIct6l8GS7TQ,4,100,japanese,Presidio Heights,$$
+PzbzvmEnn7cs7WmbmlD7ew,3,90,latin,Presidio Heights,$
+ZX5XUU9z1nmoUyiuPtjSLg,4,77,thai,Inner Richmond,$$
+LbafZvZKbs1G1_RhkJJUxA,4,72,latin,Tenderloin,$
+l_wjG88ec7v-FHTyp-k4cQ,3.5,91,latin,Mission Bay,$
+D1-_5ff4aic1-7rLqzUd4g,3.5,74,chinese,Mission,$
+cac6q5C271Yve86zQl5ScQ,3.5,90,viet,Sunset/Parkside,$
+BORik_MbIabFgzdFRVLDvQ,4.5,87,viet,Mission,$
+2ocTtBOx-1TghQrBxFjORg,3.5,78,viet,Mission,$
+l4IwXobNj4dVxz2eGP6hPw,2.5,100,viet,Castro/Upper Market,$$$
+6dpogM9AfMtNcXswIDJ1sg,4,88,viet,Haight Ashbury,$$
+RyMG16yT-rON-uscR3QFwg,4,94,viet,Haight Ashbury,$
+C36BK5luxi-8apVMMhsizQ,3.5,98,viet,Financial District/South Beach,$
+AA1wdUC-d3XyHp_6G2dD_w,4,83,american,Castro/Upper Market,$$
+6BMxNLbCSQIe72nYGiJBXA,3.5,85,american,Castro/Upper Market,$$
+o9KZAEgORSys5J4oqiGtEg,4,83,latin,Mission,$
+9kqooKOcH_o-KuumqAGIpQ,3.5,74,japanese,Mission,$$
+Yoi7EGQTub3lWg-x6ubJEQ,3,80,latin,Outer Richmond,$
+kM64kcWiK3TqhB0HeAUGeg,4.5,94,latin,Marina,$
+uXfKnbkDgtIPKw48MeQdKA,4,87,latin,Noe Valley,$$
+d77g3hmKBhcksWR4LKGS_w,4,85,latin,Bernal Heights,$$
+c22FFlw_mGsT1TcgZpOo8w,4.5,80,latin,Glen Park,$$
+2hR4tWOCcz88HFYB4U3FkA,4.5,100,latin,Castro/Upper Market,$
+Di4kb-1tnjP5OKFuV8qbUA,4,81,viet,Nob Hill,$
+UyA7m3aI7SB0hWdMzlwGWQ,3.5,92,viet,Haight Ashbury,$$
+AMo18ayQeXDlEaeYG_GGKA,4.5,100,viet,Tenderloin,undefined
+EB5Luwg0aGXORbJjIY6syg,2.5,86,latin,Castro/Upper Market,$
+OzFb5aZuA3RGV_YZlxorNg,4,92,japanese,Castro/Upper Market,$$
+RbTr1hKjgkte-wiUXKSrCQ,3,94,chinese,Mission,$
+Irzn8SThab39vigvKXjMzA,4,87,latin,Excelsior,$
+p2UxlDCm7aIP9jpK6g1e5A,4,81,latin,Mission,$$
+_zu83bXlHo-76rawc_E8gw,3.5,92,latin,Glen Park,$
+A9QDUzIGMcybhLhtPDSN4A,4,87,italian,Outer Richmond,$$
+dPR81xmmtcTx126HMZlaKQ,3.5,85,american,Hayes Valley,$$
+yxfq9eICLD5M4Sw5Fddc0A,3.5,88,american,Inner Sunset,$
+Ew12TaYkYC3bkUiJ36gdLg,4,96,american,Mission,$
+A2lE5KbHZrbkke-_XNjKRw,3,100,american,Outer Richmond,$
+hPz83m43JzMUzgAoE3SgzA,3.5,71,chinese,Outer Mission,$
+KiQuvELzKiHx5qg3RWaoxg,3.5,85,japanese,Japantown,$$
+2sNnba1Y2-oVZHwhp0vEcg,3.5,92,japanese,Noe Valley,$
+T1BuzZTXl9fjT31wbG1GuA,3.5,94,japanese,Russian Hill,$
+USbpXRK2pFey0V24QcgXsQ,4,100,japanese,Pacific Heights,$$$$
+aB_jimByFRPpde3LC13ucw,4,87,american,Outer Richmond,$
+6zXVo_uK_GVqN3Z0t5KFHQ,3.5,90,american,Hayes Valley,$$
+eEcYruNImvfVGPZ8RmjBBw,4,100,american,Financial District/South Beach,$
+4YQg81cDjn2Ei7NYvRHXpA,3.5,85,french,Pacific Heights,$$
+OFqs9YvnjG-ic7TUEAscMQ,3,98,french,South of Market,$
+CvmIfaftFA4bp0HBnwQ_bw,3.5,88,italian,Chinatown,$$
+imNRDs0iUHjsxaWOvIGwNg,3.5,87,japanese,Mission,$$
+Oso0WyQvRWlgTq4GFvr5Sg,3,89,italian,Tenderloin,$$
+gFcSLTJo3HXdkXScg0FgcA,4,100,french,Nob Hill,$$$
+MDTJK0mH5Xc14aCwNuMg7Q,4,94,italian,Nob Hill,$$
+KK2_oX8TbDd4BOa0Nunn2w,3.5,79,chinese,North Beach,$
+ld0mW_4EUFVK-izi5mD3GA,3.5,87,chinese,Japantown,$$
+8O2Z292anffuimm9OXkbUA,4,90,chinese,Russian Hill,$
+FsJymPpKKM2mtzMDpSVxiA,3.5,86,chinese,Financial District/South Beach,undefined
+uxsyxN9uJZoZ5jobVBM3sg,4,79,chinese,Financial District/South Beach,$
+b3mmxh_9aw25vkMmujG9jQ,3.5,87,chinese,Mission,$$
+lbhoHNWZVSQxPqkA2AgknQ,3.5,73,chinese,Chinatown,$
+gqVl3RprESEqkIPeJH0yOg,4,92,french,Haight Ashbury,$$
+8me3E8m_LxwSuf_BZKNqjQ,4,85,french,Nob Hill,$
+E57pVQIALaavqxkbobVRow,3,92,french,Excelsior,$
+#NAME?,3,72,chinese,Noe Valley,$
+HCTOtXfbGDTcYsnE_gl35Q,3.5,85,american,South of Market,$$
+MKGPb57KYoj11x0t7r5HGw,4,69,chinese,Inner Richmond,$
+ENOSkB2B8NZNxOtNFmFAZg,4,90,american,Mission,$
+0COxcLD-42ecMqBYyoUfyQ,4,92,italian,Noe Valley,$$
+P8zfrRHemETl3gYFY5FFNA,4.5,96,italian,Bernal Heights,$
+bENuHq5nDdvSEDsIxSBnQA,4,91,american,Haight Ashbury,$$
+PpJP04qfX_UxhFCwt0lwzA,3.5,77,american,Noe Valley,$
+k-7RjwprL6YYERds-SXZEQ,3,96,chinese,South of Market,$
+oqJgvaszapDJ5HMdG9Q2Lw,3,98,chinese,Bernal Heights,$$
+uGzVk45wG2tOjNUzTfH9_g,4,86,chinese,Financial District/South Beach,$
+rQ0IS-WDra4BuF0qQkVQKQ,4,79,chinese,Financial District/South Beach,undefined
+HlNLTbcVHi2oltuPOA2kyw,3.5,96,chinese,South of Market,$$
+_GpF4tW9aXkSpAPhXpLJZQ,4,88,latin,South of Market,$$
+IaDXv2ZNo2HUeTatlsjMsw,3.5,96,viet,Chinatown,$$
+mZcxUJOnsKKhEiDaiAfyHg,3.5,81,french,Financial District/South Beach,$$
+iRittrE0Pld2u3Vq_lxC_Q,4,96,french,Lone Mountain/USF,$
+6y26VcGgSuiJrcXk6YKXyw,4,92,thai,Sunset/Parkside,$
+_MB9ozh0K7trfu9y8aCk3A,3,91,thai,Financial District/South Beach,$$
+vckDXQCcqHDwgOhBpzH2qg,3.5,96,american,Sunset/Parkside,$$
+KNjay-slya3gi7rw13ifOQ,3.5,83,japanese,Pacific Heights,$$
+wnGWyRbY0--cBaL_LL1ZwA,3,92,japanese,Excelsior,$
+JoH_yAdSZRSqh-QvpDjxfw,4,91,latin,Mission,$
+bGI_oq-DVPo2bWJZxDf9gw,4,87,thai,Tenderloin,$
+vsNXAscvm-FIU423Cy874w,3.5,90,thai,Tenderloin,$$
+DsIw4CpBUpZ1gHzH0VrbSg,2.5,83,thai,Tenderloin,$$
+xZIar7Wc8YCUiAz7S_0Gdg,3.5,94,italian,Pacific Heights,$$$
+_sl4NUAHcrqU-F9x25kBQw,3.5,94,american,Pacific Heights,$$
+HWWXRD3KWJRB-WBuXX9RKQ,4,90,italian,Marina,$$$
+z93mjnqenYRyeoWqOJXlrA,4,87,italian,Bayview Hunters Point,undefined
+M0xEpdbcmF6iEG7LSST_lQ,4,86,italian,Outer Richmond,$
+aQuwkkUS_S52ga0PxiOIag,4,98,italian,Mission,$
+Ce3GMfMd8Or4Uwn5I7GOuQ,3.5,80,italian,Excelsior,$
+OM8v0GDGzdIhcJODUDCv2Q,4,85,latin,Mission,$
+U4W2psx3vypnyP_c6CzZdA,2,98,latin,South of Market,undefined
+JU3t0Bae1G4p4NVM0sS0Xg,4,84,italian,Excelsior,$$
+#NAME?,4,92,italian,Bernal Heights,$$
+aQZfzVaKO7vVg4FqnOMtNA,3.5,90,italian,Nob Hill,$$
+yNMCITEPGh6cgqd6VDfQOg,4,82,italian,Nob Hill,$$
+nCu5bwtvVr04_KvuVGJxBw,4,80,japanese,Chinatown,$$
+9GDwCGORwtpgiQJs3K72JA,3.5,87,japanese,Financial District/South Beach,$$$
+P1P-ByAIL4OlqlBTzrVlhg,3,90,japanese,Financial District/South Beach,$$
+plIGvvIOAKiuCQybfnzSsQ,3.5,75,american,Chinatown,$$
+KRpCCCBwaJBGrkBCVUhW7g,3.5,77,french,Financial District/South Beach,$$
+mnpBIXtI8f1_My6v7sXfYA,3.5,78,chinese,Chinatown,$
+3XyCChhZ6NFnrhaziajVWA,4.5,92,chinese,North Beach,$$
+RAO5L5XSbZtg2oIGOftN2Q,3,92,chinese,Financial District/South Beach,$
+gg--F2Z-X2Qh1fkkm1ODHA,4,86,american,North Beach,$$
+D0S0urMr-WbYCpj4MX0kyA,4,87,american,Financial District/South Beach,$
+1J9JWlQJCQZ4SdPXRxxdRQ,3.5,85,american,Financial District/South Beach,$
+X92ZYvxWrmmEjAMKgiyN3g,4,94,american,Financial District/South Beach,$
+deDtn5INFHv8FNYty03hLQ,3.5,74,italian,Financial District/South Beach,$$
+rBwaN3XeaCQGUH1RLgo0tQ,2.5,89,chinese,Lakeshore,$
+ogif-GNQYoVNsc9mqI378w,4,90,viet,Inner Richmond,$
+qkArHlJuZHD4Cqe98yCnFQ,3.5,85,viet,Outer Richmond,$
+giVuQ_GwW5m0Fx6Ffu6dRQ,3.5,90,viet,Inner Richmond,$$
+vfK7_QDzzQfzaXf4zOz0fA,3.5,83,japanese,Sunset/Parkside,$$
+J9UyFeAMsZhqCFNxSFNNkw,4,76,japanese,Inner Richmond,$
+e02eHaL0toY64Tzodnx8_Q,4,88,medi,Sunset/Parkside,$
+KCVZ0Z5GQgQxduizQ91O1Q,4,86,chinese,Inner Sunset,$$
+ZJeACgKeEPuk3v0UiR9Y_Q,3.5,87,chinese,Inner Richmond,$$
+vogO7OMasID3sa8_k9RmpA,4,89,american,Inner Sunset,$
+jhVo92kIQSPFQTzBaIhP6w,4,90,american,West of Twin Peaks,$$
+NE5F0rMk0uw0gHlE4Kw3AA,3.5,94,korean,Sunset/Parkside,undefined
+2q1Trf5erXkY6hWyH9tOCw,4,90,chinese,Sunset/Parkside,$
+2KpVYd8WcRj11xEpryOL6Q,3,77,chinese,Outer Richmond,$$$
+Ye6oSvS6dhNSeK9UjurU_g,3.5,88,japanese,Sunset/Parkside,$$
+VxT3LXwPdHEz1qpXeI5hig,3.5,88,japanese,Outer Richmond,$
+eYXwVR4mMAjzkJnm5wneHQ,4,91,japanese,Inner Richmond,$$
+r7hzfE40LUC5xRVpzcLjmA,3.5,81,chinese,Outer Richmond,$
+ujcjhdqASXV5G1S4Gemq3A,3.5,96,chinese,Outer Richmond,undefined
+lOSf40Yd3s29fY5bj72IOw,4,86,thai,Sunset/Parkside,$$
+F4YXeDcxJbXNnGTWcAv4_g,3.5,69,thai,Outer Mission,$$
+cxsx1IG_FKKqORs1f9tfFQ,4,92,latin,Outer Mission,$
+rBwaN3XeaCQGUH1RLgo0tQ,2.5,89,chinese,Lakeshore,$
+bf72ckc4mWwcpqoZiFfVHA,4,86,chinese,North Beach,$
+RJjuozKTsgwPNa429tnxbg,4,84,chinese,Pacific Heights,$
+ugXtAA14p4EoD42zMaF1Xw,3.5,89,american,Pacific Heights,$$
+tjDBlIQmwLy_JqMj7bT_3w,3,100,american,Pacific Heights,$$
+wAPk6QJV6NtXxNQgSd1dkA,3,81,japanese,Japantown,$$
+6-M8QJXhNJAK92uJcWHfmg,2.5,90,japanese,Pacific Heights,$
+AHIG8JTWYfSP_acvUUKL-Q,4,85,japanese,Pacific Heights,$$
+f_uf8paCL1pJ29ZI4AyiEg,4,91,italian,Pacific Heights,$$
+6hi9S4nLmAmk0KYr_EFNCQ,3.5,92,american,Marina,$
+xO2V0wkXP3Na-mWhLo1ZxQ,4,83,french,Russian Hill,$$$
+WKJzi4g1OGp1nW_6ZJD_rQ,4,96,french,Russian Hill,$
+MaQ2_SBnZN7DjiqtMOUUsg,4,90,french,Russian Hill,$$
+SIlvau33Tsp5IuEEmGf46A,4,85,italian,Russian Hill,$$
+Wo-ruLEoNLGNGG7gTv7LoA,4,94,japanese,Marina,$$
+u2qFhVAiH3kQIGhEW6PmMA,4,74,japanese,Marina,$$$
+gPMeR13r24uBVvWtp5MOWg,3.5,88,thai,Russian Hill,$$
+hnoOXDcgN4xqLOU6lplGXg,4,86,american,Russian Hill,$$
+COXn4BULAsOTirWRyyvrsA,3,100,american,Tenderloin,$
+Wi2c4gGu2W-QFBSumihRfg,4,96,viet,Tenderloin,$$
+2PRgMkqX2dRrcuaJEi_1Rg,4,81,viet,Tenderloin,$$
+Q4TlU84kFaPycqsFmQaLkw,3.5,92,italian,Tenderloin,$
+shGrK3zfITUUY4SsqKk_Bg,4,96,japanese,Tenderloin,$$
+Kxwc8PIKy2JsegNwgBjAtA,4,94,japanese,Pacific Heights,$$$
+jDudECH_txVOMojPkGK9vA,2.5,73,japanese,Marina,$
+Y7pNK-ucWKJjfG1TzQjbAA,3.5,92,chinese,Marina,$$
+TykrtPTAlPO5k9qaaCBj4A,4,90,chinese,Financial District/South Beach,$
+H1n4hE8uLFs_W1w-j7M2ow,4,92,chinese,Inner Richmond,$
+Ug9a63OBRBje0796bFFPgA,4,84,french,South of Market,$$$
+8pZevgVXucZStPwUYPfAkQ,4,89,french,Potrero Hill,$$
+gVikx9Ad2aAVv0BXnJJPKw,3.5,90,french,Potrero Hill,$$
+I1MLJDLj7aXZI5Q1xJBSbw,3.5,94,american,North Beach,$
+MvAo0hj9FXOeNL5PwBZ0fQ,4,83,american,North Beach,$$
+mDM7-ho67ePJXd5TodtCOg,4.5,100,italian,Nob Hill,$$$$
+pG1pVDg_Krjx2-4OBb8m1Q,4,77,italian,Excelsior,$
+vuYas7gLlshLOWw6GCnKFA,4,83,italian,Chinatown,$
+X0tF-V3xRMux06pzayd_Uw,2.5,84,italian,Chinatown,$
+SeXRih1jqC_GV1suD1bf-w,4,87,chinese,Chinatown,$
+x2FfPtrPEYYFIK3RL1cf-g,3.5,83,chinese,Chinatown,$
+wVswHX9M3IP0zWXIgLF-6w,4,79,chinese,Financial District/South Beach,$
+gsf5yf5HS3h8Z8MHpJ4t3w,4,90,french,Financial District/South Beach,$$$
+ZsQhaeLD3x-cP6AkGKs3PQ,3.5,98,french,Financial District/South Beach,$
+dcnNyiZEsTgD1HWwNe749g,3,84,japanese,Financial District/South Beach,$
+7zdRSvbg9zbp5tV9Y_-glQ,4,89,japanese,Inner Richmond,$
+eu3UCrfFkTF73F0idXeJ5Q,3.5,68,chinese,Inner Richmond,$
+LhK62UzwSDAr0eO--ikToA,3.5,88,medi,Mission,$
+SyJBeBSQOfhTElMQLAO_SQ,4,96,medi,Outer Richmond,$
+JdHEVcbbZjr4GR2m-69-yA,3.5,83,medi,Outer Richmond,$$
+ZiTRspDPY9T_kh4tQDwDMQ,4,90,medi,Outer Richmond,$$
+kTLg9WzrJIujIYWKcYBGSw,3,76,chinese,Sunset/Parkside,$
+m6abLI3UD-As-Z5-J-HiyA,3.5,94,italian,West of Twin Peaks,$$
+TNygOlfp5YPvuDPobtTUMQ,3.5,92,italian,Mission,$$
+f7GbmIcePXbV7ZtQv4_JNg,3.5,92,french,Mission,$$$
+eRft7qf6rgxuSptQnKEWzg,4,90,french,Haight Ashbury,$$
+b1aZxd5Auo1f5rG9zgr0Ig,3.5,70,french,Haight Ashbury,$$
+TkG9X1noKvdPMHd7sjkVig,3.5,86,french,Mission,$
+#NAME?,3,76,chinese,Mission,$
+U3s-sJmrxCWLvqvS3sHpEQ,4,88,latin,Mission,$
+jHCtJJycHt5DLAlPjQ0PoA,4,96,latin,Mission,$$
+NcXfS-AbgTM9Hjfz2bmMRQ,3.5,86,medi,Nob Hill,$$
+y1_s1xAC7eRK1ws3L92i-Q,4,91,medi,Mission,$
+PmmrgKphGJfpeTqt-65AAg,4,86,latin,Mission,$$
+frKZTOHKDKDkrK5pePByPw,3.5,90,latin,Mission,$
+RtXDJgw6ts1TAv9mwFNZGg,3.5,70,chinese,Mission,$
+r0N9vb7G4Us8HEG20v4NkA,3.5,87,latin,Mission,$
+eQHepA7u_mb-0TIb8t8EXQ,4,87,italian,Mission,$$
+JARsJVKLPgs_yC3cwDnp7g,4,87,latin,Mission,$
+L-PBJJvUi_WfrD0uSpR5Jg,3.5,83,latin,Mission,$
+EbBEbroBw1k_g5Aqokk0rA,4,83,latin,Hayes Valley,$
+jnwvfL75CfMAENBAOlXUJQ,3.5,87,latin,Hayes Valley,$
+6iR0zBfiup79DErYKAXY0Q,4,91,latin,Hayes Valley,$
+VlNE3m59v836-t3V4ZaOWQ,3.5,92,latin,Hayes Valley,$$
+#NAME?,3.5,74,thai,Haight Ashbury,$$
+SEZpdigGSqVNWnyANNIMeA,4,82,thai,Mission,$
+NmyTdXzHTSMXX3VKRrERIQ,3.5,72,chinese,Mission,$
+_fskSC0Z0k27FrLj2OGI9Q,4,80,thai,Mission,$$
+Zx_VDLeaFdnMFkGyorDZtQ,4,85,american,Mission,$$
+VnU_7mWzHWhmiAPJoQeFeg,4,89,latin,Mission,$
+0bOTdcDSINp0no-key6qaw,4.5,84,latin,Mission,$
+0myyr8Sjx9KogDuuZy0R9A,4,98,latin,Mission,$
+A6D6wG5y0sqpaqJjgc8QeQ,4,84,thai,Mission,$$
+_mWCUrUZf_ytJj2N87On2Q,4,90,latin,Mission,$$
+oFBA0gy9tyD89lmlLmb-Og,3,92,latin,Mission,$
+FkmficKyZxewFcG5H2FcNg,4,98,japanese,Russian Hill,$$$
+8Z22EdDZNQ-FsPQticEV5Q,2.5,100,japanese,Western Addition,$
+iGa7bnHGU3uWZWoq-KVWOA,3.5,94,japanese,Marina,$$
+tkLC24zVhWLCCFQp3NCKMw,4,92,japanese,Marina,$$
+7xHM9hJH0INQhRtqUnTx6g,4.5,90,japanese,Western Addition,$
+_vQZbUY7s373Z17atFNtsg,3,88,japanese,Outer Mission,$$
+n5LHxcE-fbgr9O4Unri_ug,3.5,73,american,Hayes Valley,$$
+41OVDdg2fu94A35utLTHxQ,3.5,65,american,Pacific Heights,$$
+CqhD3Ou25ygJPvweqFaZSw,3.5,79,chinese,Inner Richmond,$
+yBwejh5N36gw4DOt49t3wg,3.5,74,chinese,Mission,$$
+4M1wrPcRWO1iOLsB8-ZuRg,4,94,chinese,Tenderloin,$
+ZWvXWUhJUBph9Ip1a2j-xw,4,94,chinese,Tenderloin,$$
+0FU4AMHgNcElMtoXg0Li6Q,4,88,american,South of Market,$$
+cseyjQ0XIp6dwC0_TcaMOg,3.5,96,japanese,Tenderloin,$$
+msT3LrLB4fhN04HYHuFsew,4,73,italian,Inner Richmond,$$
+OU_Ld8rlL1eWeW5V_L6CCA,3.5,88,viet,Outer Richmond,$$
+eQ0wFQTrHrKDUun-v-hpBg,4,94,american,Financial District/South Beach,$$
+3IPHiyXfwdN7lwz5qqotJA,3.5,90,american,Mission,$
+QZNRa98Xb0UNwg0GoqNyzw,3.5,90,thai,Castro/Upper Market,$$
+MmI91-KoLkfdMVQhaafvMQ,3.5,85,latin,Haight Ashbury,$$
+smceLM-VDB5jkILB6OSSvg,4,96,italian,Haight Ashbury,$$
+hSLhT8Che055WbkweNi-Ug,3.5,70,chinese,Portola,$
+QE03EivHJZ8gbbAvFLMyIw,3.5,79,chinese,Mission,$
+z044R1luJTuVtzUGUA9d-A,3.5,90,chinese,Mission,$$
+48jDL_PmclHPRW9txNrSDw,4,83,chinese,Mission,$
+0v8I8LNHG7ABK9rJKJ46AA,4,77,chinese,Mission,$
+3AfJM2V4SS5v3nVoJfo-wQ,3,77,chinese,Bernal Heights,$
+g4vf4bYFhvSmkWZn3DMt-g,3.5,88,chinese,Noe Valley,$$
+kd4Xqgpkkv5vftm2ayCWrA,4,78,japanese,Outer Richmond,$$
+i_OkjtKWm02Upc-PlcUrrg,4,100,american,Noe Valley,$$$
+Ux_bs6eZ7WqIsLepTw1uBw,3.5,87,chinese,Noe Valley,$$
+rxY7canIJeXtICb6lprUcQ,4,96,american,Bernal Heights,$$$
+qI4Jix1Ru5YZgF_MalHI1w,4,91,latin,Bernal Heights,$
+uymg9f_cBIprwMWOqzHGhQ,3.5,85,latin,Glen Park,$
+BMlbJybqNRBUrpXsbSR9cA,3.5,90,american,Inner Sunset,$
+dNyfcHW9qlAo9V4Raa5EwA,4,88,chinese,Inner Richmond,$
+CgrDoK7B3fXp0Og5eAd30Q,3.5,73,chinese,Inner Richmond,$
+0w6dNMrpBQFLxhVYqx_J5Q,3.5,80,chinese,Castro/Upper Market,$
+aosv00cXSYlT9FqFnrV2Fw,3.5,85,chinese,Marina,$
+yNU6sPRWzVl0ngCRqat1TQ,4,94,chinese,Marina,$$$
+_mdxYZT1RDtKTZcYz9mo8g,4,96,italian,Chinatown,$$
+KewsTgYKXUPuUU_X1I3O6w,3.5,90,italian,Marina,$$
+qtH79N3gbcOe4ToQWBckuQ,3.5,84,japanese,Noe Valley,$$
+ZtFGuS4Z3rZ-J3Abw4V-oA,4,85,italian,Presidio Heights,$$$
+Rj7h0U3Qm8NABv7IdBremg,3.5,98,italian,Presidio Heights,$
+#NAME?,3.5,92,italian,Presidio Heights,$$
+1iO6SaWry8C6i_n4cFsxCw,3.5,88,latin,Castro/Upper Market,$
+lyFzzkaq7NZ_qW1a68KT6Q,3.5,78,indian,Mission,$
+1dwJK21zm7cuhUKdROWJXQ,4,83,latin,Outer Mission,$
+h0xVRPUZiVhM6UR5VIu0SQ,3.5,78,latin,Outer Richmond,$
+I_HROMlTfLb01M5R_qafyA,4,79,chinese,Visitacion Valley,$
+vTGaPVLF8saopNqIkHRlzw,3,90,japanese,Chinatown,$$
+HL4vi-tSyYvGIex_CsOcNQ,3,88,chinese,Sunset/Parkside,$
+iMsButW1ZqSssl_a9-UFXA,4,86,korean,Russian Hill,$$
+pXV02Lj-jWt6rgHRQzJmqA,3,81,chinese,West of Twin Peaks,$
+7HHq6MKpWcZqUgwsQaBSZw,4,85,chinese,Chinatown,$$
+KI5zzFIdRfwTExsB51z_zw,3.5,96,chinese,Sunset/Parkside,$$
+8fPAYyTxg2jMDYmWUDhasw,3,92,american,North Beach,$$
+_JB5Bv5h7txJ7rcqcQJ6fw,3,94,japanese,Outer Richmond,$
+cjfJOMF6hpE7bX0ESWdAEg,4,100,japanese,Nob Hill,$$
+O19HZS-FXu0sZF8ObQ3meg,3,90,japanese,Chinatown,$$
+PsY5DMHxa5iNX_nX0T-qPA,4.5,87,medi,Financial District/South Beach,$$$
+HZ6-_Lzdv7Q8aacNs8m5zQ,3.5,96,medi,Tenderloin,$$
+sZ0pm4KX5z1n5SAAg96vVw,3,88,italian,Noe Valley,$$
+9PWo-h-TiQYaIZ5w0MqhLg,3.5,85,chinese,Pacific Heights,$$
+vxwILNakRRPDodiDswtcdA,3.5,77,american,Financial District/South Beach,$
+IEsEE24dqyKEoqDNoHHMeA,3.5,87,italian,North Beach,$$
+8iCT68sz4XDUdf_xY3s5kQ,3,71,american,Mission Bay,$$
+n6L5VIGunR51-D55C-eYeQ,4,86,medi,Mission,$$$
+aSeldMKv9G6_8-gV0bjwvw,3,94,american,Financial District/South Beach,$$
+OszzYPJNu2XEwGgHTItWWg,3.5,84,medi,Nob Hill,$$
+HcZ1IJ9r0EIhg0_CKFmF7A,2,83,medi,Lone Mountain/USF,$$
+JS-IJCxe6dtL9jRH1eO1UA,4.5,89,medi,Nob Hill,$$
+zBEsW1dUwPpbVpKmp5Qw0w,3.5,82,american,Nob Hill,$$
+5tmp6OoIzM6af3717J3tFQ,2.5,79,american,North Beach,$$
+djqM0f9jSqWx_xOnIIu19A,3,85,american,North Beach,$$
+w3DA7txnRUxm6SJ1Qy8WFg,3,87,american,Financial District/South Beach,$$
+yQ32-Q3zH1HRZ3E5WAc-oA,3.5,96,american,Western Addition,$$$
+3RJUL5DfLbd0NkPauggmbg,3.5,75,american,North Beach,$$
+tM6g-7Yh2zuqOalPw2_itw,2.5,94,chinese,Chinatown,$$
+tHUqf0Fi5vBre8IeXY7N-A,2,76,chinese,Chinatown,$$
+DwUGsS0bXNYt5FNNiSRJfw,2.5,96,american,North Beach,$$
+j-YSc5tp2_KygRXjU_SG0Q,3,87,italian,Hayes Valley,$$
+sh5emqsZCFjM67xIcp-V0A,4.5,96,italian,Chinatown,$
+9Q8_UWUAf32TbnldHWonRw,3.5,90,thai,South of Market,$$
+_Xn0TVa1lSQSa-h32SptRg,3,90,italian,Lakeshore,$$
+7oA1-P6GZ1jwFIe0YejLXA,4,88,american,Mission,$
+vp1VTH08YSA9O9w6ej-G0A,3.5,89,latin,Mission,$$
+8bySDwY9OU-DWaZebUR7vg,4,74,american,South of Market,$$
+1EiMCJuOr-VoP2EIaiYmtQ,3,90,chinese,Chinatown,$$
+XsOlmp-7Vn-1GBLG6gDGug,3,88,chinese,Financial District/South Beach,$$
+_3MJz0zgTg35NZGlifqQzQ,3.5,88,chinese,Sunset/Parkside,$
+GjdLppkFQODOiV4DQZ5EyA,4,92,italian,Nob Hill,$$
+SQuQ32gVOVsnXrKCOXl0Xw,3,98,latin,Financial District/South Beach,$
+b1Y_BNGcGuH07N3GV9bPHg,4.5,79,latin,Tenderloin,$
+lFuTnqxZkFpPyXlPzXQFyQ,3,94,latin,Pacific Heights,$$$
+BahDyzswTsdaSa8jnOaK-A,3.5,83,viet,Nob Hill,$$$
+0100LAmvjZPFjEPswwrDBQ,4.5,90,viet,Japantown,$
+FqYg7BcsryLFiUTknxpQpw,4,90,viet,Russian Hill,$$$$
+np0rNe05zgX1xlYEl3lbJA,3,94,french,Tenderloin,$$
+olSQ9Rs1dr0VQvY1bypuhQ,3,92,latin,Russian Hill,$$
+5ZIFE2VvL8iH3apK-eNI6w,3,85,thai,South of Market,$$
+jgp3WlMySClJ43Zt0bvA2w,3.5,75,thai,South of Market,$$
+m25TCUvChxm4Bd6dRYDYPQ,3.5,90,american,South of Market,$$
+SvpTxa_8_tclKB6Tk298dQ,4,70,american,Financial District/South Beach,$$
+u-pywNLq06dgqR48kbFR9w,3.5,90,american,Financial District/South Beach,$$$
+h2nqqNtrmTjZTMMV_pjGqQ,4.5,88,italian,Excelsior,$$
+kX72p6TVSZbN1PfQV9bHDw,2.5,78,italian,South of Market,$$
+S6yq--21j7fFadh-aXBtRQ,3.5,87,american,Financial District/South Beach,$$
+TmelSWto9a_EkxsAn7UO0Q,4.5,100,american,Nob Hill,$$$
+llmqe5EL99kPqqT3T7C8vQ,3,80,american,Nob Hill,$$
+KfrgWyMWH1HBGvoUkDYoRQ,3.5,82,american,North Beach,$$$
+__hyW0T_P6Ajlau8xsQW9A,3.5,72,chinese,Chinatown,$
+rae5BYOri8Def-VVYZzpSg,3.5,93,american,Financial District/South Beach,$$$
+6h7YCp2KLfbu3tbRmNSb-g,3.5,87,italian,Russian Hill,$$
+WxxE5kE8omgQhJE8sWIvmA,4,85,american,Financial District/South Beach,$$$
+WW9gZCtw0aj1ai-KB053tg,5,100,american,Nob Hill,undefined
+ZfE0TxCFxLTjL8qRLFfLcg,3.5,85,chinese,Chinatown,$$
+hPdebXu_37ELCtoDaVuU8g,3,76,chinese,Chinatown,$$
+IxN2C6t6W21C_3aPKh2Pyg,3.5,94,chinese,North Beach,$$
+eBxkmr-hJ2KgpZQzEO3ArQ,4,79,korean,Outer Richmond,$$
+iguOSVitkzZ8EIMQcOn8VQ,3.5,76,chinese,Sunset/Parkside,$
+FKl4FrQ_es5GLRo6UmYaQg,3.5,76,american,Inner Sunset,$$
+u6AFSw9Hawsjhf7hmFdoSg,4,91,american,Inner Sunset,$$
+wmsSH390xs2w-32y31dGnQ,2.5,96,american,Sunset/Parkside,$$
+DyXoC_NhJW0Xx5j_OPQRHQ,4.5,98,american,Inner Richmond,$$
+YDeqSFd7qdbbFiBUO6Gpjw,3.5,81,japanese,Sunset/Parkside,$$
+Mbv1R8pCzYgVGQMBjsoetg,4,90,japanese,Sunset/Parkside,$$
+tWjWAyRbodjg3YPuvdzVdg,3.5,90,chinese,Financial District/South Beach,$$
+-4wz0dOG3RdBNYE02l9KjA,4,82,viet,Outer Richmond,$$
+R8i81IRfwk-XCLqmYl2zwg,3,96,american,North Beach,$$
+Bfc3RwM7UAEohk9e19Q1xw,4,85,viet,Sunset/Parkside,$
+dw8qVLSb52nttZ5l_x_8cA,3.5,90,viet,Sunset/Parkside,$$
+GNzoAOXPxP0UzW7fb51dNg,4,89,italian,Inner Richmond,$$
+VyvrQn7j_YfsxKkFl7T3ww,3.5,88,italian,Inner Sunset,$$
+ptlwIBbhC6m6TdcQscf54A,3,82,american,Lone Mountain/USF,$$
+z9CN58fSrA46ggyb6OnCnQ,4,92,viet,Sunset/Parkside,$$$
+bNzN08w-3OmD3ag9-9gITA,3.5,81,latin,Outer Richmond,$$
+RFN0LfJqSO0lGcArWikKdQ,3.5,60,chinese,Sunset/Parkside,$
+pWVSjwLLjclFGWmhkqsWLw,3.5,71,chinese,Sunset/Parkside,$
+d39E8gTlEoQY2iyyldZDsA,4.5,89,chinese,Inner Richmond,undefined
+tpKQsdpEQWEW4mzkKRUCEg,3.5,92,latin,Outer Mission,$$
+an7BKIlXd-UPfdeFCImDqA,4,92,latin,Outer Mission,$
+jiSwbGIdmhuY3Z8DhrtrGA,2.5,90,italian,West of Twin Peaks,$$
+3d9fGSDpuNQl7XI7zmmzmg,2.5,85,italian,Lakeshore,$$
+8rwcx4ZwW_tEj4onnXnEiw,3.5,90,american,Chinatown,$$
+R-IHnccjb6tXlNXzR-xsng,3,82,american,Pacific Heights,$$
+hR-QnUgMeKKnO0l5k9zqcg,3.5,76,chinese,Nob Hill,$$
+#NAME?,3,87,latin,Nob Hill,$
+iPjBmVKab77FtlQ8ULpf-g,3.5,87,latin,Nob Hill,$$
+DSJiMF9I6FC173w7e8DU_A,3.5,94,latin,Western Addition,undefined
+cSv73MzW5gtDMoQNr-CLOA,4,94,latin,Japantown,undefined
+sW98jWYHl01r46avD5cUYA,2,87,latin,Western Addition,$$
+83lEHBx7nSKvdLz_P5xbMw,3.5,90,latin,Western Addition,$$
+ERQmO2w3OOsxw_GVkmuG3A,4,80,italian,Marina,$$
+wdlyeH5ug7uZpvtb-N97fQ,4,98,italian,Russian Hill,$$
+ImPPcbVqEFhNw42S2BZ_EA,3,96,american,Russian Hill,$$
+WavvLdfdP6g8aZTtbBQHTw,4.5,98,french,Russian Hill,$$$$
+Yw4GGa8B8DRNCJOADxk41Q,3.5,94,american,Castro/Upper Market,$$
+29ys00My-dBVpBDIO58ifw,3.5,86,american,Russian Hill,$$
+E5Q4UGqkSaiiLXN5LYFGaw,3,86,american,Russian Hill,$$$
+eSixRz7xcwtFdeh9hN5TyQ,4.5,92,french,Russian Hill,$$$$
+2DAdvB0JM1UTZXkVvk3_UA,2.5,80,french,Marina,$
+oT08T3Vpn1I7jDmrBBRMTw,4,96,american,Russian Hill,$$$
+glXWa4c-RNZnhrOwixGVrQ,3.5,100,american,Financial District/South Beach,$
+DeKT97qu8tUk0gDcHUFiCQ,3,82,indian,Tenderloin,$$
+idI1fL-AsM0nhdIPpHf3sA,3.5,100,american,Tenderloin,$$
+t5RMQkzbRtOrTHsxL5c31w,3.5,94,american,Presidio Heights,$$
+#NAME?,3.5,92,american,South of Market,$$
+2FhkLW_EwD-CwOzteklkIA,3.5,94,american,Financial District/South Beach,$$
+4raSXRuvBH1CHawSsuJiBA,4,89,american,Nob Hill,$$$$
+PNxwbgtfdpldd3CyJFIw3w,3.5,86,japanese,Financial District/South Beach,$$$
+gthEshtyLALCxaFssXj-IA,2.5,85,japanese,Bayview Hunters Point,$
+yvssBOb67JSbpCBoZC1X2w,4.5,88,japanese,Potrero Hill,$
+OUaJngCEvUblIsVHTAgSxA,4,100,japanese,Russian Hill,$$
+f-m7-hyFzkf0HSEeQ2s-9A,4,86,japanese,North Beach,$$
+iaKZgEBfD4Ak4OR2vNKFrg,3.5,91,american,North Beach,$$
+jqEpBbf_qNfWuz_GBkwCjw,4,98,italian,North Beach,$$$
+GNjQKG-Satm0HjwpWXWoPQ,3.5,71,chinese,Financial District/South Beach,$$
+lL-Zq1hlHreP7qAA2sVqNg,4,85,thai,South of Market,$$
+sx-VbkIbvoqW54ZVHF-uBw,5,96,thai,Excelsior,undefined
+oRvgzZeQ2nsTzi5Tq4efYQ,4,80,american,Castro/Upper Market,$$
+LYzW5O-VQ0k-8INvA0_ryA,2.5,92,american,Portola,$$
+6e7gMgVJRQ5rtkIbTF6TLQ,4,86,italian,Chinatown,$$
+3LZRfbnx8bCpHWrRDSIF9g,3.5,100,american,Nob Hill,$$
+Tttm1r5Dw1sRMCfc3EQWPw,4,92,american,Financial District/South Beach,$$$$
+ReVmLKOsB1BAp9nQAqPL3Q,3,85,american,Golden Gate Park,$$
+XEGUUUrxrprfwnOeiYDtaA,3,87,japanese,Nob Hill,$$
+VZwe5P-at3JYNCxOVSfe-g,3.5,90,japanese,Nob Hill,$$
+AvFSHrmxVfZpsVq_IGUN8A,4,92,japanese,Nob Hill,undefined
+mydKjdG8gJOcRQ9cZwkQpQ,4,98,japanese,Nob Hill,$$
+gxrEcezQqUf0rtT5QK0zqQ,4,100,japanese,Nob Hill,$$$$
+ottYyioDD3E8OBzrF4QXfg,4,96,italian,Nob Hill,$$$
+iC9OiuGRImCjkmlAPusuPg,4,98,italian,Nob Hill,undefined
+KI9EcA3cTshyic_fxyJxLQ,3.5,92,chinese,Chinatown,$$
+Q7_LfqaY3TrDaSIr7lk1TQ,3.5,68,chinese,Chinatown,$$
+AtU4bqmaF5Aw3zc1_n68Kg,3,74,chinese,Chinatown,$$
+m3xdxV8YNH5uh1N01xdnLA,4.5,98,chinese,Chinatown,$
+5vAr0fMMF1BBW-ZJgr3UYg,4.5,98,italian,Chinatown,$$$$
+QxHtdBOe3Kppf8tEd2Wm6A,3.5,83,chinese,Chinatown,$$
+TfnEaxxOWzgiJXTEILUvQg,3,90,thai,Chinatown,$$
+1pq5mmp71nXWBK_jG9VxHg,4,94,viet,Chinatown,$
+#NAME?,4,90,viet,Financial District/South Beach,$$
+IPpQnGDJVApDEM5A93txtw,4,89,viet,Inner Richmond,$$
+QhXJqmPoR6jyCf44ck7Sxg,4,98,american,Financial District/South Beach,$$$
+eozQsh2UnHM9aok46zGgyA,4,87,american,Lone Mountain/USF,$
+aiASj7pJtkGJQfOOmyz5bA,3.5,68,chinese,Outer Richmond,$$
+353bun0151fMbR3ut2d-nw,4,94,french,Hayes Valley,$$$
+EnncsZJgZu9a2ixmdner3w,3.5,68,french,Mission,$$
+ZAPitG9126yVupKWHp54yA,4,81,latin,Mission,$
+ri7UUYmx21AgSpRsf4-9QA,4,89,latin,Mission,$$
+Vkz5U3C0WC33pPl7CHfmsQ,3.5,85,latin,Mission,$
+hkqph_Rn9-_4TzGNJLIpzw,4,81,latin,Mission,$$
+4KfQnlcSu4bbTqnvGdGptw,4,89,italian,Mission,$$
+pY-nPVcbru-YjVZnkddiig,3.5,90,italian,Hayes Valley,$$
+JlhJM4ulY5sHsLcUiENpCQ,4,90,italian,Hayes Valley,$
+DGyoVB9PdI9_jw0CNi_OPg,4,86,italian,Hayes Valley,$$
+oqsu3pKpgRMGHj9QItsx0A,4,90,french,Hayes Valley,$$$
+xse3B5a0eDiReKKxxgxD6A,4,82,french,Mission,undefined
+UjjNgzBFAVXF3iVXPVjH_Q,4,90,latin,Mission,$
+rJoGt8B0gwRYlJJdcmqIaA,4.5,96,latin,Mission,undefined
+FIERsM_ekDqkvfHUYLGOdw,3,92,american,West of Twin Peaks,$$
+iEbNZymY3kEbPG7wP1i19w,3,80,latin,Mission,$
+_Itb3Ma0XVP1df1mIzXT_Q,3,88,latin,Mission,undefined
+nedVe-DuR94YuISPnIWNlQ,3,96,latin,Nob Hill,$$
+7CDYvq7H9RmtaInM8FEbtQ,2,70,chinese,Chinatown,$$
+XAE0cMnzaJlz5aQBFGArUA,3.5,90,chinese,West of Twin Peaks,$$$
+R8M5LVLLFZK8EnBU5T2O8Q,2.5,94,chinese,West of Twin Peaks,$$
+LPbxqvHlctFiYsfZTx3YrQ,3,96,chinese,Japantown,$$
+YA_IfP1_x89yjxzKGn1QyQ,3,76,chinese,Sunset/Parkside,$$
+av8vitp4twNYvUi4Ox0pGw,3.5,92,chinese,Marina,$$$
+yQ5_zQbdfiexfvDe90__KQ,3,96,italian,Tenderloin,$$$
+NMTWmJKWxJD1flwkn7JIPA,4,88,japanese,Marina,$$
+e4mPhiUpHDzJSm27p8rCvQ,3.5,92,japanese,Financial District/South Beach,$
+hpWcjUQ0dhXRN-2wUWQYCQ,4,91,japanese,Inner Richmond,$
+jMEWC8hTokdYuvtAsJvoow,4,98,japanese,Presidio Heights,$$$
+K8y9xQpMMVjkWu5Au1pMkw,3.5,80,japanese,Japantown,$$
+tIzKxpADKMMmzDr5n07lQg,4,92,american,Mission,$$
+nmtqc0suF9Hd34iHU0Gj-A,3.5,83,italian,Mission,$$
+2L4tJ-kfHaBXlF1nwDz-_A,2,96,italian,Tenderloin,$
+7E4oGj36ctPi58hm9-PYHw,3.5,86,japanese,Mission,$$$
+8oe2cvC0vlQ0DC7Mc_mOjw,3.5,100,japanese,Tenderloin,$$
+uWyXImD7_A9Y28swUVbu2g,5,100,french,Tenderloin,undefined
+7iuGZ73QExZmZuzH9pgiJg,4,90,french,Tenderloin,$$
+aO_98F0hBu9f6T7YOsFwrA,3.5,100,french,Tenderloin,$$$
+Mb3nf_7My-2vEIEFhqhsXA,4,100,french,Nob Hill,undefined
+aHnXmu0YUUg5WW_ERihxTw,3,67,chinese,Chinatown,$
+mMhkpTh7RkxKgDrnWPSgcA,3,88,chinese,Chinatown,$
+V00NCzDBLV9m556XVTvBww,3.5,87,american,Castro/Upper Market,$$
+KRcMsXmeILmC8OXmcXOQgA,4,72,american,Mission,$$
+NO7uen-10Bwkf_n4tHCEjg,3.5,87,latin,Mission,$
+OZAZSQnvAGeETvoKRSEbuQ,4,76,latin,Castro/Upper Market,$$
+5NvXIkNdCCqUb235WVfMJg,4,94,latin,Mission,$$
+59v5gU6MG3FrZ0Z7RYXEkg,3.5,83,chinese,Financial District/South Beach,$$
+M1qm-JWaI1tHVBx-XLJbmA,3.5,90,chinese,Financial District/South Beach,$$
+DMWoU9-aRw78JTfspcdEeQ,2.5,66,chinese,Portola,$$
+o59qKtdaA39Y_A3liqRHyw,3.5,80,american,Financial District/South Beach,$
+7yYLaUjI5cFRaXWDKfRGbg,4,81,italian,Noe Valley,$$$
+uCvVetBZHmlVPzVrNmQTnw,3.5,96,american,Noe Valley,$$
+Y8ZJNrzTPv7_fE6uQUwHEQ,4,84,american,Marina,$$
+7ZCuoFL4bmDY0Eh3bIZ2Jw,3.5,79,american,Marina,$$
+TgFUSRFSgfNhzi-2ZWC8Ug,3.5,82,indian,North Beach,$$
+Fw7rbyKQGZEHpqFDVs6dBg,3.5,96,italian,Castro/Upper Market,$$
+SX63MrpvROHn0QLzhvYkyg,3,94,american,Mission,$
+Co_g1tFxnqOVRDmNLCgSvQ,4,82,american,Financial District/South Beach,$$
+7-dTTiS53rgn0SdqczzAIQ,3.5,79,chinese,Outer Richmond,$$
+1hkvOkD9MZINKlDzIweByw,3.5,79,italian,Chinatown,$$
+t_89aTecX2_eFBUto_dCPw,4,96,italian,Financial District/South Beach,$
+FrQ3dMKHOHNk5T56cKVKpw,3.5,94,american,South of Market,$$
+DfPLBY50sx7-A1aI0wmoLg,4,88,viet,Tenderloin,$
+vbuiWssdvlk_IuNOZjAIkQ,4,98,viet,Tenderloin,$
+kZ8ck1e5NP-Y84hyWL8-dA,4,100,viet,Financial District/South Beach,$$
+mu5mTXmFU4xKHx2pDwipiw,2.5,92,viet,North Beach,$$
+l0VE1ZrQtZNn8TY6P5Y9vQ,3.5,94,viet,North Beach,$$
+CkOeyh7EfTLtBavxoTwhxw,3.5,96,viet,Sunset/Parkside,$
+F1SBxEsVUAWopHKw4UZzIA,3.5,92,american,Financial District/South Beach,$$
+y6pcHVbmjY-WkRIA_ZSj0Q,4,94,american,Marina,$
+y0j4nhd8rYAyZgdsHOXjPQ,2,94,american,South of Market,$$$
+ODsSwHhEsCAkksnm0ROOFg,3,94,american,North Beach,$$
+aVO_-SlozVuQnTJctQ0MiQ,3,96,american,Tenderloin,$$
+OlO9Yhi_vWYt2lrA_HbMGA,4.5,96,american,Potrero Hill,$
+jxlkPU4z1r2LD_3-Mw2Pjg,4,92,american,Chinatown,$$
+7-dAb6BdjgJE_KHTX9CNGA,4,94,american,North Beach,$
+oHuPyoGY7nhCQeprHCv21g,4,89,american,Noe Valley,$$
+AdyFXT7PeSiySYdIFmmlWw,4,100,american,South of Market,$
+yGEc-cj9Quk5mUh7maoPXA,4.5,94,american,North Beach,$
+SwyJpXMtT67jNuG_rj2v_g,4,96,american,Castro/Upper Market,$$
+QDarzSRtDcvfV00djqCnTw,4.5,82,american,Castro/Upper Market,$
+H3LVKSUbbUFqlTuxDKerAg,4.5,93,american,Mission,$$$
+ceywr-Y82kXrOnGq7OS30g,3.5,90,american,Noe Valley,$
+D9D7J9dCcMyq5KD4ybzLEA,4,100,american,Financial District/South Beach,$
+Nkq3HnaWhaNs2aaHXauhfQ,4.5,85,american,Castro/Upper Market,$
+JFexh9AHdobHpq3yQe0_aQ,3.5,77,american,Portola,$
+QXChDC8Lc5RQZoNXHuUCPw,3.5,94,american,Financial District/South Beach,$
+bVPV2GxCym_HjxBCvSlfHA,4,96,american,Lakeshore,$
+5UKX9xWwIMRLRdtzkRyZuA,4,83,american,South of Market,$
+NAGwRWEzfGw3X_EIQ1j0mA,3.5,79,chinese,Chinatown,$
+_wwK7GNlzZFoZNyQRygu_w,4,94,chinese,Sunset/Parkside,$
+XsiCbtGKRRJd3wQlwx99vQ,4,91,chinese,West of Twin Peaks,$
+ovzxwRIDbVfkhn4bnRhNKA,4.5,96,chinese,Sunset/Parkside,$
+pkrvLo1Cx-YDPHBaReHXQA,3.5,92,chinese,Marina,$$
+5aJKLiUVcC3FnTYG1Ew9hg,3,94,chinese,Marina,$$
+huk7njvrDyP8ZBxW9Kk19A,4,86,chinese,Mission,$
+OszsET0UWoIeCQ4YVxhPWg,4.5,92,chinese,Japantown,$
+ccdem4K4e8XuBud4nMMvpg,4,94,chinese,Bernal Heights,undefined
+kDsLT0xa35As5e3H9KyZ5w,4,82,chinese,Excelsior,$$
+FzLd7AAQ0iDmNCdrie3P1Q,5,79,chinese,Bayview Hunters Point,$
+7c68uq66UOa-8eisi77k5w,3.5,98,chinese,North Beach,$
+pgL2rGQUPbtH2o2hmuAuvA,4.5,90,chinese,Bayview Hunters Point,$$
+n5HRy0g5An_k4NIX1t53FQ,3.5,90,chinese,Financial District/South Beach,$$
+jRHLPjW8NbaPrAEFwYpw7Q,4,85,chinese,Chinatown,$
+XI51XOhOU4fr3vtL6Ok5fw,3.5,94,chinese,Chinatown,$
+zHqoPRK7sWS0trwa5emlMw,4,96,chinese,Financial District/South Beach,$
+G9D7fzzAvXKjOjZtYXub3w,4,75,chinese,Chinatown,$
+mVZtaqqcFWrVV1RBagOKBA,4.5,100,chinese,Nob Hill,$$
+3038Vju_fxsw6EGIywFXVw,2,90,chinese,South of Market,$$
+BuzfrbiSKrnFa4jeuPTp-w,3.5,72,chinese,Chinatown,$
+_ZysfO74zEDOooCktoEBVw,3.5,86,chinese,Chinatown,$
+JPL5OqxmoKGWXZxVSlYkag,4,100,japanese,Financial District/South Beach,$
+jK1_pM6U50seuco7Tvhing,4.5,90,japanese,West of Twin Peaks,$$
+8oT00ympYI-mQ8KEetQ63g,4.5,96,japanese,West of Twin Peaks,$$
+R-yutD4tcw9Q7nVF1Ho7mw,3.5,100,japanese,North Beach,$$$$
+#NAME?,4.5,100,japanese,Inner Sunset,$
+cCMBwxm3mKgELo8LDbdg9A,3.5,84,japanese,Outer Richmond,$$
+g00-FKar6K7uHtIlTa7YGw,3.5,80,japanese,Outer Richmond,$
+RRAGptENFdEKokXXc4U4lA,3,96,japanese,Sunset/Parkside,$
+9-Irfu8q-Mm3aEDXY18GbA,3,81,japanese,Sunset/Parkside,$
+RrIduU6-SUNCanTEVF-hIQ,4.5,100,japanese,Sunset/Parkside,$
+5xcWY1B1xrhZ1BCxQcACbQ,2.5,84,japanese,Sunset/Parkside,$
+QiVKKSaxsYj5-v3FOGtD-g,1.5,96,japanese,Sunset/Parkside,$
+8MTMGQc410dLxOMgLINxdw,3.5,88,japanese,West of Twin Peaks,$
+TquoVBPFfk2ibYPq7mlUzQ,3,92,chinese,Sunset/Parkside,$
+-RC8mOUQzpXG85FK-Nmttw,3,94,chinese,Lakeshore,$
+V-5v17F7IlOLxEyDtCSESw,4,96,chinese,Noe Valley,$
+k6svZTghwr-S2iq8Wx3okw,4,83,chinese,Pacific Heights,$$
+p-YhAX9HsehYM10lmWluiA,4.5,90,chinese,Marina,$
+9GuesGscyTXfaAA9O5aGaw,2.5,92,chinese,Marina,$
+zFRaJAKrDHiVv4iF5qu4TA,4.5,87,chinese,Marina,$
+0bAAwWmfzOlDwrO8835zGA,3.5,89,chinese,Tenderloin,$
+1bvordoxuK59aoPrOQpA7g,4,88,chinese,Marina,$
+zTS6HZOibNdhtx7Cjh-7MQ,2.5,98,chinese,North Beach,$
+_IBsR-AXyM7NSrF-7atkFQ,4,96,chinese,Nob Hill,$$
+su_2mZN87Sid-JDAQTN6bg,3,94,chinese,North Beach,$
+oH8OAKa-pPVo0qPN248Yxg,3,92,american,North Beach,$$
+SiJ3uvVvIMVM_TFQ-O6fGA,3.5,76,american,Financial District/South Beach,$$
+Bx43nzquUrP60pl8WXRzBQ,3.5,83,italian,Mission Bay,$
+GNjQKG-Satm0HjwpWXWoPQ,3.5,77,chinese,Financial District/South Beach,$$
+UfRtNO0ZPscwVFNQl2ZUcw,4,86,chinese,South of Market,$
+fmOw4cvUmH3iArZM7f3qsw,4,78,french,Financial District/South Beach,$$
+kX8rvvC0RxwW_6-C8wHn-Q,3.5,80,latin,South of Market,$
+HUW2WpReOTXIhs9muXjjmg,3,84,latin,Visitacion Valley,$$
+0V19DgE75E7T5E1TlXMpdw,4.5,98,latin,Bernal Heights,$
+vGIFGgPFCEsfaIDKsiRQOw,4,98,latin,Excelsior,$$
+Y5scm_Y8MijSKpp350jKLQ,2,82,latin,Portola,$$
+HcVznWy9n9zbRBxyOzkmWA,2,90,latin,Portola,$
+hxMNw8bT4sJ6T2Um7aI4NA,4.5,94,latin,Portola,$
+7a0UPI4fphao9aKAJXQULQ,5,94,latin,Bayview Hunters Point,$
+4r_2IlyjfHnp-We4-ZIAMQ,3,93,latin,Financial District/South Beach,undefined
+SdGtfr9n1rgRXxNRMfqxzQ,4.5,96,latin,Haight Ashbury,$$
+UxfhIwJWzmUq4j3kD7BXcw,4.5,100,latin,Sunset/Parkside,$
+oO6m75gc94HS4B6BhNIa8Q,4,100,latin,Inner Sunset,$$
+qRJRNFrR6SJbOlod-yPDIA,3,87,italian,Sunset/Parkside,$
+HQt1AGFlgDstlHD9rMTWVw,4.5,88,italian,Oceanview/Merced/Ingleside,$$
+XXdhNG45c37nrU7yzxtVYA,4,98,italian,Oceanview/Merced/Ingleside,$
+yuLdgF0wGNdPufbIl7MIsw,2.5,88,italian,Lakeshore,$
+cceVsCxlAR3VaME_T3x6tQ,3.5,84,italian,Mission,$
+YvZqHLRq-B_f0pu0cUIbTw,4,90,italian,Hayes Valley,$$
+5oTMdBQj8cVvfr_Z7OkaYw,4.5,86,italian,Mission,$
+6KUyzrtW80WFxJnM9vZorQ,4,90,italian,Mission,$
+AH2lEHfc0nX42ACnjBm__g,4.5,98,italian,Mission,$$
+cwBxgW9BygQa6_k96H_j4g,4,92,italian,Hayes Valley,$
+WSyS5OeKN9C8KgFOMlIujQ,3.5,85,italian,Haight Ashbury,$$
+VAyb61CscwPslmFYZvR7Sg,3.5,96,italian,Haight Ashbury,$$
+BDcJgUPXAdl_OvkYaR6W9A,4.5,94,italian,Lone Mountain/USF,$
+S_HWR_cXRoD8nUrhL2c5fw,4,98,italian,Hayes Valley,$$
+cahWqf6Zuxi7ItZgYCqv2w,4.5,94,italian,Mission,$
+bNvaWa9wSLHjlFlrD7i9Ow,4.5,92,latin,Mission,$
+l8xhu3SINVLeb3Mo2hvuog,3.5,78,latin,Mission,$
+cZsRZEgDdDILttpwnVabAw,3,87,latin,Mission,$
+2b4YW6ZKXq45TfZA53_zXg,4.5,85,latin,Mission,$
+kK0s7FAovaLmVDM4D_NdSQ,4.5,85,latin,Chinatown,$
+UusODx67j3KEZBTMqRTC4A,4.5,94,latin,Nob Hill,$$
+9Ra5jMzYIctpddzWMQ0TAg,3.5,92,latin,Sunset/Parkside,$
+S1QNRs0BoCyKmUXPMjoUrw,4,100,latin,Pacific Heights,$$$
+OVx1jiJRVoZg3jDkPvehQg,4,85,latin,Mission,$
+eQTAY6EI1QzJOTz9TlJn4Q,3,88,chinese,Sunset/Parkside,$
+Gs1nRvjI1BBCEDIwTzEJpw,3,83,chinese,Presidio Heights,$$$
+a_x6JCmp1cmH_YMELwrQzQ,4.5,70,chinese,Noe Valley,$$
+aRPnlJsvyzrrriXH8HJ9bg,3,89,chinese,Chinatown,$
+loZXJPwZujUlDE6_wVY7dQ,3.5,88,chinese,Sunset/Parkside,$
+luREw4YhfFuYiUdA0SECaw,4.5,86,chinese,Castro/Upper Market,$
+fAu-D9w9sSzv-L819EbObw,5,100,chinese,Castro/Upper Market,$$
+t4WcuNvabx5OoWYv5YOZkw,4,92,chinese,Mission,$
+KjyMNpNb7wBeszJLQF5-RA,4,75,chinese,Western Addition,$$
+Gs5_sfZWnl154OafOL6eJQ,2,92,italian,Bernal Heights,$
+76smcUUGRvq3k1MVPUXbnA,4.5,94,italian,Noe Valley,$
+c2s4NY6M7NuD6FOWDa7YCw,4,90,italian,Glen Park,$$
+imuT3pLHVFscv_z74lGYDQ,4.5,89,italian,Marina,$
+E6UOsIzFkwP1zhJjv47Iaw,3,86,italian,Marina,undefined
+xLHUD4TbKRzhjBAcAtLVIg,4.5,96,italian,South of Market,$
+R7SY08-_gSprgK1jeXfh0A,4.5,96,italian,Outer Richmond,$
+gQmr23ZMXW53TeFw7sCpaw,3.5,73,italian,Sunset/Parkside,$
+E9VtB9SlGOq_UERiQc1t8A,3.5,90,italian,Outer Mission,$
+_RysiB_bqTgCBmG8W96H4A,4,98,italian,North Beach,$
+yD0beyvbD-GMp7hfUAqUvw,2.5,98,italian,Sunset/Parkside,$
+IeW4KfvSr8HVPyskHtgDhA,2,94,latin,Financial District/South Beach,$
+o5PA5ExKjR1jDZ6SWhb8gQ,3.5,90,latin,Hayes Valley,$
+df4LSUNnGaiTjmfGoFh31A,2,92,latin,Mission,$
+hZcZAUOb-sZpVM8A6mm4VQ,4.5,98,latin,Pacific Heights,undefined
+X6LlsGiiNXcNiE6_QkX-LQ,5,94,latin,Noe Valley,undefined
+DQEIBlDKA9cvU10i8dwdZw,4.5,91,latin,Castro/Upper Market,undefined
+_Mhu9KdI6ntRYKHGuv5gzQ,3.5,89,latin,Excelsior,undefined
+eHpo0tbcIZPz-IEPshBigg,4.5,86,latin,null,undefined
+74NAl710Ake_3inFqiwaDQ,4.5,94,latin,Hayes Valley,undefined
+BzE7e-X1l1e5JGq48wBs8A,4.5,100,latin,Tenderloin,undefined
+HhCs51eWedmB4kzSa18UBg,5,100,latin,Potrero Hill,undefined
+0_9ZFmgW--KUTWGSP6Ssvw,5,92,latin,Bayview Hunters Point,undefined
+a215yTGhEJdoOgkMWNVhWg,4.5,84,latin,Bayview Hunters Point,undefined
+7LsFyZ2PQEvkOw0pRCPnkw,5,92,latin,Potrero Hill,undefined
+rHhuvw1szUJlz6VoeRhASQ,4,91,latin,Mission,$$
+yMHYYQqKWb33qLqCfiaBZg,5,98,latin,Bayview Hunters Point,undefined
+pmqPAQMyYRckZtSwmB5PUA,4,100,latin,Mission,$
+2ZgnUtbF_qqbyfKZ9Tvhcg,4,94,latin,South of Market,$
+kPqQUMj8Hkws0yKoxUgKFA,3.5,90,latin,Mission,$
+#NAME?,3,88,latin,North Beach,$$
+_qfSuTHc4ZwjMnTJdk0tDg,4,100,latin,Financial District/South Beach,$
+_Xn0TVa1lSQSa-h32SptRg,3,92,italian,Lakeshore,$$
+2ZhHWayyECTcnytXAjOrng,2,87,italian,Lakeshore,$
+QtSSE72vZ5124hFZXaZ0Rw,3.5,96,italian,North Beach,$$
+Y4-nrUHauQcrH74z430v0g,4.5,94,italian,Tenderloin,undefined
+vyYptRluNA56niTIrjM_pA,4.5,94,italian,Marina,undefined
+Yo6zMyD2A7fnthp7_UZuDg,4,100,italian,Sunset/Parkside,undefined
+CC7z7vIUSHK_72ngTxaL-g,4.5,100,italian,Sunset/Parkside,undefined
+CjT_aoVFdJiB2fDGKDZ8MA,3.5,100,italian,Sunset/Parkside,undefined
+4dJqJ-RRoqyeUlL-ovR1VQ,4,100,italian,Sunset/Parkside,undefined
+iBTQrDjEg8oOwr_MVy9jTw,4.5,100,italian,Sunset/Parkside,undefined
+xY0nZ1E5kQg5nDXQd1U9jQ,4,100,italian,Sunset/Parkside,undefined
+P4YBjAo7tbkdx1mBdbP_yA,3.5,94,italian,West of Twin Peaks,undefined
+OF4u17la_rqaT952EmdLjg,4.5,98,italian,West of Twin Peaks,undefined
+h9eyoUloo3IcXoKauV8PLQ,5,100,italian,North Beach,undefined
+_cvRHKYUT9lSTEoKhPCUuQ,4.5,100,italian,Bernal Heights,undefined
+1ZThCX_TlIE712cHWAiSkQ,4,100,italian,Lakeshore,undefined
+ty_JshE9J4M4YGVWxz41sA,4,98,italian,West of Twin Peaks,undefined
+vRvPE-TYsH95GPVMfv7_1A,5,100,italian,Oceanview/Merced/Ingleside,undefined
+wxbBjUuIdlo8W9pIVuzWuw,4.5,100,italian,Outer Mission,undefined
+zY-JYud8l1pysOTN8YdbpQ,4.5,94,italian,Outer Mission,undefined
+ldJGqcB9kmRX7i0VFFmq5A,5,96,italian,Mission,undefined
+erpfYfUwWfAzK21slW9lHg,5,98,italian,Glen Park,undefined
+rU5z9bN4DDQyDRt6V4wsBA,3,100,italian,Noe Valley,undefined
+lC4OlnzMiNZwxVguD-DcEg,4,100,italian,West of Twin Peaks,undefined
+vTqX-JG6mAQJfghyhRu-yQ,5,94,italian,Lakeshore,undefined
+94sAjDIl_rgw07hdELxW6w,4,100,italian,West of Twin Peaks,undefined
+YwqIQOB0h7VRcDQvT6ST2w,3.5,96,italian,West of Twin Peaks,undefined
+#NAME?,3,100,italian,Mission,undefined
+5mmoOrJ1AAWdiYhZBsw5UA,5,93,italian,Potrero Hill,undefined
+RinuHPDSIPUNqvO7VuqlkA,1,98,italian,Excelsior,undefined
+vUv7dr4VE1zhiBgjoDeHIQ,4,98,italian,Excelsior,undefined
+W4oa6KU9zXzciH8uSVo7vA,3.5,96,italian,Outer Richmond,undefined
+Fz3YqjANm5FcisFxtfUxfQ,4.5,100,italian,Outer Richmond,undefined
+lLwTC6eOWJGhEsUI2KnN_w,4.5,98,italian,Outer Richmond,undefined
+hR5UIYYrYEdiQqxE1h6Log,5,100,italian,Castro/Upper Market,undefined
+QwGFxvCi0MEhGCEY1jyjpg,5,100,italian,Castro/Upper Market,undefined
+y7GmdaN4t44cmEyHYPTFDQ,4,100,italian,Inner Sunset,undefined
+sgDUFcvlEtoUCSYKn_1vvg,4,100,italian,Inner Sunset,undefined
+SaUt23Mm2L-AKUmchVd2jA,4,98,italian,Haight Ashbury,undefined
+TRFftDlWHbKBIfFUpZWAoA,3.5,100,italian,West of Twin Peaks,undefined
+NxQneOUmpi-g0KS6vy8g5g,4,96,italian,Twin Peaks,undefined
+AS4g97LmcyRXYvuqsJvIrA,4,96,italian,Hayes Valley,undefined
+5iZFcVwgwALHpK6FjhDupg,3.5,96,italian,Twin Peaks,undefined
+_Mhg3jNVp98imPuKiqIvow,3,94,italian,Lone Mountain/USF,undefined
+xmsa2YrgM7VEpW8KjUyx1w,3.5,98,italian,Castro/Upper Market,undefined
+e-DfFG64DY0-Oock3KLMCw,2.5,100,italian,Portola,undefined
+r10GFaIiVG9s_W27nRX8YA,4.5,100,italian,McLaren Park,undefined
+7I6Zx9I6Y2pSFty5cTtmNg,4.5,96,italian,Portola,undefined
+TJVzQELy4JUrXwZYfuqHyQ,3.5,96,italian,Potrero Hill,undefined
+L7qo7Kg_j6IRu4zeCk_qXg,5,100,italian,Bayview Hunters Point,undefined
+0S697HlhUa1gkwzzLUHPWw,2,100,italian,Excelsior,undefined
+kMri661Zt2T3A1X99OjjHg,4.5,100,italian,Visitacion Valley,undefined
+HNB69nsUkD7Zy0Si-7Sxvw,4.5,100,italian,Bernal Heights,undefined
+Nsn1lCdRQzgUFDN8u8IVbQ,5,96,italian,Bayview Hunters Point,undefined
+xOF2dGQ26Svh5S9uWKJuvw,3,94,italian,Bayview Hunters Point,undefined
+MSIwdi03UUd3-tdf5xZDDA,3,94,italian,North Beach,undefined
+815qChe2-zZxDPqC0Ojvhg,4,100,italian,Chinatown,undefined
+4oWUPawTmIiRRPAV2qypYw,4.5,98,italian,Chinatown,undefined
+QGhkvHnoJJ3SYqivDd8tag,5,100,italian,Chinatown,undefined
+jiFotKJwvhurSSyH_1Bz9Q,3.5,100,italian,Russian Hill,undefined
+UQAMpqb263NQLNeghvx2Xg,5,100,italian,Mission,undefined
+PNR6-MwjgdKpKXWkYpm3BA,3.5,96,italian,Mission,undefined
+gj7yt4D3-lYWsjWhxwtLBA,4,100,italian,Castro/Upper Market,undefined
+jtpN4Czhv073rhOgq0iR_w,5,100,italian,Excelsior,undefined
+ejECoLnbcvSNnQz0fZorPg,5,100,italian,North Beach,undefined
+HhUxd30KD-YMvzhFCfmONw,3,93,italian,Russian Hill,undefined
+rI-tXfjKccjXzknftIWYww,5,96,italian,Russian Hill,undefined
+4CrmoxuplMjVr3djXnsYjw,2.5,96,italian,Marina,undefined
+6Ny2qkA1IsZp9LiN0lWPtQ,5,88,italian,Mission,undefined
+rQRFSFBDatSo0h1Jo5Xm_w,4,100,italian,Lone Mountain/USF,undefined
+9q77IEGYaZm8gNmRhnCZ8Q,5,96,italian,Portola,undefined
+a_7hfqM-cRz3DCbc30ziCA,3.5,100,italian,Portola,undefined
+wYcJ9jmShP1bGUFGSepNuA,4.5,100,italian,Sunset/Parkside,undefined
+MWdmhRpEuV05tvvGzizsAQ,4,87,italian,North Beach,undefined
+7bdsOocSnIhS_k8aYHCa6Q,5,93,italian,Oceanview/Merced/Ingleside,undefined
+eCoL9vIsN8IYnk352yUzjw,3.5,98,italian,Lakeshore,undefined
+4g1hGMpZ6EhxTqWR3w0-tQ,4.5,100,italian,Excelsior,undefined
+oKPcWAQMa-l1PSARYMcQXA,4.5,98,italian,Outer Richmond,undefined
+wQeKU_F1s-hIp97oI-ROog,1,98,italian,Glen Park,undefined
+21GGn_Sydfj0oPzJB0Onhg,4,100,italian,Inner Sunset,undefined
+gxWwsVwztHwGWuRJE7OLww,4.5,94,italian,Pacific Heights,undefined
+BeA-p_QtKpV99LBc1A78uw,4,100,italian,Outer Richmond,undefined
+TZSyESzI1SuYe2yJJ7htng,4,98,italian,Sunset/Parkside,undefined
+MYmtzq5G4MIaeeZXUSPsGw,3,100,italian,Chinatown,undefined
+xqVNnVHXpWRgWXV3vwb4Gw,3.5,96,italian,Outer Richmond,undefined
+YfEbpD1e2UdjAqIy5Yn2Xw,5,94,italian,Tenderloin,undefined
+XurlAwGTVydDi_mg0o7PmA,2.5,90,italian,Mission,$
+SujWrdUowc_kR0xW9EGBTg,2.5,96,italian,Bayview Hunters Point,undefined
+3SicLpRs2O4HJOSnBvHT2A,3.5,98,italian,Japantown,undefined
+KT1bpYvTnKY7wa3OlJbFBw,4.5,100,italian,Potrero Hill,undefined
+0j-VpLf5n5M9UuVMHqJFSQ,5,90,italian,Japantown,undefined
+GAKy2Zp0xykUmH1zPWxJWQ,3.5,100,italian,Castro/Upper Market,undefined
+ydH5cyFil-45m3-Zgg_klA,4.5,100,italian,Castro/Upper Market,undefined
+7-l8PP5v8uDM9gUxrReuEg,3.5,100,italian,Lone Mountain/USF,undefined
+gykd793r5uwi6p2zVxu8Nw,4,91,italian,Pacific Heights,undefined
+Hffp3fzgzY_TP0LB5xaX9A,4.5,90,italian,Pacific Heights,$$
+CAaCt-zyjxenxdWL2TnQRg,4,96,italian,Sunset/Parkside,$
+IU26nUYu6-BS6z5LXpNAxQ,3,92,italian,Tenderloin,$
+n7CkfrwUe9AAoVUrOgbp_w,3,92,italian,Tenderloin,$$$
+K5rmqKGBQZKu9KRY7kRwmA,3,70,italian,Tenderloin,$
+bfYjUpsHSxGUl6FVGx4n1Q,4,84,italian,Tenderloin,$
+x6fxTFMVzzxtPaDOpMlMuw,4,86,italian,Tenderloin,$
+THL1Np6xuxXQZrSdGA1aFg,4,94,italian,Excelsior,$$$
+TJQP442ImloqzGQECLjAlA,3.5,100,italian,Inner Sunset,undefined
+G-NgB1MxeFQOeo9oAmFzLA,4.5,82,italian,Chinatown,$$
+g_5j77ImBRZIoz_NSeOBmQ,5,100,italian,West of Twin Peaks,$$
+w4C21_0f0ZFJFHjbWe9Scg,5,87,italian,Inner Richmond,$
+2O7i4v_lsXggCzlAHNpA1w,5,100,italian,Sunset/Parkside,$
+yS45pX8JMI9ou9ElLdznfw,3,92,italian,Russian Hill,$$$
+JBXxB40odR2Bvwk9yTXnJA,4.5,90,italian,Russian Hill,$$
+U7lsqRAaPcZ-6vhrmRNCEA,4,96,italian,Russian Hill,$$
+forDwo-xvl7SlYzu9kL9CQ,4,100,italian,Pacific Heights,$
+D-RmoSAWNR_qh9A013AP-A,3.5,86,korean,Financial District/South Beach,$
+zRBzztJKEJ8JmvRa66GlpA,2,90,korean,Chinatown,$
+gIFBczaUGeF_he_vbhwy2g,3.5,94,korean,Sunset/Parkside,$
+#NAME?,4.5,87,korean,Mission,$$
+k6kJC3WH9fxGxCy8T1KRqQ,3.5,92,korean,Hayes Valley,$
+f6tOZi2TH59XrdKyJVfvdg,4.5,94,korean,Haight Ashbury,$$
+Zx0vVLspFEujyLyz7TSrMA,4.5,100,korean,Haight Ashbury,$
+jQaTBNU2KZadV5D7wdnD2A,5,100,korean,Hayes Valley,$$
+YwOIqr_zawRhyIJlgKsnKg,4,77,korean,Mission,$
+o-jrxsO_Btbq5T1wxcxNMg,4,96,korean,Castro/Upper Market,$$
+BTPsv5-vBA_HU3mQ2KSnrA,4.5,92,korean,Castro/Upper Market,$$
+eDN8ERIlNUKJEznK8up1gQ,3,88,korean,Castro/Upper Market,$$$
+epqdmrImnRyY85qLYrgA9A,4.5,87,korean,Mission,$
+I002H5kRDi71SjvahjbZ5w,4.5,76,korean,Outer Mission,$
+RW4SO0bhKXQIjtjWED3EEg,2,96,korean,Marina,$$
+uuDCkNSudZ8QQGnrxK3jCA,4.5,82,korean,Excelsior,$
+pgy1BYdzUgXTFDvzv8xk2Q,4,91,korean,Tenderloin,$
+EYt9l0w1t5uFqJlCx758AA,4.5,86,korean,Noe Valley,$$
+ukxc1GmEMLVb4KsLY28FJg,4.5,98,korean,Potrero Hill,$
+Hk3H7UIytXHGOSPLgTosJw,3,100,korean,Bayview Hunters Point,$$
+YfCDZdvVnqw1n_qP6U9BOQ,4,89,korean,Presidio Heights,$$
+qxM1QRcWUgOZ0DFT7TSZ5w,2,98,korean,South of Market,$
+83dXgt2nG98JJG2F7ai8AQ,4,88,korean,Inner Richmond,$
+S9tQuE6NntybvNo3vEgL9Q,3.5,96,korean,Noe Valley,$$
+9105_80WzqfRtss5uGNtaQ,3.5,98,korean,Pacific Heights,undefined
+UmTMCfPlhA6kJLAsLycSfg,2.5,96,korean,North Beach,$$$
+pRc0w1ytf7ltOEw40CsK4g,3,88,korean,Financial District/South Beach,$$$
+d6OZjDtNICvApn-uCULDaA,4.5,90,korean,Russian Hill,$
+LzKvTAbofjvN2LAp2OzHZQ,3,94,korean,Outer Richmond,$$
+sNPpsIYRZcQeiLYoBbO2xQ,2,86,korean,Mission,undefined
+q_B_KaMQBFcN0DGW8bKdEw,2,89,korean,Mission,undefined
+4a9TpuIMCK940OYHFx6osw,4,90,korean,Mission,$
+-R1A3E_RnFP9Ub46Jm1kVw,4.5,92,korean,Financial District/South Beach,$
+br9coJ62n0l_vhVhrNovVw,4,100,korean,Nob Hill,$
+DYmYpqJoExR7XavMTK4nfQ,4,100,korean,Tenderloin,$
+BAHj-GU6zIpwJJJErUBheQ,4.5,94,latin,Excelsior,$
+eGkO001mzh7i5dNsRywpgA,4,98,latin,Excelsior,$
+sNqNJId-hIF9PrDz6XnP_Q,3,83,latin,Outer Richmond,undefined
+pgL7vaBtYFjCFTMT4x-mOg,4,96,latin,South of Market,$
+I19ntZQrZxMn9gYOOK1rhg,4.5,100,latin,Financial District/South Beach,$
+ngUkiXMFfat02KBDsxE-Qg,4,100,latin,Financial District/South Beach,$$$
+XfixrF0It2iSvYuAnZ1GoQ,4.5,96,latin,Inner Richmond,undefined
+WZxmvQEo8LL-AUChoj8XNg,4.5,92,latin,Inner Richmond,$$
+jnyoYZe9mHX_KMsfSyx4eQ,4,90,latin,Western Addition,$$
+9PhrFgMv94H6iWHjpL8SZA,4,85,latin,Pacific Heights,$$
+RuLKwhMy0NHg8QAkTMGERA,1.5,92,latin,South of Market,$
+aXQoU9nzfQtrboaVz-ItUg,4,98,latin,South of Market,$
+XQ1qjpWP4zLeG-HYG544Gw,3,92,latin,Visitacion Valley,$$
+1BLIlkAt12C9wJaORMJQtA,5,92,latin,Bayview Hunters Point,$$
+12PrVsk92I2ZRQ24gXUunA,4,81,latin,Bayview Hunters Point,$$
+2k5WL7HoRlFKt0zJSPNGDA,3,100,latin,Sunset/Parkside,$$
+KfLlygYtiiJ8IINsF9O6Cw,4,87,latin,Sunset/Parkside,$$
+ljkEyd45R-hQ0dOtcn_6jg,2.5,67,latin,Outer Mission,$
+owPjvZTtjBaiwyiaCuRHgw,4,86,latin,Mission,$
+NIOvMXknM97yfJuTEejt6Q,4,98,latin,Mission,$$$
+KMORkOEcjkAychXg_rfwnA,5,98,latin,Mission,$
+aLjKukAMITUA6mNTq0AbNg,3.5,94,latin,Hayes Valley,$
+oRoyDx2uTx9wITan6IAoRA,4.5,94,latin,Hayes Valley,$
+TOaVNHNg5-tkzsQrqIGQOw,4.5,83,latin,Mission,$
+-MIEGzSOab-0c1MsvZ-8Jg,4,94,latin,Mission,$
+Aw_dPXK4bOIB0GxEio4Msw,4.5,96,latin,Mission,$$
+0orfk_1lbX5AMF_kaRc5Mg,3.5,83,latin,Mission,$
+GOBChLG2VZDk2nK-RftPIA,4,82,latin,Inner Richmond,$
+wmOtvQvJALyGpKjINALecg,4,80,latin,Mission,$
+xDwEMq8kgT0eQepn90Jkvg,4.5,92,latin,Inner Sunset,$
+eXsgothKW0_Yxy-U6tSfEg,4.5,93,latin,South of Market,$$
+0dG1dsLyawvLUSc58goJcw,4,90,latin,Bernal Heights,$$
+CfU_8BIc6SX7lhDYAB9Xkw,4.5,83,latin,North Beach,$
+9PhrFgMv94H6iWHjpL8SZA,4,93,latin,Pacific Heights,$$
+Kh18RDap2IivJ1-B5v_opQ,4,94,latin,Excelsior,$
+kZwyT6MDTXE1N3qAy4mAjQ,5,100,latin,Hayes Valley,$$
+N1hqh6abqCF2YJ81I4J3Xw,4.5,90,latin,Mission,$
+2thSrTzEiazW3R1ndqvErw,3.5,92,latin,Mission,$
+o_687zG5kw-GdtVCMN7Z7g,4.5,96,latin,Mission,$
+zgBfOxGRJ4ICSUTrb_qUfg,3.5,92,latin,Chinatown,$
+WZED7bVvzaJ7BmcPAb_gWw,4,100,latin,Potrero Hill,$
+sn2c7alrdos9KJUlxg6KWg,3.5,94,latin,South of Market,$$
+Xg-FyjVKAN70LO4u4Z1ozg,4.5,100,latin,Financial District/South Beach,$$
+iqyQFrKE1v1UN78CnPbn8A,4.5,91,latin,Pacific Heights,undefined
+Zv-JJeYhThTMkMAWhxXJHg,3.5,94,latin,Financial District/South Beach,$$$
+tYKNpQ5pjYHW7DARwPr9bA,4,83,latin,Financial District/South Beach,$$$
+bI0djBt4exAWQQOxaVexDA,3,100,chinese,Financial District/South Beach,$$
+47kmqCs7XGQHGxwexnbbbQ,3,89,american,Financial District/South Beach,$$
+2Fkv4DJLsjaaRUuaqcsigw,3,98,american,Mission Bay,$
+wSMxakceGgjxKr63XfMACA,3.5,88,latin,Financial District/South Beach,$
+QOtQMWtBoeoAGWnxxer4Sw,4,90,latin,Financial District/South Beach,$
+#NAME?,2.5,83,chinese,Bayview Hunters Point,$
+44l66TSvDoJ9q_ILAQSACQ,4,94,american,Lakeshore,$$
+LP-1AKyY6tFkUvmd1p11-Q,4,90,american,Western Addition,$
+R2vcS8bnlC8spixK0c1fVw,3.5,85,latin,Financial District/South Beach,$
+GPK6hwD_EGKCRVD1cWESig,3,83,latin,Inner Sunset,$
+F1CEv7ZoUTbq_bpbCIZ80g,3,94,latin,Chinatown,$
+v3my2CwwOPb96S2AyMwE_A,4,86,latin,Outer Richmond,$$$
+VhvVzBxyTkDKV1pFT1YwfA,3,94,latin,Sunset/Parkside,$
+YfEbpD1e2UdjAqIy5Yn2Xw,5,96,latin,Tenderloin,undefined
+s4AmL4XID5jKEbxGUVNPMQ,4,100,latin,Lone Mountain/USF,$$
+x8KjU6JY64bXo60Tktu4PQ,3.5,92,japanese,Inner Sunset,$
+Tyn-UqOTpVHtZAgrB0lWyQ,3.5,89,american,Financial District/South Beach,$$$
+9kdKmkl5kejjMnzCfnkUAA,3.5,94,american,Hayes Valley,$$
+saMhj8Co8zxIVGHHmKftqg,3,98,chinese,Western Addition,$
+d9wPElAQxkl3kr020ttwGw,2.5,100,chinese,Tenderloin,undefined
+4nKCA1XhcT7E_jqlOKxm-g,4,96,chinese,Inner Sunset,$
+OT8o_T_09_dtwFdJf8Gj0A,3.5,96,chinese,South of Market,$$$
+QIJ220ImsRmRY7tEE3Bq1g,5,100,chinese,Mission,undefined
+eKTVnt8QVzVQx05TiUawGQ,3,81,viet,Chinatown,$
+yJjTCZ_WWCeznEWRM-Majg,3.5,92,american,Inner Sunset,$$
+3-QftDg5y7rqLfCVt_Ja-g,4,87,american,Japantown,$$
+udYo3BZ0Y3nR1iOtk58Inw,3.5,81,thai,Financial District/South Beach,$$
+Lyl7fmCru0IAk0vl96KPfg,2.5,79,thai,South of Market,$$$
+HcZ1IJ9r0EIhg0_CKFmF7A,2,96,thai,Lone Mountain/USF,$$
+YpxDXFtuX47QWGHNvlqpxA,3,92,thai,Nob Hill,$$
+tNAkdDxzwTQI2lNm7OG2fA,4,79,thai,Financial District/South Beach,$$
+e3WDNQMYpLdMEmM2UV13rA,3.5,96,italian,Marina,$$$
+UbKrcsBaZoaBkBOajEX08g,4,90,italian,Western Addition,$$
+hYH3XfUXFc09TjiuGfLiow,3.5,88,chinese,Outer Richmond,$$
+H3aEQwuDJkschVK-tF-vHQ,3.5,86,chinese,Sunset/Parkside,$
+6npOsHE3BNPqNmWpSpN7Ow,3.5,90,chinese,Mission Bay,$
+9xcvXbVRlz6oYlNqcnKxZQ,3.5,96,american,Financial District/South Beach,$$
+au6IWLg6TlCK7z-QYgTIEA,4,96,american,Tenderloin,$
+LRDLyAKHF77Xx7wQHktOgg,4,85,american,Hayes Valley,$
+JsAIv1onxUUlf9rBxX9B3Q,3.5,90,american,Chinatown,$$
+dY-ukxECnkAiTsQnfYeVuA,2.5,94,latin,Financial District/South Beach,$$
+y0j4nhd8rYAyZgdsHOXjPQ,2,96,latin,South of Market,$$$
+u30abI5AtOKAddJRxUfZTg,4,96,latin,Tenderloin,$$
+q547u5aP1ofp6HkqfxYWZw,5,98,latin,Excelsior,undefined
+MfpRhmBz3W-CDzxH-RQy4Q,4,92,latin,Western Addition,undefined
+-8mvLH7dsKaIBCy76kOJgA,5,90,latin,Bayview Hunters Point,$$
+HG5cvtfUcpMojb2RyB2ZJQ,4,98,american,North Beach,$$$$
+34PjVd87KUcTHuSZXWvAOg,3.5,98,american,Marina,$$
+RYWmFgmeI8FDIhqlRy8oPA,4,96,american,North Beach,$$
+Lg73M4FnC1QQmUGpGHD4hA,3.5,90,american,Mission Bay,$
+PT_j8Sj6sIScFXo04UpXww,3.5,96,american,Sunset/Parkside,$$
+xqP8EXQrBkFEwTnjSbMD0w,3,90,american,Sunset/Parkside,$$
+F0xcavylIZklIICBrLXMWw,2,92,american,Mission Bay,$
+Ad-tBph_1318oUocDbrrTQ,3,98,chinese,Sunset/Parkside,$$
+__I9HmtBMV4dDkEgT22V4g,4.5,91,chinese,Western Addition,$$
+OfbRaVdL41hRR65Y9UXMZw,4.5,94,chinese,Outer Richmond,$
+ZFDJH0cHoru5E2mZR0pmtA,3,79,chinese,Tenderloin,undefined
+TB3Yx9vRug8lnkL-08VkCw,3.5,98,chinese,Sunset/Parkside,$
+2kigSyi7myx0-34YATi-Xw,4,98,chinese,Sunset/Parkside,$
+Uo-mkpbJtxp1kwni3lmpTg,4,100,chinese,Nob Hill,$$
+aJCHhFDu8IdDrE48UtfVRA,4.5,100,chinese,Nob Hill,$$
+o1jJBQM_vUGqORdT5b-xGg,4,100,chinese,Pacific Heights,undefined
+dJ4bSlqY3a5uU14WRqBrzA,3,90,chinese,Sunset/Parkside,$
+vV2jpj3cNmeMqEJszGDWCQ,3.5,92,chinese,Mission,undefined
+ay4G1eVA8hX3mTlgUDuiHw,3,94,chinese,South of Market,$$
+mcc6jseW0bDjqDf7JT9JDA,4,94,chinese,Outer Mission,$
+yyi2GpG_p7TX7XAq_eHSZA,4,92,chinese,North Beach,$$
+VdxJdMX53XZYNZvZlr96HA,4,100,thai,Financial District/South Beach,$$
+XUOaN3QKGTBkNf3CMuztYg,4.5,98,thai,Chinatown,$$
+1KbZaqEdZkn6LHlA55M64g,4.5,92,american,Inner Richmond,$$$
+Pd9rFAwlvCngxH3zsl1ZwA,3.5,88,american,Chinatown,$$
+r-PpGYg8rLP9ymV5Om_w7g,4,83,american,Bayview Hunters Point,$
+tE1iZfdyB6UwqupnQ5a1Gw,4,90,american,Mission,$
+1vx5GP95gasv16QOrm3rYg,5,100,american,Financial District/South Beach,undefined
+cCASSaLEdfFquYbfjHC2_g,3.5,83,viet,Mission,$
+vOjAWfhzLaXHa1v5cGnuIQ,3.5,96,japanese,Mission,$$$
+nNxR_L7zdLfVlPiqzNJivg,1.5,96,indian,Financial District/South Beach,$
+s4GvKQzi6eHEr-2F5z8o_A,3.5,72,latin,Bernal Heights,$$
+BW4jKEfpbBH7UYthXxETIQ,3,83,latin,Financial District/South Beach,$$
+TVRand2wmHT67J5WMsiBcA,3.5,85,latin,Hayes Valley,$$
+1nzk92bfVUq-NSNsilrmQQ,3.5,70,chinese,Financial District/South Beach,$
+C-FmlwtyYfNJ_47T0xyS1g,3.5,80,chinese,Marina,$$
+WLqqZYTeo6wFXuCFtlweqA,3.5,94,italian,Hayes Valley,$$
+5xkvVDTfcsXnffeIhCQoow,4,90,latin,Outer Mission,$
+c5-kcsmTjpe_7FsDCuQEHw,3.5,96,latin,Tenderloin,$$
+NcwP3kUy90oadOkRLcGO4w,4,81,korean,Outer Richmond,$$
+C7e1ZvLk-X3vGmZj5fuUAQ,4,86,viet,Outer Richmond,$
+uSPZcHa95Hx9nWOsJk35Pg,4.5,94,viet,West of Twin Peaks,$$
+xaYfmUNTchH56sdxjHulfg,4,81,thai,Tenderloin,$
+4z8ySDFczYWgLk1jDyEpKw,4,83,chinese,Excelsior,$
+mi8ADETT7WJfssSTld7OmA,4,86,american,Chinatown,$
+hVcc7ucQxuHatWKv6iEsew,3.5,100,american,Marina,$
+UUfHvSiMAEh67H0ny5N_dA,4,98,american,Sunset/Parkside,$$
+fhcGka7vf7xelrGS2pXLHA,3.5,74,japanese,Outer Richmond,$$
+bdNAyQz6Rruu2K9un3SeRA,2.5,98,japanese,Financial District/South Beach,$$
+cD7OpbJAVpfNF6cBKaoRbw,2,74,chinese,Chinatown,$$
+elUyTTbvp8kGVBBULrXiwg,4,72,latin,Mission,$
+vgiU8UE46jooixi8yk2GAw,4,89,latin,Marina,$
+TDG3DA5JtG3fdt4tqYJ94g,4,83,latin,Western Addition,$$
+z8baJ6a5QlV8Atl2x6FgTw,3,86,latin,Financial District/South Beach,$$
+fb839_K2BgW1-XlQPRXrzQ,4,88,latin,Portola,$
+xji2vmCj8kqsbA_cvd5hvw,4,86,latin,Sunset/Parkside,$
+nik97G8-H0rFoJKO4X3ZIA,3.5,92,chinese,South of Market,$
+mpuhp2b83qNAKcE19-dSjQ,4,96,medi,Marina,$$$
+kn2MJ6aSgaFgPduVsLW39w,3.5,94,viet,Bernal Heights,$$
+zoZxgc6mKwRYynxonPfvWQ,2,96,viet,North Beach,$
+ttarnopezxmp2ROB1N2PaA,4,93,american,Hayes Valley,$$$
+dHvxFvQxbfOuc6Y3Q4foAg,3.5,94,american,Mission,$$
+xdAgbLBQcffIxI8mYgjT1Q,4.5,96,medi,Russian Hill,$$$
+VOoHZDC-dgDUzTSsmgESOQ,4,96,medi,Mission,$$
+ny32fboJpLx8q1p7KObNxQ,3,85,japanese,Mission Bay,$$
+cx6y2D1Q77R6dEqMOvnL7g,4,92,latin,Sunset/Parkside,$$
+wpnrmiw_ApYDmdC2b_WFRA,4,96,latin,South of Market,undefined
+wpnrmiw_ApYDmdC2b_WFRA,4,92,latin,South of Market,undefined
+WKBAkKgeqJ9aCoexvpNUeA,3.5,81,indian,Inner Richmond,$$
+SA2ylqoib_Vb9R0LmH3HVg,3,90,french,Presidio Heights,$$
+WUbPsYeuLtnYFbA7oZ5ruQ,4,83,french,Mission,$
+E4zEQ-_w_Ogokj6balg5NA,3,89,viet,West of Twin Peaks,$
+34QVVEZVkskBc_cXXTKp4Q,4.5,84,viet,Outer Mission,$
+aG0R24iGkSdQARo_9h_NOA,3,88,viet,Outer Mission,$$
+cJPJfRHoQl0W3U2QkRhrdg,4,100,italian,Bernal Heights,$$
+MKfsbZ8E1QOXruZOAo9TNw,4,94,italian,Mission,$
+L7pc5vy6tv8WDcrwOGplDA,3.5,87,italian,Tenderloin,$$
+KFvymNR6xPbWJPrjtM5tlg,3,69,american,Marina,$
+MBt6Iw8xLPMXGjuFmf3b2A,3,94,american,North Beach,$
+3zohbNdShI5D-2I0YJskUA,2.5,94,american,South of Market,$
+x1Xtbt9BinmdUsAAqXFdZg,3.5,96,american,Financial District/South Beach,$
+6bHDla2n0mBXkeNmsM8_dw,4,88,japanese,Sunset/Parkside,$$
+1HEjxY-yIGJJ4Uh1SJDLxw,4,89,japanese,Potrero Hill,$
+KTCJ3-cYhFVENTUIBAzpQw,3,76,japanese,Excelsior,$
+OjFmittxCKhOugihhAFTZg,4.5,96,japanese,Russian Hill,$$
+3fAm4LkrGUbjXM6eMonBEA,4,96,japanese,Nob Hill,$
+ztL8KI0ed0snCiK88ZUfNw,4,85,italian,Financial District/South Beach,$$$
+wxzx3duu1c0CcomzEOvfOQ,4,86,italian,Bernal Heights,$$
+q9qlhyZVJpyHT0tgEaPxUQ,4,94,italian,Nob Hill,$$
+jBdCBZc7-ab7c2tpoIEWJw,3.5,92,korean,Tenderloin,$$
+9wUeqMzExFEG_yWfyDwMBQ,4,87,latin,Bernal Heights,$$
+jWd3cVgcueS_FHsUUDF6aw,1.5,90,latin,Lone Mountain/USF,$$$
+H39BoDMLpgiYNvoidKFDCw,4,90,latin,Glen Park,$$$
+GtT2ftGkNUOMjKBm8zmYoQ,4.5,96,latin,Potrero Hill,$
+0sIK9d0iaFOSUiu3RgA2aA,3.5,80,latin,Mission,$
+OmdHCtqseHAuuuAv3kO5ww,4.5,96,latin,Bayview Hunters Point,$$
+qxaYckrMuYu1PugSY1njzA,4.5,89,latin,Potrero Hill,$$
+ybjjnV3R6EsElqzYOV-x6Q,3,80,latin,Chinatown,$
+WyBN8MGM6LVuDNBD4cBEqA,3.5,89,korean,Japantown,$$
+wGl_DyNxSv8KUtYgiuLhmA,4.5,90,korean,Mission,$
+wC6YHdGylMHRh3-Nsb2yNA,4,89,latin,Nob Hill,$
+E5MdoCV6kahC6ZEjuamgzQ,3.5,90,medi,Inner Sunset,$
+gtIud2JPu_tW3LMldEOUaw,4.5,87,italian,North Beach,$$
+9nBmwdg2bZOxU5nV3SlYBQ,3.5,79,american,Outer Richmond,$$
+NZI303NL5iVqOCxZKCfCYQ,4,89,american,South of Market,$$
+TR5FbzexqkO0jJ7Sc3MsMA,3.5,87,chinese,Sunset/Parkside,$$
+ywmZI0cSSaBhu3U6DKIMFw,4,89,chinese,Excelsior,$
+jfeOjuMf-kaQm5aaJEGWKA,3.5,90,american,Financial District/South Beach,$$
+T8VkmvckJAjh2IwN1aKpKA,4,96,american,Western Addition,$$
+w_CDMwPaFE8L-cFQZzFyTg,4,92,viet,Castro/Upper Market,$
+L2Iy2Wp7ClrVCfSUrfZDMw,4,94,american,Castro/Upper Market,$$
+bfriIYnWWc7yFHdKIpI-Kw,3.5,98,american,Financial District/South Beach,$$
+xE3LQfzixJfqqQsNt2GTXQ,3.5,70,chinese,Chinatown,$
+FbnKItSEZzIpMyOmOOE_Rg,3,96,viet,Tenderloin,$
+sZPWB4TTX06W5Ht5kv7qdg,3.5,90,japanese,Inner Sunset,$$
+dyFA3mioZBBRO2B_VP7IJg,3.5,90,japanese,Glen Park,$$$
+cd6UzEmq4KFAepApE5AAAA,4.5,96,japanese,Mission,$
+ALnTuA2qBVGwkcrwoeMYEA,4,84,chinese,Chinatown,$
+rwu2h9V6zXUTmn7-eCVCUg,3.5,89,chinese,Western Addition,undefined
+AVmip4P8l2i7HheKuniWvA,3.5,84,thai,South of Market,$$
+x9wMRMLokXXawL-NzgI2SQ,4,91,thai,Financial District/South Beach,$$
+w-F9xOVAQaiLINR5VWhOfQ,3.5,96,thai,Castro/Upper Market,$$
+i7S7iv9Nzpi_Ox-ZMA8Dug,4,100,thai,Nob Hill,$
+M7oenVpkw_G0PRVRasA1zQ,4.5,98,thai,Bayview Hunters Point,$
+TcUhtqRLL-lwSGJmpz415Q,4,96,medi,Mission Bay,$$
+Q25GDNRvf4dKzgwWli2oCg,3.5,84,chinese,Outer Richmond,$$
+OoyK7MyuPtKOQAXmEmyM5g,4,83,chinese,Mission,$$
+BqUUe0Bs3RIj8lS_51AhPw,3.5,90,chinese,South of Market,$$$
+vVN_oVe6jvr4PCmXg_m9CA,4.5,87,chinese,North Beach,$$
+f9DPAfiQtX4mXKAWLLk7Sw,2.5,94,american,Tenderloin,$
+f8fYPWuRB4o225YjPEjq8w,4,94,american,Haight Ashbury,$$
+DZnhZ8isy1iWNdCe-ryJRQ,4,94,american,Hayes Valley,$$
+#NAME?,4,94,american,Bernal Heights,$
+LD-AEBPmSwaQ1eWf9ZKLcQ,4,92,american,Marina,$$
+RM1ioN-76NzXDbfv63GhTQ,4,81,french,Marina,$$
+rR_7mgpw0FmPgrTMJRsmuQ,3.5,85,french,Marina,$$
+maULMTcda9y6bQlPnqcJVw,3,79,french,Tenderloin,$
+MfwQssrz0Sk3ra2kU3PNUw,4,96,french,Financial District/South Beach,$$
+G_CJ4WcLc64c4Re_YCGDnA,3,86,french,Marina,$$
+Lk_5TXhE5q6h1vagQk8q6w,4.5,98,french,Nob Hill,undefined
+UgH7AknVzB6bRujt625jPw,3,90,french,Financial District/South Beach,$$$
+KJ60hbQU50Q_TJm9kJezuQ,4,92,latin,Mission,$
+RaCh7oZPpgi7YCOWPP-yFg,3.5,96,american,Outer Richmond,$$
+yjZq4NlO_WwjNr3lniFNww,3.5,90,american,Chinatown,$$
+Jdkiq2BN6g_-5Ja_Sevxcg,3.5,86,korean,Inner Richmond,$$
+FSQ2DDzFerLBt1QzNv7dKQ,4,80,american,Mission,$$
+XBwZkkydL3AmpYuczv0rZg,4,86,latin,Mission,$
+yyqwqfgn1ZmbQYNbl7s5sQ,4,89,american,Hayes Valley,$$
+3iEHqnB-kwsZqRNea3US_w,4,88,chinese,Outer Richmond,$
+_DIGnA73a966BV02ekLKhg,4,86,chinese,Hayes Valley,$
+LgYAs8X3oHPIa9N71iejgQ,4,89,chinese,Tenderloin,undefined
+y1CtMGY68B5ZJeH82ok8HA,4,94,chinese,Mission,$
+ZVjhg9F7r1iTf5FfyaivDQ,3.5,90,japanese,Nob Hill,$$
+fAaxYP_sc03MV57trhBNPA,4,92,italian,Glen Park,$$
+Rk-g2qfBTnvanvVCmkBtqw,3.5,94,italian,Sunset/Parkside,$$
+Ml0zISgWDnt1hDWorSMNiw,3.5,78,italian,Inner Richmond,$$
+9LwoAkemycBPpO08wqU7SA,4,96,latin,Nob Hill,$$
+_2EHMIdoYeWgsuAiWydjYQ,4,70,american,Mission,$$
+lYnzwWX62hqc51KqujCDKQ,4,75,american,Tenderloin,$
+jwb3vTh8rn3OsN9wlI56-Q,3.5,90,latin,Mission,$$
+ZEjD3H78NtbrHzSdD2BopA,4,93,latin,Inner Sunset,$
+HRyBoh32eQDJ1MPWFHlGpg,4.5,98,italian,Chinatown,$
+Sl83sQoWylKj7Ar4B44Uhg,3,85,italian,Financial District/South Beach,$
+aPWsJK-BuGQftRY5WECmAw,4,94,viet,Tenderloin,$
+SjTDAltcEQWmkCp_CGXGSQ,3,90,viet,Financial District/South Beach,$
+9JOBfmJGU8sEFQHVoBy3jw,5,94,viet,Mission Bay,undefined
+HVNt7yBWN-uTPwm-G_cicA,4.5,98,viet,Sunset/Parkside,$
+t5oBNHh5A6Hvcaw5CEJ-zA,3,94,viet,Financial District/South Beach,$
+jA19LhDjlhgekIHosBtkkQ,4,96,viet,Lakeshore,$
+EnClsPfQ3j-9triBsg3YnQ,3.5,90,viet,Lakeshore,undefined
+EnClsPfQ3j-9triBsg3YnQ,3.5,81,viet,Lakeshore,undefined
+Av-PbVkajf1XrgqIS8POSQ,4,92,viet,North Beach,$
+gpoZezJTkJZPrIYa08Y4Aw,2.5,100,japanese,Financial District/South Beach,$
+y8PXwRFx6SicYgLx3l22kQ,4,91,japanese,Western Addition,undefined
+4NInBK_67cLRyUS7sq0CEg,3.5,87,japanese,Russian Hill,$$
+qHCqD2rIiIQ9BK8wfTjVvg,3.5,80,american,Hayes Valley,$$
+sFfiQXWWHcoC9VO3HFobUw,4.5,90,american,Financial District/South Beach,undefined
+2Tghf3Jcnr69rWdgljqonQ,3.5,94,japanese,Western Addition,$$
+XklmGyWQfa3a04ibKvjMqg,3.5,84,japanese,Outer Richmond,$$
+4jXML1vz29FYYUeoPJIs6A,4,87,japanese,Sunset/Parkside,$$
+HSbpz6xuZSLXcRlkQxL7pg,4,94,japanese,Outer Mission,$
+baKnRYuk8iGq8IpN3ccTgw,4,71,indian,West of Twin Peaks,$$
+Va8bOfqTfxX23nD1jAfz2Q,4,88,indian,Mission,$
+d2upo6I2R4bbMF35tyBKFA,4,96,indian,South of Market,$$
+qz3acsikrI1Ax1eXc3UdWw,4,90,french,Castro/Upper Market,$$
+L-P-Vqy45mTOeYUdLjyMfQ,4.5,92,french,Russian Hill,$
+CvpIz9x7Ju2gOsgopNOHDw,4,85,french,Mission Bay,$
+Cm-pMJPRBOqtDrgxo6rAHA,3.5,82,latin,South of Market,$
+2_LMFvnu6JFdFAq8-WLVYw,3,85,latin,Financial District/South Beach,$$
+6bc2FmFGzrcEvXcS2cOeeA,4,92,latin,Inner Richmond,$$
+baGs3b6E4fPUz8aQuSXjDw,3,70,thai,Tenderloin,$$
+_X3OobCjbcs3S_pnql_PsA,4.5,85,thai,Bernal Heights,$$$
+anJFkvmCMYkXZZcPvGDI6Q,4.5,90,thai,Potrero Hill,$$
+tKC5VjOyvboSKxYpWZB6hQ,4,83,thai,Russian Hill,$$
+26PRUvIPpHHrTVmRNx1J1A,2.5,100,thai,Outer Richmond,$$
+DhxBcPJr1igtHNqDyvJ_lA,4,90,thai,Pacific Heights,$$
+QCQ3WN7hd9xMPs2_ycHa_A,4,88,thai,Excelsior,$
+e8wq2q1BCgKBLWAmAZtgGQ,3,87,italian,South of Market,$$
+cwFeD_oqUarKPzzoi6KjUg,4,96,italian,Tenderloin,$
+lTlxqmhvQaolzndcwbj6Zw,4,90,italian,Financial District/South Beach,$$$
+iU-XQ4dhII3WF1UKR4XrNQ,4,92,indian,Financial District/South Beach,$$$$
+Pc4WNPpkhK44ItPcq9EGGA,4.5,92,indian,Nob Hill,undefined
+XV9-EIQcPMJwut271zom6w,3,75,indian,Marina,$$
+F6SOy6-3tP4i-ipACZUS0g,4,89,italian,North Beach,$$
+uEucSd4jwY_zb10AcEye_g,3.5,85,italian,Pacific Heights,$$$
+q22kIfCuND7shr9vkOmwnQ,3.5,75,chinese,Financial District/South Beach,$$
+S93-mWaxM3jmB-PALM9gxA,3.5,100,chinese,Financial District/South Beach,$$
+fduDnNgbiRWxjOna5qVNpA,4,72,medi,Financial District/South Beach,$
+AZ_ONWcpVq09GO816iGFkA,3.5,79,medi,Potrero Hill,$$$
+Kv1ighcDyBuT7BPVKqn7BQ,3.5,86,chinese,Inner Sunset,$
+yjD16DQ2GI1I0c2rmVI8zA,4,92,latin,Bayview Hunters Point,$
+vF4WklwBl0x2AQ8zgp3EPQ,3.5,98,american,Western Addition,$$$
+9RPNu5pP4VspDl0pUsbQ-Q,3,91,american,Japantown,$
+4PPbzm5zh8li_R6gKifmQg,3,85,american,North Beach,$$
+ZajCfjeJaHdakadUMYT9Dw,3.5,68,chinese,Tenderloin,$
+ZfMLpV7p3EvRv3Idpx89sQ,4,85,american,Presidio Heights,$$$$
+hiWDJhG4SIKmcFvQyPMcmg,3.5,90,american,Mission Bay,$$
+SkzImCjSONnveAhaetWP_A,2.5,100,indian,Financial District/South Beach,$
+wTJhR3NdvpCB2ZAx_qRiqQ,3,92,italian,Marina,$
+fkXwYvlDeUhyGYmlnF5VMw,2.5,96,italian,Outer Richmond,$$$
+_GunRIpJwrm5aZWb6bHSsQ,3.5,87,italian,Financial District/South Beach,$$
+lJAGnYzku5zSaLnQ_T6_GQ,4,81,french,Tenderloin,$$
+pMuwMN-Q183UO5s1zEprbA,2,92,french,Nob Hill,undefined
+Mdo9xSfWeTwi4IJli-62oQ,4,92,thai,Noe Valley,$$
+IF6C4SvyWWx1li9S2xt_CQ,3.5,92,italian,Tenderloin,$
+sDjb_Xm0onRtWWQR8n5spw,3.5,94,italian,Tenderloin,$$
+hV_jaZCa5Tg6ZHB7BE2SbQ,4,86,italian,Tenderloin,$
+N8WqaCKEzEDuVFuRN1y3wg,3,80,viet,Portola,$
+U_DnxqcixH5tHMvcrjkcZw,3.5,79,viet,Chinatown,$
+T2ZKNVus4b1r6etEosv7ZA,3.5,85,chinese,Japantown,$$
+xy1khBSEC8XbcQBchIfkVg,3,96,chinese,Japantown,$$
+MFNleaPblUYLTW92fhoKyg,2,100,american,North Beach,$$
+IkbyIq8K5XXDB8WYAxZ9vA,4,94,viet,Inner Richmond,$
+u1qumXEGzdxzl0lM3Sjf9Q,3.5,87,american,Financial District/South Beach,$$
+E4FkDzb2W1kKGiBT6df4hg,4.5,89,american,Noe Valley,$
+g2ktKLz4rNTi8T5WUEUYuw,4,87,american,Mission,$$
+tDoc9-aEzqHw-h_dfzOhLw,3.5,80,viet,Financial District/South Beach,$
+YQl-Fre0Btv_Vi04-1d2hQ,3,89,viet,Financial District/South Beach,$
+6RD33qPwBS6j3ggo84J4iA,3.5,84,viet,Mission,$$
+zD2yK9jTInJriu-TrnKifg,3,61,chinese,Sunset/Parkside,$
+yWja5zGBY3GSn_dtEXd7UA,3.5,87,thai,Castro/Upper Market,$$
+i_4AFwXRub4_B7tSN2XEAw,2.5,94,thai,Lakeshore,$
+uxS0Z5d-iK0euRotFywmfw,4,100,thai,Mission Bay,$
+Wsf3kSGsWAc5SkvM41A2eA,4,93,japanese,Potrero Hill,$$
+nY3qsB75yCrOiTZcsrzFDw,3.5,86,american,North Beach,$$
+YViYcQcxUawVKfo94eOS6Q,3.5,89,american,South of Market,$$
+b7YegTB6cWpi0XbI9ZEkBQ,3.5,85,american,Castro/Upper Market,$$$
+kJaPHcK6_PUX215ecm_1VQ,4.5,81,american,Mission,$
+4keiX73FfBZMdt6sj1SyTg,4,94,american,Financial District/South Beach,$
+KLUiOz5L75XeDf_Kaltjxw,4,92,thai,Outer Mission,$$
+C_zlIa9G5FWwpy5LsxHrqw,3.5,73,thai,Hayes Valley,$
+3bxO8T8U96uKu2numljjsw,3.5,96,american,Inner Sunset,$$
+iy1KBR5hRNcgCaqiUoBSoA,3.5,92,american,Financial District/South Beach,$$$
+HRtIqCMnPuDqAZOwWp0NXg,4,90,american,Outer Mission,$
+TCvzZi55lnXP9bDrJdPARQ,3.5,100,medi,Financial District/South Beach,$$
+9vAViiny5OE6j5C5KpVOFA,4,100,medi,North Beach,undefined
+9vAViiny5OE6j5C5KpVOFA,4,98,medi,North Beach,undefined
+9vAViiny5OE6j5C5KpVOFA,4,100,medi,North Beach,undefined
+9yM20-7fj4LMrOO30nqkBw,4.5,90,french,Castro/Upper Market,$$$
+osQIVSfUwMKFKng5ehKAbA,4,90,latin,Mission,$
+JqRgdXamsrItIQlUm4xF-A,4.5,96,latin,South of Market,undefined
+9WillwdFm1ZhNsYM0K6HAQ,4.5,100,latin,Sunset/Parkside,$
+ejAOLv4S6-s3BOwTiPZQ7Q,4,96,latin,Chinatown,$
+F8TmIgBbBXt7JD1Naiwktg,4,94,latin,Haight Ashbury,$
+GIUMeJkVAKt5Lvh-0x8Fcg,2,92,latin,Chinatown,$
+kEhq0qT_JFxgeh-pCS4lPA,4,94,latin,Financial District/South Beach,$
+lNbKeOfCMTNkoihZHqrbrg,4,91,latin,South of Market,$$
+2DihFta_jZB8aAiL_zjp9A,3.5,92,american,Financial District/South Beach,$$$
+7Q3QIZz5UX-JSTSKKkRqDg,3.5,91,american,Financial District/South Beach,$$$
+B20ZI2_yshDIqFgirAwmeQ,3.5,85,american,West of Twin Peaks,$
+msESLp0PLBVBlbUnYbIj8w,4,85,thai,Outer Richmond,$$
+m7R1bXt-EHNAUyi-n82hBw,4.5,81,thai,Mission,undefined
+bPqj4m-cNODZ4vLxTN7ZTg,3.5,98,thai,Financial District/South Beach,$
+1FZM1wOnjMYg0KPSD9qTjg,4,92,italian,Castro/Upper Market,$$$
+rPwB56EQ9JfEo2mN24fqOQ,4,92,italian,Sunset/Parkside,$
+L2vwqxuki-CiFU9neHxHhQ,4,88,american,Haight Ashbury,$
+oJXFUgDlN2rsBAHGmZ3BXg,4,90,american,Russian Hill,undefined
+sHj-8AJUEWmmJn6Dd_5JXA,4,90,american,Tenderloin,$
+mH4Odw-22ZdS4UMh04a3wg,4,89,american,Mission,$
+Chu5DuhjU97MOan5Ni1nnA,4,98,american,Castro/Upper Market,$$
+RF-ciAQlmV2BO4lVvmfrkg,4,82,latin,Tenderloin,$
+VKBBK2YgpOpW7vy9BQ3ATA,3,71,chinese,Mission,$
+dXxqSHO-d2toIh0nUHTLAg,4,96,chinese,Inner Sunset,$
+8FEy6ZgLlP9RlE_C_6KpKw,4,86,italian,Hayes Valley,$$
+7qK2Gwu0afQMtYFSJvvCqQ,4,75,italian,Financial District/South Beach,$$
+E8RJkjfdcwgtyoPMjQ_Olg,4,82,italian,Mission,$
+2qv3jQh4qTwgvYuTMBUrHw,3.5,91,italian,Hayes Valley,$
+Pvr9hnB4RP54crj4gdTUag,3.5,92,indian,Castro/Upper Market,$
+BCUDKv2SznEp1GZuCrIZvg,4,87,indian,Outer Richmond,$$
+j_YtZXamd5GHfL-BhfkiLQ,4,89,japanese,Potrero Hill,$$
+T2rwEQ48yjxLlXJ6uzdmzQ,4,71,thai,South of Market,$$
+HsPRkASZqt7GUgwcNbAz6A,3.5,83,latin,Financial District/South Beach,$
+Z-fTFkb_AQ-Wu6qss3Wm1Q,3.5,85,chinese,Chinatown,$
+U_H94iypPEK63wKfOwb-qQ,2.5,94,chinese,Presidio Heights,$
+MTIqLOBdISaon4G22qb5Lg,4.5,96,chinese,Castro/Upper Market,$
+HjKRwtL3gZ2RL3KQULXKsA,4,93,chinese,Lone Mountain/USF,$
+LsblUPwDEs9EruHSjPmiGg,3,77,american,Tenderloin,$$
+Fvn-UN7IQvxlfLBpJdbMUA,4,96,american,Financial District/South Beach,$$$
+mKF27ZPBgafMAvZ34l1A7w,3.5,100,american,Russian Hill,$$
+eWaU0deOdNUNyG58d64o-w,4.5,96,american,Western Addition,$
+BfmZVBdCHloptGocB003Pg,3.5,77,american,Inner Richmond,$$
+8ZmEszI4ZMncK9kuJYQjuA,4,80,indian,Mission,$$
+LU5ocCXCs9sDIc0DsRTVkg,4,92,american,Inner Sunset,$
+OeTD5HlXMjrmztfu02niQQ,4,92,medi,West of Twin Peaks,$$
+CL5Dwobv7vIQHLvhyLACnQ,4,94,medi,Lakeshore,$
+VPA1EFglGYDyodAWDm5-sA,3,82,chinese,Outer Richmond,$
+uUGASrNIy5wXdnkqrcYD6A,3,92,chinese,Mission,$
+ol-QqGiSn_kkl7S0xtM1_w,4.5,88,chinese,Inner Richmond,$
+SAymqe2nMxK8u5Cxp42WKw,4,96,chinese,Mission,$$
+W1DGoHrkx8qptuWCcWSPLA,4,100,chinese,Tenderloin,$$
+3AC3j3K25rdYLDe3D2Ld4w,4,96,medi,Financial District/South Beach,$
+L6B2t1t2PifwYppaty17Ag,4,88,medi,Mission,$
+RmYvlTMKTGzfCJ-u8kqVIA,3.5,90,medi,Haight Ashbury,$$
+ziVej4oW2JpUConTE_Y_mg,4,96,latin,Russian Hill,$
+VRD9utHL4Ve6jGe8f0MFAA,4,90,latin,Lakeshore,$
+2wlde2PQ3-ZRI4_v2BH6Ww,4,90,italian,North Beach,$$
+O3P-53iS1YK63-0-ek9Ksw,4,98,italian,Inner Sunset,$
+rUWn1ClI3N8aD3kMEL2xUw,3.5,75,medi,Castro/Upper Market,$$
+XGejsMvwzYIct2CsqOjqLQ,4,86,medi,Outer Richmond,$
+U0MKYrh42QUSRprC9dt_Iw,4,100,italian,Financial District/South Beach,$
+qeUvOWBWg6VlYnr4UB7Tbw,4,73,italian,Outer Richmond,$$
+iRmdKzcbdFLIp3s9e4xrHA,4,94,italian,Sunset/Parkside,$
+Y2tRPJxl0nvRJ3BsZUzAkQ,3,88,italian,Mission,$
+vZc51d3tt6Q1-wd3TnkyGg,4,90,italian,Mission,$$
+eFu5eRBAeo0i0Bxas5lF3A,3.5,87,italian,Treasure Island,$
+_D1Ev_zTZs5ijHkleK6C2w,4,94,american,North Beach,$$$
+YHe6xlLaZ7LH0W5KWFlOvw,4.5,100,american,Pacific Heights,$$$
+J55irzYC5kxIIE7bS0raJQ,4.5,92,american,Financial District/South Beach,$
+XXwjqXpoBMDJo7Ukxcw_Zw,3.5,76,american,Portola,$$
+YFXrWXs74naDKwgatjVwYQ,3.5,92,american,North Beach,$$
+vgR8Vz4nLiLrhIwgN1UoSg,4,75,american,Excelsior,$
+dC_kA-R2qb-0iEmoI4VKPg,4,85,indian,Financial District/South Beach,$$$
+yFhtCaFgzgZNq7TKCPz25w,4,96,indian,North Beach,$
+AdupguljIIejtEOnExddkQ,4,90,indian,North Beach,$
+P8ff-76bKOsI7qKnESBn0A,3.5,94,indian,Mission,$
+I0UVBT1-k0LqUICRLr9l5A,4,96,indian,Mission,$
+j7z7Nf5Y9QObsk88PhqlyQ,4,65,indian,Excelsior,$
+BpFYTc8r8S1FHfBoCyxRSg,3.5,77,chinese,Pacific Heights,$
+KKD4YiUXJ__ihFgUCJdo6Q,4,94,japanese,Japantown,$
+MYl6xxo93hNfy8bR0X9yPw,4,96,american,Financial District/South Beach,$$$
+GSyWxUqrzYZ4reusRgR4LA,4,88,american,Sunset/Parkside,$
+63brNArytTTX9Gi4cJjFqA,3,86,thai,South of Market,$$
+_EncdQezAzcShATMFXL0dA,4,81,latin,Financial District/South Beach,$$
+Z_y97di6ovwsjFjCBRoMZg,4,88,chinese,Mission,$
+4flzSf_EwBqeRb_3YT5VTg,3.5,87,chinese,Tenderloin,$
+HLVxwmj6SVrF1XfkyXjIjw,3,81,latin,Financial District/South Beach,$
+nbaGCLIqc_NvVdWuEweFqw,3,98,latin,Excelsior,$
+wPJjpOZ0mnsajJLBkWUnwA,4,100,italian,Pacific Heights,$$
+U1TgSEKZwgdTftTOxCtFOQ,4,91,indian,Japantown,$$$
+S98G1Fcqo24kTZVuR643cg,4,94,japanese,West of Twin Peaks,$$
+9QXEJdRizwCYBjGX_go_Qw,3.5,74,viet,Sunset/Parkside,$
+c5Pog3vEqmBFOBdL7R3vAg,4,94,viet,Noe Valley,$$$
+pmj2LKLlyuBOWLHY8Zv5FQ,3.5,81,thai,Marina,$$
+np1YpFt9GfX-umR1ZKx_uA,4.5,82,thai,Mission,$
+9gW2kzWOU98qm6xyar-fhA,4,96,japanese,Bernal Heights,$$
+Q5oIEaKp4ul5UI0zOjOjbg,4,83,japanese,Financial District/South Beach,$
+NRwDer86lrwbUkv6PhcicA,3.5,84,italian,Chinatown,$$
+Q0YFXP_DyFcvTbw8hGuv7g,3,91,viet,South of Market,$$
+YPX6pxEduWqc_O5htEmTnQ,3.5,85,korean,Inner Richmond,$$
+8G1-b9d6rSIpzqbJlLsHqw,3,79,american,Russian Hill,$$
+METk5cHv8bBJGxkOosw2fw,3.5,92,thai,Noe Valley,$$
+4wCKjfkgryq7mpJOU9ppNA,3.5,94,thai,Tenderloin,$$
+7qsAJnzYzVeEPguRIMIrFQ,3.5,68,chinese,Chinatown,$
+GGdphTw9TXYGu1HPtNT3BA,3.5,85,american,Bernal Heights,$$
+I198k7wIkK0Xr4r0jco0Og,4,90,american,Bayview Hunters Point,$$
+n4LKxT000IlJen0EmsrYwg,2.5,98,american,Financial District/South Beach,$$
+xeRy4mjZWczet5V9Jtmx1g,4,90,japanese,Hayes Valley,$$
+g2QJodH7bcdl-btCWfP8cQ,4,81,japanese,South of Market,$$
+8LEnV8Z0-YKPWb1nLKgQHQ,4,94,japanese,Russian Hill,$
+I-32OYNaIU4AMkUB-17fpw,4,92,japanese,Mission,$$
+VhFuTau6lW--wfMQJJw1VQ,3.5,92,japanese,Outer Richmond,$$
+#NAME?,3.5,90,italian,North Beach,$
+WnQoN1uV65vacUj0q1TgoQ,4,94,italian,Outer Richmond,$
+1lpBBlb6C_-3eeSv-6bmmg,4,96,japanese,Outer Richmond,$$$
+ZfDcbuLBx8-CVtTUjFCQPA,3.5,80,japanese,Financial District/South Beach,$$
+8_mOskyp-ACCU8qp16nhjw,3,100,latin,Castro/Upper Market,$
+_GWn5WGXS_VE_gpXoRVlCA,4,63,latin,Mission,$
+z8yCIEQwinVk0-JDd_yXtQ,4,88,latin,Inner Richmond,$
+_fRqw1V8D9iLVLRGlZFD4g,3.5,90,american,Financial District/South Beach,$$$
+#NAME?,4,92,american,Lakeshore,$$
+ZN7x2duyVesVVzlhWJNamQ,4,96,japanese,Mission Bay,$$
+El1fNeBVBglXlZtFuq4SWA,4,90,indian,Hayes Valley,$$
+Q8cYhJGa9pwlu63f-KMV-A,4,94,indian,Financial District/South Beach,$$$
+cOdvS3Y3utG6qze-quO_4A,4,100,indian,Mission,$
+zj09K037XrZ_51Yh5qsIAw,4,83,japanese,Japantown,$$
+QOpqNPKpClL48TVVrYobAw,4.5,83,japanese,Outer Richmond,$$
+7blloT-1UUuAIiD1_QFWUQ,3.5,87,japanese,Mission Bay,$$$
+WI3XGMuBiy04YR6rmiLnyQ,3.5,68,japanese,Chinatown,$$
+8sTqr9ehaZuqORQCddYeUg,3.5,65,chinese,Outer Mission,$$
+MNE2e4UoORx_JqJzKTkRlQ,4,90,chinese,Outer Richmond,$
+29ZIguvO_IenVwEVrDQihQ,4,96,chinese,Marina,undefined
+foGe0ZZgkviDZcNUH0N70w,3,87,chinese,Financial District/South Beach,$
+X1XdSgiNBAEwMrC7WeLO2w,4,94,chinese,Hayes Valley,$
+5SHsLbfXdSJOP93uMHhrFQ,3.5,80,american,Lincoln Park,$$
+RF-9DydHA1BsTaRx_MB-eQ,3.5,94,american,Mission,$
+dp79eNPRsgJ8MgBjH5DozQ,3.5,77,viet,Mission,$
+lMipM9xXR3amL-VzSFfKBg,3.5,74,viet,Financial District/South Beach,$
+jAvnj60BFrMBHLUKtJvOew,1.5,84,viet,Chinatown,$$$
+kjckqShnIlDeraGJM3Nw4w,4,90,japanese,Hayes Valley,$$
+qMoaAv2WUAybwx-bOxCc5w,3.5,94,japanese,Pacific Heights,$
+KH_Tpzy29VRGIrtVhNFY2w,4,100,japanese,Haight Ashbury,$
+_Y9yb54sLewh8x0dqX6Y0A,3.5,96,japanese,Tenderloin,$$
+lbH9iQJM4wwgPQI2RL1oPg,3.5,93,american,Marina,$$
+mSMZJj2pFvttWLpcDmgrEA,4,90,italian,North Beach,$$
+D9Ati4R4cRoitMFTtzBudQ,3,94,italian,Excelsior,$
+NYP4d9HiiDHt9iYYgoqnxw,3.5,94,french,Financial District/South Beach,$$
+jlfRzbNxfwlEMqZtKKwmMg,4,94,french,Chinatown,$
+PFk6k_hEGG0n6_FAJSm9EQ,4,94,american,Pacific Heights,$$
+bbkhPhuLyVRBiDQjRP0wCw,4,94,american,Outer Mission,undefined
+ljuYlKkAwBIChGkqrjBHlQ,3,94,american,Excelsior,$
+AbN47cP3SWvj4uvWnT7pSQ,2.5,85,japanese,Financial District/South Beach,$$
+rJuREfb9mZTCNgXDsOPLtw,4,92,japanese,Presidio Heights,$
+z11aO4s7hItCsNEWDhsoTw,3.5,90,japanese,Hayes Valley,$
+pzsQrP8-41d1DeYXI1nKPg,4,73,latin,Mission,$
+2zEgIwPvNPszWjYds6cVQA,4.5,98,latin,Lone Mountain/USF,$
+scTVitzqUXuXiIAFvHebpw,3.5,84,latin,Tenderloin,$
+CTE5lnXUYp4xidmh35knNg,4,96,latin,Hayes Valley,$$$
+Qr0dBKxCtWWUr9bJ74aWQA,4,83,indian,Tenderloin,$$
+nGet0Wd9KwkF2OMoOSP0yg,4.5,84,indian,Western Addition,$$
+XKj8_4QdoBMeYcg6OoespA,4,94,chinese,Chinatown,$$
+s60VG68VDe6PZBuW3958zQ,2.5,63,chinese,Outer Richmond,$$
+IhSxq9nv9M03j7d0TfNEbw,3.5,87,chinese,West of Twin Peaks,$
+imHjAJ9uuUK_PNkzT9kCag,4.5,89,chinese,Mission,$
+JWxqFUDpzX-tn7aikLlOQQ,2.5,90,chinese,Sunset/Parkside,$
+p1c1DhOH4C8scoLlagE5Bg,4,96,chinese,Tenderloin,$$
+KEfL6uzARi8kfL2g6FrkmQ,4,73,chinese,Chinatown,$
+pwD8tWrKVF_Xd9FnabHB9w,4,92,viet,Outer Richmond,$
+7IAvLCA_eoZ9eMG1M4hcOw,4,88,viet,Mission,$
+ZXwnSN4GlEuSTNCRrjjRMg,4.5,90,viet,Nob Hill,$
+qs7FgJ-UXgpbAMass0Oojg,3.5,86,italian,Mission,$$$
+LYExDwZBa1hmKCXXdJ_0Mw,4,81,italian,Excelsior,$
+7vqUGG9ZBZKOjOFPs8lEgQ,4.5,92,italian,South of Market,$$
+DUK4BHniFNUZ4C8K_iXdaw,2.5,77,italian,North Beach,$$
+Ga-HthFfXZ92lZTKub6zfw,3.5,96,italian,Presidio Heights,$$
+3OJDmLIElDu-ZWSsBdncdQ,4,76,italian,Lone Mountain/USF,$$
+S9VWM1eIBpStvhPkyiEEXw,3,82,italian,Tenderloin,$
+tdE4ppqlvjDQ9_qWoNQ5ZA,4,91,medi,Japantown,$
+L5IUpy5mivDyUuwgKcLh7g,3.5,94,viet,Pacific Heights,$$
+fV-FyAnmdzJr9gAKtotXiA,3.5,89,japanese,Haight Ashbury,$$
+v98OxfO-yZjQGqzBuXMerg,2.5,92,viet,Financial District/South Beach,$
+afowVC3HF8FtEV4hVqd-3g,4,92,american,South of Market,$$
+WIg_d_GJzk-2SDRGp4W9MQ,3.5,92,indian,Bernal Heights,$$
+r_jnIM3ziVhCUKMI3iQ6WQ,4,94,indian,Nob Hill,$$
+NBdAqG4Kdqy0BrCrWa0xUg,3.5,89,japanese,Western Addition,$$$
+7rUZnmRVyCpq4TrB9Brsiw,4,96,latin,Haight Ashbury,$$
+qFOxi9UPazIR7kgJxKpMxg,3,86,latin,South of Market,$
+EvV5TEX6pwYoQtjMLMPuDg,4,85,korean,Financial District/South Beach,$
+W0yaC82NMAoDIzlhFduYeA,4.5,92,korean,Tenderloin,$
+IvxDp_xNPHVjb2qar-N-Ig,3.5,84,chinese,Sunset/Parkside,$
+xfGxyVapMNlAlqQULvyG5Q,4.5,93,chinese,Bernal Heights,$
+jmLzQDrgRvJF4_9v7ryhrg,4.5,92,chinese,Tenderloin,$
+aF4xIPIk7s82SXbYDv4X_g,4,96,chinese,North Beach,$
+1qdXXc4mdVNX88E85_C1Cg,4,96,chinese,Sunset/Parkside,$
+navhLJGog28RbtX8Omkf0Q,3.5,81,viet,Potrero Hill,$$
+#NAME?,3.5,86,japanese,Excelsior,$$
+gLp7o0zddM2bpHHgl3IrTA,3.5,88,latin,Tenderloin,$
+8pIytAFMU-OOdLgyOhR08Q,3,90,latin,Noe Valley,$$$
+lFqlIv7Q6fVeBjkMMnzDVQ,4,96,latin,South of Market,undefined
+J7_-faNq_Ag9qTOlDn81Pw,4,87,american,Castro/Upper Market,$$
+5oNzSLvDDUyDIHCI4asntA,4.5,92,american,Castro/Upper Market,$
+LhrP1BZLPxJ76dsP2dFRCQ,3.5,86,japanese,Financial District/South Beach,$$
+wgr1OpJ1uwuT-wZ4VPJTTA,3.5,92,korean,Tenderloin,$$
+5t4jbcXNAm6KHuuTtZcjwA,3.5,92,medi,Financial District/South Beach,$
+h6l8EL19eoNvAzUK5dDR3Q,3,78,medi,Sunset/Parkside,$$
+7jCbynLs9w6C_ZG9vGjGhw,4,98,medi,Western Addition,$$
+78pZm2QfqluRz0RAGeGg2Q,3.5,100,medi,Lakeshore,$
+DtTuMb5gaSWbaqABmuNK1g,4,100,medi,Tenderloin,$$
+IQN7FHupd698zsc6XmvWQA,4,94,medi,Excelsior,$
+yCaEfwzerj8QFL6rxYPqSQ,3,94,medi,Lakeshore,$$
+2kAb8kvymt5xJfoNFTwFyQ,4,86,american,Sunset/Parkside,$$
+qRl0_zNLb4lL5ZHreWEn9A,3.5,75,french,Castro/Upper Market,$$
+BrZ6n1TMCkPfxkF-B09F0Q,3.5,100,japanese,Tenderloin,$$
+jjo2E2DKlBMzK6jaILP1cA,4,96,japanese,Financial District/South Beach,$$$
+d3KfHPRCscsm2gC884lsHg,3.5,90,japanese,Mission,$$
+bdFlEMBC6HRgoHKcgoHc1g,4.5,100,japanese,Chinatown,$
+mMbfBqC3RHiGWGZoY0eWCg,3.5,83,italian,Marina,$$
+uXIXd10crfSV8JJi-efHeA,3,81,american,Nob Hill,$$
+Bab9bdd3SUkXPo6jIVO55Q,3.5,90,american,Financial District/South Beach,$$$
+zFxD8QinHt69Bs7M2mgB-Q,4,100,italian,North Beach,$$$$
+mVeUWejSkjs8QZ0K96ia4Q,4,96,italian,Pacific Heights,undefined
+W0mlelgnkSPU3ELhyzkXHA,4,80,italian,Western Addition,$$
+21wF1dQFS2bEL56DuqxRsw,4,90,american,Inner Richmond,$$
+YhePgD1qj43XI7s-UP0NDw,4,85,american,South of Market,$$
+HhpDobLZa5tHT03n3r9BGA,3.5,78,chinese,Outer Richmond,$
+tjn-0kb7M6DQmaLsQIxO7Q,3,81,american,Financial District/South Beach,$$
+Hkzi2jZscbVIWR7LBAO5pw,4.5,92,american,Bayview Hunters Point,$
+HI5h5VG7RQI0spbFpXecHg,3.5,86,american,Haight Ashbury,$$
+dMlsQsPU8Y_oiPYC5hHi2A,4.5,96,american,Castro/Upper Market,$$$
+15g05u3vgH1CZipI1eIeUA,4,91,american,Hayes Valley,$$
+I3GNU1b9NCaPbts6art1WQ,4,96,american,South of Market,$$
+p1oiqn-SkMrQG0lT3V6jIA,4,80,viet,South of Market,$$
+W6XqNOrkcNGe30vUHAd_kg,4,66,viet,Mission,$
+z50O47Al64Y6YrLsVmnjpA,3.5,89,viet,Lone Mountain/USF,$$
+BH9Ln4DRO5nVasySkKx3aA,4,83,medi,Potrero Hill,$$
+_W4Q8MR6DPd81LRQNBcB0g,4,92,medi,Mission,$
+B1UaHJQ0S4AOHHcr0A_qLA,4.5,94,medi,Sunset/Parkside,$$
+RHsfz6dolmufnj82bYu-Jg,4,94,medi,Inner Richmond,$
+Wd5ho0_FKk9n7uV8pSCYIg,4,94,italian,Financial District/South Beach,$$
+xVqhyeFFo3dBc8PLk7DEVg,4,89,italian,South of Market,$$
+KKBBekDW-TQK8tam_6dn7w,4,77,latin,Mission,$
+N2MO7risubQGcEoVhDUoyw,3,91,latin,Lone Mountain/USF,$
+0sZ2dgIM9KFvM5gYlbeR2g,4,89,latin,Mission,$$
+FiECX8M93w3e3AmWchPSAw,3.5,96,indian,Sunset/Parkside,$
+4_hIVof0Q8dfUBwlREOEGg,3.5,85,american,Financial District/South Beach,$$
+gxb1-SxUSEIskQg-nNcO-A,4,96,american,Financial District/South Beach,$$
+eZ2_6Wx-Lqp_mLtG6-zzTg,4,96,american,Financial District/South Beach,$
+iXjbvsGyhGttLRaV6shP1g,4,92,italian,Financial District/South Beach,$$
+uyNbpsDWXXoIhY9nKdAFpw,4,100,italian,Outer Richmond,$
+TDZXy8vev4R3uENpkjY3pg,3,94,chinese,Financial District/South Beach,$
+UapQrh04k9QkZuuIuc_mzg,4,89,chinese,Financial District/South Beach,$
+yNYtQQ4Tf94wVzGNQexI1Q,3.5,87,thai,Bernal Heights,$$
+J-gFvT4B5UoZgoEOAmxNxw,3.5,90,thai,Mission,$$
+UelLuZaRD7ME7K-Rx7oHEw,4,88,thai,South of Market,$
+n_JIuho2kJfDMS9pCQYr8Q,4.5,100,thai,Bernal Heights,$
+oUPGpWQEQzAgFjatpLzjQg,3.5,82,american,Russian Hill,$$
+5BsM7F6uetq0kYEXZ4TImQ,3,83,japanese,Hayes Valley,$$
+E5AaSzcx-LTGT2Iv2oX_Bg,4,94,japanese,Financial District/South Beach,$
+WG9Q3g5Dbc9VcahtvbvOsA,4,85,chinese,South of Market,$$
+2PaACGpLnJhaUQONfoyzrQ,3.5,98,chinese,Financial District/South Beach,$
+C64O-QLRWXRmoBabA-3jVw,3.5,94,chinese,Tenderloin,$
+xlXnPitrO9Mjfq3aPAyNVQ,3.5,98,chinese,Financial District/South Beach,$$
+RxO32lLsIb5hv6ahOdnQKQ,3.5,96,chinese,Nob Hill,$
+mV-p9xEBvkbkoA8wAsAteQ,4,88,chinese,Mission,$
+TlBFKt2N2eSEBpN-UZmDBw,4,82,latin,Haight Ashbury,$$
+eHlz_z85nrozA8WaCCELfg,3.5,96,latin,Mission,$
+6JM7_UNnH8XapdWrUVcX6g,3.5,78,latin,Inner Richmond,$
+dxOJrezNTuuD8OEOywMrCg,3.5,98,american,Nob Hill,$$
+ISm0E_aa5wb7xL7CHhTl5g,4.5,96,american,Bayview Hunters Point,$
+QKNBWk_rERT2i_tduk77qw,4.5,90,american,Outer Richmond,$
+73VFNuKCwyDzkvyPZ0pIUA,4.5,90,american,Excelsior,$$
+YzA3ocJ0XvsTuD18qr2ctg,4.5,100,american,Potrero Hill,$
+PIGioaSFPfnSxZ-o8yNvJA,4,86,american,Tenderloin,$$
+H6f4SHDhgrMaK-6MjP0GTg,3.5,87,american,Inner Sunset,$$
+0Sh-XNVgGDRwiN4K3UEQJA,4,86,american,Financial District/South Beach,$$$
+m2VZS2WV75xoZhDRRBWFaw,3.5,96,american,Chinatown,$$
+qmBrOSe7E8xPszHllOr4jw,4,96,american,Inner Sunset,$$
+52_vX7NA-10b0vRQqb0-kA,4,91,american,North Beach,$$
+ncp1sJe_BCytz8_2xIIZeA,4.5,94,american,Tenderloin,undefined
+ILp-z7UxaqzHo71jcwxRUQ,3.5,73,american,Tenderloin,$
+gwuCZV_4nIwevDenicG8tw,4,96,italian,Mission,$$$
+QINiEjMRGA7pKfvhPQtfBg,4,96,french,Marina,$$$
+_Iupdt0IslH_jU8zkKcWLA,4,85,latin,Mission,$$
+MOCRPxBRD1xj5Jbus1wI-g,2.5,84,latin,Hayes Valley,$
+C60uLcN-7J2VwH9sBjVg8w,4.5,86,latin,Outer Mission,$
+H1LzjvrJdLpJjVIDOBOGGA,3.5,100,latin,Hayes Valley,$$$
+CNlCi4xU4FsVp0METnrT5g,3,66,chinese,Chinatown,$
+YG3xWeJ3f350zSNZKs1p5A,3.5,86,chinese,Bayview Hunters Point,$$
+jOEHLrFGg7_iB0xhtt1s6A,3.5,78,japanese,South of Market,$$
+ykvr3ib1gHQHI4tznSn8iA,4,96,american,Chinatown,$$$
+fL02NLRFLMQT7Pot44gxhA,4,92,american,Chinatown,$$
+HLsfmfut4mzOClQ5jaJn_A,2.5,83,american,Nob Hill,$
+xSWJlaiXDSMHyNpOAIYJqg,4,96,american,Hayes Valley,$
+gipd1MKJBKnYaXtrQbbIJA,4,93,american,North Beach,$$
+ut4SDYWbW8oRRxDXVDuplQ,2,83,chinese,Mission,$
+y83gtVEEIpYw6H9kna9WIw,4.5,93,latin,Mission,$
+aTGhysOaQQc-lMt_aNAYxw,3.5,90,latin,Mission,$
+nNxgfhRT54L8q1rboUav8A,3,94,chinese,Sunset/Parkside,$
+OjmNtcx84W8EpY_hh-rluw,3.5,81,indian,Outer Richmond,$$
+0eBDcg_MjxmC8Erjy995bg,2,70,indian,Inner Sunset,undefined
+yC5ATYRQah7MjeTiRsGcvA,4,80,viet,Castro/Upper Market,$
+l7jb1JcCUmOLPjw5wgSRTg,2,96,viet,Bernal Heights,undefined
+JcyoZPdWdhlsrIVEMdLQ2A,4.5,98,viet,North Beach,$
+w8hXKO1yWCl8S1M38iuGEg,4,94,medi,Nob Hill,$$
+q2EbLD93gEO5uXXx7Pk3bw,4.5,98,american,Financial District/South Beach,$$$$
+ZvF32O9uid0dMyyQcPeYPg,3.5,78,american,Financial District/South Beach,$
+eL1aKZx9bplkBesYcGJ11w,3.5,85,american,Pacific Heights,$$
+tAghPcePjS0SpWDPfrDTTA,4.5,100,american,Tenderloin,$$
+O6tHtZC9tEfyHjr7gZ0Nyw,4,92,american,Noe Valley,$
+BlQ_hZT6JxZYwcdzXbJ98w,4.5,96,american,Mission Bay,undefined
+x82zxsz3Kgsf45fCiCGZ0A,3.5,87,american,Marina,$$
+eihAAH_zSTkH1Lgcg2RPIA,3,80,american,Inner Richmond,$
+hYpQ4OihtaRXCVcUN2B-UQ,3.5,92,japanese,Sunset/Parkside,$$
+vhBRrvdxmYBmQ9DkVmxb6w,4,92,japanese,Haight Ashbury,$
+iZCSLA7clUGpUFzRnZtQkw,4,91,italian,North Beach,$$
+_7yo9CjgkbtasXqoQ6lM6Q,4,72,italian,Tenderloin,$
+l3CO569of8E_Dw7ITfrqiw,4.5,88,italian,Mission,$
+PLx_VnZyFmxTS1zNTaDJxA,4,84,american,South of Market,$$$$
+SAxC2Qim3Zd_GmTRKJOqiQ,4,60,indian,Marina,$$
+tEAwAHl4Npt3yEnK7eftng,4,92,indian,West of Twin Peaks,$
+kWBDP3TampJ03W0Mn9erxQ,3.5,85,chinese,Sunset/Parkside,$
+AotGpR8U-jdiJEHgrTi4jg,3,81,chinese,Sunset/Parkside,$$
+FAe40I-X4ZmXTAekXfTmmQ,4,83,latin,Mission,$
+q5kFOIAk773IjoAcWJ-6sw,3.5,65,indian,Hayes Valley,$$
+A0AziPST4T6k-V3neWFRNA,4,96,american,Potrero Hill,$$
+2QxsgelKVnEdd-PQ2efI8A,4,90,american,Mission,$$$
+xc9iz3CT9v133LFdjhOZcQ,4,92,french,Marina,$$
+VzlVF1yc_BboRwwqJcvkxg,4,94,american,Nob Hill,$$
+Wk1-orX62HlLxyIO0yHp-A,4.5,94,american,Excelsior,$
+MKh6d8G53GPFvi7oWY-h1Q,4,78,american,Financial District/South Beach,$
+kqk5BoCJU59MC9fH0IB4wQ,4,89,thai,Tenderloin,$$
+SEDGOmBM_J10LEUR8M-BUQ,4,94,thai,Bernal Heights,$$
+8skVQNkVBv90iiPtFeSpzw,4,94,italian,South of Market,$$
+mmM5jW3ButOU7Bknd3xhog,4.5,100,italian,Western Addition,$$
+7Cl-sZlymEjhxm0MJTR7nw,3.5,94,italian,Sunset/Parkside,$$
+YNJPkeSlHjT5Q5hqpKaTbw,4,96,italian,Sunset/Parkside,$
+2WImgWUXjKq0OKhu9hWhOA,3.5,80,italian,South of Market,$$
+vVK9jI-AzEr-CVCMMnv7pg,3.5,72,chinese,Mission,$
+NN8LuoMKwjreggjIsJ4eRw,3,92,chinese,Chinatown,$$
+gP4pRrShivg98Mjwtp3XLQ,3.5,92,chinese,Lone Mountain/USF,undefined
+NGa-7-J_Gms_mZ3QL9G2bg,3.5,90,japanese,Marina,$$
+qQAwvheHpMU9MpYoJyMw6Q,4,89,american,Bayview Hunters Point,$$
+GXu3PD4IPsxIHpo011aydg,4.5,90,american,Nob Hill,$
+HVJdo4f_6MxkM_1aCAK3NA,4,96,italian,North Beach,$$$
+wyp6ih4K_r6PkS-Le5cxLg,3.5,86,italian,Mission,$
+U398V8JmnqgzswTCdDZcOA,4,96,american,Chinatown,$
+UA5uLFfgLYxZVAd3BLfKZA,4,98,thai,Sunset/Parkside,$$
+#NAME?,5,96,thai,Mission,$$
+NG0P6XWKug_ueCM3UV8Tdw,3.5,96,american,Tenderloin,$$
+9acPdpguULGPbChPwpS3aw,4,100,italian,Haight Ashbury,$$
+wNcShx5YTSMvOxt6G0iA9w,4,86,italian,Mission,$$
+lzrorDrn7Fp5-9gACGCztw,4.5,100,italian,Sunset/Parkside,$$
+YP_rvV2YMnM8MTIBV3M8Sw,3.5,90,italian,Nob Hill,$
+vKBW6SWFrIYXW1kIOFY_Ng,4,90,thai,Tenderloin,$$
+mWIsRlWrFsHFw4fb03HONQ,3.5,69,chinese,Outer Richmond,$$
+daoZStJN1oLeR6clUUXSFA,4,92,chinese,Bayview Hunters Point,$$
+NeYsTX0GyVq8k-J3dGNf5Q,3.5,88,chinese,Nob Hill,$$
+KptdS65mEaw53veKwdyaqg,4,90,chinese,Mission,$
+cdjbxQAK_zzpSgWqBxfk4g,3.5,90,american,Castro/Upper Market,$$
+9OKUEFQiWLntDYhpwCaJcg,4,94,american,Pacific Heights,$$
+hoZ-BYwxXSNd5gaLUFcU7Q,4,92,american,Hayes Valley,$$
+4CykXfygkNWlz87qkh5SCA,4.5,100,american,Inner Richmond,$$
+sQavxElZ71EGMrQ1zktn8Q,4.5,94,american,Russian Hill,$$
+haF3hGlqzeLYmNJ-0cq5yA,3.5,96,american,Nob Hill,$
+5I3fM8fRdkJdKL-_BJ1qvw,4,88,american,Financial District/South Beach,$$$$
+zvIbFkcZwqhTuDF7t7eQsQ,4,96,american,South of Market,$$$
+OXyM6FbiEzqdYpimZIz1kw,4.5,100,american,Inner Sunset,$$
+olURYDOi4ZlLlCV7vVuuCg,3.5,94,japanese,Financial District/South Beach,$$
+WLVcFNJnnkfig_ASwwt86g,3.5,86,chinese,Outer Richmond,$
+8kxHJWXBp_g4z3SlfCpB-g,3,96,chinese,Haight Ashbury,$$$
+qNU6F32ynMyoijvYvrABxA,3,79,chinese,Bernal Heights,$
+MtO6rzRlT_kJ9_haVlwbPQ,3.5,96,chinese,West of Twin Peaks,$$
+3DMWJCeuHr4PJiFvDhmmoA,3.5,92,american,Lakeshore,$
+rQ8lUysrEPFTXqmqK4ASkQ,4,76,american,Inner Sunset,$$
+R7QrC8pX9luLd5cx3Fzl3A,3.5,64,chinese,Sunset/Parkside,$
+0w_wQNAjQUMR7ek_5qj6og,4.5,88,chinese,Chinatown,undefined
+aNLcidL3QVAkPC84siTA0g,5,90,chinese,Chinatown,$
+Yi37TP021npWZsOPeZ2Xqw,4.5,87,chinese,Haight Ashbury,$$
+jTGq7abIQVjxJW62HNx4og,5,91,chinese,Mission,$$
+IMcnK1JuvoQPN8OktoLtIg,4,90,american,Hayes Valley,$$
+PY6Y8XE2DcoZTHxweJGufw,4.5,92,american,Mission,undefined
+W3Ap2qzSXJ9S0S_Mrjv2CA,4,87,japanese,Marina,$$$
+weV0R2I-nc73zbmkd-Etdw,4,94,medi,Financial District/South Beach,$
+3f2Fm7oIpEJN4BjvtB36pQ,3.5,86,medi,Tenderloin,$
+Xc_ZRIqAbNfUb2m54xnRoA,4,86,medi,Pacific Heights,$$
+ZD5-5Gu44WrcsYtw7qMgiw,4,87,medi,Haight Ashbury,$
+kTbI2NtsXwtaPlg-wN-jqA,3,84,medi,Sunset/Parkside,$
+_BQXQQPA1NSQ5W3PCwLGoQ,4.5,94,medi,Inner Richmond,$
+K4He9m65xKuKacpbK6ebLQ,4.5,90,medi,Noe Valley,$
+MyboQThGWO1z470Btk3iwQ,4,94,medi,North Beach,$
+16vv9p-DUWzGJEOqzx8N9Q,3.5,84,japanese,Pacific Heights,$$
+JDLbxkEcQE_MakuwZfPcKA,4,85,italian,Presidio Heights,$$
+tDeen4APIeKtDHPWiPFHdw,3.5,98,american,Hayes Valley,$$
+rCpCBeWQ8NNI_q6kq6JlQQ,4,94,american,Japantown,$$
+14tNG31ieuMBtx43oDNjjA,3.5,98,chinese,Chinatown,$
+wI-gQa28RJAx9EWxVkTiUw,4,90,chinese,Hayes Valley,$$
+N3pFchYNlKUD86nLFMjJAw,3.5,77,american,Bayview Hunters Point,$$
+1l2-umF4CWxMzENQughuHg,3.5,92,american,Oceanview/Merced/Ingleside,$
+MJeJZIUdzjeytRQbxFTw3Q,3,67,chinese,Inner Richmond,$$
+ntct3hvX_ona00m1BC0Xtw,4,93,chinese,Mission,$$
+hg0cuVFIqz2C4w6RsAuohA,3.5,92,american,Marina,$$
+c3khi7kxBaA2ATUuMjtMZA,4.5,98,french,Marina,$$$$
+GkYKcqB-yuBkiDAlFThZTA,3.5,71,thai,Hayes Valley,$$
+_KtkAiwyxHbkn9O6yEMvjA,3.5,86,viet,Pacific Heights,$
+xCdjnifEb3EQFL7tucUSnA,4,87,chinese,West of Twin Peaks,$
+MjeuqfVgxCL_XVJJoCLTFg,4,84,italian,Mission,$$
+s86RCsfbIYSR7yvHfrBUvg,3,89,italian,Sunset/Parkside,$$
+7s_cy5GHZmMX3nlJe6qSLQ,4,81,latin,Outer Mission,$
+CMtyvEPu1PAlnXxebsc40g,3.5,82,latin,Hayes Valley,$$
+OO9O1MJruwzykxUEYixLqQ,4.5,86,latin,Chinatown,$
+TzY3Z39P5l9_LIrG-PcUng,3.5,96,latin,Castro/Upper Market,$$$
+1Q8j1RoutUquBr7ynqSa7A,4,87,latin,Mission,$
+i2VhtC1JkV_sZOA4urd1ng,4,88,italian,Potrero Hill,$$
+FlKDJ8wmGQv3p0CjSWxWIg,2,90,italian,Tenderloin,undefined
+9KeTKDuHdLMhRFku0HAIxw,4,81,medi,Outer Richmond,$$
+gerZ6D_58MfNvdqGqMyJJg,3,70,chinese,Mission,$
+rhHX96d7zEOd9eXeQ4jXiw,4,84,chinese,Excelsior,$
+vjlSsIkTVcYcckbwOb5-7A,1,100,chinese,Financial District/South Beach,undefined
+tr15WgMHIC_W2gqBpuk3-A,4,87,korean,Inner Sunset,$$
+6n84qZivX5Ecgo4twvX5TQ,3.5,88,korean,Mission Bay,$$
+C3o-rXY_jQ686sSAlouhCw,4,100,korean,Haight Ashbury,$
+sIfO4yZJ9HWBS2xnVYm4ag,2,89,korean,Mission,$
+yhOdQqSZpK7LmRlFzKnbYQ,3.5,90,italian,Pacific Heights,$$
+VBjF2lqeHLRkAcuj41825w,3.5,92,italian,Nob Hill,$$
+PuzyazSBBGgRngmRWtCouw,2.5,100,chinese,Inner Sunset,$
+43Ca7h2QxO6so8IvRk91FQ,4,92,italian,Mission,$$$
+dhTrfvdlpFE33USafJ3cjQ,3.5,80,italian,Financial District/South Beach,$$$
+3DDpeVUO_s4UrAtjoEb5gQ,4,90,american,Outer Mission,$
+ch6WIAsv-q1yJZ2STzGfGg,3,90,american,South of Market,$
+o0SCABG4LGBKmIjiIB6WIQ,4,96,american,Inner Sunset,$
+1toCkhuD0b57iFotMu3XEQ,4.5,96,american,Glen Park,$$$
+s2noUNveNyXYZyVqXGjcNQ,3,92,american,Chinatown,$
+I2Sxu_hRF4Gw8V8X29eT8A,2.5,83,american,Financial District/South Beach,$
+uUWH7T9V0kyu-3nig_gatQ,4,92,latin,Marina,$$
+NfZKuDovZOIbCLZJGt4m2w,3.5,71,latin,Financial District/South Beach,$
+7e_4JNiYybBil61dNVHpog,3.5,88,thai,Mission,$$
+CaeyFhvzI0CVsHRTxUnd8Q,4.5,94,thai,Nob Hill,$
+3bG3JXuJHvejq3SUiij6jg,4,88,thai,Tenderloin,$
+jAoKH55Wtq1rCa6jdNfbig,4,92,thai,Nob Hill,$
+M3Qs_xtzTMnWriyxOqqnDg,4.5,81,thai,Portola,$
+Ec4Lr71PxCnWjuI7NVnWOA,4,96,thai,Outer Richmond,$
+TFbiAJ2AO8P5Q5HNis7sOw,3,96,thai,Haight Ashbury,$
+xsG1SSVsm0YdL6-PaoKV_A,3.5,92,thai,Financial District/South Beach,$$
+bbuirqZnTJ33WZx9sdii6A,3.5,87,thai,Mission,$
+GcvOqnJDNPxmBfTy_SGVTw,2.5,94,thai,Mission,$
+LDqA7rQ3fCmPWFymhIXXcQ,4,88,japanese,Inner Richmond,$$
+m0l7ZrOIJWfMTS-R36Z5Ng,4.5,91,american,Marina,$$
+O2y-CyIsJz8f_6f-MJuKIA,4,94,american,Tenderloin,$$
+v1aUahwzM8CTeLA0O7J8ww,4,92,italian,Russian Hill,$$$
+x1P8FikDw0WU78m-Hipu3w,3,78,italian,Excelsior,$$
+uT8e6x2qzJFoZ9ndi-LLrQ,3.5,88,american,Bernal Heights,$$
+E_7WX-JGYRm2jKEIQzIbAw,3.5,77,japanese,Financial District/South Beach,$
+K9aoButJPQD15rbA5HZMqw,4,92,japanese,North Beach,$$
+zjlwTVZOyCU8OzzUPEavQQ,4,87,japanese,Financial District/South Beach,$$
+8NTW-bp5prQmhKEI5f4qxw,3.5,81,japanese,Hayes Valley,$$$$
+Nf7y336Y0VwcWis3PO-Otg,3.5,91,italian,Russian Hill,$$
+TRBP1G1l8vZkjgfqdx96Cw,4,96,italian,Nob Hill,$$
+SIbQGtsdK19ZAJB1YBge-g,4.5,96,italian,Potrero Hill,$$
+fRoC0-TmKoCdvIlgyeNgRw,3.5,90,chinese,Chinatown,$
+Kk72llJNg0Ae85cEOmeSmA,3.5,82,american,Financial District/South Beach,$$
+1vziY3pKZlmDkaGfcNncXw,4.5,94,american,Bernal Heights,$$
+PiY8Ks8KWlIcAvqNdMjvBA,4,84,american,Western Addition,$$
+_vezeQfs2sWv70P1BXOl8Q,4,88,thai,Outer Richmond,$$
+qfdWWJCMvoTKI8u7rshm_Q,4,89,american,South of Market,$
+XoSfRFF7F0K8dlquiWuuXw,4.5,98,american,Castro/Upper Market,$$
+l6bZYGFHhxj5VeTeuhOGDQ,3.5,86,medi,Bernal Heights,$$
+XdfyFAmoPZ7_doOxRKFCow,3.5,90,italian,Pacific Heights,$$
+08zJLnD6LNHt491Yw68A7w,3.5,85,italian,Castro/Upper Market,$
+Ep3VtYXc-wvSAp8SaEGa_Q,4,81,viet,Inner Richmond,$
+HZThElQfFLIqGc8ZVdRh7g,3.5,100,viet,Haight Ashbury,$
+dViv_h32FR56owNtH6N0fg,3.5,83,viet,Inner Richmond,$
+zK9-A4cIZwOUMpGBDz25DA,4,92,viet,Castro/Upper Market,$$
+w5BLpD2_aj9gyTMiStJ65Q,4,79,medi,Mission,$$
+JIH_nrgDyX8yKbjTEgpLig,3.5,90,medi,South of Market,$$$
+OA0z9GHU34MDxCSwqUOdRQ,4.5,90,medi,Mission,$$$
+DLpHmXitZxDLdqTwydUSdA,4.5,90,latin,Financial District/South Beach,$$
+6KASBgDLNL7tYGj3Z-I1JQ,4,76,indian,Tenderloin,$$
+IGXlabFSIPGG85twYOSGzw,3.5,83,american,Lakeshore,$$
+1DkuHn17_amndVrOrkiKpg,3.5,86,japanese,Pacific Heights,$$
+KEVnqUxjgghDhO2HHmONCQ,4,98,japanese,Nob Hill,$
+3FMOCpZi2sdoZefEfLDBRQ,3.5,70,chinese,Chinatown,$
+s3Vi_0iue-hIRJ7O78JzRQ,4,100,american,Haight Ashbury,$$
+OFLNt6Zcis68TlujtZM-Gw,3.5,90,latin,Mission,$$
+SPCsV7naOwkZFQGsuArPhg,2.5,100,latin,Sunset/Parkside,$
+y8mGQTwmFaSu3d7dAywOHA,4,84,american,Mission,$$
+u-obmxevldBOidDYkL8J6w,3.5,75,chinese,Inner Richmond,$
+b3AQeuuQw0_o-Qh7i3v28g,3.5,87,italian,North Beach,$
+6s67w_r3LZXiSZG8URUq8w,3,92,italian,Mission,$$
+X43AJ7rTKiAS0vuuKRNVjA,4,85,italian,Mission,$$
+w6bwuiCl388Fj7FmIeOMIA,3.5,90,medi,South of Market,$$
+pKP6ikrLyM5Gtua13kVoUw,4,90,medi,Inner Sunset,$$
+OREar045O5KiG8P_8dePng,4.5,100,medi,North Beach,$$
+X9WCWO4eikSkhuy6y2VMcA,2,88,medi,Western Addition,$
+8zVnG-g4dRNQtheaTv6t1Q,3,78,chinese,Chinatown,$$
+kjQneHe83CJ4ObxT2BlM3g,4.5,98,chinese,Sunset/Parkside,$
+TWfQDEwVLeLGHL4dcJ7Shg,4,88,japanese,Mission,$$$
+3hInKoS_u0FPJMIpbITsHw,4.5,96,american,Marina,$$
+DsbnNmsNgr8TAqfcZZGKkg,4.5,77,latin,Mission,$
+mYFhd8bVCpsdJFRh2tQeEw,4,86,japanese,Inner Richmond,$$
+BcW0vRdM8N-rteR2FfV1jg,4.5,89,japanese,South of Market,$$
+G5zryawBAp-cKJTyZDMhOg,3,94,japanese,South of Market,$
+kMEkI7SlgD4Zwem2KwOfJA,3.5,94,japanese,Outer Richmond,$$
+9PfzLnAi8pyK86Rv2MsvCQ,3.5,86,viet,Nob Hill,$
+4-pWX0F9mi_VlN1IAxweSQ,4,87,american,North Beach,$$$
+F3Dv-b99LYD2oiE4nH-neg,3.5,92,thai,Outer Richmond,$$
+3EY5OUzqoUPln2IRlXvmzQ,2.5,86,japanese,Japantown,$$
+CR5_3AHC-CqySDwOrynxWA,4,84,american,Marina,$$
+d74oNV0yHMfZPVoYy9Ha8A,4,78,korean,Outer Richmond,$$
+rOG_EqsPFX5cgXGQcRwLdQ,3.5,72,korean,Nob Hill,$
+qYvkBzpJNKTyfcmAfzUKyQ,3.5,73,korean,North Beach,$$
+fyeTybE7wDkieUwq4urOCA,4,85,american,Sunset/Parkside,$$
+IlNBmx-iB7y_rljUhBLgHQ,4,100,american,Seacliff,undefined
+chZfJOs022rr8DufI4r3Uw,4,94,italian,Mission,$$
+1xvpFG2vz5zKpbCS6lwFlQ,3.5,86,chinese,Sunset/Parkside,$$
+GfeaoeKtZh-57SFWgjPqnw,4,88,chinese,Hayes Valley,$$
+7hi9bFJQyiMDqaW8fcSLDQ,4,94,american,Mission,$$
+quQ1dJKZbciu7__7WKjE_w,4,94,american,Inner Richmond,$$
+zXPPrqWjmktnrqz5pDpUIQ,4,94,american,Marina,$
+_NGiJ9LfIvGV_b8yTmgHUw,3.5,96,american,Nob Hill,$
+xATjlew9BWJWedJsLk7OJA,3.5,79,american,Hayes Valley,$$$
+szH8rgvGD4jUV5GEJagDHQ,4,87,american,Marina,$$
+0xpUthb-IYVJRwxdB2wvNA,4,80,american,Inner Sunset,$
+Lr-uGQ8VxaYLEIKTLmA2qQ,4,98,american,Nob Hill,$$
+hdz4Ps4o8CnCH9-svNZllg,3.5,80,chinese,Bayview Hunters Point,$
+QaOd6dIYfOYPGBaQvpAtfg,4.5,94,american,Excelsior,$$
+3PfAzrjJzw7XsO7hzeXFsg,3,96,american,Mission,$$
+kJ75Qv1Qutko6NgcsMBblA,3.5,86,korean,West of Twin Peaks,$$
+6ZNlnA733Rv0I9Mq5_yO0A,4.5,100,american,Nob Hill,$$$$
+468XL3k_1QUQNYpWEV_EVg,3.5,85,american,Mission,$$
+CZSKlf9kavFr6gYc_UYxVQ,3.5,75,american,Excelsior,$
+dO2SzJmsckHFkk_gmasNKw,4,94,latin,South of Market,$$
+7N9Bqb5bB-Iqu1ho9Us9fg,3.5,67,thai,Nob Hill,$$
+1NxcXH7B-8yBp_JrkVkFTw,3,84,thai,Sunset/Parkside,$
+6ZaqeFEkbArybiCf3yAOlQ,4.5,92,thai,Sunset/Parkside,$
+goW9LHk_2ozTNypmq2pO8g,3,90,american,Haight Ashbury,$$
+4TM717pzr-QVTQzsxk9YcQ,5,96,american,Financial District/South Beach,$
+BPhrV8YSLBzuxaWTu7y9tw,3.5,93,italian,Mission Bay,$
+6TL8udi-vy_5rH-wikMSoA,4.5,98,japanese,Noe Valley,$$$
+YBIXea7qj0RwEN5HJDw0Yg,3.5,72,chinese,Presidio Heights,$$
+RMpI0cJ4f_oSpc4YA8dhFA,3.5,75,thai,Financial District/South Beach,$$
+c1wdilVyoDpZgL5sbzJHeg,3.5,86,chinese,Chinatown,$$
+wR6iIeoK_mzvwA4soE77aA,4,100,japanese,Chinatown,$
+0XtBuSGMhpMOMKRBjtJ4FA,4,89,american,Nob Hill,$$$
+2vlDWJxhWsESJQVSaghAeA,3.5,96,american,Mission,$$
+DwNUogLFZrKkVhguM5EnLw,3,85,thai,Inner Richmond,$$
+TRbh7567S8LdsVKdryoi4w,3.5,90,american,Mission,$$
+ovyyIesKylCuB541ZhktTg,4,96,american,Western Addition,$
+fQdVnPck_6cOOxO36hweeA,4,94,american,Western Addition,$$
+s2f2diwImCaaui2SDpNh-A,4,81,japanese,Inner Richmond,$$
+g_KkVWuIs3QDwnjHRCLN4g,4.5,100,japanese,Castro/Upper Market,undefined
+WKEFt4vsfJrIrUIpXUXhSA,3.5,93,american,Bernal Heights,$$
+_TLC_6icXXK8bws9mPT5FQ,3.5,86,indian,Sunset/Parkside,$$
+2oj_6uCp4DgVTJhYqEmBbA,4.5,90,american,Bayview Hunters Point,$$
+ptFfsvzCDv4lf9d4i3hRZw,4,87,american,South of Market,$$
+b2t7HU5ajDh-V0394bzAIA,4.5,96,american,Bernal Heights,$
+F1H-YIF2s_mCev0rdQq02Q,3.5,92,chinese,Nob Hill,$$
+TV6jm9XQ4TA2DWD9n2vBbw,4,100,american,Hayes Valley,$$
+MXy-YMQCWpBJf92HFRhGhw,4,85,american,Financial District/South Beach,$$
+cnjPZ4eI2lHTHIPlbHk9HQ,4.5,92,american,Noe Valley,$
+GtKxIGU6LJu14UErdNulmQ,4,92,italian,North Beach,$$
+DuR57PtCcuSHoWH4rK83lQ,4.5,90,italian,Tenderloin,undefined
+Wx3x6xOLkxWxwXXFrI01zA,3.5,77,italian,Haight Ashbury,$$
+TofRTCAfrXcvf7BYx0tqkQ,4.5,72,american,Bayview Hunters Point,$$
+QZQGRJZ4bZCmNoXjs3z1XQ,4,93,american,Western Addition,$$$
+zriqhz9jWIY0Y-PXBnLDCw,3.5,75,american,West of Twin Peaks,$$
+qlA-O6c4-lp092I6kzibUA,3.5,68,chinese,Western Addition,$
+2KaFcRyHcNLfv4kzEmTYJA,3.5,94,chinese,Mission,$$
+rbtA1V-aRy60NdhwIFj6bw,3,92,chinese,Mission,$
+Om1alyCCi7Z6GB3-XUrqnQ,4,96,chinese,Outer Richmond,$
+EJT4D7B5__hwzdF6eE8Byg,5,96,chinese,Excelsior,$
+iVjyGjcwqAnHvTExVpxVlw,4,83,chinese,Outer Richmond,$
+AVI5nL4paSG2iDOSsvCtzw,3.5,90,american,Financial District/South Beach,$$
+0_imNQKfTQXMeY7mU6ykKQ,4,96,american,Outer Richmond,undefined
+85XA08cZHSjaH4Pnhn_VPA,2.5,86,american,Mission,$
+wf8Es-WK3TXTwGovtLiVDQ,4,87,american,Marina,$
+yiuCGfMukUqjciiFPctg5Q,4.5,100,american,North Beach,$$
+UrcDUNpRmRpC5RWDSqbmww,2.5,87,american,South of Market,$$
+wjg6kgQgM-K1vIWh3kx7MQ,3,94,american,Financial District/South Beach,$$
+qRkaxBfGV6XRumyPduCtPQ,2.5,94,american,South of Market,$
+OEBWAAJ3FmcseeP1oNwzBQ,4,84,italian,Chinatown,$$
+UGKNNQ6bjL-ZttHSdZISfA,4,88,thai,Marina,$$
+kwDKGepDbd2TXupL0cSvHg,4,92,thai,Presidio Heights,undefined
+AoxdFkE06fQs_ZP0S0VRPw,4,96,american,Financial District/South Beach,$$
+cvWuRzkFcf5KrEBiZEoYEA,4,100,american,Chinatown,$$
+pocVe2xSz38GVH_ctMpq4Q,4,100,medi,Tenderloin,$
+9Dqd8evoxKi0JtHI7iX0pw,3.5,94,medi,Mission,$
+G3yD1-3fXYOnzmI-rOd7NA,4,87,medi,Mission,$
+cwoLsXwBGMjz3LcroaJl_A,4,81,medi,Mission,$
+hEXhf40Y9PdnYJzT_LEJlg,4,85,medi,Mission,$$
+ufEYEDMaaoiFAxw81IlBAw,3.5,71,chinese,Outer Richmond,$$
+X1hrqO0vHGb06ldktl0awA,4,92,chinese,Potrero Hill,$
+1zoST8ezhNYVe948Dln3dg,3.5,96,chinese,Financial District/South Beach,$
+dhJ-FFg_C5-c-ejyeUA69g,3.5,90,chinese,Inner Richmond,$
+jzo4h7-wAXQfoZwYT-Rzag,4,78,american,Financial District/South Beach,$$
+sn4ZKOYSdMG3mcT7lPx5xA,3,77,japanese,Japantown,$$
+bNs24yP7wb3rcm6T_jexSw,4,86,latin,Mission,$$
+muX0aRES6vsp5DEuJaW_uw,4,85,american,Outer Richmond,$$
+U-qMmkkcD5eNDBSvyGjmOw,3,94,american,Nob Hill,$$
+7xJOQAiponT69sYFwT6www,3.5,92,italian,Russian Hill,$$
+zLvZUKm0eV5O27x4mzg-xw,3,90,indian,Inner Sunset,$
+VN7HXxBiUKHEzyIeL8Viuw,4,82,indian,Russian Hill,$
+wp0dHKfiA0GE_XWN_g1kTg,4.5,100,indian,South of Market,$$
+Q_5woB2cS0ttc3uV_g3i7w,3,76,thai,Financial District/South Beach,$$
+yvGq3IVdSMA_yr1cIiY21g,3.5,90,thai,Lakeshore,$
+bCrPqM3TTC8lGQCLYGIpLw,4,80,japanese,South of Market,$$
+ed-vUA95tGy7UHi2Nds00Q,4,98,japanese,Inner Richmond,$$
+8yhmSq4jGr2K7SrT5qWScA,4,80,japanese,Outer Richmond,$
+w31yredwoqFFaB7bynt8sw,3,88,japanese,South of Market,$$
+L8c4IbRg9_zZSY0T7HUP8w,3,100,american,Nob Hill,$$
+o0QlMj6L1p_UUcgszIR2AQ,3.5,78,american,Mission,$
+bBa6-Hhe56m1RH-12IOXMw,4,90,latin,Inner Sunset,$$
+KE94BuxgN6d2TcyLvDWQyQ,4,96,latin,Tenderloin,$$$
+xnnGdAR6V96hfEhgIJ_P9w,4.5,100,latin,Mission,$$
+#NAME?,4,96,latin,Outer Richmond,$
+UXru0FThfONxJQ95oPnaBw,3.5,80,latin,Mission,$
+jDka56EYw8ZdrAEqMxROCQ,3.5,82,latin,Financial District/South Beach,$$
+LPlebkRnRpmbrjz9Z8sYPg,4,96,latin,Potrero Hill,$
+bnKsqcOEhE2PMmUR8gNS0w,3,79,thai,Chinatown,$
+BO45tCdHsoFixt8nHzJC3w,4,92,thai,Chinatown,$$
+dV1zWn_xdrQIKYYuDE-mhw,4,78,thai,Bernal Heights,$
+BxeBX72awRPLuzGYOinYRw,4.5,86,thai,South of Market,$$
+zR_f2QngVJFu9kkRpxXvYQ,2.5,92,chinese,Chinatown,$$
+pSVzNRoyaGZJ_hbm0T_tVg,3.5,81,chinese,Excelsior,$
+jp4X-7QjdffRBab9XMf2Bg,4,88,chinese,Financial District/South Beach,$$
+AfqpSxetSUMc63ZPCfbneg,4,96,chinese,Mission,$$
+oCQxicPZU_Ne2VTz76SSAg,3.5,96,chinese,North Beach,$$
+5zIbUhiM1L71YKPylYAk_g,4,76,american,South of Market,$$
+ReeiGTEamR1ScmzAdH7s4A,4,90,american,Mission,$$
+o4x29HYKvEUf7Regrn-J9g,4,80,medi,Pacific Heights,$$
+Mavr1mEE-CCP3GHTKle7BA,3.5,84,medi,Inner Richmond,$$
+mFaPASejWNHlgmnavYW9lg,2.5,98,latin,Financial District/South Beach,$
+5zKrxtjKK09F_Dwgs5Kxwg,4,72,indian,Tenderloin,$
+bYWDU1zI7LmIitVz8fl3RA,4,94,indian,Nob Hill,$$
+MRulf4Qokv2w_bQ48s6oVA,3.5,87,american,Chinatown,$$
+O-rPTVuA75e_YEthY--L8w,3.5,100,american,Bayview Hunters Point,undefined
+Uh932p9MfAXppaXbFPkykA,3.5,90,american,null,$$
+VxtDQfBA3ECjTUO7CG1YXQ,4,94,american,North Beach,$$
+_-7VgjSfibitQ1-TBvE0Aw,3.5,83,viet,Mission,$$
+29lhGyTOtiWGkLCWDJZZFg,4,92,japanese,Mission,$$
+eG1Rjh12FJuvkBPCKp7O8w,4,94,thai,Haight Ashbury,$$
+E6wgv3ieF_mR3AM5FhNyCw,4.5,88,thai,Mission,$
+FDpfJsxkExULZt3ipT8hVg,4.5,81,chinese,Mission,$
+Uh8PqobH8dQDAkvlQr4v9A,3.5,75,chinese,Chinatown,$$
+r2VvA24rgH-42Bo2ZeOU9A,4.5,98,chinese,Outer Richmond,$
+G1VTpIdPmHxeGMB-OQM5wQ,4,100,chinese,Financial District/South Beach,$$$
+ip8uNJnwVaPYYBiV80ZLoQ,4,98,chinese,Western Addition,$$
+Du3-fALBKDhn0osed2kOpg,4,88,medi,West of Twin Peaks,$$
+si_o8bmymED9RWxPHYnZ1A,3,100,medi,Lakeshore,$
+UF2y6BusFeZMZsGYUVcAaw,4,90,american,South of Market,$$
+qVc7u4fu0HHWCUeYGxhRyg,4,82,thai,Mission,$$
+lKMWPIxn5sKD3mVk-q-bAA,3,87,thai,Mission,undefined
+_az0NrGR-v9P-xtKoE45CA,2.5,83,thai,Sunset/Parkside,$$
+feufnVt4k_t2eJakDU1bAw,4,94,thai,Hayes Valley,$$$
+RMD2w2KYa4Vm5EYZ6UCu4Q,5,94,thai,Glen Park,$
+kipib8xehbTAuPJ2kqblvA,4,84,latin,Bernal Heights,$
+_Biu9UkF2PRH6LOYZUVD3g,3,85,japanese,South of Market,$
+KA-P3d2NcbJy5SQN-vCzPA,4,85,korean,Tenderloin,$
+pvJaoH4wL-Q0Kfu8k0Sw9Q,3.5,92,thai,Tenderloin,$
+BZrIT4uX_3MDQL3QPtfFPQ,3.5,84,chinese,Hayes Valley,$$
+wEpiKz--Z2b1q_FSCCNiow,4,86,latin,Mission,$$$
+EsSzg6uakrqzvahjn07oDg,4.5,100,latin,South of Market,$$
+C3OAQ790Bquh2dFffZcWYA,3,64,american,West of Twin Peaks,$$
+dN_v0Lu6xhv0yJcx-M0fpg,4,98,chinese,Financial District/South Beach,$$$
+o9d2A7sA_vW3XU1V8ECv7g,3.5,89,japanese,Chinatown,$$
+3jXZqvhHAtK6_f_wEckwrQ,4,92,japanese,Tenderloin,$$
+pL4Yj7YlaNVbB0TzmOXKNw,3.5,81,american,Financial District/South Beach,$$
+czbXSfezN_DK8Ws0vcFqhg,4,96,american,Russian Hill,$$
+l3yzEGRmLgNS38iLiSMOqg,4.5,98,american,Chinatown,undefined
+vjzUEj0UfT95FG__aNFXkQ,5,100,american,Mission,$
+4eaK2-Q0dEXWMr5SOoV_Sg,4,96,american,Pacific Heights,$$
+euOau5eM99SlXan6wHLsTQ,4,84,american,Hayes Valley,$
+EMxQq22A9CO5eSylDfRtJg,3.5,100,american,Tenderloin,$$
+lKj4XgtSKh20UlHBVHq4Ag,4,79,american,Excelsior,$$
+I-2sRRTxnKqjozpPMhR8lQ,4,96,american,Financial District/South Beach,$
+ziDJD2-M38PUEmft4kJ8nQ,4.5,96,american,Mission,$$
+cegatrLOnlyeSgDpYOua2g,4,89,american,Japantown,$
+9d41BD03PafffoUJS6qPdg,4,88,american,Mission,$$
+6KhSJxwHTQqHiaT35TDkQQ,4,87,indian,Tenderloin,$$
+49GywP7C3Yali6NjGpN2_g,5,100,indian,Pacific Heights,$$
+A2Bpbf-6k_Sv63Lp42LUJA,4,96,indian,Lone Mountain/USF,$
+Xdx2_n3nk9Td_aSe7E5ARQ,4,94,american,Hayes Valley,$$$
+do1T-8_w5HaLHBgMYLw2Xw,4,78,american,Mission,$$$
+_7PmCSs1oEGLevlonhdFRw,4,94,american,Tenderloin,$
+gubKjYAZMO_bxhsd5zT3sw,3.5,98,american,Inner Sunset,$$
+ClEpMlqgNNVeMjWmdoiTuQ,2.5,73,latin,North Beach,$$
+R69dsC7QTTf-XwTDJawMHQ,4,98,latin,Pacific Heights,$$
+WvW3YH9wFCKBSbzlHJIurA,3.5,75,japanese,Russian Hill,$$
+NcRzv0ZLoFKPvhvTIQa8PQ,3.5,88,japanese,West of Twin Peaks,$$$
+agq8VUqVQ_Y3dZh6-IjeIg,3.5,88,chinese,Castro/Upper Market,$$
+P0vM82qgihv1QD-BIxXlNg,3,87,chinese,Financial District/South Beach,$
+O8DgC3zm1fZf34a16YCjDw,4.5,88,chinese,Mission,$
+WFgRFq_KxIs2fkYo1iD6Tg,4,90,thai,Tenderloin,$$
+f6PVeKj4VFl9KRJg9SXwIg,4,92,thai,North Beach,$$
+0a22L8UI1KEy8-VxMnfqaQ,4,94,viet,North Beach,$$
+v9rG9W4lb8BhHFe8OMP2fw,4,84,american,Mission,$$
+nawSZh8eFLO-XDaJsTVGQQ,4,90,american,Mission,$$
+RBgAy_FqC7kjsLo6q8womQ,3.5,85,american,South of Market,$
+0Rvlt2sukMzpHNAIxC_5Ug,4,88,japanese,Outer Richmond,$$
+Q0i5oC2e5k0sZVCkgdR8Ig,3,86,chinese,Financial District/South Beach,$
+hZwD8_XA8V8ORz7BBBS5Gg,3.5,90,chinese,Financial District/South Beach,$$
+eB5HTLaY70PKUwC3btdTcw,4,90,viet,Nob Hill,$$
+qBWUqeezukYJDGSnTeZ_2w,3.5,78,japanese,Financial District/South Beach,$$
+Jd28dXIWRxGwXKbfrnXq3g,4.5,92,japanese,Financial District/South Beach,$
+Vli49HU3oPzkN5rrWcRGDw,5,98,japanese,Bayview Hunters Point,undefined
+rwiL8C8989DlHMD88bxi3A,4,75,latin,Mission,$$
+0SzGuEbd_FEZ4PW04KPhxA,4.5,96,american,West of Twin Peaks,$
+AY4TKscmUlARMpZj0rKj2Q,4,92,american,Mission,$$
+k3vAsVaOFFQSK2_d-E0DNg,4,98,american,South of Market,$$
+I2ej-vQUlKno0aFAXgzuGg,3,88,latin,Financial District/South Beach,$$
+sUNE3HRPkTl-GOWEz04N-A,4.5,90,latin,Mission,$
+KTmeAHhB3u51NETxuk7iQg,2,92,latin,Financial District/South Beach,$
+XQLmEdXoMzOpffwoFaBtaQ,4,72,american,Castro/Upper Market,$$
+zcMeVijVeFD2M4ntUrUqZQ,3.5,100,american,Nob Hill,$$
+zO-BFGWIRWqMOOHyH-6Sqg,3.5,89,chinese,Outer Richmond,$$
+TIb67-bkIS6tMNF2bHrQlg,3.5,96,chinese,Financial District/South Beach,$$
+wcastjKjpLojuMaBH1EcFg,4,100,chinese,Russian Hill,$$
+FH6GnjcOSdlcSAAA947Ygg,4,85,chinese,Mission,$$
+RHWZA4u1jEV76gA1P_4LPQ,4.5,96,chinese,Tenderloin,undefined
+hAekA97knx4rVv5v7_HYQw,3,90,latin,West of Twin Peaks,$
+jCBTQri4FzW6aQVXLBh1_w,4,90,latin,Russian Hill,$
+tnhfDv5Il8EaGSXZGiuQGg,4.5,88,latin,Financial District/South Beach,$$
+_LSlZaEHK8Y0Qfovd9iPlQ,4,88,american,Tenderloin,$$
+buv-wKDpSL6Iy4_PM1LyMw,4,94,japanese,West of Twin Peaks,$$
+TE618FOFfp3TSOGDxKMT1A,4,82,japanese,Financial District/South Beach,$$
+vvubENH1s-YoZ-sjLWtQMg,4,92,medi,Nob Hill,$$
+mxwXxa1dnaOJQU4iZr42Xg,4.5,85,medi,Inner Sunset,$
+yIm40DIovMDhs7fmXKrgVA,3.5,94,american,Financial District/South Beach,$$
+6CPZjj1kPYpj2aWMVcslTA,4,89,chinese,Inner Richmond,$$
+haFRimHPOq90EiTplF4S8A,4.5,71,chinese,Inner Richmond,$$
+O-W4vnk2PKCJ9AD0KGDJ6g,3,86,chinese,Portola,$
+#NAME?,4,81,chinese,Sunset/Parkside,$
+9-TPmOn6AbW2fLMiugQCiA,4,98,chinese,Nob Hill,$$$$
+B0H5eaQspToLmtt30CND1A,3.5,100,american,Mission,$
+DKXrD0leQCtHFTeSYTaOaQ,3,85,american,Nob Hill,$$
+KtXm2WllfK4NZb5-MjDBig,3,94,thai,Financial District/South Beach,$
+XeH53MhhrEQHG2X-BuQEHw,4,100,thai,Russian Hill,$$
+IG7CUTV6tR9pgid3k7BAMA,2.5,100,thai,Inner Richmond,$
+IzRVZB6EuoizmnwAFy8siQ,4.5,96,italian,Financial District/South Beach,$$
+ngn0WekzH3vzraKDcYi5GQ,4,92,latin,Marina,$
+FvPRM23d7NAOdyS_OX0MpQ,4,81,italian,West of Twin Peaks,$$
+LrFXS0DjiC1A6qUGbG93dw,5,77,italian,Bayview Hunters Point,$
+3m-PTR1QzNi07BP1PF4cDA,4,92,italian,South of Market,undefined
+yQxW5sK7n7T5JDoPBY2QCQ,4,83,italian,North Beach,$$
+bZMy93b79G6FHqZU9xJcaA,3.5,86,american,Marina,$$
+M2sxg6VKsJdRgRqE9V4c3A,4,98,american,Nob Hill,$$
+XGHTrreDK35ciuA8R6naNQ,4,94,american,Financial District/South Beach,$$$$
+ormG-hRL73C1HELmc_N72g,4.5,85,japanese,Hayes Valley,$$$
+gzHz_9PUTh002MDwOU3ztg,3.5,86,japanese,Haight Ashbury,$$
+TCUfp_AdAQv-g7aD6ktEEQ,3.5,96,chinese,South of Market,$$
+VYd8UzwlwmX8Db5umNHNig,3.5,61,chinese,Outer Richmond,$$
+DQy0uYB0kym-s3oZZRxs5Q,4,83,chinese,Sunset/Parkside,$
+Gzu4KCCoSf0Jqox5km6fyA,3,63,viet,Chinatown,$
+ythBjfjRTJflsLIHXfF0Rw,4,81,viet,Financial District/South Beach,$
+ZIe-mxk6KWq_ht1jcQ_pAg,2.5,92,latin,South of Market,$
+qGjG43GoNvogez30ISBoAg,3,81,latin,South of Market,$$
+U-078YYZNVS6DmQwMCBTPg,3,90,latin,Financial District/South Beach,$$
+4L55hW_30nCS2rVL0YL-2A,4,93,american,Mission,$$
+1CkTVogrU7pmy4pkEFIubw,4,92,american,Mission,$$
+ZdT33Fhm6M9SZRrU3qL67g,5,98,american,Mission,$$
+DwiqoIQuyfyLy9r4PH45-w,3.5,78,thai,Haight Ashbury,$$
+dGMu_3IPt-WcR9NSSq2XGA,4.5,96,thai,Chinatown,$
+i5MlesN2FAeZjR9ECjISPA,4,91,american,Hayes Valley,$$
+kGG66pu2BpqM-BgGyOYp0A,4,90,american,Oceanview/Merced/Ingleside,$
+rf39v0UmaNk1SZZ9HuZ3hA,4,86,korean,Pacific Heights,$$
+xv8dq_jBNfQkHeX2wJGlAg,4,92,korean,Financial District/South Beach,$$$
+4HeUBskEaGZ2qlnGtBcy7A,3.5,74,viet,Chinatown,$
+jKA-whTxgDCpb8DpwT1vBg,3.5,90,american,Tenderloin,$
+54EOuXs22MK_QYVNgBL-4A,4,100,american,Tenderloin,$
+1-Oi47khaeWAIAJ9gSwg7A,4,83,japanese,Inner Richmond,$$
+JlxQ1tI9oF9aFplEfGaMGg,2.5,83,american,Financial District/South Beach,$$
+reXWH9Wo0ZTOuQsTMNOSxg,4,89,american,Castro/Upper Market,$$
+2nXYpojLdnIWkFW-Xe7B2A,4,87,latin,Haight Ashbury,$$
+#NAME?,4,92,latin,Hayes Valley,$$
+J7404nInHUg5ddtoogLmAw,3,74,chinese,Outer Richmond,$$
+bBTRc2-Fq_ppT0b_i4v4iQ,3.5,92,indian,Mission,$
+D0hpNAUOOTSK4LAsnXqmMg,3.5,94,indian,Marina,$
+9oTonXGZ-Lnpw-9Ff9Hx_w,4.5,89,indian,Marina,$$
+cP_wdOcf21fd2VWOXZH0cQ,4,96,indian,Financial District/South Beach,$$
+F1SBxEsVUAWopHKw4UZzIA,3.5,100,american,Financial District/South Beach,$$
+TyYg1zXxGgI8X_XOfpclHw,2.5,98,american,Nob Hill,$$
+tpuKzQh5d6veDB-M9qU6Fw,3.5,96,french,West of Twin Peaks,$$$
+Vq77UqVmI39JeLY8ocseLA,4,91,french,Tenderloin,$$$
+NcBe0E7_Tx4D_21TP3MNcQ,3.5,92,chinese,Outer Richmond,$
+MWV8AoySYObkfVpaLhaqKQ,4,94,chinese,South of Market,$
+hguZvr1eDAsxK03OrD0K9w,4,92,chinese,Financial District/South Beach,$
+yuj03JWlXC9GSjucBBnwew,4.5,98,chinese,Outer Richmond,$$$$
+fRwk4yhU7gFqEAa6LD8c_g,4,70,thai,Inner Sunset,$$
+VhhxaMh44Vr9USN3qncUuw,3.5,86,american,Haight Ashbury,$$
+tMbtzksElOjFML2vBSqyWQ,4,86,american,Outer Richmond,$
+LASnu_IdKgFBJdXJX9MGsQ,4,98,american,Noe Valley,$$
+i2UjntQ3Jkx4auwMFqBIgg,4,84,american,Mission,$$
+XOu8Wa5mVMmHek-4MAjs3Q,4,98,american,Mission,$$
+r7Ak8c8y9oxwpewd4mOUtQ,4,80,american,Financial District/South Beach,$$
+r4FWkVIwx-n2DMkI0k5PRg,3.5,92,chinese,West of Twin Peaks,$$
+25jMlxldHslcH7b9QmcjKw,4,84,chinese,Financial District/South Beach,$
+JbY2ui85qe5JZ2eRuc6vnQ,4.5,100,chinese,Tenderloin,$$
+8Ia2IDknIA3btJ0bTj751w,2.5,77,chinese,Sunset/Parkside,$$
+WmiSBBPM7fhryIKM2LKvNA,4,100,chinese,Mission,$
+xErl0-LbQO9n-5e6ZQQ-Uw,4,83,japanese,Inner Richmond,$$
+n0KBa5ce7wH0sGE-Qe3gmg,2,79,japanese,Tenderloin,$$
+CFl-2nOdWn-72tNUVkT7zw,3.5,86,american,Hayes Valley,$$
+ajuYwySutMShLW6WLJfapw,4,96,american,Mission,$$
+SXxb1kcRpuv3tVThP8wkHA,3,90,latin,Pacific Heights,$$
+3sGEIoyXkMmc1YX1TYkSMg,4,82,american,Noe Valley,$$
+ZTocvrJNFdVRz3NUToXaVQ,4.5,94,italian,Haight Ashbury,$$
+mYQmEp2dsRTmNhgIrJ7mKQ,3.5,94,american,Pacific Heights,$$
+iVqr8ThQQClKSWPcpYOebQ,3.5,82,chinese,Russian Hill,$$
+bX9oEDq6qvQuuf6sxbfwVw,4,92,chinese,Inner Sunset,$$
+T_7sirePSw4yP9OhoDMUwQ,3.5,92,chinese,Hayes Valley,$$
+ziDJD2-M38PUEmft4kJ8nQ,4.5,96,chinese,Mission,$$
+hCSG7tYAQQIhtmYr8VpESQ,3,90,chinese,West of Twin Peaks,$
+01BcGT2SkIh2t95_M4Tg7w,4.5,90,chinese,Mission Bay,$
+SEuHSFDOoux4MqusTQPNMw,3.5,90,chinese,Financial District/South Beach,$$$
+tiSDprSVuesljC8b0aS64A,3.5,66,american,Mission Bay,$
+nL40RmgMcFjyAX-QwJ8klw,4,71,american,South of Market,$
+rMuLW1qVB-deU5NStYerWA,4,88,japanese,Financial District/South Beach,$$
+ku0E-UT2OdW_vC2JHWgtrA,4.5,100,japanese,Noe Valley,$$$
+EZXYDHd6I6_p6CblR78_qg,4,68,thai,Outer Richmond,$$
+oAGewjsrHQpnrmRYi8LVIw,4,94,thai,Tenderloin,$$
+7Lmkx9fcBINx6rJOhul3_A,4,94,thai,Hayes Valley,$$
+U0AD-wyPJtIkgnfFt-ihAw,4,96,thai,Hayes Valley,$$
+zHXAYvB7IjLZWIioediMgA,3.5,86,chinese,South of Market,$$
+tYU0M2jW7FIjzRHJ3nAUVw,4,100,korean,Sunset/Parkside,$$
+pv5-sxnpf1K0nGfuUWtD1g,4,92,korean,Japantown,$$
+5tsXQX2AmXKu-Oq6Pc83dA,3,81,korean,West of Twin Peaks,$$
+18TtLS_JtiS2OH30FLqNrw,4,98,korean,Mission,$
+OhGD342KH0hdWYJNiwJE5A,4,100,korean,Bayview Hunters Point,$
+KttlGeHJixRHTLyqyefx8Q,4,94,korean,Mission,$
+BmO--s9kL0EppabDgYVRPg,3,75,chinese,Sunset/Parkside,$
+TCaagQVqECB97vJAs4t9Mg,4,83,american,Lone Mountain/USF,$$
+y5KmxJANqFzmeF_atj56Fg,3,86,american,Financial District/South Beach,$
+KRDQab-AjHP66pcbkbc5qQ,5,94,american,Bernal Heights,$$
+1fgmqu-VXQ2QX1FII89g3g,4,83,indian,Tenderloin,$$
+WqeEFLjIFsDZSRbFOneh6Q,4,94,indian,Marina,$$
+TYYkKz2Y2qBPGrB8XmP-nA,4,87,thai,Haight Ashbury,$
+qKVwVCJ_5D0iOxJYE9wSJw,4,94,japanese,Chinatown,$$$$
+8ugMHM_J5JPCjzSncUJ53A,5,94,japanese,Potrero Hill,undefined
+nWq4vV0Sgz-QpX9DrVLubw,3.5,74,japanese,Bernal Heights,$$
+TqGrcmC96h-xLpDfW99BAA,4,78,japanese,Bernal Heights,$$
+A4dzocYPoer0llJydoQU-g,4,90,japanese,Tenderloin,$$
+AeMidC6u6o-oy9E0ZzfLPg,4,77,viet,Tenderloin,$
+a5m_BP44_9mtD0QEfeuKeA,4,76,latin,Mission,$
+KXJ8jFVrHEUGh9EXtUwmDw,3.5,88,latin,Nob Hill,$
+7mo1yRzWzF3dybKKF7POug,4,83,latin,Castro/Upper Market,$
+fdUS3n4PrdDZilWDby2Epg,4.5,88,italian,Mission,$$$
+FaxHd0QHp0xw9CQZ2Egn3w,5,100,italian,Mission Bay,$$
+oC3ktA671PncEfJfytnDPw,2.5,92,chinese,Chinatown,$
+dv1RUHabq5_tEf6wgM45eA,4,98,chinese,Hayes Valley,$$
+xsRngGWKa8yeCPhrz7EHcg,4.5,94,chinese,Tenderloin,$
+DGFSR1FnCJWb_3-uksP4ng,4,96,american,Nob Hill,$$
+JFk_e7Q8nzqOXSjcBw9dMw,3.5,94,american,Chinatown,$
+8GjSS8YZBMAj0MKm11Awvw,4,98,american,Inner Sunset,$
+527usXXrlHi46bs54IFRTQ,4,91,american,Inner Sunset,$$
+0OsCkDFeF8wBgIYKW7HNmQ,4,98,american,Inner Sunset,$$
+hNzvSmt4xscmOc0IhHrSoA,3.5,96,american,Bayview Hunters Point,undefined
+#NAME?,4,91,american,Marina,$$
+aIgbg-WdNmgBb-V63RfRUg,3.5,98,american,Sunset/Parkside,$$
+mRvr3toGkIeaUwI5RtW0Gw,4,92,french,Financial District/South Beach,$$$
+8Pa1WXs2pA02O2sjNTOLQA,3.5,94,latin,North Beach,$$
+bZuoVQJW0tyrJ6NJMWnGfw,4,98,latin,Lakeshore,$
+_xbBbHSrWM8vvTo9DO51EA,4.5,92,latin,Western Addition,$$
+VGb0wBUFj7sBwJdru345qg,3.5,67,latin,Japantown,$$
+#NAME?,3.5,96,american,Mission,$$
+wdX_bz2sm9rmx3dCnXVHXg,4,89,american,Tenderloin,$
+oTdKh3VdGRtBM8enGj9x1g,4,96,american,Financial District/South Beach,$$
+rYW3fJTOFiqcvTVkNkO39Q,4.5,98,american,Bernal Heights,$
+fzhWuy8DD4Gr9HwDLaWISA,4,68,latin,Mission,$
+pknqZiaDbSNFUnJrOpkKcw,3.5,62,chinese,Outer Richmond,$$
+I8T8aoAsFQYwQiRvLBayFA,4.5,87,italian,North Beach,$$
+_RkG6ao09nTYczVfLG-Zrw,4,85,american,South of Market,$$$
+MKpNxnwzRf8ovDKqpqCBig,4.5,80,latin,Visitacion Valley,$
+GaO_9eTPY0bfyI6pKD29gw,3.5,85,latin,Presidio Heights,$$
+Q9KeURmTqRFLKb_3Dxq6Jw,4,94,latin,Japantown,$
+UNKSIjxNh1NDnFOp7kH2fQ,4.5,98,latin,Russian Hill,$$
+znjP_ZGYsVTw3NIgsW1hjQ,4,87,american,Bayview Hunters Point,$
+1OOM2z1zRmVXGZghiuTJmA,3.5,87,american,Mission,$$
+2FR395iJImCphQNGWubUtw,4,79,thai,West of Twin Peaks,$$
+dhxGqKiGoeQsqwaL4-ySBA,3.5,92,american,South of Market,$$
+o-Wfam41Tuq_auoNaBbSYA,5,89,american,Bayview Hunters Point,undefined
+Z661e-IOrGuCcvLLe1lS1w,4,94,american,Haight Ashbury,$$
+h8fi7bEHzafnJ-XegEKeIA,4,96,american,Chinatown,$$
+13HilRfX-kXGxMS0BxNlpg,4.5,96,american,Mission,$
+QQwsy-M3O5w6FSPaVFJ3uQ,4,88,french,North Beach,$$
+6rUZd1LPgzYeOuZLffPckQ,4.5,88,french,Chinatown,undefined
+mkwfPlHn2KmwDPe-EhGB5A,4,96,french,Financial District/South Beach,$
+bE_1J-17ut6t6bvNhkkxSw,4.5,94,japanese,Inner Richmond,$$$$
+a7iSpoWHBLRnmsdoYYOvog,4,90,latin,Outer Mission,$$
+fhbqsC93Zgsi37qMnB7s5w,4.5,87,latin,Tenderloin,$
+TmXkYM0N-FjrMasxj5uXsA,4,83,japanese,Inner Richmond,$$
+jUH5iN_cTh1BsEcMECreZw,4.5,86,japanese,Marina,$
+R-1tDX2JbNA1GTR-DWiZQQ,4.5,88,japanese,Outer Richmond,$
+o_6hte54w6fO364fzX0VHg,2.5,78,japanese,Financial District/South Beach,$$
+RRcRzlyM3YL10XubBNKHFQ,3.5,94,italian,North Beach,$$$
+q7xB2cLn4EDP001B3BiiVg,4,82,korean,Financial District/South Beach,$
+PRgMGxmMFXddMNTt1mAM0g,4,100,korean,Haight Ashbury,$
+EzxeHAispkwbZ1Pq7jUR6A,4,85,korean,Mission,$
+539bR-HnDCDz7EjST_Unzw,4.5,96,korean,Bernal Heights,$$
+UhXTdMeuA53PD0hGvuHRrA,3.5,96,korean,Oceanview/Merced/Ingleside,$$
+i0mBxtEgzJ0qYAdbbS1ODg,3.5,100,american,Financial District/South Beach,$$
+KJ2sVw2GkzHoaaMMfjP_lw,3.5,87,american,Tenderloin,$$
+CxEdmKIUUQalIQa-yc4NEA,4,90,american,West of Twin Peaks,$
+lK4hEnu2PVpsKusShmHKwQ,3.5,90,american,Haight Ashbury,$
+AggmCRCX59YlW287DnxEzA,3,100,latin,Chinatown,$
+cEzXkqlAh6X-nNfBdOolng,4,88,latin,Financial District/South Beach,$
+m8lj6Q-9OkNjFXzU--etIQ,3,87,american,Financial District/South Beach,$$
+buuop6l0X0oy_RXIbY4n5w,3,69,chinese,Sunset/Parkside,$$
+FaT8F0_7su4exwvKJ8ULPw,4,90,chinese,Castro/Upper Market,$
+k8UnUjLkikZSdJ8NYWl6zA,4,92,japanese,Mission,$$$$
+SdOPi7Q1amwl5a-xbvY_ig,3.5,90,latin,Marina,$$
+KM0fd3Jh-ImyUREmEVW53Q,4.5,98,latin,Castro/Upper Market,$
+wtP5sfAxmBfWypUhNbdAww,3.5,98,latin,North Beach,$
+Zle9xppf0m1FPIWwb2umaA,3.5,89,american,Tenderloin,$$
+oeaM1vbqnJ73eTqHNHgcjw,3.5,88,chinese,West of Twin Peaks,$
+iuyXW9gHTo8BUTCT9Ba97w,4,98,chinese,Russian Hill,$$
+AsmIi9jXkb9ACliVB4Fp9w,4.5,94,chinese,Russian Hill,$
+Ftm3Whp3gspBAfRClp_vzA,3.5,80,latin,Financial District/South Beach,$
+WxC-bzdy05oSzpjEqT3ZVQ,3.5,65,latin,Chinatown,$
+myeMXCowUnMGo99TTPeogw,4.5,100,latin,Potrero Hill,$$
+xSLGnEGxO85EAk1DXhB4aQ,4,94,latin,Mission,$$
+GzOumj6_QOeQByuc_0yajQ,3.5,69,chinese,Chinatown,$$
+rLkgnC_1qcAeURnN7TLxJA,3.5,96,chinese,North Beach,$$
+1z0GaE4sSB3rvHJS2ow08Q,4.5,88,chinese,Bayview Hunters Point,undefined
+OPdh9KMz01TaxR1ba-HxkQ,4,81,american,Financial District/South Beach,$$
+uvQDJdwQM_pe_blEYQlgSg,4.5,88,american,Russian Hill,$$$
+c70nh-BV7Nn_rnNXDXnABg,4.5,90,indian,Russian Hill,$$
+UafpqzZcf6L31lTQRNe1zg,3.5,93,viet,Marina,$$
+fi1P1C4v75WGbQihx1zO9g,3.5,94,viet,Glen Park,$
+frA_PGrbHADJUmXvRfb9rQ,4,100,viet,Castro/Upper Market,$$
+5Bx2YMQwoP4g7_I5NKkmEA,4,100,viet,Inner Sunset,$
+nIcPMxjJrzOen5WF__6Sug,3.5,90,french,Lakeshore,$
+EdeXwxNdH8Q_U6-wicWTYQ,4.5,100,french,Hayes Valley,$$
+V7_bGWP_1a0DD-kCXNoztw,4,81,korean,Inner Richmond,$$
+HLkzbGwFmOqb5LOhJCFCtQ,3,75,korean,Portola,$
+f4qMzrZ4LBbSoNR5kFA3eQ,3.5,89,korean,Castro/Upper Market,$$$
+4lYg7bEUlggj24dG-rzOsg,4.5,100,korean,Tenderloin,$
+l-1eHkuvqXAo3CN3LvrfwA,4,72,viet,Inner Richmond,$
+HSJVecWowJjjyaW7nyCWtg,4,81,viet,Marina,$$$
+JWbqdmXQJ1jHEg4fCmFPEQ,4.5,88,japanese,Tenderloin,$$
+UchvMnieXieFQJbgUligWw,3.5,91,japanese,Nob Hill,$$
+JPT1xC7VaREWr5EW97SgBg,3.5,91,japanese,Nob Hill,$
+s0rMCa8QP8e2XdH3vAnoLA,4,90,japanese,Marina,$
+FcN9_uIb1HFRK_y-LUxCzA,4,89,japanese,Financial District/South Beach,$$
+O0iAR6OBHXqFtK4nKO9g2Q,4,93,japanese,Nob Hill,$
+d-Ik5OblSVzYJiNPZSmJ9g,3.5,82,thai,Mission,$$
+6Ux8vMV2-jd6rRR_bnTvfg,4,98,chinese,Tenderloin,$$
+zEO6_VcwjjmtHsoaaQKg-w,4,77,chinese,Chinatown,$$
+DwePUiESfE5Ij8_9sYwV7Q,3,72,chinese,Western Addition,$
+5g-rHq-WXf9UiN-BEc8AcQ,4.5,96,chinese,Potrero Hill,$$
+kgRHdvUTwfMEfryyU2S_bQ,3.5,94,chinese,Financial District/South Beach,$
+z7cKVX0Ks3GHrS9YN0F9Dw,3.5,84,chinese,Pacific Heights,$$
+PpkkyPZs5-BNPNmoU5kXsw,3.5,96,chinese,Financial District/South Beach,$
+I-lbfc7TMQo5llOpSKxjEw,4,86,chinese,Chinatown,$$$
+BI40rGhpngLNPacrjWpseQ,4,71,chinese,Sunset/Parkside,$$
+qYGumGNy19rWv0JuoGtJjQ,3,84,chinese,West of Twin Peaks,$$
+sjj1TvKV1RYEjYhuLlXe0w,3.5,83,chinese,Hayes Valley,$$
+imfAj62Nm0f7y0Cj_sbjsQ,3.5,79,latin,Pacific Heights,$
+cIkwt0L2Xsp8tzGL0uKajg,4,90,italian,Bernal Heights,$$
+IoPgRTk7Cs3ydeM5R2NRZA,4.5,100,italian,Sunset/Parkside,$
+rHOzLTCRJ7BUIDtWZE9EkA,4.5,100,american,Nob Hill,$$
+F8RMjYx3rWpCVXmjgZd6vw,3.5,79,chinese,Nob Hill,$
+Ng_96nZag6yTB17S3rHecg,4,80,chinese,North Beach,$$
+Z8JBS-dYIITEhOf4n8s9Bg,4,85,viet,South of Market,$
+wwkenyJjSgu0lXS2wUu5fQ,4,96,viet,Russian Hill,$$
+yqEcwYU47FoPPayugsSD_Q,4.5,96,viet,Tenderloin,$
+u-a9aqNNiMX6Q0xgYyDaOg,4.5,94,viet,Financial District/South Beach,$$
+I-XRpTAcFxCmNZ3ve04Dvw,3.5,83,viet,Japantown,$$
+ieVSqUfVnPFFWkRcb8mTzA,3.5,92,viet,Sunset/Parkside,$
+wUGDX2epnL9Y02RA3sIhrQ,4.5,92,viet,Outer Richmond,$
+99eYkXciOu-_jU8SSSZqvg,4,86,japanese,Marina,$$
+gcb1Gd7gieQKRu46_uzw0w,4,88,japanese,Mission,$$
+eT8h3get1FDUdUyCoZPt0w,3.5,85,american,Potrero Hill,$$
+p_D78_M-Mm1y85axYI7JQw,3.5,94,american,Tenderloin,undefined
+HFIVejsapRkAZMStByX3Aw,3,68,japanese,Mission Bay,$$
+TK-AfnulnF5yvL5aRFhniA,4.5,94,japanese,Noe Valley,$$
+vAIHU9GjFLSquh4VkFLIhg,4.5,89,japanese,Excelsior,$
+M_dWSgFJ5tl8mVGE_hoFgA,4,85,japanese,Mission,$$
+1hMD7RQogPDWpE-p3LKjXA,4,94,japanese,Mission,$$
+hWFAUV2KtywQXwHFj5j9Lg,4,88,chinese,West of Twin Peaks,$
+vp2RV7NzhksglFa80lJYZw,2.5,96,chinese,Mission,undefined
+EUm2dUItrKVOrOpX6P7F5g,3.5,100,chinese,South of Market,undefined
+17AL594r4fky-7SYpcdZzw,4,62,chinese,Bernal Heights,$
+O4PouD2wvkoZ6yYddQ53EQ,3.5,100,chinese,North Beach,$
+U9HWtltvf_U2y1wYSOwFUA,4.5,96,viet,Nob Hill,$
+TjKw7TV8XCWc-w-kjKWPyg,4.5,100,viet,Financial District/South Beach,$$
+5_ZPjPKZhPYXwGNCaMpxFg,4,65,latin,Mission,$$
+IuK-QR5iXSpAkCPj43viUQ,4,87,american,Bayview Hunters Point,$$
+SLPajCygwHUgTMkciLN1cw,4,90,american,Russian Hill,$$
+V84MarXW0IP4yN_biqMHIw,3.5,92,viet,Lakeshore,$
+66aSV-zxjYHSceIzH1UhfA,4,90,viet,Castro/Upper Market,$$
+YDI3cc5EoDA34vBf-aDooA,4,96,viet,Mission,$
+Edjd2Z4Tr1XYy6yq6jMM2w,4,76,latin,Hayes Valley,$$
+qYe9AyZ1ay_j7oA737pt2A,4,90,indian,Noe Valley,$$
+bIhe_8Sb87tJexcgzalk5Q,3.5,84,indian,Excelsior,$
+1rFPsscjKmBXiAy_E10LmQ,4,90,indian,Financial District/South Beach,$$$
+3IWPBbSE-3JF4Fzr1RvMhw,3.5,89,indian,Inner Richmond,$
+Ej70gc47gQvbDVTitBNMRQ,5,100,indian,Financial District/South Beach,$$
+IgeBowYv2Q-2-VC5Xef0SA,4,90,chinese,Inner Sunset,$$
+mbmJRdYFNUKeV_toR0KfVA,4.5,100,american,Nob Hill,$$
+kFgjHGp-cTUK5uPaSJOORA,4,96,medi,Hayes Valley,$$
+BswKTdnuqpGB0tzE_0Ob1g,2.5,88,medi,Lakeshore,$$$$
+1OhZovtG1SfgwPPn8S-sPw,3.5,86,medi,Tenderloin,$
+EY6AZjt3JDqtz7WRzthocA,4,92,american,Mission,$$
+C1KKLpAVfOH4PsTHHWsAqQ,5,88,american,Noe Valley,undefined
+3yPTDS6aWaMi4tNHZcf5rw,4.5,96,american,Sunset/Parkside,$
+PqeHQAMWUWzyL8qsmHltoQ,3.5,100,american,Tenderloin,$$
+dv9gdJrBG7SZ8aWYkxG_3w,4.5,94,american,Financial District/South Beach,$
+paVxc-N-n4hlC6r9Ir099A,3.5,87,american,Financial District/South Beach,$$
+H7lIfefUVP2YBhJZV3w7Eg,3.5,81,japanese,Outer Richmond,$$
+cVR00huB9VPbBvNd-yYbwA,3.5,84,thai,Hayes Valley,$$
+6hKarnj7mzI7VNdJrEnymQ,3.5,98,thai,Marina,$
+ocWOWedEZg4k8ffZzGDIEA,3.5,91,korean,Inner Sunset,$$
+12FgaYRXO4mtlYvMLUEPoA,3.5,100,korean,Financial District/South Beach,$$
+1xs89kzJ2F6iDzRyYcRLCQ,4,90,korean,Inner Richmond,$$
+o8mLw7SrcTPis4NcvLzsOw,4,72,chinese,Inner Richmond,$
+vyBts9Zc527dop3jW2eROQ,4.5,86,chinese,Inner Richmond,$
+yIOznttvSvtEBnibxyOrTw,4,92,american,South of Market,$$
+gR9DTbKCvezQlqvD7_FzPw,4,87,indian,Financial District/South Beach,$$
+Uwixn8SsCURqEoKy56frqg,4,90,indian,Sunset/Parkside,$
+XwN8iZohq2qkfM0rPqzDOQ,4,83,latin,Financial District/South Beach,$
+rE4ZPbMuRMiPbgsJmFIVlw,4,80,latin,Outer Richmond,$
+oFFrErJQuNttkhQTGHKA2Q,4.5,83,viet,Visitacion Valley,$
+EIUqZqnzzpsZWx7dNnHCRg,4,93,viet,Financial District/South Beach,$$
+fPYCsVL3s0vM13jJeOWAig,4.5,92,american,Mission,$$
+T_0F3vCfHBuyZ-dVPC96OQ,3.5,98,indian,Inner Sunset,$
+humRe1SGupNdDJUxEdDmMg,4,88,indian,Mission,$
+2USnBBbZ9MlyQAa2XdAVJg,3.5,87,indian,Financial District/South Beach,$$
+9e2UrZrwbWsTyN3hWyS6Ig,4,98,french,Hayes Valley,$$$
+sW7WYYrHEvR8yEYxautAgQ,3.5,83,chinese,Mission,$$
+UPxTZq1nM-5ss-p0U6YCHg,3.5,98,chinese,Glen Park,$
+fas6j9MZlCjqOOEftOV1TA,3,100,chinese,Financial District/South Beach,undefined
+F0lbnTB0yKkIlSmg3OhwWg,4.5,100,chinese,Mission,undefined
+Dx8EzXCkyLh38dABk19FxA,4,86,chinese,Inner Sunset,$$
+ocxezQoR99x-71ZKavwJbw,4,90,chinese,Castro/Upper Market,$$
+ZdKUKq7A94x9cEobARf2cA,4,90,american,Portola,$$
+TJKJd4HX_RvCSXrysfUa-g,4,98,korean,Tenderloin,undefined
+q1y58K-pcgEvdMc_8QTQfA,2,61,chinese,Oceanview/Merced/Ingleside,$
+Y43L1WlyrpDWVwAj6NF-VA,4.5,76,chinese,Outer Richmond,$$
+DL-2iaugPoULjvZ6pyNRAQ,4,92,american,Marina,$$
+4zzclq390w0XPOAJBx4HDg,4,89,american,North Beach,$$
+QUY4w7wjVelogqoFonCq_A,4,81,american,Mission Bay,$$
+x_Iku2qz6ku4Xg2tm7nMsQ,3.5,93,latin,South of Market,$$
+U0GqpXzcIDlad7vQHbB63Q,4.5,94,japanese,Chinatown,$$$$
+GSziqjXZ4sMnYH9AnaVBCA,3,86,japanese,Mission,$
+XpdpTk_NFEXPsJxzVJW3RA,3.5,90,japanese,Potrero Hill,$
+BRz0ocqDzNlGS-AG1IpXtA,4,79,japanese,Financial District/South Beach,$$$
+ETz0FIaRptcdRtQKclf2nw,4,90,japanese,Mission,$
+X0B1I4zcHcsUdIzwqOM0Ag,3.5,90,japanese,Russian Hill,$$
+YT7rdWYcgQ6shxg7zQO44w,3.5,87,latin,Mission,$
+SJEd7ymnKMp3vpElbEEa-g,4,90,latin,Pacific Heights,$$
+qlfx1veFS2tuDpQQ_87NgA,4.5,94,latin,Bernal Heights,$$
+IxN2C6t6W21C_3aPKh2Pyg,3.5,100,latin,North Beach,$$
+3RHodpDW0vl6dEU9PuFFOQ,4,90,latin,Tenderloin,$
+n22Ndoz1YQ6vI0oFvRDD9A,4,92,medi,Financial District/South Beach,$$
+Bkwx7HCySzJVJN3JoZRU1w,4,86,medi,Chinatown,$$
+pgPxVAuijQ5Zwq5QKzWifA,4,90,american,Mission,$$
+m1RyyKe-2n2B284GpiNDWg,2.5,94,american,Tenderloin,$
+hhj2eWTGRql814Q3-9q9mg,3.5,76,american,South of Market,$$
+1ve8MfsmJNBe6ToVZzZP9g,4.5,93,american,South of Market,$
+pzM5uIlfV3r3dL22EHdpVA,4.5,98,american,South of Market,$$
+4qC4rdMhPBV-BDI-ET2ijg,4.5,90,american,South of Market,$$
+f0kThjlWXn37s6sTCu3sfA,4,83,american,Outer Richmond,$
+SE8RnWIKGGbyAr6LCv5WCA,4,92,american,Hayes Valley,$$
+_CBWlkmYGYRwQFxpWwxEDg,3.5,86,korean,Western Addition,$$
+78pw8GJBTUWgvG5JckJYSg,2.5,100,korean,Russian Hill,$
+286uOfEOt2P2BpakntKhGQ,4.5,96,korean,West of Twin Peaks,$
+9nltvO9__dkyRIT17D5TqQ,4,88,korean,Marina,$$
+zwq09oz_bb22TagykltTHg,2.5,89,italian,Tenderloin,$
+M53h93nLRlBsoXmi19jCBQ,4.5,94,italian,Mission,$$
+5TDph1rSAln4CsSljUPO_A,4.5,96,italian,Tenderloin,undefined
+4-ra3RxOy1PpvnaK49dy8w,4.5,89,american,Russian Hill,$$
+pD6Y5b42nn_qbYHcaT1A0Q,5,98,american,Haight Ashbury,$
+bslcuDD9gRYfqEDsLV3jPQ,5,100,american,South of Market,$$$
+0MZHlH2mD2F4GnC6g8JBQQ,4,80,american,Inner Richmond,$
+zpJ9qABt_xhA6G4-qMvUrA,3.5,89,american,Mission,$$
+dTWMVRcMVC4zynbFQC7A2A,4.5,96,italian,Russian Hill,$$$
+4v9cjGITgRXguJv6xhTXIA,4,96,italian,Russian Hill,$$
+e3gcKXKhSFYs5fn9FoeG2A,4,92,korean,Inner Richmond,$$
+aESjcBgDJ9Vk83oaJ5gisQ,4,100,korean,Mission,undefined
+cNYGQ0hHNkkT7dGm7SoU_A,4.5,92,korean,Mission Bay,undefined
+Jx_JunTUJf3OuRh3g9oSPw,4,81,viet,Financial District/South Beach,$
+pSeq-iVppUwaKdnid1L0JQ,2.5,94,viet,Western Addition,$$
+m3vOIHDSmMzfaHNuqSqX3w,4.5,92,viet,North Beach,$
+qp5AET3U6_BG1fM4TkPvng,4,98,viet,Oceanview/Merced/Ingleside,$
+UU10C7_zKoZZzAvOvz96oQ,4,92,viet,Mission,$
+DhCJ7D47swvT5DdsC0PCGQ,4,79,latin,Haight Ashbury,$
+0O6qkdWLc4K-WUerYEPj3w,4,71,latin,Outer Richmond,$$
+3eNoU529ZSq29kEz4-TZ3A,4.5,94,latin,Russian Hill,$
+eSvjUGigP39hoDvfSyt-0Q,4,98,american,Haight Ashbury,$$
+kIjsWd9EcPgp_wsZjKTDTg,4,92,american,Haight Ashbury,$$
+vACmF7xudBE4CROyZsC4vg,5,100,american,Financial District/South Beach,$$
+YgbN3ERH8PxBDWCVGVhrHg,3,94,american,North Beach,$$$
+PbRHScFWiFmmElt9-EU-xA,3.5,86,american,South of Market,$
+gQMpKljmisp-wDT5W0OOTA,4.5,96,thai,Bernal Heights,$
+a_vWOfka3Ky6l-iy0CFb7A,3,68,viet,Financial District/South Beach,$
+_NyEk9yRxxP-Yv-IyvnjAQ,3.5,92,viet,Marina,$$
+x_T9IFwN4vM0xQV6zuLpQg,2.5,96,viet,South of Market,undefined
+Ld0cHAOX1M9CTOOUZB5oGg,3,100,chinese,Financial District/South Beach,$$$
+C1ZDg6SgsPlOdHQr77Z3QA,3.5,85,viet,Tenderloin,$
+XQWkAWhWikcoenO4wokoYw,4,68,chinese,Russian Hill,$$
+LKuf4QjFMVeUdlZZoiTbgQ,3.5,87,italian,Tenderloin,$$
+ROBe30hnzyKr_JkjvyOD5g,4,87,american,Financial District/South Beach,$$
+2s8_3pnEhumOTYu3OgT4Jg,4.5,88,latin,Bernal Heights,$
+_t-7vUeLMQ_mbpUEu7Iz0g,3.5,96,american,Mission Bay,$$
+fQ0qGzZJ4xbMfRyXK-M9DQ,4,96,american,Chinatown,$
+imXqnpwQBqi8CORl1SV5nA,4,100,indian,Mission,$$
+X876cPuxIxfLuuZIUOZA6w,4.5,81,korean,Bayview Hunters Point,$$
+0HvOh7kUtN2vS_HIBiAJqA,3.5,85,korean,Outer Richmond,$$
+5VNDT0bMIytE1GpEb6jSxA,4.5,100,korean,Sunset/Parkside,$
+d40PbnRah7AWH_dclw1h_Q,4,90,korean,Mission,$$$
+9lX1QuC6GBj7WyKImHkRRw,4,89,korean,Nob Hill,$$
+d5sq-kInj6K1YVOid-zg_Q,3.5,82,chinese,Excelsior,$
+nMyLybIo7AnvPFjXZHAzdg,3,74,chinese,Mission,$
+gljnuVEoBwol3yVaLv2omg,2.5,92,chinese,Financial District/South Beach,$
+vyWLtjzTNtRYJLH20su6FQ,4.5,96,chinese,Castro/Upper Market,$$
+21vRXkeE301CX79f0xLStg,4,94,american,Financial District/South Beach,$$
+10w-2XT7TBlBrK3LbhMt_g,4.5,85,american,Bayview Hunters Point,$
+kBKNEDm3iWdqYwJf01RhDA,4.5,90,american,Bernal Heights,$
+QQfZ1Ih_GnCiV6-UHGuevA,4,94,chinese,Tenderloin,$
+7fboySu1um-S18UGOBdWhg,3.5,92,chinese,Sunset/Parkside,$$
+Bab9bdd3SUkXPo6jIVO55Q,3.5,100,chinese,Financial District/South Beach,$$$
+I-G8kJh3WyDIQp11J8fJHg,3,86,chinese,Sunset/Parkside,$
+MBwGk4EcAWGZ5OOHUzigcw,3.5,85,chinese,Mission,$$
+t35kQD7tW4WbswnEGTB76Q,4,76,chinese,Mission,$$
+IEutroJzbqIAwfLrbrvxLg,4,80,chinese,Financial District/South Beach,$
+CYttYTEiQuhSfo3SEh79fA,4.5,83,chinese,Mission,$$
+9UKjditAeNC7oBcaXBMf9A,1.5,77,chinese,Tenderloin,$
+asOdajhfMCSx_x60j4D42w,4,96,chinese,Financial District/South Beach,$$
+4Nkmr_wTiD1FTjwC6_getA,4,87,chinese,Russian Hill,$$
+wpTZ-2NfM09up7RlSYpFPw,4,88,chinese,Mission,$
+K0r1oltM3JbM14ApsTe_yA,4.5,100,chinese,Mission,$$
+nke87nvreG3VBNXP0dxxvA,4.5,89,chinese,Mission,$$
+KmH-WF3mipSxMtAISo0Nmg,4,92,chinese,Mission,undefined
+vLJIuMyrw96Tz1YHrr4YTg,4.5,90,chinese,Mission,$
+RNy3_hU1N2qyS5PVc9RaYQ,4,75,viet,Inner Sunset,$$
+KwEekEeXIQtt_CZtp8LAOA,4,90,american,Treasure Island,$$
+llbXUj5XWz8XjLzhtpuWRA,4,96,japanese,Sunset/Parkside,$$
+s-9OIo45O9SMoGpBzyL2fQ,3,92,italian,Noe Valley,$$
+fIOva7HaL9WhFUUQwxn9TQ,3.5,92,italian,Inner Sunset,$$
+_qfSuTHc4ZwjMnTJdk0tDg,4,100,italian,Financial District/South Beach,$
+32DgQWrJoAA71NyFUzimHA,4,73,latin,North Beach,$$
+0l7MgfpsIi2-vTuCVdDccg,4,90,latin,Potrero Hill,$$
+DXVM5senW2Q452-G2sUWhg,3.5,100,latin,West of Twin Peaks,$$$
+c0WpyZFR3EoEBKcoY2LZ3Q,4,88,american,South of Market,$$
+u1_e7c2olp324jRzTaBVqw,4,87,american,Nob Hill,$$
+_wZlW8K6aBKfyBPVzyBRMg,3,90,american,North Beach,$
+#NAME?,4,96,chinese,Chinatown,$
+uBaXDGwJPUkOSLWxS2vZ9Q,4.5,94,american,Mission,$$$$
+79xxbbYpLaslPxu85Pjmog,2,90,italian,Lakeshore,$
+Nupfvm9qPbKFRLkGf8iWwQ,4.5,96,italian,Marina,$$
+vJNt0Q9PToWxeh5AjRHisQ,4.5,80,italian,Outer Mission,$
+VbgvoCgE4OhMW4p8-DaqFA,3,83,italian,Financial District/South Beach,$$
+aor5U_cIBBQJWZLu90qmXg,3.5,71,chinese,Visitacion Valley,$
+c23dEERz6eMkLe4ig4MPPg,5,96,chinese,Mission,$
+VEA7tkyEzWW6EgTa6aeHbg,3.5,91,american,Nob Hill,$$
+nZmS_4kreSkviU9qDtzkXA,5,96,american,Bayview Hunters Point,undefined
+fhbTFyTpltzfzfDqFyCrvw,3.5,59,chinese,Inner Richmond,$
+lKdg2_B4v0mr3irBzeaHWA,4,76,indian,Chinatown,$
+4ySCA8acWEMTeuMK_Knotg,3,60,indian,Tenderloin,$
+dPwYKPV-IpYyQiR-VHyuEQ,3,98,latin,South of Market,$$
+_e_bEJyCo5Q4eqohoqGUrg,4,94,latin,Mission,$$
+qZK7-7t-tK_Fc1CfcNZgqg,4,96,latin,Inner Sunset,$
+hqQoVK0vadOX7_4gN1sh3g,4.5,78,viet,Tenderloin,$
+hqQoVK0vadOX7_4gN1sh3g,4.5,93,viet,Tenderloin,$
+r19XhpINtQxhMwB0eKnmjA,3.5,86,chinese,Sunset/Parkside,$
+IqgazewkkBXLLLmEkLJFyg,3.5,87,chinese,West of Twin Peaks,$$
+rJ2ZFjRprfJMVgGqHgyp2A,3.5,86,chinese,Excelsior,$$
+FjtxdLK6vUSmRifKDQSvsg,4,90,american,Castro/Upper Market,$$
+xpnTVZXOgEjDtfDCXCvxmg,3.5,85,american,Castro/Upper Market,$
+ljUGpHMZfO__QoFXEGtSDw,3.5,82,american,South of Market,$$
+WpcWACqlAodx5dbe5GJWZA,4.5,96,japanese,Mission Bay,$$$$
+wgxOKHZPprR9Ihgr2y-OQQ,4,92,italian,Bernal Heights,$$
+Snzz-pFK6ZB1pVu84eXwCw,3.5,93,american,South of Market,$$
+zBn4XAHsYGEb9at3J-PQVw,4,83,japanese,Inner Richmond,$$
+79UTqad1hZv_wyP6o_2LiA,3,92,korean,Sunset/Parkside,$$
+zUmZb9Mcn9pyorpPuoovDg,3.5,83,japanese,Outer Mission,$$
+7VkvVDx6Lb8fDVmJzDShrA,4.5,71,viet,Tenderloin,$
+B6uaZjSs4l-ZUFlYvG07Bw,4.5,100,viet,Inner Richmond,$$
+j0DgsH4129nTSTl69mDjDw,4,92,viet,Financial District/South Beach,$$
+FAIg3vUYUo8hVTV58KU0rg,3,75,viet,Mission Bay,$$
+6PzyzeiWjJ0fPpuKZffn9g,4,92,viet,Golden Gate Park,undefined
+6PzyzeiWjJ0fPpuKZffn9g,4,100,viet,Golden Gate Park,undefined
+6PzyzeiWjJ0fPpuKZffn9g,4,100,viet,Golden Gate Park,undefined
+kUxtjTa2vCSWQvr00YwxQw,4,92,japanese,Mission,$$
+gqJbs_-9rAGFQzC1QZXd1g,3,79,japanese,Portola,$
+a8GvaZmFr8kfLA4gi8zfGA,4,98,japanese,Castro/Upper Market,$
+qTicnGABBVxS-KN-u4bl5Q,4.5,96,korean,Mission,$$
+aqE-QPODsDad9Ixv_akZrg,4,92,korean,South of Market,$$
+xRxqebiQobZqJIRtDxnZsA,4,86,american,Mission,$$$
+h5BuMHI3LjAoWdMhM353Hg,4.5,98,american,Nob Hill,$
+Ukkt5Mlea2FVWsv11Rd25A,4,92,american,Financial District/South Beach,$$
+d90zt60UG9Gx6sGFkR9fjQ,3,88,japanese,Financial District/South Beach,$$
+mYX7fx9W3P74831dAW37Tg,4,85,japanese,Outer Richmond,$
+k3TJbAbPpwp3mIAjlWogGQ,2.5,94,japanese,Excelsior,$$
+SbGMD9EMTY4bg1dVPNbe4g,4.5,83,japanese,Mission,$$
+_oIN_fQr9HfDg6BpEwRZ0g,4.5,100,japanese,Tenderloin,$$
+gsLpJ7W3dgTQ5xUBim00UQ,4,98,korean,Mission,$$
+#NAME?,4,82,korean,Mission,$
+SU3NmG20Mkho1KRZ8EovWg,3.5,90,korean,West of Twin Peaks,$
+CS0pUlk25RV2-vhKFFbxqA,4,93,american,Western Addition,$$$$
+OCk8JFBaOw_p2EY6mi5iLQ,4,92,french,Russian Hill,$$
+8dUaybEPHsZMgr1iKgqgMQ,4.5,86,italian,North Beach,$$
+2oRvvIAnDjxCN01uhTUsGg,3.5,92,italian,Financial District/South Beach,$$
+pvSEAWvYCxIkvJ-IEbrhCg,3.5,85,american,Sunset/Parkside,$$
+LGxZxA-aHxheqFhJ2NAh6Q,3,96,american,Castro/Upper Market,$
+4_7LJsh5lPWwzrWEkqeZNw,3.5,90,chinese,Inner Sunset,$
+sIHeT2rJmTmovIUeplZJSw,4,77,chinese,Financial District/South Beach,$
+y00vIJzvt1Fveq_Um_9egw,4,76,chinese,Mission,$
+h6iXuAdOX6z7A6uUSRu0zg,3.5,80,chinese,Inner Richmond,$$
+tB2121a2d-3nD_6DcjJK2Q,3,68,latin,Mission,$
+Su1ay8vJyKsHZKQG_eluaA,4,90,chinese,Outer Richmond,$$
+cJGnt41jthqAn4XLyShrxg,3,96,latin,Inner Sunset,$
+RidAKsznqdoeg8Vbg5aaHw,4,90,medi,Inner Sunset,$$
+9S6GK2In2b1tuJ7xoC84pA,4.5,94,latin,Mission,$$$$
+3koaQ8olhYJxaTNPatX5OA,4,87,latin,Chinatown,$$
+neFTmvR2d49KwFD3Bni8-Q,3.5,96,latin,Russian Hill,$$
+9-572443hTIvj3_FsoPDCg,3.5,81,latin,Tenderloin,$
+#NAME?,4.5,96,latin,Castro/Upper Market,$
+IuUQ7aE7FyXftBjQMEtuxQ,4.5,87,american,Presidio Heights,$
+cNV-WwpnXkPi881Nl-fbKQ,4,79,american,Inner Richmond,$$
+b2TNoCZkqu2iQVen24iv9A,3.5,88,korean,Sunset/Parkside,$$
+veO3k1dY_-OoANphRMJ1Iw,4,94,american,Financial District/South Beach,$
+qu975NgOv1n1oAS2RDheyg,4,90,american,Sunset/Parkside,$
+1U9_ZNruMLf4EL0pMoxb_w,4.5,96,american,Inner Richmond,$$
+qCNfOc-4Sd0Q0Ta37PdwbA,4,94,american,Financial District/South Beach,$
+u18oQc96cWsK2BtbSgSsgg,4,100,american,Financial District/South Beach,$$
+AUnsVsPPFq-F3rKH_7-K8A,3,85,american,Mission,$
+repKN9EpuKFtveI-VhUTSw,3.5,96,american,South of Market,undefined
+olOldyL0jSpDuZE0tELVcw,4,76,american,Bernal Heights,$$
+QAMEktS2QgJ-Yl2ooERmgw,3.5,87,italian,Inner Richmond,$$
+jwAwiYpHxA2cUp6tA3D5pA,3,78,japanese,Western Addition,$$
+7pMvKyiujJXpxrcOeT5g2Q,4.5,84,latin,Hayes Valley,$
+gTt7YgeOn9x9iWGGjlMtBw,3.5,86,latin,Chinatown,$
+7riaDqBQzq5vuUxJCk5KDg,4.5,96,latin,Bernal Heights,$$
+_znCP80YosgWCZu-xkqk5w,4,89,american,Noe Valley,$$
+CanHZllFdfW89hzwN_9meg,4.5,84,american,Tenderloin,$$
+6ESp1Y7oF9szjdWfKDfmYQ,4,94,american,Nob Hill,$
+O1MMFEvWtjzvD0dlSymreg,4,96,american,Russian Hill,$$
+NZh4o98Jxg_579ORjDEJvw,3,81,latin,Excelsior,$
+TJKx-p5TmGjKE1d9z7kqEg,4,100,japanese,Nob Hill,$$
+QX7MEW77bPLrYBEV-D1EUQ,4,80,japanese,Mission,$$
+fScyS3HYh190BoU58pOvPA,4,92,italian,Inner Richmond,$$
+1OGEnnsDdrJSziy9VwCRnA,4.5,96,american,Mission,$$
+S5-4RRwXh-F8WQXCAd8rJA,4,84,american,Financial District/South Beach,$$
+r8fn5tRnxCWw_g8dV-7Biw,4,88,american,Mission,$
+oRugBOXYiajNR3T8KKCS6g,3.5,86,american,Mission,$
+U1UGWvpNxPAlojTpe1LSvA,4.5,91,american,Japantown,$
+GN2YsMW37qm-2Xzb_D1GbQ,3.5,92,american,Tenderloin,$$
+maX2pNMeAroeVGbcCNkTcg,4.5,94,american,Mission,$
+VHsPDy5v31QDiS3aD3gMnQ,2,91,american,Tenderloin,$
+zFFiSD7nzEX-pUaHDUfpow,4.5,100,american,Tenderloin,$
+nppRCU2GvQ0CfMgmVPZU0A,1,93,american,Bernal Heights,$
+MryRUvM1rVVtCXBuP8652w,3.5,88,chinese,Oceanview/Merced/Ingleside,$
+Q9kLEfwnT8DsvlMgbe8iWA,3.5,83,chinese,Castro/Upper Market,$$
+c7MW2A1UIjYb-ZMmiF9f-A,3.5,78,chinese,South of Market,$
+HBu_2H-jr_v7xFYbJOQmYg,3.5,55,chinese,Outer Mission,$
+HlyIiK-k7SkmbxhcbTUQhg,4,66,italian,Financial District/South Beach,$$
+9Ot1qNJwcp9gOJYddH_6SA,3.5,92,latin,Tenderloin,$
+9g4GziBacdIgfPZ-bve5tg,4,92,american,Financial District/South Beach,$$
+uybys0n0ZR5pDWjX7ZOORw,3,82,american,Marina,$$
+hmxVC4sJ8-mv2_Gw38fxXg,4.5,98,italian,Hayes Valley,$$
+Hd0-r8CZlwgdPOZ3cEvV6A,3.5,75,italian,Bayview Hunters Point,$
+8QaTaO7mMOHa_5au5MMHZQ,3.5,71,american,Mission Bay,$$
+HiNAV0gYGTARTxDQj9yyww,3.5,83,latin,Mission Bay,$
+8aqzfjnuT5LhuveW3e6CoA,4,93,american,Pacific Heights,$$$
+l7xUpaUBzsh32M7b8yWGfA,4.5,88,american,Mission,$$
+EFeVD6D2PApQbWLseQD73A,3.5,66,viet,Tenderloin,$
+rUQmWnDbZWo0AN9j1i3cAQ,4.5,87,viet,Western Addition,$
+OSZ6bFeCcv4PvUmvuiMEJw,4,87,viet,Inner Richmond,$
+y7Gbl1VzsGYavbR3ZIt0Mw,3,68,chinese,Chinatown,$$
+0J9XXxFiMVrZcGV2tyVdvA,3,86,chinese,Sunset/Parkside,$
+YV9PYdUD0O4sLDz1DUk0Gw,4,100,chinese,Mission,$
+rxHnnWEDYiFlFuAZEQS6qg,4,87,thai,Tenderloin,$$
+pDIlFZY8M1X5qBJj26lItg,3.5,96,japanese,Financial District/South Beach,$$
+#NAME?,4,87,japanese,Castro/Upper Market,$$
+GoIbbBYDyr8W46YmxJct-g,4,87,american,Nob Hill,$$$$
+cgFravON_CRRRt3iFriybw,3.5,72,chinese,Sunset/Parkside,$
+xgnEkq37y_sONq5i78Oasw,3.5,86,chinese,Nob Hill,$$
+J5UfRQ4Bn_QF2RsJeUkyDQ,4,79,chinese,Tenderloin,$
+9hkKmtG2BruWwrqltt0Klg,4,96,chinese,South of Market,$
+f7plDqr6Dfu-Vbo-0JBmcw,4,82,chinese,Western Addition,$
+w9Cp0yvUbvj4dztPbSp_Dg,4.5,100,chinese,Potrero Hill,$
+ndQ46wDvko5VwEWeiIZTVA,4,76,chinese,Financial District/South Beach,$$$
+#NAME?,4,87,american,Bernal Heights,$$
+ey_UUXdDMUoO77QIF6SGaQ,4,100,american,Tenderloin,$$
+s6qUvb3LGcQtS38AG2i74Q,4,96,american,Russian Hill,$$$
+Ox2pYQZJajiqpF_Ff8Qz3Q,3.5,89,american,Financial District/South Beach,$$
+9SsgoIxiQ7PHOfuG9P8QjQ,4.5,94,american,Hayes Valley,$$
+tS2ka1uSjwo7jdWIWDpuCw,4,94,american,Sunset/Parkside,$
+G6D0V_IWQc9dHkbC-uctWw,4.5,90,american,Oceanview/Merced/Ingleside,$
+DkgLd8mvjo0Bw5nE--oVtA,4,92,american,Castro/Upper Market,$$
+IHx8B1Ce_73uD3BmlsXmXA,4,100,american,Presidio Heights,$$
+Xb7IQmSvn2jj3Sw7OW7m9A,3,87,chinese,Chinatown,$
+lMCEPzboR8E1Rw-v2ZjCSA,3,69,chinese,Glen Park,$$
+VXuaXEjpPo-snl_XUPHEOw,4,93,american,Mission,$$$
+DJ-9bxFNfpLDAhqS_YNo2w,3,90,thai,Sunset/Parkside,$
+FH3uN3U_N7xbFQRI-DAJFg,4.5,96,thai,Lone Mountain/USF,$
+z7x6CM1-AVBsLN1GEWGakw,4,86,thai,Tenderloin,$
+_ANorX7YWaLwjrW5OgdwKA,3.5,98,thai,Marina,$
+WWekv34vniav2trhbb2DaA,4.5,86,french,South of Market,$$$
+kKy7T15xGcYfMiAx-mExlQ,2,94,french,West of Twin Peaks,$
+NCe1O7Wp-aUt49doy8P-mA,4,88,latin,Castro/Upper Market,$$
+8UvUJUGcJGEF32b2P3K_eA,4.5,96,latin,South of Market,$$
+Km3ze4SL1qqH72HZeZItqA,3.5,92,latin,Sunset/Parkside,$$
+x29tzG5M7VbZhpG1jcREKQ,4.5,100,latin,Russian Hill,$$
+iTJ3jZ-dli9WLOrVsFXr6A,4,94,latin,Inner Sunset,$
+9MrYrNitwRtN5thw6vJwAg,3.5,68,medi,Tenderloin,$
+5ENZTnjqmrtm7EWr_U6nqg,4,98,medi,Nob Hill,$
+n-ZuXqDouMCbvYsP1kDhqA,4,90,chinese,Sunset/Parkside,$
+IiusCpAMmb1QN-dyMl-7-g,3.5,64,chinese,Mission,$
+wfa6U2LrTN_Qt9BurOOykw,4,90,chinese,Haight Ashbury,$$
+kpokSCDiRPoKUYp4XpE0pQ,4.5,81,chinese,Mission,$
+nJziHiIt86OGqKQQFHd9jg,4,90,korean,Tenderloin,$$
+E62KzLm_PtKRfHcVtmTKaQ,4.5,91,korean,Hayes Valley,$$
+8kck3-K4zYKTJbJko0JlXQ,4,83,thai,Mission,$$
+5r84ZVl4-7LKcMgBI36p4Q,3.5,88,thai,Excelsior,$
+kZtCd070jWwmCAFOTIm2Wg,4.5,96,thai,South of Market,$$
+rd0dA9Z61FGmalk6qZm7JQ,4,92,japanese,Inner Richmond,$$
+KNzWbSlxKBOKjPEziQubgw,3.5,98,japanese,Chinatown,$$
+bC3FfFqfaQu7gZznjkmt9Q,3.5,86,italian,Chinatown,$$
+jcFf2ZnJYL0nWCdIpqiA-g,4.5,94,american,Chinatown,$$$
+HkfhXsRBmfZVQVOzIqyF6A,3.5,100,japanese,Bernal Heights,$$$
+k96DVqIsqpuCTWb-X2hXJg,4,81,japanese,Inner Richmond,$$
+PzBvdrfXu7d2MLtoApCL3A,3.5,86,japanese,Outer Richmond,$
+H-VZhA-SKTtuaFbG_U-qHQ,3,91,american,Chinatown,$$
+N_-4AfYmNFKEkvgh3Qj5Eg,4.5,82,latin,Excelsior,$
+LjVlsV9tKGnv7e4Iyt9c5Q,4,84,medi,Castro/Upper Market,$$
+hDcnSOxfJydUZY4tVu_2ig,3,85,chinese,Excelsior,$
+w83UihVqJtH27ZVlA_u8EA,4,100,american,Bernal Heights,$$
+AJUBHUHPbneSaAYR9hEZ3g,4,87,american,Chinatown,$
+moXnQ7cbzgyeKA-Fdqhkuw,4,92,american,Chinatown,$$
+-9PpCBkz_2apHW6V_p0pjA,5,100,american,Tenderloin,$$
+lz8Kn4blqgUUV3vMBsM_AQ,4,92,american,Financial District/South Beach,$
+7dLR3kWHXH_lrr9dFSvdfg,3.5,89,american,Marina,$$
+Bcvvia9zPFe3BV6c6Ld9Kw,4,93,american,Financial District/South Beach,$$
+#NAME?,5,96,american,Bayview Hunters Point,$$
+A7czCN0n5YkDT8OWqhm6vQ,4,98,american,Mission Bay,undefined
+UTVDbZv-qiHU06sDkoel3g,4.5,90,french,Potrero Hill,$$
+EOkEoUwjJzc2hB5ny6_oXA,4,96,french,Pacific Heights,$$
+PoAS5PsaEBX5OvzfvHj-2A,4,93,italian,North Beach,$$
+wsPDEO08w_lH0x123_YEXg,4.5,98,italian,Castro/Upper Market,$
+cjhrDT6aL6w5ttQHwo0iwg,3.5,98,italian,Tenderloin,undefined
+u0lqYWGjDJUqA9ZCLonl7A,4.5,96,italian,Potrero Hill,$
+yD9-WrXijc_grVmi_zkCfQ,4.5,92,japanese,Tenderloin,$$$$
+sal4gAai2eNtux37OBCZlw,3.5,69,chinese,Inner Sunset,$$
+6U1RGouO2I05SVfwIqbZmA,4.5,94,american,Inner Richmond,$
+arEbsb_owdXpbNA7vr3Uaw,3.5,80,thai,West of Twin Peaks,$$
+gItoCxQ__R9JxK-RsT1aLw,4.5,94,thai,Sunset/Parkside,$
+KJabJhRKtqUE_wCKgpimUQ,4,86,thai,Financial District/South Beach,$
+kcMcsRZfP3vtBcAFZR11LA,4,85,japanese,Lone Mountain/USF,$$
+KhG-jWIr7-TJj3isz3ZIFQ,4,96,korean,Inner Richmond,$$
+Gl1YUgoBGO7FYeOFG94qYQ,4.5,88,latin,Tenderloin,$
+NJuezPAQonccMh_33_X-CA,4.5,86,latin,Chinatown,undefined
+gMqVjmNcdU7K6k6OI1Fj1A,4.5,98,latin,Castro/Upper Market,$
+6mcHzJt9WILiyOQetdxmsw,4,78,latin,Chinatown,$
+3z0jr5hPTfIA5cFO8n0eOQ,2.5,98,latin,North Beach,$$
+SdI0uCelI4ihCwGyMLv03A,3.5,89,latin,South of Market,$$
+yHzUCkynivVldRpXiMpCEw,2.5,98,latin,Lone Mountain/USF,$
+MdGXXPTnGaBFwujqPvDaiQ,3,86,latin,Mission,$
+hgBlKqq77oH9mJ_DD70X5w,5,98,latin,Bayview Hunters Point,undefined
+PgvPentGpYF5ZuEyHQPi9Q,4,96,latin,Potrero Hill,$$
+t6TROjhvQzXJEhjI_nm08g,4.5,88,viet,Marina,$$
+gWqeVSBNauTYtA1jcHlTbQ,3,100,viet,Tenderloin,$$$
+5FQJ09EWt_Esf_GkCBEMlw,3.5,75,korean,Inner Richmond,$$
+__S0AzRSiweDn8Ue0q53kg,3.5,81,chinese,Chinatown,$$
+gtBDOQq3TyiiulKmJpny0g,4.5,77,chinese,Financial District/South Beach,$
+8Bft7em9yWBFueVFp76fuw,4,68,chinese,Mission,$$
+Wu8DmDhNB_t4hfJmDs2FdA,4,94,american,Tenderloin,$$
+nN0i7tL2ummbrYUD_JoEdg,3.5,72,american,Outer Richmond,$$
+kiRsScNQs_UdDV6jPyeCWg,4,90,french,Hayes Valley,$$$$
+#NAME?,5,100,french,Bayview Hunters Point,$$
+1pwKcUXo27a-d-EClQY04Q,4.5,100,viet,Russian Hill,$
+xCcbk8zf5wvHg_3_AO9ARQ,4,93,viet,Financial District/South Beach,$
+iMWtokGcKYsBvcVvcFUe1A,3.5,87,chinese,Castro/Upper Market,$
+FRpULkKmvD9caSKabQzq5w,4.5,84,italian,Marina,$$
+xK1a8IdJzw-T1rao_fwNXg,4.5,100,italian,Outer Richmond,$
+e06HoIU6BR7AU3hEW5dspQ,4,88,chinese,Sunset/Parkside,$
+JicMvKPmRHqLl4xuW8yeXA,4,81,american,Tenderloin,$$
+sxtm5Ar-_PCJcSbCvAI9OQ,4.5,90,american,Chinatown,$$
+gEL51FgGQpTkKlHHFu4JCw,5,80,american,Outer Mission,$
+1iVmEq7rsnjfQ05ae8qcSQ,2.5,85,american,South of Market,$$
+Oimiw-sQDjmGthsKyInAlg,5,100,american,Inner Sunset,undefined
+1pt2rJJrCxVs5YbWiAqMxQ,3.5,89,american,Presidio Heights,$$
+7tsN9N9mhfJRNTe37pLFMg,4,86,american,Mission,$$
+oNwdNsdpUkXRQ5HaHZ_pVA,4.5,79,indian,Sunset/Parkside,$$
+AJo3ez0ecQmu7dcMtz9Jpg,3.5,92,indian,Nob Hill,$
+RhDJVnbHJXpB64dC9QcoqQ,4,96,korean,Sunset/Parkside,$$
+5nCCitxHCg-lhvMowbrs_A,4.5,92,korean,Financial District/South Beach,$$
+74CMBJWMxBXHsgX6tZ9Ffg,4,94,korean,Financial District/South Beach,$$
+JsYhl37qT8k8uUDv4FVMgg,4,100,american,Financial District/South Beach,$$
+w5krg6ksgg1Tb2B9oTfMbg,4,100,american,Financial District/South Beach,$
+A1i032ztTaUotGNyCB1jOQ,4.5,86,american,Chinatown,$$
+oWh333BnOfjTBjaOuJQEtg,4,92,viet,Tenderloin,$
+udIgEuXHGwOydBbZtAe7vA,4.5,76,viet,Outer Richmond,$
+J55irzYC5kxIIE7bS0raJQ,4.5,90,viet,Financial District/South Beach,$
+jdKWSulGisIZ6zaXrAprvQ,3.5,90,italian,North Beach,$$
+19FlLhyqgZLc5nXzsARvDQ,5,96,italian,Castro/Upper Market,$$
+zSWdb3FwpnApHHPPhO0h6A,3,94,italian,Inner Sunset,$
+ZIwCyqKmVofQBYsHe1LGAQ,4.5,87,italian,Lakeshore,$
+miitrMzuWgi4nzNeb-yLNg,3,93,italian,Western Addition,$$
+JQMrXkh6_G4Td4GxbWgvWQ,3.5,73,chinese,Inner Richmond,$$
+ARHTBmK_uh8t-hBduc1r2Q,4.5,96,chinese,North Beach,$
+1pe7O6u0Co6_U7wWfSNK-Q,4.5,96,chinese,North Beach,$$
+3swOgxzZiJTBtxgoHR8QvA,3.5,94,italian,Noe Valley,$$
+wpnrmiw_ApYDmdC2b_WFRA,4,92,italian,South of Market,undefined
+eEHB5qhyd45GjOpxZ8aBTA,4.5,94,american,Mission,$$
+ODed3UyqDFIFs3gDcXhm7A,4.5,94,medi,Russian Hill,$$
+rV5Kn_L_2djX5EMVI67CIw,3.5,91,latin,Hayes Valley,$$$
+vu6PlPyKptsT6oEq50qOzA,4,78,italian,Financial District/South Beach,$$
+xe6IZGzW8fgxalv6RCBS5A,4.5,82,italian,Financial District/South Beach,$
+PhcL5eLulVUyrithb7jIoQ,4.5,100,italian,Financial District/South Beach,$$
+OS8S5z8CWNpSivKz4o4dAQ,3.5,90,italian,Sunset/Parkside,$
+Oelv4n4CN8v2Oczm8_tw_A,3.5,88,latin,Mission,$$
+6zWgWwKgnB_nC1Se_pXrJA,4,82,viet,Chinatown,$
+T61CGyosLTxO-2GPos3Rfw,4,94,viet,Mission Bay,$
+1MgaMxXgO5RQv7uP59pOvA,4,94,japanese,Nob Hill,$$
+zWpV3kVw1CO9Fb3JroQpqw,4.5,98,japanese,Japantown,$$$$
+yYwX9hMC9y-L8YtqK90t-A,4,88,japanese,Visitacion Valley,$
+xpFbTEEa-I1UHJxKgKNH8w,3,90,italian,North Beach,$$
+1YABeQu3lgxuWovd5oCV2A,4,98,chinese,West of Twin Peaks,$$
+6zr8aydUn5VFg-FXuobGTA,3.5,100,chinese,Hayes Valley,undefined
+xkb19iyZxLKKHrXeoD20nw,4,87,american,Chinatown,$$
+1bqHrjDvPrj8Jk2NaKS4ZQ,3.5,94,american,Lakeshore,$
+3fVUp7RnAUAlmI0V2Mr7sg,3,96,chinese,Lakeshore,$
+BNrzxkJNS7cos8s_VzIA5A,4.5,96,chinese,Financial District/South Beach,$$
+4ByppNly_uMEJ9NwNifvZA,3.5,90,latin,Mission,$$
+nMXnfJ3CKC_9ctbpMqe5Pg,4,81,latin,Mission,$$
+cnXKshpYL7_NE59A8Gn8fg,4,85,latin,Mission,$$
+PEswwJYnalFV_NpsB994bQ,3.5,73,indian,South of Market,$$
+x9qz9nRR_OGXhuCDglkkfg,4,92,indian,Outer Richmond,$$
+dglMkHYfCycYX3MX92oFxg,4,92,american,Marina,$$
+q-jwITeKZgvuvUS1gMu-Ig,3.5,92,american,Sunset/Parkside,$
+wUbOyvK_uZzHF8YCgsOp8A,3.5,87,american,Mission,$$
+Lfeoq3J4thCtL-ll3zunIQ,3.5,94,american,Nob Hill,$$
+Ke7IOhlPnWYbdfGgXp78MA,4.5,87,french,Financial District/South Beach,$
+GxSG_5RgtNAcNuvaSCEgcw,3.5,92,thai,Financial District/South Beach,$
+#NAME?,4.5,93,thai,Hayes Valley,$
+BFojhdNbAIF1Larqz2t_-Q,4.5,100,thai,Bayview Hunters Point,$$
+PSxdqKdHFg9_ckeIhiq7wQ,3.5,92,chinese,Chinatown,$$
+E-jaK7rK8nclJfIkeAHtsA,4.5,96,japanese,South of Market,$$$$
+0mZeR3TwxmZGLCxzcf620A,4.5,84,japanese,Financial District/South Beach,$
+5q7JJm2tyrua-qZArgCF-A,3.5,96,japanese,North Beach,$$
+pq1GeERkPLjCQdmQjbX9SQ,4,87,japanese,Financial District/South Beach,$
+3sPFkgheK9FJXsPaBrakGg,3.5,78,american,Marina,$$
+p22TPx1EFZcuEzl2qhuzGA,4,86,chinese,Chinatown,$$$$
+Rfbuh7esixy4_mYWz_vmHQ,4.5,96,chinese,Hayes Valley,$$$
+hLJZvaLR8-c79MpmSjJMGA,4,81,chinese,Glen Park,$$
+pfpuDPM6aFKBQcLbwTwRIg,2,98,american,South of Market,$$
+nMXnfJ3CKC_9ctbpMqe5Pg,4,98,american,Mission,$$
+z1vcsPf9EgBofmg5luEkAQ,4,92,italian,Outer Richmond,$$
+yfe1OCxNElTa372DL5reYA,4,96,italian,Mission,$$
+IThVeTxlC80W0GMrec7WBw,3.5,81,indian,Financial District/South Beach,$
+_zfxJqH3XZ65X8sNYVKGqg,4,100,indian,Japantown,$$
+XmUOILwHGWQrlbOk-6y79g,4.5,92,indian,Mission,$
+J_Ita_qQKrMQ_IAad4RSRQ,2.5,83,indian,Financial District/South Beach,$$
+KH6MVXnoQubNevMixBnf3g,4,92,indian,Financial District/South Beach,$
+JRMyfMidCnVwBo9luOluTQ,4.5,100,indian,Inner Richmond,$$
+TU6xwYgB3g56rgqHWhYhFw,3,80,indian,Sunset/Parkside,$
+v5-upYI3belSfXOeT1dNWw,4.5,96,indian,Chinatown,$
+tZmiZw49SNRVzF6h1Jfx9g,4.5,89,thai,Nob Hill,$$
+DbcNEHdCxty-OUzaoGTj1w,3.5,96,thai,South of Market,$$
+tQE4SPlX9ZlFSbF4JPU4pg,4.5,100,thai,Pacific Heights,$
+80aWVck8jXMT0LvnfAwbqw,3.5,91,thai,Mission,undefined
+AzMWfNSAv7s1rrtLGRldTg,3.5,98,thai,Mission Bay,$
+bLa9Jm04dPersyUN7LFrvw,4,68,viet,Tenderloin,$
+v5w23rZNbNiJIwOemm-yNQ,3.5,88,viet,Financial District/South Beach,$$
+KAG5EH2cgQ0Z8SsebCjmHA,4,100,viet,Financial District/South Beach,$$
+0mSCaMw3967v_wOGZp9e3g,4,93,american,Financial District/South Beach,$$
+_dxkvJnxDMqdNjl8RzGIsw,4,71,american,Tenderloin,$
+TyUEtGSicuH0_o4gRo30tw,4,85,american,Russian Hill,$$
+9E-6rkDyk71b_tzxNYiboQ,4.5,84,american,Nob Hill,$$
+1IqqA8pcuCIWJtuKfHwU8g,4,88,american,Hayes Valley,$$
+o43B4DnnQbvkdDK6AVafQg,4.5,92,italian,Chinatown,$$
+dt0nffJ_d5jInX2x_jQmOQ,3.5,90,chinese,Inner Sunset,$
+bMCss-xNW2DRnC4QH2Y_gw,4.5,90,chinese,Inner Sunset,$
+YHAYN0E-U5tPIF687_nuMQ,5,84,chinese,Haight Ashbury,undefined
+J3MtGX73_3l3afYAA_UloA,4,94,chinese,Financial District/South Beach,$
+i8-obWufLId6r_-J6fd9YQ,3.5,96,japanese,Tenderloin,$$
+87wvt5-EkwbD1NY2gR5sAQ,4.5,91,japanese,North Beach,$$
+jyhtOUv8OKoKJfQAGM81rQ,3.5,94,japanese,Financial District/South Beach,$
+IEcPu1HtVJfmPrRSGVMXiQ,4,100,american,Bernal Heights,$$$
+4iaKcUM2BoendS12GQGj8Q,3.5,88,viet,Inner Richmond,$$
+CP2uHH8PQ-Wg3i5C8-Lidg,3.5,94,american,Potrero Hill,$$
+oxIccYsvTXBOxWvK9GdTsA,4.5,94,american,Mission,$
+bZedYV_E9YfkPR6Z39svRQ,3,72,chinese,Excelsior,$
+TSr8ZA7gY2TC1qhghxJFUg,3,87,japanese,Castro/Upper Market,$$
+Al6P6KBX6hAn6GnVnpRxkA,4,84,japanese,Outer Mission,undefined
+OSnpBazfuksgMrWMtCzSPw,4,84,thai,Tenderloin,$$
+ueXuebXsTMAYDBEOHYlh7A,5,98,thai,Potrero Hill,undefined
+U2yLmebQ56po6nt5nKcacw,4.5,100,japanese,Financial District/South Beach,$$
+BbeE3FtAlrAfr5wk8vkuyw,4.5,83,japanese,Outer Mission,$
+Mzq4L36FSXkO770bneSW4g,4.5,100,japanese,Nob Hill,$$
+8oAsGZNNLvIW3CvLcFUPMw,4,90,korean,Inner Richmond,$$
+qZFRnzb-VTfkMC2vDoWJVA,4,92,korean,Castro/Upper Market,$
+WcOx4I1B0tfBhu94UiHG1w,4,94,korean,Mission,$
+9Hp8kwNv9Ks8wkU5AxZUhA,3.5,84,korean,South of Market,$
+zfs3gpYPbMBLseqaAsQN-A,4.5,96,korean,Chinatown,$
+TVLTQ51W6sxp7tL2QQjovg,2.5,92,korean,Sunset/Parkside,$
+UplVWsp1X7MjOR2W3cYwEg,1.5,84,korean,Lakeshore,$
+d2pGXHPCt4bp2inO6CPBCA,4.5,90,korean,Outer Richmond,$$
+GYhjClQ0GAa55Aw_lv3Kww,4.5,74,korean,Bayview Hunters Point,undefined
+DznN4B9qMQS-fWfddOZzOg,4,92,italian,North Beach,$$
+xd4HRRVilNNB45Gm974XiA,1.5,86,italian,Tenderloin,$
+gYKKd953x0pCf5bmSdQCCQ,3.5,80,chinese,Sunset/Parkside,$
+BK_4gM1M6-R7aV1GqghAnA,3,82,chinese,Sunset/Parkside,$
+SXhn9dbwUMEww683fWHuMA,4,85,chinese,Outer Richmond,$$
+V9gDlxWoliCOkzsq_VX6Xw,3.5,88,chinese,Chinatown,$
+fDviyRsyS41ldbxQTS8e8w,4,77,chinese,South of Market,$
+#NAME?,4.5,72,indian,Western Addition,$
+z_Y2VIrU5ugc_5oeHv10Rg,4.5,82,korean,Castro/Upper Market,$$
+RoaaIEjn06C30ElYTdNsNQ,1.5,96,korean,Bernal Heights,$
+27oLHFt7aHDzQmp2c543fA,3.5,92,korean,Mission Bay,$$
+LW4VZkeEuh6xbrqmWw45rg,3.5,96,korean,Nob Hill,$$$
+LW4VZkeEuh6xbrqmWw45rg,3.5,96,korean,Nob Hill,$$$
+4qm1k0WytiIJZ3WO4lyPMQ,3,100,american,Nob Hill,$$$
+458NXhlB0ZtEaJUPI3PPcA,3.5,98,american,Nob Hill,$$$
+1y2VDwEnRDm0BfvaeGimxA,3.5,100,american,Nob Hill,$$
+c-0a5TKub6xzvcIS1g6JkA,4,96,american,Financial District/South Beach,$$
+JdyOefNJlQgbMw3ne5g1wQ,3.5,79,chinese,South of Market,$$
+t3uhSWhgLlJmZqw7cJK4tA,4,92,chinese,Lakeshore,$
+tjflPf7MTPmSgau-b8CN3A,4,86,chinese,Mission,$$
+800bnSbI4mdJsix1Ulp08g,3.5,81,indian,Outer Richmond,$$
+Od-4wJTzXXCi-vt5zRdZ1w,3,70,chinese,Outer Richmond,$$
+RcSDUVK2joG2j2yuBBW29A,3,77,chinese,Tenderloin,$
+#NAME?,4.5,96,chinese,Tenderloin,$
+dp6yLWi8AX3uewszsc12AA,4.5,88,chinese,Tenderloin,undefined
+Xby671iywqIfGDlmg1HdYA,3.5,96,chinese,Financial District/South Beach,$
+Rqahy3oCYnQCYd2Shc3cVA,4.5,100,chinese,Castro/Upper Market,$$
+yVN5m2ARIT3kcLCG8EVglQ,4,89,japanese,Haight Ashbury,$$
+kxQG5P4I5srMtaToCHymhA,4,96,japanese,Sunset/Parkside,undefined
+X_5dfcVeiElSE12jWbbwQg,2.5,80,chinese,West of Twin Peaks,$$
+HBrNC9wO0WKx9d5AUEZ6YA,4,94,american,South of Market,$$
+QPxXBUP7rQpWYhw3AElnCQ,3.5,94,american,Tenderloin,$$
+w02GRHHZYr0_I2ebIrfApA,3,96,american,Castro/Upper Market,$
+s7-8SQMzANk8d0rFVqHa1Q,3,92,american,Inner Sunset,$
+igVF_XwOiwu35MCeRTdPcw,3,92,american,Financial District/South Beach,$
+oFj3wUWec-PMUldjEhaa_A,3.5,86,american,Financial District/South Beach,$
+mTekw270OUGWBqE2J-B0eQ,3.5,83,medi,Financial District/South Beach,$
+Dmf4oGe_GGLVja8tL-yE3Q,5,100,medi,Mission,undefined
+f074dJ1sDl22dNYQn0SeDg,3.5,94,medi,Nob Hill,$$
+JUhdVtiIdBXjSTS4494zyw,4,82,medi,South of Market,$
+LRC51cZoNXfzi-IjcHgFRw,3.5,90,medi,Financial District/South Beach,$
+lRRmnAC7jT_biDQcwbpsQQ,3,98,medi,Mission,$
+#NAME?,3,94,medi,South of Market,$
+crlHolY1JYPpYWtd42V6vg,4,86,american,Marina,$$
+TcbKvh-e1lxywJuN6in5JQ,4,100,american,Nob Hill,$$
+1Mx-pBSf43xeseSKEF0UUg,4,100,american,Castro/Upper Market,$$
+iPiJ3g8WsbZYL2V9MQf5Hw,4,73,american,Chinatown,$
+njV0yuLdZdTn7BE8vTIZJw,4.5,86,american,Chinatown,$
+S0OVpWde3SlzzrygVQXdoQ,4,98,american,Lakeshore,$$
+zp9aDUzQoZF3Ez6WK-7nQg,4,94,thai,North Beach,$$
+FwUnHx-PwC-z0H4__30tHA,3.5,86,latin,Haight Ashbury,$
+QDac11gEbAHlpBmOEJlPBg,4,96,latin,Lakeshore,$
+iBloqsbw9rO3-z_Zia-QXQ,4.5,93,thai,Russian Hill,$
+EKLjQC4LH_WPFJPubtPfMQ,4,100,thai,Chinatown,$$$
+W01ZzmeWz0vJip3TVDmdyA,4.5,86,thai,North Beach,$
+j6FcuKFXAJujFgy-QHN8ww,4,77,latin,Mission,$$
+rdh_2_fXo5BeqYl_9OGZsA,4,90,thai,South of Market,$$
+uhih68N9hjl9RWd-Bi8NhA,4.5,93,thai,Mission,$
+reY7L8hLSyh7pU1Etcfvpw,4,90,chinese,Chinatown,$
+_5B_S1XncUIvMN8ZRKrzfw,4.5,94,chinese,South of Market,$$
+iUockw0CUssKZLyoGJYEXA,4.5,98,chinese,Bernal Heights,$$
+hBs2mEpjMsbrAjd-FZC9qw,4.5,100,chinese,Haight Ashbury,$
+TdXsIPBVRLP3DR-A3sKdpg,3.5,87,american,Mission,$$
+Gi15y5zxXg5yzcb-YqYg2Q,3.5,79,american,Outer Richmond,$$
+RRY9YSBKCuiRMA7M3qzV1w,4,88,american,Potrero Hill,$$
+aXsUEOCxQ13ZqtVjTu5-WQ,4,94,medi,Financial District/South Beach,$$
+2k5yh0ZG2uc0ZDYNcNvXsw,4.5,92,medi,Pacific Heights,$$
+r5t4a_EP7c7r3o3Rh1AYIw,4.5,92,american,Nob Hill,$$$
+12mu82RygA9JOCV26bWajg,4,69,american,Inner Sunset,$$
+DrRhTVMHnJMTychb8PpPlg,4,92,american,Mission,$
+akdiz2Ez-wKtBSyQVC4zrA,4.5,89,american,Tenderloin,$$
+K7ICEjSlyVj3ebGrh7AdFQ,3,100,american,Lakeshore,$
+4HhEMG08o9leXJvehuDwPg,4.5,86,american,North Beach,$$
+3MRyd2-Zx9smDLXWPAL3kw,4.5,100,japanese,Mission,$$$$
+52dNr0tRrwpmumm8Ey5EDg,4,88,japanese,North Beach,$$
+i09UMzccKgyLwGYKDVP28w,4.5,94,american,North Beach,$$
+_BDoTBI2YlyUaWFOXBEF8Q,4.5,85,medi,Financial District/South Beach,$$
+YCJ10k0AWKw--zVtJDCokw,4.5,100,medi,Castro/Upper Market,$$
+AvWc8HlEfMZv2NoXCIsxbw,4,100,medi,Castro/Upper Market,$$
+pmZJDyVrnzqLIXUg_nlUxA,3.5,92,medi,South of Market,$
+2TEUeYh5f4YOW_s1TZ_daQ,4,80,medi,South of Market,$$
+fC265xaB9yJOEeceSITSWQ,4.5,94,medi,Potrero Hill,undefined
+hNKCyBaIa4H_Optvl4Zk8g,5,100,medi,Potrero Hill,undefined
+FCTaVlAbGzKNIA59mX38dg,4,90,medi,Marina,$
+Pn_WxznWBPUSpxIGCqbL6Q,4.5,96,medi,South of Market,$$
+rBwaN3XeaCQGUH1RLgo0tQ,2.5,92,chinese,Lakeshore,$
+pBrHCp0X_SxMslzt-Kk5uQ,3.5,79,thai,Tenderloin,$$
+v8yKr4d-QiuyrMbpPFLJJA,3,72,chinese,Inner Richmond,$
+SuGcF3UywZs6dOu8U45Anw,4,98,chinese,Chinatown,$
+9XoXFO_3qqHHndg-RqEH_Q,3.5,100,chinese,Castro/Upper Market,$$
+lNJ3QmAcDWhZlYQqA3dAbg,3,86,indian,Noe Valley,$$
+Q7_I2n1Fbza6uyDScaKyOw,4,78,indian,West of Twin Peaks,$
+fQgVjudyTkPvKTtKzzs5qw,3.5,88,american,West of Twin Peaks,$$
+UjcBlO0iE59qOAFtvFVVTg,3.5,90,chinese,West of Twin Peaks,$$
+XObQwshqjgoCd3avFLr_Qw,3.5,89,latin,West of Twin Peaks,$
+ALEzbGxLJoqh7Rk77g55Ug,4,98,italian,Tenderloin,$$
+c_AZi1kiUaxDH5dIMdSPMA,2.5,88,chinese,Chinatown,$
+EIE9lm4086L7wNiqGqpsKA,4,90,chinese,South of Market,$
+IM8lk6JS2QhjUYR7uBqS1w,4.5,100,chinese,Nob Hill,$$
+gIGjXJqZaSzAuV_Jy2dCnw,3.5,86,chinese,Russian Hill,$$
+HRHoYU1UDOnBIvBCBkLTJA,4,94,chinese,Marina,$$
+MF60EitRl00iQS5mbuXuFw,3.5,92,chinese,Mission,$$
+qz-bbCkEehvg6SkgahAwVQ,4,90,italian,Presidio Heights,$$
+lZjho8m-yjFu-PODdhOhlg,4.5,94,american,West of Twin Peaks,$$
+mRd7YvLZTgorwQ36M9nDaA,4,88,viet,Tenderloin,$
+EWCdhXa9tb9yoSoG9o2gWQ,4.5,90,viet,Bayview Hunters Point,$
+rCgPETFjo1h2YUJLbyYBug,3.5,98,viet,Marina,$
+nsoV7I_i12nQNoTVfPW9Eg,4,96,viet,Castro/Upper Market,$$
+IJX9GlZ-84faI-ImPXDOQg,4,77,japanese,Mission,$$
+r2jiJk3yivcLkWSSYELGcA,4,85,japanese,Pacific Heights,$$
+2s8S5dM-HW9pXZP7Ozc8zA,4.5,100,japanese,Castro/Upper Market,undefined
+KRO4PzfmbRgCu1Ayt1LE1g,4,77,japanese,Tenderloin,$
+xJOqHjh0EpCww-rNla6iPA,3.5,90,italian,North Beach,$$
+g_1m6w0hdDHoWXdj5snXSQ,4,91,american,Nob Hill,$
+UuFovQRilF7fCmokiiW05w,4.5,92,american,Potrero Hill,$
+0IRKd1g6ID-HY3XerHiuSA,4.5,96,latin,Marina,$$
+4WFJ5aeemv1sEDgbuGC7Lg,3,80,american,Outer Richmond,$
+k_K-uiHYE0UyMoDGuOr-1w,4,88,american,Outer Richmond,$$
+rfl4M4Twa8O7WqSGAhIIgQ,4.5,96,american,Tenderloin,$$
+mv7RZrXNRAmH7k4ElIBm4g,2.5,100,latin,Financial District/South Beach,$$
+uQNkC5Wh7YwyGQZULzElnw,2.5,96,american,Financial District/South Beach,$$
+B1Jc-JnRFE9-dCBtq4r4MQ,3.5,77,american,West of Twin Peaks,$
+EPX_VLWZEQow3tdw_WacYA,3,85,american,Tenderloin,$$
+CTKtRkISS8sF4Bd1UXyimw,3.5,100,american,Chinatown,$$
+KqGOvG1m5jgDL-pKGXEoNQ,4.5,87,american,Mission,$$$
+rOp_TipNONYQlRCunZLJHw,4,96,american,Financial District/South Beach,$$
+WCPifDHHuL8fzt54l23zWA,4,90,american,Financial District/South Beach,$$
+IdadBJGIvrBLdYNy2Q4yRw,4,85,american,Lakeshore,$
+gVZJ-trD_81kvoxmGYj8hA,4.5,92,american,Mission,$$
+prl4rkVXnSj2eVUFv-VZqw,4,94,korean,Nob Hill,$$
+nRxk-JSF_rq1RKqrTfcgRg,4.5,100,korean,Tenderloin,$$
+Fg1E0pdEGYMxalfNJGjgQg,3.5,94,medi,Mission,$$$
+QfPCduogPtS3AKVn1J-DZA,3.5,94,medi,Castro/Upper Market,$
+FwmFECymlIKjyAGiNilD9w,3.5,87,american,Financial District/South Beach,$$
+D8-lVk1RQPPAapzVHvJCzg,3.5,96,american,Financial District/South Beach,$$$
+OvBC83vOK6vRw175vHiArg,4.5,98,american,Mission,$
+DBeP_N9azHpBN52kliJD_w,4.5,84,american,Inner Richmond,$
+WHjguaE4-5aPnywFvwQNCg,4,87,american,Tenderloin,$$$
+RB1sjHEaT3Hbn2Fohhx-Hw,3.5,86,american,Mission,$$
+JOVyRw09-_LnCemd6vLJLg,4,88,american,Mission,$$
+iN-BfEpyYiRsE0q0HPgnJw,4.5,76,latin,Castro/Upper Market,$$
+G5qCbpWYoKKYV1HUHlOLYQ,4,88,latin,Financial District/South Beach,$$
+xQQ3qLbjxI4DwQoFLWqsNA,4,83,latin,Mission,$$
+4De0iMwSPF2aJ_QGTye4TQ,4,90,thai,Inner Sunset,$$
+AbwerL-FpnxEFgCGLHeEQA,3,74,chinese,Western Addition,$
+1xaXqOerMx8kA3UI-SBnIA,3,81,italian,Bernal Heights,$$
+BoBxY7PkBBJ4qyoEEhziGQ,4.5,100,italian,Tenderloin,$$
+N3N7-DCGQUPBe9v-duuWHQ,3.5,92,thai,Russian Hill,$$
+GjIO1jUDyaRwV0nS7WfQ7Q,4,85,thai,South of Market,$$$
+5KoP_NDYmtWifqExP9k7cA,3.5,85,american,Pacific Heights,$$
+EejbyWT2w8HwKvQAcfx_Kg,3.5,74,american,Financial District/South Beach,$$
+A0A797fPf8D3MnfxbGTj7A,4,74,italian,Financial District/South Beach,$$
+Jq0XsoA-U5mSKCj7WsFlvg,5,83,latin,Mission,undefined
+G6jtopjm8OUYTWSq8wVsxQ,4,94,latin,Nob Hill,$
+NJnm-OpsgtkrIxR33CbBTQ,3.5,67,chinese,Chinatown,$
+ibgVLl0Ly32GHgznZD2M6Q,4,100,chinese,Financial District/South Beach,$
+0YPcBWiU-8t2kGe-DOhW5g,4,85,american,Western Addition,$
+FJeABqY7kL9bPZupmpdReQ,4,82,american,Financial District/South Beach,$
+pZwxSfQYVzzXGbvLwmKypw,3,94,american,Bernal Heights,$$
+0QydZwQebF1b36i9OwHppA,4,94,medi,Mission,$
+KjxwZv1L46R5WcJJXoI6IA,4,100,medi,Nob Hill,$$
+p6bLw7PS63Kbge_wyIOP8w,4,96,american,Presidio Heights,$$$
+8MMhiZdt1QD4r8os_hKEvg,4,86,american,Hayes Valley,$$
+NcaSL_m4Hh5-RWnnAaKwJA,4,96,american,Lakeshore,$$
+_Y0KXPPRpI-eYvkLUYpwkw,4,98,indian,Mission,$$
+EpDYdBl4Ix_BTiqAHIWDPQ,4.5,89,indian,Portola,$
+psRTE2KTveu86FBu9TPqzg,3.5,88,american,Tenderloin,$$
+zeO401-Y-2BLiIv9bl0UkA,4.5,100,american,Tenderloin,$
+z4SIRzokGGOHnD94K7lqhA,5,100,american,Financial District/South Beach,undefined
+ztHkdSGx6HQWddanLfSPFw,5,96,american,Mission,$
+XOckc_gNRzagN3v6e9P4vw,3.5,86,american,Chinatown,$
+rfWph5GzDNUibkvWrSeFQg,4,88,american,Nob Hill,$
+Fe-YjAdSRLqDC2H_pqPcSw,4,79,american,Japantown,$$
+hzj5Az-SD6ZhUkKZkqGbcw,4,86,viet,Mission,$$
+U2lbKxfjKbqGPsvsYPAyLA,4.5,93,viet,Mission,$$
+c0XpNU_OSP3YfQnMYgxZTg,4,73,chinese,Outer Mission,$$
+RqIPmEfqMLYITyWqkAs7Rg,3.5,94,french,Financial District/South Beach,$$
+j7HSiGqX_jjZcgBBK5FATQ,3.5,98,italian,Bernal Heights,$$
+jb7Mou1Zw_BDKVNKw6mUzQ,4,89,italian,Mission,$$
+Yq4TjSPkVnA0H92ej2LK2A,3.5,83,indian,Mission,$$
+qIJwRdHtHbQQzZsBkWwy1Q,4,94,american,South of Market,$$
+7JGt7QAswGjXNuGN6YYxJQ,4,85,american,Noe Valley,$$
+m1m7nXSioZQkBK30QAY8EQ,3.5,98,american,Mission,$$
+If5hVcf5uRbuq4pKXdyOjA,4.5,98,viet,Outer Richmond,$
+8GqReA8EJ3UGRuIFbd9jyQ,4,86,chinese,Chinatown,$$
+iPJfnQ5gI0JIrO_hxURWSQ,3.5,82,chinese,South of Market,$
+rXZAemGGNu9fdQWx5JqWQg,4,80,korean,Outer Mission,$$
+3523gS3FWpFdGFR7vjvhnA,4,89,italian,North Beach,$$
+Iiwokaz_8pQhvwaSyneW1A,3.5,100,italian,Tenderloin,$$$
+eezje_7Lvt4BymqFA8mAXQ,4,90,italian,Mission,$$
+nwrcBg1_edlyAya94hkCng,5,96,italian,South of Market,undefined
+vlZYC-2AJuaEf6SvheT2kA,3.5,96,american,Financial District/South Beach,$$
+LYR-FTjuFk_cCKI7mqO10A,4.5,86,american,North Beach,$
+90kaVHz2X2U5HrvSAN5N_A,4,92,american,Potrero Hill,$$
+gn5poUrTw5grzKhwNy_3pg,3,85,japanese,Japantown,$$
+OB0QAqrEsCHAWabEV2SIRQ,4.5,92,japanese,Potrero Hill,undefined
+GrawU-e5_s99My8-DaajxQ,3,90,chinese,West of Twin Peaks,$
+WcuxrGnTyuLx5yrJt_sk1Q,4,96,chinese,Castro/Upper Market,$$
+HHtpR0RslupSQ99GIIwW5A,4.5,91,chinese,Japantown,$$
+NgsGushH_-2_NqU906G14A,4.5,98,american,Bernal Heights,$$
+0XpZ4HUAkogn7kktGOZQvA,4,87,american,Western Addition,$
+lyCr9eWFnrZbFnGWhuBKlg,4.5,96,latin,Financial District/South Beach,$$
+b_CqTudyuY7ROYOI21UBGQ,3,67,viet,North Beach,$
+lXeCx2-KoqzyezgECyzI9g,3.5,98,viet,North Beach,$$$
+RxIFKVvc8iVBPIVpe55Byg,4,90,japanese,Mission,$$
+NhvqEIpcLbwFhW1cEVSzoA,3.5,96,american,Pacific Heights,$$
+cORp0lwd6Gq6AQ692gjTcw,4.5,91,american,West of Twin Peaks,$$
+2hGIxgprREdBieylltWaRQ,4.5,96,american,Western Addition,$$
+if7l8HVMz7kmW0tG9l2LQA,4,92,american,Financial District/South Beach,$$
+NrrdgbEhsNcpitzXHsh29A,3.5,90,american,Russian Hill,$$
+nwh8pYVFEYNDfW_XlaiCNw,2,100,american,Bayview Hunters Point,$
+1mIZv1OaeDvqBXkLawIUAQ,1.5,94,american,Outer Mission,$
+xiEJJF9t_h70DvzaknBN0w,3,96,american,Mission,$
+u39mZEYojBiNic3lqKhPNw,4.5,100,latin,Nob Hill,$
+MypraZrZIZxT7EhWGo4vyg,4.5,88,latin,Inner Richmond,$
+OH3GLEJvGhbER4d3xMuPIA,4.5,89,latin,North Beach,$$
+cY8-KnCc1LXYw7u9RRkx0w,4,96,latin,Russian Hill,$
+ZrDRwRWRv4AMqmtO5rUnNw,4,91,chinese,Inner Sunset,$
+D5k5iIhjLsaAgdcpQnOmcg,2.5,81,chinese,Lakeshore,$$
+lL-3T2fZIP_oCYC-uc074w,4,96,chinese,Haight Ashbury,$
+1mdyJN3GkeJNEn51EnzYbQ,3.5,86,chinese,Sunset/Parkside,$$
+WtA7XYzBFhZ5LPbSihEWkw,4.5,90,japanese,Western Addition,$$
+NIoaaJaMkeYmQjLs9a0D2A,5,88,japanese,Mission,$$
+_lhAiwV4jtDhcRSCp_SSDQ,4,80,korean,Inner Richmond,$$
+Y96P7pYNYya_bP-Ogun-0w,4.5,96,japanese,Japantown,$$$$
+J3N0MdRMW2cJdq8PHXH0ig,3.5,100,american,Tenderloin,$$
+3h8u-SHi52QnOs-Xhm2bCQ,4.5,92,american,Mission,$
+hi0wjWbDyRWus_lDJthWLg,3.5,85,thai,Bernal Heights,$$
+YS1CoGy0D1Eu0YM7N_3TIg,4.5,98,thai,Lone Mountain/USF,$$
+mFiSSArGLi05l9qhlflg8A,4.5,92,american,South of Market,$$
+ILWW9E7sieTTe1osg06iAQ,3.5,100,american,Nob Hill,$$
+4fSk_CtsVfXDcFtF8-sWgw,4,83,chinese,Outer Richmond,$
+j5vMS1_MuSm09STC8aHzYg,4.5,94,italian,Chinatown,$$
+hZbM19qimAVfwuBxDpaZZw,4.5,94,medi,Western Addition,$
+gxs88p9RXPlLPkA-wVxUew,3,98,medi,Inner Sunset,$
+DrQL6bhii1a8IN_2CNCQGA,3.5,94,medi,Lakeshore,$$
+uGhT4UMITq37diKwOMJYmA,2,96,medi,Financial District/South Beach,$
+thxSsY4OzduXI6kg8caXmw,4,80,chinese,Oceanview/Merced/Ingleside,$
+b1jiTGSvQcVWULo30j9SNg,3.5,82,viet,Financial District/South Beach,$
+PmIsfHFgjcxY5tWmsZKndA,4.5,96,viet,Russian Hill,$
+GIl4gBFUknk9HJD3wvQI1Q,4.5,90,indian,Inner Richmond,$$
+khpoEMBwgQitHAqVVMrOog,4,90,indian,Mission Bay,$
+KyA780rn1-QsOT0OYBHrzg,4,81,indian,Russian Hill,$$
+T4-pajwzL87-jKIr2NIwew,2,72,japanese,Japantown,$$
+O16fNPE0FtAi63D4VFRAXA,4,67,american,Tenderloin,$
+5yY41syV-6KwSi-sfmv7CA,4,92,italian,Nob Hill,$$$
+x_WGJWqS3v20IFuDgsyZ_g,4.5,94,latin,Tenderloin,$
+#NAME?,3.5,86,indian,Tenderloin,$$
+FLf4fbh3P3cXbxAxyl99YQ,4,94,chinese,Tenderloin,$$
+zdxD_44ilNWwyI62ozHw9Q,3.5,74,chinese,Mission,$
+WOVHQYzSAdyXYOiYDTmujQ,4,90,chinese,Financial District/South Beach,$
+qGf1STU58RroSfnUdghLBA,4,78,chinese,Inner Richmond,$$
+SZs2L7N1tNSsFEdbdEvcdw,5,100,chinese,Nob Hill,$$
+ArsFz4WRVKboK1Ob_yP7Uw,4,100,chinese,Sunset/Parkside,$$
+7ohv_rfRVxBj0F_uVgd-xQ,3.5,94,chinese,Oceanview/Merced/Ingleside,$
+OdSydJeehNkSv8iBjJjPgw,4,91,chinese,West of Twin Peaks,$$
+S3NkhLWNg4WEk2-U6n9GgQ,5,96,chinese,Bernal Heights,undefined
+_MOE-nM-de7XKzKl2mFdxA,4,98,chinese,South of Market,$$
+cfaba0EzUT6Kg7jvEgOJWQ,4.5,100,chinese,West of Twin Peaks,$$
+HDW716CUByh6W039xKhszw,4.5,89,american,Nob Hill,$$
+pDUpsLSoSw08aREqgGjABg,4.5,100,american,Haight Ashbury,$$
+XarlPaCUzwPfif0-TJe3Pw,3,69,chinese,West of Twin Peaks,$$
+7m8NjJGGWtcPwogJ8GxOBQ,4,90,viet,Outer Richmond,$
+Q_21cx2DAUah45z653bYBg,3.5,88,viet,Financial District/South Beach,$$
+k7u18ZGlaUTYjBCmrUc3Pg,5,100,viet,Tenderloin,$
+rozXSfP__1jyt6IdM_BIfA,4,76,indian,Tenderloin,$$
+vVZRmqx4IYijzva5K_1sGg,4,96,indian,Tenderloin,$$
+hYJWI9nrWS0Wv8pNdQP5yQ,4.5,89,american,Nob Hill,$$
+iARaxcb2nuc5upl4ugL1nA,4.5,96,american,Mission,$$
+dJObXrdAWC9k5lZnJ7zu8w,3.5,90,american,North Beach,$$
+VHeDQKCT81P3i0edsMs9rw,4,94,medi,Nob Hill,$
+wvJvLx0y-O9OMC67HtBrkA,2,88,medi,Japantown,$
+Lxb2mz0Yay7y8HSmvJ7dmA,4,80,medi,Hayes Valley,$$
+s-ihKanDRDHTD8U49HFA5Q,4.5,92,medi,Noe Valley,$$
+9O4Y33B0JI2z9s_NsXNpGg,4,100,medi,Bernal Heights,$$
+W_2rcLj-vDAa7tUixhz0eQ,4,96,thai,West of Twin Peaks,$$
+5LN_QjznRbPJXX0HGI3Fvw,4.5,79,thai,Castro/Upper Market,$$
+#NAME?,5,98,thai,Financial District/South Beach,$
+RYXkGS3fHhl6oC56CrPRpg,2.5,96,thai,Financial District/South Beach,$
+mMiOVbGovegeBg-6YyqDxA,4,100,thai,Hayes Valley,$
+sBdCKYbI40EafmtU9L2SSg,4,100,thai,Potrero Hill,$$
+YLr8XxcQBYsKcKDHwaYnXQ,4,88,thai,Financial District/South Beach,$$
+4Evz9GP3mBmkZRptFLqTfg,3.5,92,thai,Financial District/South Beach,$$
+5o24fe7v2Z0dgt3TCkZ1ww,4.5,98,thai,Tenderloin,$
+QWZO1RdLbG5h0RGDiItoAA,3.5,82,japanese,Mission,$$
+1DDbE3XJF6lFL_KpU6Pmww,4,89,japanese,Bernal Heights,$$
+2alzmvhBxnt-ahV3qkFg9Q,3.5,92,japanese,Financial District/South Beach,$$
+A4_bL4D2yKd5D8D7QgCF4Q,5,100,japanese,Noe Valley,undefined
+fFhikWtYzlrgTmekKsf5yg,4,94,japanese,South of Market,$$
+msn4HQum3OTOgJ7fXH-74Q,4,92,indian,Financial District/South Beach,$$$
+N-vfl3FXnj4M7N6jW-1EGA,4.5,91,medi,South of Market,$
+ACA2q2bYEy8eDzvoad9SZQ,3.5,75,thai,Mission,$$
+y-YinxpnRxbD0tajQnXFlQ,4,94,thai,Mission,$$
+RE_lzglBQ17C7c97HVKEkg,3.5,78,thai,North Beach,$$
+J-mZZ_Yrng_XhPtx5x403Q,4,92,thai,Noe Valley,$$$
+tKmqlKWOMMiU8pn0gLliXA,4,91,latin,Marina,$$
+49gtWrxFyiyn-c-CqqRdXQ,3.5,98,latin,North Beach,$$
+L3zFz3_9siDXcISk9MoGbg,4.5,87,american,Potrero Hill,$$
+_xJ1yBtsya2ClacPirzQ2g,3.5,82,chinese,Sunset/Parkside,$$
+ezLa_XcMRNBAgDEU6eeeAA,2.5,83,chinese,Sunset/Parkside,$
+vka9K72EQhmw2H3MFhPrHg,4,100,chinese,Mission,$$
+Zh8P8DUdxGJ2_gJcgUyMBw,4.5,90,american,Excelsior,$
+hIFXi0T7YDGDmB4Mtz4xCw,4,72,american,Outer Mission,$
+GmHNkpAaypi9jclaLI7sDQ,4.5,94,american,Tenderloin,$$
+ZYiTSpZVRNOGM7Q0H5rXrA,3.5,98,chinese,Tenderloin,$$
+Ra557K4R_4dTlL8HoO71ZA,3,94,chinese,North Beach,$$
+T5_ulqpuMDVyITg479YL-Q,5,100,chinese,Hayes Valley,$$
+h0JTrvF79gpSuzVoQTkpfw,4,98,chinese,Mission,$$
+168JCbfPASa30FoHZZaIEg,4,94,chinese,Western Addition,$
+TKuCCYtBmt74KdxJy8syBA,3.5,100,american,Hayes Valley,$$$
+f01Z_y9osgi1z_b1lzG4nQ,4.5,92,american,Outer Mission,$
+JWejPF1dVW29p2MZHUdw1A,4.5,88,indian,West of Twin Peaks,$$
+qr9Tgbs4g7sf5azGc0wMuA,4.5,96,indian,Marina,$$
+MJ-N4HIVyb59qcHN2zVqMg,4.5,92,indian,Noe Valley,$$
+QGXNhbta97tUZpxxBOoldw,5,98,indian,Mission,$$
+ZEZBX5AtYDFa1KhNPLCB5g,3,96,indian,South of Market,$
+Ky5Y1JbytbUvxyIfJZ03EQ,4.5,90,indian,Financial District/South Beach,$$$$
+Y9Mhd-3n007xmqOD2zMzFQ,3.5,96,indian,Inner Richmond,$
+bL2DTWLj-C96JdHEdtpzog,4.5,96,indian,Chinatown,$$
+TMjEDGVittG1EH0DXjQEQg,4,90,indian,Nob Hill,$$
+4vrX5JhM1D3dTiL4DU5clQ,4.5,91,indian,Potrero Hill,$$
+nQGXE96_3INebodrvYCt6g,3.5,98,indian,North Beach,$$$
+msn4HQum3OTOgJ7fXH-74Q,4,100,indian,Financial District/South Beach,$$$
+0piv8Y-TaJltsQDhu4Ngwg,4,81,chinese,Portola,$
+hhpg9Rr7_Bp9LNyxsDtS2A,4.5,96,chinese,Outer Richmond,$
+2QGpLQwpzcPK99JfS5G4cQ,4.5,90,japanese,Mission,$$$$
+PaDFuHlHrFRd0g2ki2DevA,3.5,90,japanese,South of Market,$
+wXXNIGrzIktDXkTw1zJTZg,4,100,japanese,Mission,undefined
+wjqh--9GiLbCc5q-zeqLfw,3.5,86,viet,West of Twin Peaks,$$
+hbDkXsC4_ZOt5h04hmPReQ,3.5,86,chinese,Sunset/Parkside,$
+ujhMK3T69cPKnBBBRasRsw,4,88,chinese,Mission,$$
+ef9tog39MG5-t-900sfY7w,4,96,chinese,North Beach,$$
+Szo9dunUzTNMYULQ11vrOQ,4.5,100,chinese,South of Market,$$
+iZzc4r5VTaXT3OcP8OuqGg,3,100,chinese,Financial District/South Beach,$$
+x4SFi9nmZ7jD7mn9s5ytiA,4.5,100,medi,Mission,$$
+OT5QTq3CxT0-OY9sxfG4QQ,4.5,96,medi,Mission,$$
+K8Fu4xrYFXphxudCoiAz_A,4.5,98,medi,Bernal Heights,$$
+ZBQKuDjRxJmxsfaFuujauA,2.5,100,medi,Tenderloin,$$
+jwVyTCiKPUkqYPIXwEFgsA,3,100,medi,Tenderloin,$$$
+oSdTHO7X-_UdDErz9AjR6w,4,100,american,Tenderloin,$$
+xV_3p6YfAXTPxXhTdkuP3Q,2,92,american,North Beach,$
+9-aOMWNSTsUsEV9wWWliNQ,2,85,american,Haight Ashbury,$
+Wr9z45IIlvYb7yymQ4G2VA,2,92,american,Oceanview/Merced/Ingleside,$
+C8KeKvw7uxBNnsr5DeKI3g,2,84,american,Financial District/South Beach,$
+jwVyTCiKPUkqYPIXwEFgsA,3,100,american,Tenderloin,$$$
+PK4tLB7x6AjGNdKYPr92lw,4,100,american,Tenderloin,$$$
+52y-wsYUilqzoNbbV8anwA,4,76,chinese,Tenderloin,$$
+J-W-VDb25eUZckNnIMp2vQ,4.5,85,chinese,Tenderloin,$
+NL9EwEbYmGtNgjV6HzzxZg,4,98,american,Financial District/South Beach,$$
+nRFR-wMGx2gPOgFIhQnHUQ,4.5,91,american,Potrero Hill,$
+gZm-Y3FOzNXZpaV9HxpBCA,4,85,latin,South of Market,$$
+7EvFw4sbA7K5NNZ3hK6btg,4.5,96,latin,Financial District/South Beach,$
+IxDRIBkKtP-f24sr5zHAhQ,4.5,89,italian,Mission,$$
+ZPyd-U5jejBL7ZDGsbDs5A,3,87,french,Castro/Upper Market,$$
+MW2EphilkU3F3nMTTZcpuQ,3.5,96,chinese,Financial District/South Beach,$
+F8_6x4PtEE6y0xSLVYzYeA,4.5,100,chinese,Mission,$$
+Yabbw4NobxuAlF7atqozWQ,4.5,96,chinese,Chinatown,$
+coWAmZH_tMlP4iKwAtIPmw,4,75,thai,Mission,$$
+LzOjj7KopLc6qdqaIsbgiw,4.5,100,thai,Russian Hill,$$
+dw9ZhP-JVFjc4rOadLO1Gg,4,87,thai,Mission,$$
+9Pl5BKvxgSAHnPncttOKRA,4,96,american,Financial District/South Beach,$$
+__RnSySB3Z1rESyxOLilyw,4,90,american,North Beach,$
+HjULz9of4NBdeYk4RhSTmQ,3.5,90,japanese,Glen Park,$$
+_1_HalGUB7XOAteR9j8d8g,4.5,89,japanese,Potrero Hill,$
+jtz2wm9pOn_ZwhUIbZIBZQ,4,92,japanese,Potrero Hill,$$
+YqYNt-kyPz9ljjeBDYSsPg,3,84,latin,Excelsior,$
+mS_F70yd1LEMVgVa0eO99w,4.5,90,latin,Noe Valley,$$$
+zyYcAf28FFfhFv14eZA_AQ,4.5,100,american,Tenderloin,$$
+HScfgTMTQtp7yooVSy_-VQ,4,96,american,Haight Ashbury,$$
+yEn0YT1wMC6hR7CVRX956w,4,90,american,Excelsior,$
+81t6N_ZF3kxcU6sSPLhAEQ,4,88,french,North Beach,$$
+Y3nxgEoxwFJ5miacMzYNXg,4.5,94,french,Sunset/Parkside,$$
+agUov63fwIufCj8t6pCivg,4.5,98,french,Financial District/South Beach,$
+c4dIaOyYZQHRCmbG0DKidw,4,96,french,Mission Bay,$$$$
+87WcL6ICku5piRxlwtcYOw,3.5,86,french,Tenderloin,$$
+Ekq32ePR3l7szZ2F5ahEjQ,4,92,japanese,South of Market,$$
+gJsUMxHGXkEdN7hIMhhmKA,4,89,japanese,Financial District/South Beach,$
+ZvIpOP6cWfZWHLKdNAvfOg,4.5,96,indian,Haight Ashbury,$$
+VZEifnBCTnFXCXWlIJxFvA,4,88,indian,South of Market,$$
+14OmmSWHfM717iZo5jePtg,4,94,american,Nob Hill,$$
+CB5FsH1m4D0R5wZ0JFmKzw,4.5,100,american,Hayes Valley,$$
+EcSIjxiaZ36vqCKAJ9ihIw,4.5,90,chinese,Outer Richmond,$$
+1x_7BLX8Eb1dGdSrsZy2sw,4,94,thai,Tenderloin,$$$
+Nw8h8pc4TzHdVlPA3gsOlA,4,92,thai,Financial District/South Beach,$
+-6VcjD0CMrsxFr9g_y0QIA,4,92,thai,South of Market,$
+u1XwNjU75q7q6JHm7iQTvA,4.5,100,thai,Mission,$
+avm4lyv85AHtV7FlIMaFZw,4.5,72,american,Financial District/South Beach,$$
+Bsz2u4raa8xNolhl3PDV2Q,4.5,94,american,Outer Richmond,$$
+Vby0_wsCDFwjdsucTpcUgg,4,100,latin,Financial District/South Beach,$
+tul32Sr5n-qEO-7byl-qng,3,89,latin,Tenderloin,$
+wxTdrL-DzyBch1hxxokX0g,4,92,american,Tenderloin,$$
+E1xT1uBDaL20n7GKOhh3Jw,4,88,chinese,Portola,$$
+NwqdohySKrDnK0RsAde9UA,4.5,96,chinese,Russian Hill,$
+bRI2Q8LwAsst3YqKNLeErQ,4,94,chinese,South of Market,$$
+GStY518y3BRRdHQ64jkODQ,4.5,92,latin,Mission,$$
+W9FJjqLEgP9g6pTj45gP4A,4.5,96,latin,Financial District/South Beach,$$
+rL4lT_POv49OBik57uCsXw,3.5,96,latin,Financial District/South Beach,$$$
+78mfppJEnc-2NBrxtS9u7A,3.5,89,latin,Financial District/South Beach,$$

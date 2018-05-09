@@ -1,0 +1,336 @@
+body {
+  font-family: -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI", Roboto,
+  "Helvetica Neue",
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
+  font-weight: 50;
+  color: grey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+}
+
+.wrap {
+  width: 960px;
+  margin: 20px auto;
+}
+
+.container-fluid {
+  width: 100%;
+  display: flex;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.svg-container-100 {
+  padding-bottom: 100%;
+  /* aspect ratio */
+}
+
+.svg-container-60 {
+  padding-bottom: 60%;
+  /* aspect ratio */
+}
+
+.svg-container-50 {
+  padding-bottom: 50%;
+  /* aspect ratio */
+}
+
+.svg-container-40 {
+  padding-bottom: 40%;
+  /* aspect ratio */
+}
+
+.svg-container-20 {
+  padding-bottom: 20%;
+  /* aspect ratio */
+}
+
+
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.zz-section {
+  border-top: 1pt solid #EEE;
+}
+
+.zz-section+.zz-section {
+  margin-top: 30px;
+}
+
+
+
+/**
+ *Neighbourhoods
+ */
+
+.zz-healthmap-map {
+  display: flex;
+  overflow-x: hidden;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.zz-healthmap-map.showgraph .zz-healthmap-map-map {
+  left: -500px;
+}
+
+.zz-healthmap-map.showgraph .zz-healthmap-graph {
+  left: -500px;
+  display: flex;
+}
+
+.zz-healthmap-map-map {
+  position: relative;
+}
+
+.zz-healthmap-graph {
+  position: relative;
+  display: none;
+}
+
+.zz-healthmap-map-map {
+  display: flex;
+  flex: 0 0 100%;
+  height: 500px;
+  width: 100%;
+}
+
+
+button.zz-healthmap-graph-close {
+  overflow: hidden;
+  text-transform: none;
+  -webkit-appearance: none;
+  padding: 0;
+  border-style: none;
+  outline: none;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  vertical-align: top;
+  border: 1pt solid grey;
+  border-radius: 1rem;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: -1rem;
+  cursor: pointer;
+}
+
+,
+
+button..zz-healthmap-graph-close::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+
+/**
+ *Grid
+ */
+
+.zz-grid-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+}
+
+.zz-grid-row {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.zz-grid-row--header {
+  border: 2pt solid transparent;
+  border-bottom-color: #AAA;
+}
+
+.zz-grid-row+.zz-grid-row {
+  margin-top: 5px;
+}
+
+.zz-grid-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #DDD;
+  padding: 5px;
+  text-align: center;
+}
+
+.zz-grid-column-content+.zz-grid-column-content {
+  border-top: 1px solid #DDD;
+}
+
+.zz-grid-column--1 {
+  flex: 0 0 16%;
+}
+
+.zz-grid-column--2 {
+  flex: 0 0 40%;
+}
+
+.zz-grid-image {
+  width: 100%;
+}
+
+.zz-grid-image img {
+  width: 100%;
+}
+
+/**
+ * Boxplot
+ */
+
+.zz-boxplot-image {
+  width:100%;
+}
+
+.zz-boxplot-image > img{
+  width:100%;
+}
+
+/**
+ * ZZ
+ */
+
+
+/**
+ * From Map.html
+ */
+
+#map {
+  height: 500px;
+  width: 100%;
+}
+
+#inspectionContent {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+#score {
+  font-weight: bold;
+}
+
+#inspectionContent ul {
+  margin-top: 0em;
+}
+
+.high-risk-violation {
+  color: red;
+}
+
+.moderate-risk-violation {
+  color: orange;
+}
+
+.low-risk-violation {
+  color: darkgray;
+}
+
+.lineChartLink {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+/**
+ * Nations
+ */
+
+.ppm-key-block-label {
+  font-size: 0.6rem;
+}
+
+.key-circle {
+  cursor: pointer;
+}
+
+
+
+
+/**
+ * From neighbourhood.html
+ */
+
+svg {
+  shape-rendering: geometricPrecision;
+  /* opposite of cripsEdges */
+}
+
+.label {
+  font-family: Helvetica, sans-serif;
+  font-size: 10px;
+  text-anchor: middle;
+  pointer-events: none;
+  /* Ignore mouseover over label */
+}
+
+.neighborhood-name {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+path {
+  stroke: black;
+  /* outline */
+}
+
+
+
+/**
+ * From HealthScore
+ */
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+text {
+  font-family: Helvetica;
+  pointer-events: none;
+  /* Ignore mouseover over label */
+}

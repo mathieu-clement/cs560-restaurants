@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Line chart</title>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<style type="text/css">
+	.axis path,
+	.axis line {
+		fill: none;
+		stroke: #000;
+		shape-rendering: crispEdges;
+	}
+
+	.dot {
+		stroke: #000;
+	}
+
+	text {
+		font-family: Helvetica;
+        pointer-events: none; /* Ignore mouseover over label */
+	}
+</style>
+</head>
+<body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		const w = 400;
+		const h = 300;
+
+		var svg = d3
+		.select("body")
+		.append("svg")
+		.attr("width", w + 100)
+		.attr("height", h + 100)
+		.append("g")
+		.attr("transform", "translate(" + 80 + "," + 50 +")"); // margins
+
+        function getParameterByName(name, url) {
+            // https://stackoverflow.com/a/901144/753136
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        var businessId = getParameterByName('businessId');
+        
+        $.getJSON("combined.json", function(dataset) {
+            var restaurant = dataset[businessId];
+            var name = restaurant.name;
+            var inspections = restaurant.inspections;
+            console.log(inspections);
+            var timeParser = d3.timeParse("%Y-%m-%d");
+            for (var i in inspections) {
+                var inspection = inspections[i];
+                inspection.date = timeParser(inspection.date);
+            }
+
+            var dates = inspections.map(insp => insp.date);
+
+            svg.append("text")
+            .attr("x", w/2)
+            .attr("y", -30)
+            .attr("dy", ".35em")
+            .attr("font-size", 18)
+            .attr("font-weight", "bold")
+            .attr("fill", "black")
+            .style("text-anchor", "middle")
+            .text(restaurant.name);
+            window.document.title = restaurant.name;
+
+            const xScale = d3.scaleTime()
+                           .domain(d3.extent(dates))
+                           .range([0, w]);
+
+            const yScale = d3.scaleLinear()
+                             .domain([40, 100])
+                             .range([h, 0]);
+
+            const monthFormat = d3.timeFormat("%b");
+            const yearFormat = d3.timeFormat("%Y");
+            const usFormat = d3.timeFormat("%-m/%-d/%y");
+            const xAxis = d3.axisBottom(xScale)
+                            .ticks(d3.timeMonth, 2)
+                            .tickFormat(function(d) {
+                                    //return monthFormat(d);
+                                    if (d.getMonth() == 0)
+                                        return yearFormat(d);
+                                    else
+                                        return monthFormat(d);
+                                    });
+            const yAxis = d3.axisLeft(yScale);
+
+                // X axis path+ticks
+                svg.append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0, " + h +")")
+                .call(xAxis);
+
+                // X axis legend
+                svg.append("g")
+                .append("text")
+                .attr("class", "label")
+                .attr("x", w)
+                .attr("y", h+40)
+                .attr("font-size", 12)
+                .attr("font-style", "italic")
+                .style("text-anchor", "end")
+                .text("Inspection date");
+
+                // Y axis path+ticks
+                svg.append("g")
+                .attr("class", "y axis")
+                .call(yAxis);
+
+                // Y axis label
+                svg.append("g")
+                .append("text")
+                .attr("class", "label")
+                .attr("x", 0)
+                .attr("y", -50)
+                .attr("transform", "rotate(-90)")
+                .attr("font-size", 12)
+                .attr("font-style", "italic")
+                .style("text-anchor", "end")
+                .text("Inspection score");
+
+                // Lines
+                var line = d3.line()
+                .x(d => xScale(d.date))
+                .y(d => yScale(d.score));
+
+                svg.append("g")
+                .append("path")
+                .datum(inspections)
+                .attr("fill", "none")
+                .attr("stroke", "orange")
+                .attr("stroke-width", 2)
+                .attr("d", line);
+                
+                // Data points
+                svg.append("g")
+                .selectAll(".dot")
+                .data(inspections)
+                .enter()
+                .append("circle")
+                .attr("r", 3)
+                .attr("cx", d => xScale(d.date))
+                .attr("cy", d => yScale(d.score));
+
+                var g = svg.append("g")
+                   .selectAll("text")
+                   .data(inspections)
+                   .enter()
+                   .append("g");
+
+                g.append("rect")
+                 .attr("x", d => xScale(d.date) - 15)
+                 .attr("y", d => yScale(d.score) - 15)
+                 .attr("width", 30)
+                 .attr("height", 30)
+                 .attr("opacity", 0)
+                 .on("mouseover", function(d) { 
+                         d3.selectAll(".label")
+                           .filter(e => d == e)
+                           .transition()
+                           .attr("opacity", 1);
+                         })
+                 .on("mouseout", function(d) { 
+                         d3.selectAll(".label")
+                           .filter(e => d == e)
+                           .transition()
+                           .attr("opacity", 0);
+                         });
+
+                g.append("text")
+                 .attr("class", "label")
+                 .attr("x", d => xScale(d.date))
+                 .attr("y", d => yScale(d.score) - 10)
+                 .attr("dy", ".35em")
+                 .attr("font-size", 12)
+                 .attr("font-weight", "bold")
+                 .attr("fill", "black")
+                 .attr("opacity", 0)
+                 .style("text-anchor", "middle")
+                 .text(d => ""+d.score);
+
+                g.append("text")
+                 .attr("class", "label")
+                 .attr("x", d => xScale(d.date))
+                 .attr("y", d => yScale(d.score) - 25)
+                 .attr("dy", ".35em")
+                 .attr("font-size", 10)
+                 .attr("font-weight", "normal")
+                 .attr("fill", "black")
+                 .attr("opacity", 0)
+                 .style("text-anchor", "middle")
+                 .text(d => usFormat(d.date));
+    });
+	</script>
+</body>
+</html>
