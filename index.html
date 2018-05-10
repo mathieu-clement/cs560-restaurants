@@ -1,0 +1,458 @@
+<!doctype html>
+<html class="js" lang="en_gb">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>SF Restaurants</title>
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+
+<body>
+  <div class='zz-app container-fluid' id='app'>
+    <div class='zz-app-container container' id='app'>
+      <h1 class="zz-section-head">San Francisco Restaurants: Inspection Scores and Yelp Ratings</h1>
+      <h2 class="zz-section-head">Mathieu Clement, Byron Han</h2>
+      <p>This website allows the exploration of the inspection scores published for each restaurant in the City and County of San Francisco, California. When you are done exploring, take a look at some studies we have done trying to find correlations between inspection scores and the ratings on Yelp, and whether restaurants offering certain cuisines have higher scores than others.</p>
+      <p>Inspection data is published weekly by the San Francisco Health Department and is freely available online. Restaurant categories, geocoordinates and Yelp ratings are extracted from public Yelp APIs. The use of the Yelp Data provided on this website is subject to Yelp Terms and Conditions.</p>
+      <section class='zz-healthmap zz-section'>
+        <h2 class="zz-section-goal-head">Google Maps Visualization</h2>
+        <h3 class="zz-section-goal-head">Goal</h3>
+        <p class="zz-section-goal-body">We can visualize each restaurant on the map.</p>
+        <h1 id="loading">Loading...</h1>
+        <!-- <h4 class="zz-section-content-head">Content</h4>
+        <p class="zz-section-content-body">Please use this the same way as you use google map</p> -->
+        <div class='zz-graphs-graph zz-healthmap-container'>
+          <div id='zz-healthmap-map' class='zz-healthmap-map'>
+            <div id="zz-healthmap-map-map" class='zz-healthmap-map-map'>
+            </div>
+            <div id='zz-healthmap-graph' class='zz-healthmap-graph'>
+              <button id='zz-healthmap-graph-close' class='zz-healthmap-graph-close'></button>
+            </div>
+          </div>
+          <div id="filters">
+              <h3>Filters</h3>
+              <p>Price range:
+                <select id="price-range"></select>
+              </p>
+              <p>Category:
+                <select id="cuisine"></select>
+              </p>
+              <p>Score range:
+                <select id="min-score"></select> to
+                <select id="max-score"></select>
+              </p>
+              <p>Rating range:
+                <select id="min-rating"></select> to
+                <select id="max-rating"></select>
+              </p>
+              <div id="num-results"></div>
+            </div>
+        </div>
+        <div>
+            <h3>Legend for clusters (discs)</h3>
+            <p>The number within the disc represents the size of the cluster (i.e. number of restaurants in that cluster).</p>
+            <p><span style="color:purple">1000+</p>
+            <p><span style="color:red">100+</p>
+            <p><span style="color:#ffd801">10+</p>
+            <p><span style="color:darkblue">10+</p>
+        </div>
+        <div>
+            <h3>Legend for inspection scores (pins)</h3>
+            <p>The number within the pin represents the inspection score (maximum is 100, minimum is, in theory, 0). The larger the better.</p>
+            <p><span style="color:darkgreen">98 - 100</p>
+            <p><span style="color:green">90 - 98</p>
+            <p><span style="color:#fdd017">86 - 89</p>
+            <p><span style="color:orange">71 - 85</p>
+            <p><span style="color:red">50 - 71</p>
+        </div>
+        <div>
+            <h3>Legend for violations</h3>
+            <p>The color of the text represents the seriousness of the violation:</p>
+            <p><span style="color:red">High risk</p>
+            <p><span style="color:orange">Moderate risk</p>
+            <p><span style="color:gray">Low risk</p>
+        </div>
+      </section>
+      <section class='zz-neighbourhoods zz-section'>
+        <h2 class="zz-section-goal-head">Neighborhoods</h2>
+        <h3 class="zz-section-goal-head">Goal</h3>
+        <p class="zz-section-goal-body">To visualize the average of each neighborhood/district.</p>
+        <!-- <h4 class="zz-section-content-head">Content</h4>
+        <p class="zz-section-content-body">This is a choropleth map showing the average inspection of each one</p> -->
+        <div class='zz-graphs-graph zz-neighbourhoods-container'>
+          <div id='zz-neighbourhoods-graph' class='zz-neighbourhoods-graph'>
+          </div>
+        </div>
+        <div>
+            <h3>Legend</h3>
+            <p>The number that appears in each "polygon" of the map is the average for each district of the City and County of San Francisco. These districts are those established by the San Francisco Health Department. The name of the district can be seen by hovering over the map. The scale for inspection score is 0 to 100, where 100 is the best score. The meaning of the colors is as follows:</p>
+            <p><span style="color:green">90.0 - 100.0</p>
+            <p><span style="color:#fdd017">86.0 - 89.9</p>
+            <p><span style="color:orange">71.0 - 85.9</p>
+            <p><span style="color:red">50.0 - 71.9</p>
+            <p><span style="color:pink">Current selection</p>
+        </div>
+      </section>
+      <section class='zz-nations zz-section'>
+        <h2 class="zz-section-goal-head">Scatter Plot</h2>
+        <h3 class="zz-section-goal-head">Goal</h3>
+        <p class="zz-section-goal-body">To visualize restaurants the correlation between rating and inspection score for different cuisines, Exploratively to see if there exist any relationship to be discivered. but none are found. so we switch to a different approach</p>
+        <!-- <h4 class="zz-section-content-head">Content</h4>
+        <p class="zz-section-content-body">e</p> -->
+        <div class='zz-graphs-graph zz-nations-container'>
+          <div id='zz-nations-graph' class='zz-nations-graph'>
+          </div>
+          <div id='zz-nations-key' class='zz-nations-key'>
+          </div>
+        </div>
+      </section>
+      <section class='zz-nations zz-section'>
+        <h2 class="zz-section-goal-head">Boxplot</h2>
+        <h3 class="zz-section-goal-head">Goal</h3>
+        <p class="zz-section-goal-body">Initially wanted to find out the mean and relative variance within of each category, but does not work. Although we can see chinese is relatively lower than the other, the data is highly concentrated, so it is hard to discover the true relationship. Processing data was the hardest part.</p>
+        <!-- <h4 class="zz-section-content-head"></h4>
+        <p class="zz-section-content-body">BUT DIDN'T WORK</p> -->
+        <div class='zz-graphs-graph zz-boxplot-container'>
+          <div class='zz-boxplot-image'>
+            <img src='images/boxplot.png' alt='boxplot' />
+          </div>
+        </div>
+      </section>
+      <section class='zz-grid zz-section'>
+        <h2 class="zz-section-goal-head">Nations</h2>
+        <h3 class="zz-section-goal-head">Goal</h3>
+        <p class="zz-section-goal-body">By reading paper I discover that the distribution was more towards a biased and skewed distribution. two the most well known are Gamma and Weibull respectively. I used mme as the initalization point and use moment generating function to iteratively find the average of each distribution, this shows better result We can see both result. But gamma is probably more reliable as it simply appears more oftern in randomzied data.</p>
+        <!-- <h4 class="zz-section-content-head">Content</h4>
+        <p class="zz-section-content-body"></p> -->
+        <div class='zz-graphs-content zz-grid-container'>
+          <div class='zz-grid-row zz-grid-row--header'>
+            <div class='zz-grid-column zz-grid-column--head zz-grid-column--1'>
+            </div>
+            <div class='zz-grid-column zz-grid-column--head zz-grid-column--2'>
+              <h4>Rating</h4>
+            </div>
+            <div class='zz-grid-column zz-grid-column--head zz-grid-column--2'>
+              <h4>Score</h4>
+            </div>
+          </div>
+          <!-- american Row start -->
+          <div class='zz-grid-row zz-grid-content'>
+            <div class='zz-grid-column zz-grid-column--nation zz-grid-column--1'>
+              <h4>American</h4>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/American_rate.png' alt='american' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 3.82, Wei: 3.97</p>
+              </div>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/American_score.png' alt='boxplot' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 89.89,  Wei: 93.01</p>
+              </div>
+            </div>
+          </div>
+          <!-- american Row end -->
+           <!-- chinese Row start -->
+          <div class='zz-grid-row zz-grid-content'>
+            <div class='zz-grid-column zz-grid-column--nation zz-grid-column--1'>
+              <h4>Chinese</h4>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Chinese_rate.png' alt='chinese' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam 3.61, Wei: 3.87</p>
+              </div>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Chinese_score.png' alt='boxplot' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 85.41, Wei: 90.19</p>
+              </div>
+            </div>
+          </div>
+          <!-- chinese Row end -->
+          <!-- french Row start -->
+          <div class='zz-grid-row zz-grid-content'>
+            <div class='zz-grid-column zz-grid-column--nation zz-grid-column--1'>
+              <h4>French</h4>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/French_rate.png' alt='american' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 3.71, Wei: 3.97</p>
+              </div>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/French_score.png' alt='boxplot' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 90.89, Wei: 93.07</p>
+              </div>
+            </div>
+          </div>
+          <!-- french Row end -->
+          <!-- indian Row start -->
+          <div class='zz-grid-row zz-grid-content'>
+            <div class='zz-grid-column zz-grid-column--nation zz-grid-column--1'>
+              <h4>Indian</h4>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Indian_rate.png' alt='american' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 3.75, Wei: 4.09</p>
+              </div>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Indian_score.png' alt='boxplot' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam:88.69, Wei: 91.79</p>
+              </div>
+            </div>
+          </div>
+          <!-- indian Row end -->
+          <!-- italian Row start -->
+          <div class='zz-grid-row zz-grid-content'>
+            <div class='zz-grid-column zz-grid-column--nation zz-grid-column--1'>
+              <h4>Italian</h4>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Italian_rate.png' alt='american' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 3.84, Wei: 4.03</p>
+              </div>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Italian_score.png' alt='boxplot' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 92.79, Wei: 94.08</p>
+              </div>
+            </div>
+          </div>
+          <!-- italian Row end -->
+          <!-- japanese Row start -->
+          <div class='zz-grid-row zz-grid-content'>
+            <div class='zz-grid-column zz-grid-column--nation zz-grid-column--1'>
+              <h4>Japanese</h4>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Japan_rate.png' alt='american' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 3.82, Wei: 3.95</p>
+              </div>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Japan_score.png' alt='boxplot' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 89.67, Wei: 92.37</p>
+              </div>
+            </div>
+          </div>
+          <!-- japanese Row end -->
+          <!-- korean Row start -->
+          <div class='zz-grid-row zz-grid-content'>
+            <div class='zz-grid-column zz-grid-column--nation zz-grid-column--1'>
+              <h4>Korean</h4>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Korean_rate.png' alt='american' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 3.71, Wei: 3.94</p>
+              </div>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Korean_score.png' alt='boxplot' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 90.89 Wei: 92.36</p>
+              </div>
+            </div>
+          </div>
+          <!-- korean Row end -->
+          <!-- latin Row start -->
+          <div class='zz-grid-row zz-grid-content'>
+            <div class='zz-grid-column zz-grid-column--nation zz-grid-column--1'>
+              <h4>Latin</h4>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Latin_rate.png' alt='american' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 3,75, Wei: 3.98</p>
+              </div>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Latin_score.png' alt='boxplot' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 89.93, Wei: 92.36</p>
+              </div>
+            </div>
+          </div>
+          <!-- latin Row end -->
+          <!-- medi Row start -->
+          <div class='zz-grid-row zz-grid-content'>
+            <div class='zz-grid-column zz-grid-column--nation zz-grid-column--1'>
+              <h4>Mediterranean</h4>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Medi_rate.png' alt='american' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 3.73, Wei: 4.03</p>
+              </div>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Medi_score.png' alt='boxplot' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 89.98, Wei: 94.37</p>
+              </div>
+            </div>
+          </div>
+          <!-- medi Row end -->
+          <!-- thai Row start -->
+          <div class='zz-grid-row zz-grid-content'>
+            <div class='zz-grid-column zz-grid-column--nation zz-grid-column--1'>
+              <h4>Thai</h4>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Thai_rate.png' alt='american' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 3.67, Wei: 3.99</p>
+              </div>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Thai_Score.png' alt='boxplot' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 87.78, Wei: 92.31</p>
+              </div>
+            </div>
+          </div>
+          <!-- thai Row end -->
+          <!-- viet Row start -->
+          <div class='zz-grid-row zz-grid-content'>
+            <div class='zz-grid-column zz-grid-column--nation zz-grid-column--1'>
+              <h4>Viet</h4>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Viet_rate.png' alt='american' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 3.67, Wei: 3.93</p>
+              </div>
+            </div>
+            <div class='zz-grid-column zz-grid-column--2'>
+              <div class='zz-grid-column-content'>
+                <div class='zz-grid-image'>
+                  <img src='images/Viet_score.png' alt='boxplot' />
+                </div>
+              </div>
+              <div class='zz-grid-column-content'>
+                <p>Gam: 88.87, Wei: 93.21</p>
+              </div>
+            </div>
+          </div>
+          <!-- viet Row end -->
+
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.3.3/chroma.min.js"></script>
+  <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/d3-sankey/0.7.1/d3-sankey.min.js'></script>
+  <script src="js/markerclusterer.js"></script>
+  <!-- Customize map using https://mapstyle.withgoogle.com/ -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIvScuubyyrqxWj81j6UUsqO_1LoqnH3A"></script>
+  <script type="text/javascript" src='js/app-iife.js'></script>
+</body>
+
+</html>
