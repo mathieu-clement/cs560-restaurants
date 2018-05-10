@@ -1,3 +1,5 @@
 .YELP_API_KEY
 .coverage
 __pycache__/
+node_modules/
+**/.DS_STORE
