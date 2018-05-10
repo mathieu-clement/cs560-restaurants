@@ -52,7 +52,7 @@
 
         var businessId = getParameterByName('businessId');
         
-        $.getJSON("combined.json", function(dataset) {
+        $.getJSON("data/combined.json", function(dataset) {
             var restaurant = dataset[businessId];
             var name = restaurant.name;
             var inspections = restaurant.inspections;
