@@ -1,6 +1,8 @@
 (function () {
    'use strict';
 
+    alert("Master branch");
+
    const
       $$1 = window.jQuery = window.jquery = window.$ = jQuery;
 
