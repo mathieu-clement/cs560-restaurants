@@ -277,11 +277,11 @@ function Nations() {
           var title = data[key].categories[i].title;
           if (title == "American (Traditional)" || title == "American (New)") {
             tit = "american";
-            color = "blue";
+            color = #a6cee3
           }
           if (title == "Cantonese" || title == "Chinese" || title == "Dim Sum" || title == "Shanghainese" || title == "Taiwanese" || title == "Szechuan") {
             tit = "chinese";
-            color = "red";
+            color = #1f78b4
           }
           if (title == "French") {
             tit = "french";
