@@ -37,12 +37,12 @@ function Nations() {
   const
     dataset = [],
     nations = [{
-        label: "American (Traditional) | American (New)",
+        label: "American",
         tit: "american",
         color: "blue"
       },
       {
-        label: "Cantonese | Chinese | Dim Sum | Shanghainese | Taiwanese | Szechuan",
+        label: "Chinese",
         tit: "chinese",
         color: "red"
       },
