@@ -18,7 +18,7 @@ function Model() {
 
 function Nations() {
 
-  var width = 800;
+  var width = 650;
   var height = 500;
   var margin = {
     left: 40,
@@ -39,12 +39,12 @@ function Nations() {
     nations = [{
         label: "American",
         tit: "american",
-        color: "blue"
+        color: "#a6cee3"
       },
       {
         label: "Chinese",
         tit: "chinese",
-        color: "red"
+        color: "#1f78b4"
       },
       {
         label: "French",
@@ -94,7 +94,11 @@ function Nations() {
     ]
 
   let
-    circles
+    graphGroup,
+    reducedDataNations,
+    reducedDataAll,
+    xScale,
+    yScale
 
 
   function drawGraph() {
@@ -104,7 +108,7 @@ function Nations() {
       .data(dataset)
       .selectAll("text");
 
-    var xScale = d3.scaleLinear()
+    xScale = d3.scaleLinear()
       .range([0, innerWidth])
       .domain([d3.min(dataset, function(d) {
         return d.score;
@@ -113,7 +117,7 @@ function Nations() {
       })]);
 
 
-    var yScale = d3.scaleLinear()
+    yScale = d3.scaleLinear()
       .range([innerHeight, 0])
       .domain([0, d3.max(dataset, function(d) {
         return d.rate;
@@ -126,7 +130,7 @@ function Nations() {
 
     graphSVG.append("text")
       .attr("transform",
-        "translate(" + (700) + " ," +
+        "translate(" + (500) + " ," +
         (400) + ")")
       .style("text-anchor", "middle")
       .style("font-size", "13px")
@@ -148,7 +152,7 @@ function Nations() {
       .style("text-decoration", "underline")
       .text("rating vs inspection score for different restaurants categories");
 
-    var g = graphSVG.append('g')
+    graphGroup = graphSVG.append('g')
       .attr('transform', "translate(" + margin.left + "," + margin.top + ")")
       .attr('width', innerWidth)
       .attr('height', innerHeight)
@@ -161,25 +165,14 @@ function Nations() {
       .scale(yScale)
       .tickPadding(15);
 
-    var xAxisG = g.append('g')
+    var xAxisG = graphGroup.append('g')
       .attr("transform", "translate(0," + innerHeight + ")");
 
-    var yAxisG = g.append('g');
+    var yAxisG = graphGroup.append('g');
 
     var nationColor = d3.scaleOrdinal()
       .domain(dataset.map(nation => nation.title))
       .range(dataset.map(nation => nation.color))
-
-    circles = g.selectAll('circle')
-      .data(dataset)
-      .enter().append('svg:circle')
-      .attr('cx', function(d) {
-        return xScale(d.score);
-      })
-      .attr('cy', function(d) {
-        return yScale(d.rate);
-      })
-      .attr('r', 3)
 
     xAxisG.attr("class", "axis").call(xAxis);
     yAxisG.attr("class", "axis").call(yAxis);
@@ -187,7 +180,20 @@ function Nations() {
 
   function updateGraph() {
 
-    circles
+    graphGroup.selectAll('circle').remove()
+
+    graphGroup.selectAll('circle')
+      .data(model.getNation() ? reducedDataNations : reducedDataAll)
+      .enter().append('svg:circle')
+      .attr('cx', function(d) {
+        return xScale(d.score);
+      })
+      .attr('cy', function(d) {
+        return yScale(d.rate);
+      })
+      .attr('r', function(d) {
+        return 3 + (0.2 * d.count)
+      })
       .attr("fill-opacity", d => {
         let selectedNation = model.getNation()
         if (selectedNation && selectedNation !== d.title) {
@@ -205,47 +211,47 @@ function Nations() {
   function drawKey() {
 
     var keySVG = d3.select("#zz-nations-key").append("svg")
-      .attr("width", width)
-      .attr("height", height / 2)
+      .attr("width", 200)
+      .attr("height", height)
 
-    var ppmKeyCircle = keySVG.selectAll(".key-circle")
+    var KeyCircle = keySVG.selectAll(".key-circle")
       .data([...nations, {
         label: "Show All",
         tit: undefined,
-        color: 'white'
+        color: '#CCC'
       }])
       .enter().append("g")
-      .attr('transform', "translate(" + margin.left + ",0)")
+      .attr('transform', "translate(0," + margin.top + ")")
       .attr("class", "key-circle")
 
-    ppmKeyCircle
+    KeyCircle
       .append("svg:circle")
       .attr("class", "key-circle-color")
       .attr("r", (d, i) => "10")
       .attr("fill", d => d.color)
       .attr('stroke', '#130C0E').attr('stroke-width', 1)
       .attr("transform", (d, i) => {
-        if(d.label === 'Show All'){
-          return `translate(${30 * i + 30},12)`
+        if (d.label === 'Show All') {
+          return `translate(12, ${30 * i + 30})`
         }
-        else{
-          return `translate(${30 * i + 10},12)`
+        else {
+          return `translate(12, ${30 * i + 10})`
         }
       })
 
 
-    ppmKeyCircle.on('click', (d, i) => {
+    KeyCircle.on('click', (d, i) => {
       filterNation(d.tit)
     });
 
-    ppmKeyCircle
+    KeyCircle
       .append("text")
       .attr("transform", (d, i) => {
-        if(d.label === 'Show All'){
-          return `translate(${30 * i + 25}, 35) rotate(20)`
+        if (d.label === 'Show All') {
+          return `translate(25, ${30 * i + 32})`
         }
-        else{
-          return `translate(${30 * i + 5}, 35) rotate(20)`
+        else {
+          return `translate(25, ${30 * i + 12})`
         }
       })
       .attr("width", (d, i) => 200)
@@ -277,11 +283,11 @@ function Nations() {
           var title = data[key].categories[i].title;
           if (title == "American (Traditional)" || title == "American (New)") {
             tit = "american";
-            color = #a6cee3
+            color = "#a6cee3"
           }
           if (title == "Cantonese" || title == "Chinese" || title == "Dim Sum" || title == "Shanghainese" || title == "Taiwanese" || title == "Szechuan") {
             tit = "chinese";
-            color = #1f78b4
+            color = "#1f78b4";
           }
           if (title == "French") {
             tit = "french";
@@ -333,9 +339,55 @@ function Nations() {
         });
       }
 
+
+      reducedDataNations = dataset.reduce((r, i) => {
+
+        let existingMatch = r.find(e => e.rate === i.rate && e.score === i.score && e.title === i.title);
+
+        if (existingMatch) {
+          existingMatch.count += 1;
+        }
+        else {
+
+          r.push({
+            ...i,
+            count: 1
+          })
+
+        }
+
+        return r
+
+      }, [])
+
+      console.log('reducedDataNations : ', reducedDataNations)
+
+
+      reducedDataAll = reducedDataNations.reduce((r, i) => {
+
+        let existingMatch = r.find(e => e.rate === i.rate && e.score === i.score)
+
+        if (existingMatch) {
+          existingMatch.count += 1;
+          existingMatch.title = existingMatch.title === i.title ? e.title : 'mixed';
+        }
+        else {
+          r.push({
+            ...i,
+            count: 1,
+            color: "#CCC"
+          })
+        }
+
+        return r;
+
+      }, [])
+
+      console.log('reducedDataAll : ', reducedDataAll)
+
       //End for loop
 
-      console.log(dataset);
+      console.log('dataset : ', dataset);
 
       drawGraph()
       updateGraph()
