@@ -4,7 +4,7 @@ CS360/560 Data Visualization, University of San Francisco, April-May 2018
 
 Mathieu Clément, Byron Han
 
-# [Project Website](https://tiktaktok.github.io/cs560-restaurants/)
+# Project Website
 
 [Click here to view the project website.](https://tiktaktok.github.io/cs560-restaurants/)
 
