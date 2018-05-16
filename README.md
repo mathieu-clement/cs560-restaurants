@@ -22,6 +22,13 @@ Mathieu Clément, Byron Han
 
 [The process book is available here.](https://docs.google.com/document/d/1w9JR_OSabA8oWZDZj8DoQ95W021aclDNnhPI7d-sEP0/edit?usp=sharing)
 
+# Libraries
+
+All the code handed here is our own work, except for:
+
+ - MarkerClusterer for Google Maps
+ - CSS (except D3 which we wrote)
+
 ## Data sources
 
 Restaurant Health Scores: Originally from Kaggle, but an updated version can be found on [DataSF](https://data.sfgov.org/Health-and-Social-Services/Restaurant-Scores-LIVES-Standard/pyih-qa8i)
