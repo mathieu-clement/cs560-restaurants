@@ -4,9 +4,9 @@ CS360/560 Data Visualization, University of San Francisco, April-May 2018
 
 Mathieu Clément, Byron Han
 
-# [Start here!](https://tiktaktok.github.io/cs560-restaurants/)
+# [Project Website](https://tiktaktok.github.io/cs560-restaurants/)
 
-Please note: the source code for this website is in the `gh-pages` Git branch. 
+[Click here to view the project website.](https://tiktaktok.github.io/cs560-restaurants/)
 
 ## Data sources
 
@@ -50,4 +50,3 @@ NPM and Python can also be used to start a web server in the working directory.
 
 ## TODO
 
-Legends (color for nhood map, missing score for Bayview/Hunters Point)
