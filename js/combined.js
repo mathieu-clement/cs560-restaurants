@@ -722,47 +722,47 @@
          {
            label: "French",
            tit: "french",
-           color: "grey"
+           color: "#b2df8a"
          },
          {
            label: "Indian",
            tit: "indian",
-           color: "yellow"
+           color: "#33a02c"
          },
          {
            label: "Italian",
            tit: "italian",
-           color: "green"
+           color: "#fb9a99"
          },
          {
            label: "Japanese",
            tit: "japanese",
-           color: "steelblue"
+           color: "#e31a1c"
          },
          {
            label: "Korean",
            tit: "korean",
-           color: "black"
+           color: "#fdbf6f"
          },
          {
            label: "Latin American | Mexican",
            tit: "latin",
-           color: "purple"
+           color: "#ff7f00"
          },
          {
            label: "Vietnamese",
            tit: "viet",
-           color: "crimson"
+           color: "#cab2d6"
          },
          {
            label: "Thai",
            tit: "thai",
-           color: "darkgreen"
+           color: "#6a3d9a"
          },
          {
            label: "Mediterranean",
            tit: "medi",
-           color: "brown"
+           color: "#ffff99"
          }
        ];
 
@@ -891,7 +891,7 @@
          .data([...nations, {
            label: "Show All",
            tit: undefined,
-           color: '#CCC'
+           color: '#b15928'
          }])
          .enter().append("g")
          .attr('transform', "translate(0," + margin.top + ")")
@@ -963,39 +963,39 @@
              }
              if (title == "French") {
                tit = "french";
-               color = "grey";
+               color = "#b2df8a";
              }
              if (title == "Indian") {
                tit = "indian";
-               color = "yellow";
+               color = "#33a02c";
              }
              if (title == "Italian") {
                tit = "italian";
-               color = "green";
+               color = "#fb9a99";
              }
              if (title == "Japanese") {
                tit = "japanese";
-               color = "steelblue";
+               color = "#e31a1c";
              }
              if (title == "Korean") {
                tit = "korean";
-               color = "black";
+               color = "#fdbf6f";
              }
              if (title == "Latin American" || title == "Mexican") {
                tit = "latin";
-               color = "purple";
+               color = "#ff7f00";
              }
              if (title == "Vietnamese") {
                tit = "viet";
-               color = "crimson";
+               color = "#cab2d6";
              }
              if (title == "Thai") {
                tit = "thai";
-               color = "darkgreen";
+               color = "#6a3d9a";
              }
              if (title == "Mediterranean") {
                tit = "medi";
-               color = "brown";
+               color = "#ffff99";
              }
            }
 
@@ -1047,7 +1047,7 @@
              r.push({
                ...i,
                count: 1,
-               color: "#CCC"
+               color: "#b15928"
              });
            }
 
