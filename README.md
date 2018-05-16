@@ -14,6 +14,14 @@ Mathieu Clément, Byron Han
 
 [Final presentation](https://docs.google.com/presentation/d/1MVIADc9SRaT4h85XZCvbduUS-VqcRD7T37VBI7T8sKY/edit#slide=id.gc6f919934_0_0)
 
+# Project Proposal
+
+[Access our revised project proposal here.](https://docs.google.com/document/d/17y4hHooTP8ACr6sZglSZy2W8UiNUCoNGoSZit1lAkC4/edit?usp=sharing)
+
+# Process Book
+
+[The process book is available here.](https://docs.google.com/document/d/1w9JR_OSabA8oWZDZj8DoQ95W021aclDNnhPI7d-sEP0/edit?usp=sharing)
+
 ## Data sources
 
 Restaurant Health Scores: Originally from Kaggle, but an updated version can be found on [DataSF](https://data.sfgov.org/Health-and-Social-Services/Restaurant-Scores-LIVES-Standard/pyih-qa8i)
