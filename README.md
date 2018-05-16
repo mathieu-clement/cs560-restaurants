@@ -8,6 +8,12 @@ Mathieu Clément, Byron Han
 
 [Click here to view the project website.](https://tiktaktok.github.io/cs560-restaurants/)
 
+# Presentations
+
+[Beta presentation](https://docs.google.com/presentation/d/1NxS61eQGfu1Zmb3gTF91KavABF7uca2-_XEPLIsoZW4/edit?usp=sharing)
+
+[Final presentation](https://docs.google.com/presentation/d/1MVIADc9SRaT4h85XZCvbduUS-VqcRD7T37VBI7T8sKY/edit#slide=id.gc6f919934_0_0)
+
 ## Data sources
 
 Restaurant Health Scores: Originally from Kaggle, but an updated version can be found on [DataSF](https://data.sfgov.org/Health-and-Social-Services/Restaurant-Scores-LIVES-Standard/pyih-qa8i)
