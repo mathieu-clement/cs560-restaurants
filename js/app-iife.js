@@ -887,7 +887,7 @@
          .attr("width", 200)
          .attr("height", height);
 
-       var ppmKeyCircle = keySVG.selectAll(".key-circle")
+       var KeyCircle = keySVG.selectAll(".key-circle")
          .data([...nations, {
            label: "Show All",
            tit: undefined,
@@ -897,7 +897,7 @@
          .attr('transform', "translate(0," + margin.top + ")")
          .attr("class", "key-circle");
 
-       ppmKeyCircle
+       KeyCircle
          .append("svg:circle")
          .attr("class", "key-circle-color")
          .attr("r", (d, i) => "10")
@@ -913,11 +913,11 @@
          });
 
 
-       ppmKeyCircle.on('click', (d, i) => {
+       KeyCircle.on('click', (d, i) => {
          filterNation(d.tit);
        });
 
-       ppmKeyCircle
+       KeyCircle
          .append("text")
          .attr("transform", (d, i) => {
            if (d.label === 'Show All') {
