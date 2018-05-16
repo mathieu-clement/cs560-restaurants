@@ -214,7 +214,7 @@ function Nations() {
       .attr("width", 200)
       .attr("height", height)
 
-    var KeyCircle = keySVG.selectAll(".key-circle")
+    var keyCircle = keySVG.selectAll(".key-circle")
       .data([...nations, {
         label: "Show All",
         tit: undefined,
@@ -224,7 +224,7 @@ function Nations() {
       .attr('transform', "translate(0," + margin.top + ")")
       .attr("class", "key-circle")
 
-    KeyCircle
+    keyCircle
       .append("svg:circle")
       .attr("class", "key-circle-color")
       .attr("r", (d, i) => "10")
@@ -240,11 +240,11 @@ function Nations() {
       })
 
 
-    KeyCircle.on('click', (d, i) => {
+    keyCircle.on('click', (d, i) => {
       filterNation(d.tit)
     });
 
-    KeyCircle
+    keyCircle
       .append("text")
       .attr("transform", (d, i) => {
         if (d.label === 'Show All') {
