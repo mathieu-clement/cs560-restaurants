@@ -10,13 +10,21 @@ Mathieu Clément, Byron Han
 
 # Presentations
 
-[Beta presentation](https://docs.google.com/presentation/d/1NxS61eQGfu1Zmb3gTF91KavABF7uca2-_XEPLIsoZW4/edit?usp=sharing)
+Beta presentation:
 
-[Final presentation](https://docs.google.com/presentation/d/1MVIADc9SRaT4h85XZCvbduUS-VqcRD7T37VBI7T8sKY/edit#slide=id.gc6f919934_0_0)
+  - [PDF](deliverables/beta_presentation.pdf)
+  - [Google Slides](https://docs.google.com/presentation/d/1NxS61eQGfu1Zmb3gTF91KavABF7uca2-_XEPLIsoZW4/edit?usp=sharing)
+
+Final presentation:
+
+  - [PDF](deliverables/final_presentation.pdf)
+  - [Google Slides](https://docs.google.com/presentation/d/1MVIADc9SRaT4h85XZCvbduUS-VqcRD7T37VBI7T8sKY/edit#slide=id.gc6f919934_0_0)
 
 # Project Proposal
 
-[Access our revised project proposal here.](https://docs.google.com/document/d/17y4hHooTP8ACr6sZglSZy2W8UiNUCoNGoSZit1lAkC4/edit?usp=sharing)
+[PDF](deliverables/project_proposal.pdf)
+
+[Google Docs](https://docs.google.com/document/d/17y4hHooTP8ACr6sZglSZy2W8UiNUCoNGoSZit1lAkC4/edit?usp=sharing)
 
 # Process Book
 
@@ -68,6 +76,3 @@ Nose will read its settings from `setup.cfg`.
     php -S localhost:8000
 
 NPM and Python can also be used to start a web server in the working directory.
-
-## TODO
-
