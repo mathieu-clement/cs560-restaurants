@@ -152,12 +152,32 @@ button.zz-healthmap-graph-close {
   cursor: pointer;
 }
 
-,
-
 button..zz-healthmap-graph-close::-moz-focus-inner {
   padding: 0;
   border-style: none;
 }
+
+
+/**
+ * Scatter
+ */
+
+.zz-nations-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+}
+
+.zz-nations-graph {
+  display: flex;
+  flex: 1 1;
+}
+
+.zz-nations-key {
+  display: flex;
+  flex: 0 0 200px;
+}
+
 
 
 /**
