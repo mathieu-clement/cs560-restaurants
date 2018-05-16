@@ -11,13 +11,19 @@
       const $container = $$1('#zz-healthmap-map');
 
       window.filters = [];
-      window.filtersById = {}; 
-      
+      window.filtersById = {};
+
       function showLineChart(businessId) {
-          newwindow = window.open("health-score-over-time.html?businessId=" + businessId,
-                                  "h"+businessId, 'height=420,width=520');
-          if (window.focus) { newwindow.focus(); }
-          return false;
+
+         model.setBusinessId(businessId);
+         $container.toggleClass('showgraph', true);
+
+        /*newwindow = window.open("health-score-over-time.html?businessId=" + businessId,
+          "h" + businessId, 'height=420,width=520');
+        if (window.focus) {
+          newwindow.focus();
+        }
+        return false;*/
       }
 
       function arrayJoin(parts, sep) {
@@ -685,7 +691,7 @@
 
    function Nations() {
 
-     var width = 800;
+     var width = 650;
      var height = 500;
      var margin = {
        left: 40,
@@ -704,14 +710,14 @@
      const
        dataset = [],
        nations = [{
-           label: "American (Traditional) | American (New)",
+           label: "American",
            tit: "american",
-           color: "blue"
+           color: "#a6cee3"
          },
          {
-           label: "Cantonese | Chinese | Dim Sum | Shanghainese | Taiwanese | Szechuan",
+           label: "Chinese",
            tit: "chinese",
-           color: "red"
+           color: "#1f78b4"
          },
          {
            label: "French",
@@ -761,7 +767,11 @@
        ];
 
      let
-       circles;
+       graphGroup,
+       reducedDataNations,
+       reducedDataAll,
+       xScale,
+       yScale;
 
 
      function drawGraph() {
@@ -771,7 +781,7 @@
          .data(dataset)
          .selectAll("text");
 
-       var xScale = d3.scaleLinear()
+       xScale = d3.scaleLinear()
          .range([0, innerWidth])
          .domain([d3.min(dataset, function(d) {
            return d.score;
@@ -780,7 +790,7 @@
          })]);
 
 
-       var yScale = d3.scaleLinear()
+       yScale = d3.scaleLinear()
          .range([innerHeight, 0])
          .domain([0, d3.max(dataset, function(d) {
            return d.rate;
@@ -793,7 +803,7 @@
 
        graphSVG.append("text")
          .attr("transform",
-           "translate(" + (700) + " ," +
+           "translate(" + (500) + " ," +
            (400) + ")")
          .style("text-anchor", "middle")
          .style("font-size", "13px")
@@ -815,7 +825,7 @@
          .style("text-decoration", "underline")
          .text("rating vs inspection score for different restaurants categories");
 
-       var g = graphSVG.append('g')
+       graphGroup = graphSVG.append('g')
          .attr('transform', "translate(" + margin.left + "," + margin.top + ")")
          .attr('width', innerWidth)
          .attr('height', innerHeight);
@@ -828,25 +838,14 @@
          .scale(yScale)
          .tickPadding(15);
 
-       var xAxisG = g.append('g')
+       var xAxisG = graphGroup.append('g')
          .attr("transform", "translate(0," + innerHeight + ")");
 
-       var yAxisG = g.append('g');
+       var yAxisG = graphGroup.append('g');
 
        var nationColor = d3.scaleOrdinal()
          .domain(dataset.map(nation => nation.title))
          .range(dataset.map(nation => nation.color));
-
-       circles = g.selectAll('circle')
-         .data(dataset)
-         .enter().append('svg:circle')
-         .attr('cx', function(d) {
-           return xScale(d.score);
-         })
-         .attr('cy', function(d) {
-           return yScale(d.rate);
-         })
-         .attr('r', 3);
 
        xAxisG.attr("class", "axis").call(xAxis);
        yAxisG.attr("class", "axis").call(yAxis);
@@ -854,7 +853,20 @@
 
      function updateGraph() {
 
-       circles
+       graphGroup.selectAll('circle').remove();
+
+       graphGroup.selectAll('circle')
+         .data(model.getNation() ? reducedDataNations : reducedDataAll)
+         .enter().append('svg:circle')
+         .attr('cx', function(d) {
+           return xScale(d.score);
+         })
+         .attr('cy', function(d) {
+           return yScale(d.rate);
+         })
+         .attr('r', function(d) {
+           return 3 + (0.2 * d.count)
+         })
          .attr("fill-opacity", d => {
            let selectedNation = model.getNation();
            if (selectedNation && selectedNation !== d.title) {
@@ -872,17 +884,17 @@
      function drawKey() {
 
        var keySVG = d3.select("#zz-nations-key").append("svg")
-         .attr("width", width)
-         .attr("height", height / 2);
+         .attr("width", 200)
+         .attr("height", height);
 
        var ppmKeyCircle = keySVG.selectAll(".key-circle")
          .data([...nations, {
            label: "Show All",
            tit: undefined,
-           color: 'white'
+           color: '#CCC'
          }])
          .enter().append("g")
-         .attr('transform', "translate(" + margin.left + ",0)")
+         .attr('transform', "translate(0," + margin.top + ")")
          .attr("class", "key-circle");
 
        ppmKeyCircle
@@ -892,11 +904,11 @@
          .attr("fill", d => d.color)
          .attr('stroke', '#130C0E').attr('stroke-width', 1)
          .attr("transform", (d, i) => {
-           if(d.label === 'Show All'){
-             return `translate(${30 * i + 30},12)`
+           if (d.label === 'Show All') {
+             return `translate(12, ${30 * i + 30})`
            }
-           else{
-             return `translate(${30 * i + 10},12)`
+           else {
+             return `translate(12, ${30 * i + 10})`
            }
          });
 
@@ -908,11 +920,11 @@
        ppmKeyCircle
          .append("text")
          .attr("transform", (d, i) => {
-           if(d.label === 'Show All'){
-             return `translate(${30 * i + 25}, 35) rotate(20)`
+           if (d.label === 'Show All') {
+             return `translate(25, ${30 * i + 32})`
            }
-           else{
-             return `translate(${30 * i + 5}, 35) rotate(20)`
+           else {
+             return `translate(25, ${30 * i + 12})`
            }
          })
          .attr("width", (d, i) => 200)
@@ -943,11 +955,11 @@
              var title = data[key].categories[i].title;
              if (title == "American (Traditional)" || title == "American (New)") {
                tit = "american";
-               color = "blue";
+               color = "#a6cee3";
              }
              if (title == "Cantonese" || title == "Chinese" || title == "Dim Sum" || title == "Shanghainese" || title == "Taiwanese" || title == "Szechuan") {
                tit = "chinese";
-               color = "red";
+               color = "#1f78b4";
              }
              if (title == "French") {
                tit = "french";
@@ -999,9 +1011,55 @@
            });
          }
 
+
+         reducedDataNations = dataset.reduce((r, i) => {
+
+           let existingMatch = r.find(e => e.rate === i.rate && e.score === i.score && e.title === i.title);
+
+           if (existingMatch) {
+             existingMatch.count += 1;
+           }
+           else {
+
+             r.push({
+               ...i,
+               count: 1
+             });
+
+           }
+
+           return r
+
+         }, []);
+
+         console.log('reducedDataNations : ', reducedDataNations);
+
+
+         reducedDataAll = reducedDataNations.reduce((r, i) => {
+
+           let existingMatch = r.find(e => e.rate === i.rate && e.score === i.score);
+
+           if (existingMatch) {
+             existingMatch.count += 1;
+             existingMatch.title = existingMatch.title === i.title ? e.title : 'mixed';
+           }
+           else {
+             r.push({
+               ...i,
+               count: 1,
+               color: "#CCC"
+             });
+           }
+
+           return r;
+
+         }, []);
+
+         console.log('reducedDataAll : ', reducedDataAll);
+
          //End for loop
 
-         console.log(dataset);
+         console.log('dataset : ', dataset);
 
          drawGraph();
          updateGraph();
