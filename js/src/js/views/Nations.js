@@ -35,63 +35,63 @@ function Nations() {
   //   var colorMap = {"american": ,"chinese":};
 
   const
-    dataset = [],
-    nations = [{
-        label: "American",
-        tit: "american",
-        color: "#a6cee3"
-      },
-      {
-        label: "Chinese",
-        tit: "chinese",
-        color: "#1f78b4"
-      },
-      {
-        label: "French",
-        tit: "french",
-        color: "grey"
-      },
-      {
-        label: "Indian",
-        tit: "indian",
-        color: "yellow"
-      },
-      {
-        label: "Italian",
-        tit: "italian",
-        color: "green"
-      },
-      {
-        label: "Japanese",
-        tit: "japanese",
-        color: "steelblue"
-      },
-      {
-        label: "Korean",
-        tit: "korean",
-        color: "black"
-      },
-      {
-        label: "Latin American | Mexican",
-        tit: "latin",
-        color: "purple"
-      },
-      {
-        label: "Vietnamese",
-        tit: "viet",
-        color: "crimson"
-      },
-      {
-        label: "Thai",
-        tit: "thai",
-        color: "darkgreen"
-      },
-      {
-        label: "Mediterranean",
-        tit: "medi",
-        color: "brown"
-      }
-    ]
+       dataset = [],
+       nations = [{
+           label: "American",
+           tit: "american",
+           color: "#a6cee3"
+         },
+         {
+           label: "Chinese",
+           tit: "chinese",
+           color: "#1f78b4"
+         },
+         {
+           label: "French",
+           tit: "french",
+           color: "#b2df8a"
+         },
+         {
+           label: "Indian",
+           tit: "indian",
+           color: "#33a02c"
+         },
+         {
+           label: "Italian",
+           tit: "italian",
+           color: "#fb9a99"
+         },
+         {
+           label: "Japanese",
+           tit: "japanese",
+           color: "#e31a1c"
+         },
+         {
+           label: "Korean",
+           tit: "korean",
+           color: "#fdbf6f"
+         },
+         {
+           label: "Latin American | Mexican",
+           tit: "latin",
+           color: "#ff7f00"
+         },
+         {
+           label: "Vietnamese",
+           tit: "viet",
+           color: "#cab2d6"
+         },
+         {
+           label: "Thai",
+           tit: "thai",
+           color: "#6a3d9a"
+         },
+         {
+           label: "Mediterranean",
+           tit: "medi",
+           color: "#ffff99"
+         }
+       ];
 
   let
     graphGroup,
@@ -280,52 +280,52 @@ function Nations() {
         var tit, color
         // var data[key].categories[0].title);
         for (var i in data[key].categories) {
-          var title = data[key].categories[i].title;
-          if (title == "American (Traditional)" || title == "American (New)") {
-            tit = "american";
-            color = "#a6cee3"
-          }
-          if (title == "Cantonese" || title == "Chinese" || title == "Dim Sum" || title == "Shanghainese" || title == "Taiwanese" || title == "Szechuan") {
-            tit = "chinese";
-            color = "#1f78b4";
-          }
-          if (title == "French") {
-            tit = "french";
-            color = "grey";
-          }
-          if (title == "Indian") {
-            tit = "indian";
-            color = "yellow";
-          }
-          if (title == "Italian") {
-            tit = "italian";
-            color = "green";
-          }
-          if (title == "Japanese") {
-            tit = "japanese";
-            color = "steelblue";
-          }
-          if (title == "Korean") {
-            tit = "korean";
-            color = "black";
-          }
-          if (title == "Latin American" || title == "Mexican") {
-            tit = "latin";
-            color = "purple";
-          }
-          if (title == "Vietnamese") {
-            tit = "viet";
-            color = "crimson";
-          }
-          if (title == "Thai") {
-            tit = "thai";
-            color = "darkgreen";
-          }
-          if (title == "Mediterranean") {
-            tit = "medi";
-            color = "brown";
-          }
-        }
+             var title = data[key].categories[i].title;
+             if (title == "American (Traditional)" || title == "American (New)") {
+               tit = "american";
+               color = "#a6cee3";
+             }
+             if (title == "Cantonese" || title == "Chinese" || title == "Dim Sum" || title == "Shanghainese" || title == "Taiwanese" || title == "Szechuan") {
+               tit = "chinese";
+               color = "#1f78b4";
+             }
+             if (title == "French") {
+               tit = "french";
+               color = "#b2df8a";
+             }
+             if (title == "Indian") {
+               tit = "indian";
+               color = "#33a02c";
+             }
+             if (title == "Italian") {
+               tit = "italian";
+               color = "#fb9a99";
+             }
+             if (title == "Japanese") {
+               tit = "japanese";
+               color = "#e31a1c";
+             }
+             if (title == "Korean") {
+               tit = "korean";
+               color = "#fdbf6f";
+             }
+             if (title == "Latin American" || title == "Mexican") {
+               tit = "latin";
+               color = "#ff7f00";
+             }
+             if (title == "Vietnamese") {
+               tit = "viet";
+               color = "#cab2d6";
+             }
+             if (title == "Thai") {
+               tit = "thai";
+               color = "#6a3d9a";
+             }
+             if (title == "Mediterranean") {
+               tit = "medi";
+               color = "#ffff99";
+             }
+           }
 
         dataset.push({
           id: id,
