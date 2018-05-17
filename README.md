@@ -32,7 +32,9 @@ Final presentation:
 
 # Process Book
 
-[The process book is available here.](https://docs.google.com/document/d/1w9JR_OSabA8oWZDZj8DoQ95W021aclDNnhPI7d-sEP0/edit?usp=sharing)
+[PDF](deliverables/process_book.pdf)
+
+[Google Docs](https://docs.google.com/document/d/1w9JR_OSabA8oWZDZj8DoQ95W021aclDNnhPI7d-sEP0/edit?usp=sharing)
 
 # Libraries
 
