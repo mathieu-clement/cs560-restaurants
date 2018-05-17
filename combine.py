@@ -72,7 +72,7 @@ class ScoreYelpCombiner:
         return distance.levenshtein(name_y, name_r) < 5
 
     def combine(self, results):
-        # results is typically the output from YelpBunkCombiner.fetch()
+        # results is typically the output from YelpBulkCombiner.fetch()
         restaurants =  self.scores_reader.get_restaurants_dict()
         to_delete = []
 

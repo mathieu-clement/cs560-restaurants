@@ -3,7 +3,7 @@
 from scores import *
 from yelp import YelpClient, BusinessNotFoundException
 
-class YelpBunkFetcher:
+class YelpBulkFetcher:
 
     def __init__(self, scores_filename):
         self.scores_reader = ScoresReader(scores_filename)
@@ -70,7 +70,7 @@ if __name__ == '__main__':
     import sys
     start_id = int(sys.argv[1])
     filename = sys.argv[2]
-    fetcher = YelpBunkFetcher('restaurant_scores.csv')
+    fetcher = YelpBulkFetcher('restaurant_scores.csv')
     from pprint import pprint
     fetched = fetcher.fetch(start_id, 1000)
     pprint(fetched)
