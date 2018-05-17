@@ -8,6 +8,10 @@ Mathieu Clément, Byron Han
 
 [Click here to view the project website.](https://tiktaktok.github.io/cs560-restaurants/)
 
+# Screencast
+
+[This video](https://vimeo.com/270277227) showcases the functionality of our website.
+
 # Presentations
 
 Beta presentation:
