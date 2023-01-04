@@ -6,7 +6,7 @@ Mathieu Clément, Byron Han
 
 # Project Website
 
-[Click here to view the project website.](https://tiktaktok.github.io/cs560-restaurants/)
+[Click here to view the project website.](https://mathieu-clement.github.io/cs560-restaurants/)
 
 # Screencast
 
